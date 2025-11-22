@@ -38,6 +38,49 @@ A minimal, static blog with glassmorphism design and a simple Markdown-to-HTML b
 
 4. Open `posts/my-new-post.html` in your browser to preview
 
+## Bluesky Integration
+
+This blog includes automatic posting to Bluesky Social when you publish new posts.
+
+### Setup Bluesky
+
+1. Generate an app password at: https://bsky.app/settings/app-passwords
+
+2. Create a `.env` file in the project root (copy from `.env.example`):
+   ```bash
+   cp .env.example .env
+   ```
+
+3. Add your credentials to `.env`:
+   ```env
+   BLUESKY_HANDLE=yourhandle.bsky.social
+   BLUESKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
+   SITE_URL=https://rossrader.ca
+   ```
+
+### How It Works
+
+When you run `npm run build`:
+
+1. The build script generates HTML from your Markdown posts
+2. It checks for new posts that haven't been shared to Bluesky yet
+3. If new posts are found, you'll see a preview of what will be posted
+4. You can choose to post to Bluesky or skip
+
+The post format is:
+```
+I just posted something new to my blog. [excerpt], read more about it at [link]
+```
+
+Posts are automatically tracked in `posts-published.json` so they won't be posted twice.
+
+### Important Notes
+
+- Bluesky posts are limited to 300 characters (excerpts will be truncated if needed)
+- App passwords are more secure than using your main password
+- The `.env` file is excluded from git to keep credentials private
+- You can skip posting and do it later by running build again
+
 ## Project Structure
 
 ```
@@ -108,9 +151,12 @@ The `npm run build` command:
 
 - **Plain HTML/CSS** - No framework overhead
 - **Node.js build script** - Simple Markdown → HTML conversion
-- **Minimal dependencies**:
+- **Bluesky integration** - Automatic social media posting
+- **Dependencies**:
   - `marked` - Markdown parser
   - `gray-matter` - Frontmatter parser
+  - `@atproto/api` - Bluesky/AT Protocol client
+  - `dotenv` - Environment variable management
 
 ## Tips
 

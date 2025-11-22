@@ -1,12 +1,15 @@
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
 const { marked } = require('marked');
 const matter = require('gray-matter');
+const { postToBluesky, previewPost } = require('./bluesky');
 
 // Directories
 const CONTENT_DIR = path.join(__dirname, 'content', 'posts');
 const POSTS_DIR = path.join(__dirname, 'posts');
 const TEMPLATE_PATH = path.join(__dirname, 'post-template.html');
+const TRACKING_FILE = path.join(__dirname, 'posts-published.json');
 
 // Ensure posts directory exists
 if (!fs.existsSync(POSTS_DIR)) {
@@ -178,8 +181,97 @@ function updateBlogPage(posts) {
   console.log('✓ Updated blog.html');
 }
 
+// Load published posts tracking
+function loadPublishedPosts() {
+  if (!fs.existsSync(TRACKING_FILE)) {
+    return {};
+  }
+  const data = fs.readFileSync(TRACKING_FILE, 'utf-8');
+  return JSON.parse(data);
+}
+
+// Save published posts tracking
+function savePublishedPosts(tracking) {
+  fs.writeFileSync(TRACKING_FILE, JSON.stringify(tracking, null, 2), 'utf-8');
+}
+
+// Get new posts that haven't been shared to Bluesky
+function getNewPosts(posts) {
+  const published = loadPublishedPosts();
+  return posts.filter(post => !published[post.slug]);
+}
+
+// Prompt user for confirmation
+function promptUser(question) {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
+      rl.close();
+      resolve(answer.toLowerCase().trim());
+    });
+  });
+}
+
+// Handle Bluesky posting for new posts
+async function handleBlueskyPosting(newPosts) {
+  if (newPosts.length === 0) {
+    return;
+  }
+
+  console.log('\n📢 New post(s) detected!');
+  console.log('─'.repeat(50));
+
+  newPosts.forEach((post, index) => {
+    console.log(`\n${index + 1}. ${post.title}`);
+    const preview = previewPost(post);
+    console.log(`   Preview (${preview.length} chars):`);
+    console.log(`   "${preview.message}"`);
+  });
+
+  console.log('\n' + '─'.repeat(50));
+
+  const answer = await promptUser('\nWould you like to post these to Bluesky? (y/n): ');
+
+  if (answer === 'y' || answer === 'yes') {
+    console.log('\n📤 Posting to Bluesky...\n');
+
+    const published = loadPublishedPosts();
+
+    for (const post of newPosts) {
+      try {
+        const result = await postToBluesky(post);
+
+        if (result.success) {
+          console.log(`✓ Posted: ${post.title}`);
+          console.log(`  ${result.url}\n`);
+
+          // Track this post
+          published[post.slug] = {
+            postedAt: new Date().toISOString(),
+            blueskyUrl: result.url,
+            title: post.title
+          };
+        } else {
+          console.error(`✗ Failed to post "${post.title}": ${result.error}\n`);
+        }
+      } catch (error) {
+        console.error(`✗ Error posting "${post.title}": ${error.message}\n`);
+      }
+    }
+
+    savePublishedPosts(published);
+    console.log('✅ Bluesky posting complete!');
+  } else {
+    console.log('\nℹ️  Skipped Bluesky posting. You can post later by running the build again.');
+  }
+}
+
 // Main build function
-function build() {
+async function build() {
   console.log('🔨 Building blog...\n');
 
   // Get all markdown files
@@ -213,12 +305,14 @@ function build() {
   updateBlogPage(posts);
 
   console.log(`\n✅ Build complete! Generated ${posts.length} post(s).`);
+
+  // Check for new posts and prompt for Bluesky posting
+  const newPosts = getNewPosts(posts);
+  await handleBlueskyPosting(newPosts);
 }
 
 // Run build
-try {
-  build();
-} catch (error) {
+build().catch(error => {
   console.error('❌ Build failed:', error.message);
   process.exit(1);
-}
+});

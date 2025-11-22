@@ -1,6 +1,12 @@
 # Dependencies
 node_modules/
 
+# Environment variables
+.env
+
+# Bluesky tracking
+posts-published.json
+
 # System files
 .DS_Store
 .DS_Store?
