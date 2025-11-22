@@ -90,9 +90,41 @@ function updateIndexPage(posts) {
   const recentPosts = posts.slice(0, 2);
   const previewCards = recentPosts.map(post => generatePreviewCard(post)).join('\n\n');
 
-  // Find and replace the blog list section
-  const blogListRegex = /<div class="blog-list">([\s\S]*?)<\/div>/;
-  indexHTML = indexHTML.replace(blogListRegex, `<div class="blog-list">\n${previewCards}\n        </div>`);
+  // Find and replace the blog list section using markers
+  const startMarker = '<div class="blog-list">';
+  const endMarker = '</div>';
+
+  const startIndex = indexHTML.indexOf(startMarker);
+  if (startIndex === -1) {
+    console.error('Could not find blog-list div in index.html');
+    return;
+  }
+
+  // Find the matching closing div by counting div depth
+  let depth = 0;
+  let endIndex = -1;
+  let searchStart = startIndex + startMarker.length;
+
+  for (let i = searchStart; i < indexHTML.length; i++) {
+    if (indexHTML.substr(i, 5) === '<div ' || indexHTML.substr(i, 4) === '<div>') {
+      depth++;
+    } else if (indexHTML.substr(i, 6) === '</div>') {
+      if (depth === 0) {
+        endIndex = i + 6;
+        break;
+      }
+      depth--;
+    }
+  }
+
+  if (endIndex === -1) {
+    console.error('Could not find closing div for blog-list');
+    return;
+  }
+
+  indexHTML = indexHTML.substring(0, startIndex) +
+              `<div class="blog-list">\n${previewCards}\n        </div>` +
+              indexHTML.substring(endIndex);
 
   fs.writeFileSync(indexPath, indexHTML, 'utf-8');
   console.log('✓ Updated index.html');
@@ -106,9 +138,41 @@ function updateBlogPage(posts) {
   // Generate preview cards for all posts
   const previewCards = posts.map(post => generatePreviewCard(post)).join('\n\n');
 
-  // Find and replace the blog list section
-  const blogListRegex = /<div class="blog-list">([\s\S]*?)<\/div>/;
-  blogHTML = blogHTML.replace(blogListRegex, `<div class="blog-list">\n${previewCards}\n        </div>`);
+  // Find and replace the blog list section using markers
+  const startMarker = '<div class="blog-list">';
+  const endMarker = '</div>';
+
+  const startIndex = blogHTML.indexOf(startMarker);
+  if (startIndex === -1) {
+    console.error('Could not find blog-list div in blog.html');
+    return;
+  }
+
+  // Find the matching closing div by counting div depth
+  let depth = 0;
+  let endIndex = -1;
+  let searchStart = startIndex + startMarker.length;
+
+  for (let i = searchStart; i < blogHTML.length; i++) {
+    if (blogHTML.substr(i, 5) === '<div ' || blogHTML.substr(i, 4) === '<div>') {
+      depth++;
+    } else if (blogHTML.substr(i, 6) === '</div>') {
+      if (depth === 0) {
+        endIndex = i + 6;
+        break;
+      }
+      depth--;
+    }
+  }
+
+  if (endIndex === -1) {
+    console.error('Could not find closing div for blog-list');
+    return;
+  }
+
+  blogHTML = blogHTML.substring(0, startIndex) +
+             `<div class="blog-list">\n${previewCards}\n        </div>` +
+             blogHTML.substring(endIndex);
 
   fs.writeFileSync(blogPath, blogHTML, 'utf-8');
   console.log('✓ Updated blog.html');
