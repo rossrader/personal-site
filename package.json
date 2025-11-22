@@ -1,0 +1,15 @@
+{
+  "name": "ross-rader-blog",
+  "version": "1.0.0",
+  "description": "Personal blog site",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "Ross Rader",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^11.1.1"
+  }
+}
