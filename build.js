@@ -13,10 +13,10 @@ if (!fs.existsSync(POSTS_DIR)) {
   fs.mkdirSync(POSTS_DIR, { recursive: true });
 }
 
-// Read all markdown files
+// Read all markdown files (excluding templates that start with _)
 function getMarkdownFiles() {
   const files = fs.readdirSync(CONTENT_DIR)
-    .filter(file => file.endsWith('.md'))
+    .filter(file => file.endsWith('.md') && !file.startsWith('_'))
     .map(file => path.join(CONTENT_DIR, file));
   return files;
 }
