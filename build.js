@@ -66,22 +66,24 @@ function generatePostHTML(post) {
 // Generate blog preview card HTML
 function generatePreviewCard(post) {
   const tagsHTML = post.tags
-    ? post.tags.map(tag => `<a href="#" class="tag">${tag}</a>`).join('\n              ')
+    ? post.tags.map(tag => `<span class="tag">${tag}</span>`).join('\n                ')
     : '';
 
-  return `          <article class="blog-post-preview">
-            <h2><a href="posts/${post.slug}.html">${post.title}</a></h2>
-            <div class="post-meta">
-              <span>📅 ${post.date}</span>
-              <span>⏱️ ${post.readingTime || '5 min read'}</span>
-            </div>
-            <p class="post-excerpt">
-              ${post.excerpt || ''}
-            </p>
-            <div class="tags">
-              ${tagsHTML}
-            </div>
-          </article>`;
+  return `          <a href="posts/${post.slug}.html" class="blog-post-preview-link">
+            <article class="blog-post-preview">
+              <h2>${post.title}</h2>
+              <div class="post-meta">
+                <span>📅 ${post.date}</span>
+                <span>⏱️ ${post.readingTime || '5 min read'}</span>
+              </div>
+              <p class="post-excerpt">
+                ${post.excerpt || ''}
+              </p>
+              <div class="tags">
+                ${tagsHTML}
+              </div>
+            </article>
+          </a>`;
 }
 
 // Update index.html with posts

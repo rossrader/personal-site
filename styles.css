@@ -256,6 +256,13 @@ main {
   gap: var(--spacing-lg);
 }
 
+.blog-post-preview-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
 .blog-post-preview {
   padding: var(--spacing-md);
   background: var(--glass-bg);
@@ -289,29 +296,23 @@ main {
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
 }
 
-.blog-post-preview:hover {
+.blog-post-preview-link:hover .blog-post-preview {
   transform: translateY(-4px) scale(1.01);
   border-color: rgba(107, 155, 209, 0.5);
   box-shadow: 0 12px 48px var(--glass-shadow), 0 0 24px var(--glow-color);
 }
 
-.blog-post-preview:hover::before {
+.blog-post-preview-link:hover .blog-post-preview::before {
   opacity: 0.7;
 }
 
 .blog-post-preview h2 {
   margin-bottom: var(--spacing-xs);
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
-.blog-post-preview h2 a {
-  color: var(--text-primary);
-  transition: var(--transition-smooth);
-  position: relative;
-}
-
-.blog-post-preview h2 a::after {
+.blog-post-preview h2::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -322,12 +323,12 @@ main {
   transition: width 0.4s ease;
 }
 
-.blog-post-preview h2 a:hover {
+.blog-post-preview-link:hover .blog-post-preview h2 {
   color: var(--accent-primary);
   text-shadow: 0 0 20px var(--glow-color);
 }
 
-.blog-post-preview h2 a:hover::after {
+.blog-post-preview-link:hover .blog-post-preview h2::after {
   width: 100%;
 }
 
@@ -728,7 +729,7 @@ footer::before {
   }
 
   /* Reduce transform effects on mobile for better performance */
-  .blog-post-preview:hover {
+  .blog-post-preview-link:hover .blog-post-preview {
     transform: translateY(-2px) scale(1.005);
   }
 
