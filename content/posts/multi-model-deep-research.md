@@ -1,6 +1,6 @@
 ---
 title: "Multi Model Deep Research: Not Quite What I Expected"
-date: "November 27, 225"
+date: "November 27, 2025"
 tags: ["Prompt Design", "Experiments", "Models"]
 excerpt: "I tried to see if I could get better results from combining the effort of three AI assistants, but the results weren't all that satisfying. But I learned a few things."
 readingTime: "4 min read"
