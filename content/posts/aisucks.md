@@ -20,19 +20,21 @@ But the second half of the thought is missing.
 
 These are the worst models most of us will ever work with.
 
-They are slow. They hallucinate. They require hand-holding. They fail loudly and often. That's exactly why this moment matters.
+They are slow. They hallucinate. They require hand-holding. They fail loudly and often. *That's exactly why this moment matters.*
 
-Right now, the cost of misuse is low. The failures are obvious. The stakes are mostly optional. You can choose where and how to apply these tools. You can experiment without wiring them directly into core decisions. You can see their limitations in plain view.
-
+Right now, the cost of misuse is low. Failure is obvious. The stakes are mostly optional. You can choose where and how to apply these tools. You can experiment without wiring them directly into core decisions. You can see the limitations in plain view. 
 That won't last.
 
 <blockquote class="pullquote">
 Before someone builds a “super-bad robot,” someone has to build a “mildly bad robot,” and before that a “not-so-bad robot.” – Michio Kaku
 </blockquote>
 
-Future systems will be more capable and more convincing. They will fail less often and more quietly. They will be embedded deeper into workflows before most organizations understand how they behave. Learning how to work with probabilistic systems after you depend on them is much harder than learning before.
+Remember how easy it used to be to pick out AI generated images, and how quickly that became a real challenge and the lines between "real" and "artificial" got really blurry?
 
-The real opportunity isn't in pretending these models reason or think. It is in learning how to design around their weaknesses.
+
+Future systems will be more capable and more convincing. They'll fail less often and more quietly. They'll be embedded deeper into workflows before most organizations understand how they behave. Learning how to work with probabilistic systems after you depend on them is much harder than learning before.
+
+The real opportunity isn't in pretending these models reason or think. It's in learning how to design around their weaknesses.
 
 That learning doesn't happen by standing at a distance and pointing out flaws. It happens by use.
 
@@ -44,14 +46,14 @@ It means forcing assumptions into the open.
 It means building checks instead of trust.
 It means deciding, explicitly, where judgment lives.
 
-Whether a model “reasons” is a distraction. The only question that matters is whether you reason about its output.
+Whether a model “reasons” is a distraction. What matters is whether you reason about its output.
 
 Used this way, language models aren't analysts. They aren't strategists. They aren't authorities. They are tools for synthesis, exploration, and pressure-testing ideas. Sometimes they are noise. Sometimes they are useful. Your job is to know which is which.
 
-Pundits who dismiss these systems outright often sound savvy. In practice, it is usually a performative move to signal distance from hype. It doesn't engage with the substance. And it misses the point.
+Pundits who dismiss these systems outright often sound savvy, but in practice, it is usually a performative move to signal distance from hype. It doesn't engage with the substance and often misses the point.
 
-The risk isn't that people will overestimate today’s models. The risk is that they will fail to build the discipline required for tomorrow.
+The risk isn't that people overestimate today’s models. The risk is that we fail to build the discipline required for tomorrow.
 
-The window where you can learn cheaply, visibly, and with low consequence is now. Ignoring it doesn't make you prudent. It makes you unprepared.
+The window where you can learn cheaply, visibly, and with low consequence is now. Ignoring it doesn't make you prudent, it makes you unprepared.
 
 
