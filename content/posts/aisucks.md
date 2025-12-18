@@ -40,11 +40,7 @@ That learning doesn't happen by standing at a distance and pointing out flaws. I
 
 Using these systems well means specific things.
 
-It means separating generation from validation.
-It means never treating an output as an answer.
-It means forcing assumptions into the open.
-It means building checks instead of trust.
-It means deciding, explicitly, where judgment lives.
+It means separating generation from validation, never treating an output as an answer and forcing assumptions into the open. It means building checks instead of trust and deciding, explicitly, where judgment lives.
 
 Whether a model “reasons” is a distraction. What matters is whether you reason about its output.
 
