@@ -16,11 +16,11 @@ People are right to be uneasy about AI. Large language models sound confident an
 
 All of that is correct.
 
-What is missing is the second half of the thought.
+But the second half of the thought is missing.
 
 These are the worst models most of us will ever work with.
 
-They are slow. They hallucinate. They require hand-holding. They fail loudly and often. That is exactly why this moment matters.
+They are slow. They hallucinate. They require hand-holding. They fail loudly and often. That's exactly why this moment matters.
 
 Right now, the cost of misuse is low. The failures are obvious. The stakes are mostly optional. You can choose where and how to apply these tools. You can experiment without wiring them directly into core decisions. You can see their limitations in plain view.
 

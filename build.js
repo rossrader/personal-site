@@ -219,6 +219,75 @@ function promptUser(question) {
   });
 }
 
+// Generate RSS 2.0 feed with full content
+function generateRSSFeed(posts) {
+  // Helper to convert date to RFC 2822 format
+  function convertToRFC2822(dateString) {
+    const date = new Date(dateString);
+    return date.toUTCString();
+  }
+
+  // Helper to escape XML special characters
+  function escapeXML(str) {
+    if (!str) return '';
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+  // Build RSS feed
+  let rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ross Rader</title>
+    <link>https://rossrader.ca</link>
+    <description>Writing on AI, Internet Services, and Customer Experience Design</description>
+    <language>en-us</language>
+    <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
+`;
+
+  // Add items for each post
+  posts.forEach(post => {
+    const postURL = `https://rossrader.ca/posts/${post.slug}.html`;
+    const pubDate = convertToRFC2822(post.date);
+
+    rss += `
+    <item>
+      <title>${escapeXML(post.title)}</title>
+      <link>${postURL}</link>
+      <guid isPermaLink="true">${postURL}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <description>${escapeXML(post.excerpt || '')}</description>
+      <content:encoded><![CDATA[${post.content}]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>`;
+
+    // Add categories (tags)
+    if (post.tags && post.tags.length > 0) {
+      post.tags.forEach(tag => {
+        rss += `
+      <category>${escapeXML(tag)}</category>`;
+      });
+    }
+
+    rss += `
+    </item>`;
+  });
+
+  rss += `
+  </channel>
+</rss>`;
+
+  // Write to file
+  const feedPath = path.join(__dirname, 'feed.xml');
+  fs.writeFileSync(feedPath, rss, 'utf-8');
+  console.log('✓ Generated feed.xml');
+}
+
 // Handle Bluesky posting for new posts
 async function handleBlueskyPosting(newPosts) {
   if (newPosts.length === 0) {
@@ -352,6 +421,9 @@ async function build() {
   console.log('');
   updateIndexPage(posts);
   updateBlogPage(posts);
+
+  // Generate RSS feed
+  generateRSSFeed(posts);
 
   console.log(`\n✅ Build complete! Generated ${posts.length} post(s).`);
 

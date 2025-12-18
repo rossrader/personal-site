@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ross Rader</title>
+    <link>https://rossrader.ca</link>
+    <description>Writing on AI, Internet Services, and Customer Experience Design</description>
+    <language>en-us</language>
+    <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Yes, AI Sucks. That Makes It The Best Time to Learn</title>
+      <link>https://rossrader.ca/posts/aisucks.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/aisucks.html</guid>
+      <pubDate>Thu, 18 Dec 2025 05:00:00 GMT</pubDate>
+      <description>Today’s models fail loudly and visibly. That makes their limits easy to study and their mistakes easy to catch. Future systems will not be so forgiving.</description>
+      <content:encoded><![CDATA[<p>There is a genre of AI writing that I see fairly regularly on LinkedIn, facebook, etc. etc. It usually starts by telling you your AI sounds smart. Then it tells you it isn&#39;t. It warns that models fabricate, lack judgment, and should never be trusted. The conclusion is always the same. Don&#39;t confuse coherence with intelligence.</p>
+<p>Most of the claims in these posts are overstated, overwrought or just plain wrong. But those matter less than the posture they encourage.</p>
+<p>The posture is fear dressed up as sophistication.</p>
+<p>People are right to be uneasy about AI. Large language models sound confident and get things wrong. Treating them like analysts or decision makers is a category error. Delegating judgment to a system that has no concept of truth is irresponsible.</p>
+<p>All of that is correct.</p>
+<p>But the second half of the thought is missing.</p>
+<p>These are the worst models most of us will ever work with.</p>
+<p>They are slow. They hallucinate. They require hand-holding. They fail loudly and often. That&#39;s exactly why this moment matters.</p>
+<p>Right now, the cost of misuse is low. The failures are obvious. The stakes are mostly optional. You can choose where and how to apply these tools. You can experiment without wiring them directly into core decisions. You can see their limitations in plain view.</p>
+<p>That won&#39;t last.</p>
+<blockquote class="pullquote">
+Before someone builds a “super-bad robot,” someone has to build a “mildly bad robot,” and before that a “not-so-bad robot.” – Michio Kaku
+</blockquote>
+
+<p>Future systems will be more capable and more convincing. They will fail less often and more quietly. They will be embedded deeper into workflows before most organizations understand how they behave. Learning how to work with probabilistic systems after you depend on them is much harder than learning before.</p>
+<p>The real opportunity isn&#39;t in pretending these models reason or think. It is in learning how to design around their weaknesses.</p>
+<p>That learning doesn&#39;t happen by standing at a distance and pointing out flaws. It happens by use.</p>
+<p>Using these systems well means specific things.</p>
+<p>It means separating generation from validation.
+It means never treating an output as an answer.
+It means forcing assumptions into the open.
+It means building checks instead of trust.
+It means deciding, explicitly, where judgment lives.</p>
+<p>Whether a model “reasons” is a distraction. The only question that matters is whether you reason about its output.</p>
+<p>Used this way, language models aren&#39;t analysts. They aren&#39;t strategists. They aren&#39;t authorities. They are tools for synthesis, exploration, and pressure-testing ideas. Sometimes they are noise. Sometimes they are useful. Your job is to know which is which.</p>
+<p>Pundits who dismiss these systems outright often sound savvy. In practice, it is usually a performative move to signal distance from hype. It doesn&#39;t engage with the substance. And it misses the point.</p>
+<p>The risk isn&#39;t that people will overestimate today’s models. The risk is that they will fail to build the discipline required for tomorrow.</p>
+<p>The window where you can learn cheaply, visibly, and with low consequence is now. Ignoring it doesn&#39;t make you prudent. It makes you unprepared.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>AI</category>
+      <category>Thoughts</category>
+      <category>Innovation</category>
+      <category>Learning</category>
+    </item>
+    <item>
+      <title>Multi Model Deep Research: Not Quite What I Expected</title>
+      <link>https://rossrader.ca/posts/multi-model-deep-research.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/multi-model-deep-research.html</guid>
+      <pubDate>Thu, 27 Nov 2025 05:00:00 GMT</pubDate>
+      <description>I tried to see if I could get better results from combining the effort of three AI assistants, but the results weren&apos;t all that satisfying. But I learned a few things.</description>
+      <content:encoded><![CDATA[<h1>Multi-model Deep Research</h1>
+<p>I ran a small experiment today that I thought was worth sharing. I needed to run some deep research, accounting for operations data from the business. That gave me an opportunity to test how different models handle a detailed, context rich prompt informed by a fixed dataset and I was especially interested in messing around with Gemini 3 Pro &quot;for real&quot;.</p>
+<p>My first pass was simple. I handed the same prompt and dataset to three models requested a deep research-style analysis of the data and market. ChatGPT 5.1 stalled after several attempts. Claude delivered a strong outline but missed some basic facts. Gemini produced sharp analysis but lost important operational detail that Claude had caught. Each of them produced helpful parts, but none of them produced a complete or consistent answer.</p>
+<p>So the challenge shifted from producing a meaningful analysis to how to extract the best material from each run and merge it into a single view, and to do so carefully without losing context, which gave me the idea to layer in a second stage. I gave a fresh instance two things. First, the full set of inputs used in the original prompts and second, the full set of reports that Claude and Gemini produced in the first go round. I intentionally presented the reports as written by someone else which made for a meaingful difference. Earlier runs had treated the reports as my own work, which muted the critique as the chatbot skewed toward agreeability. Once I made it clear that the reports came from an external source, the review became sharper and more useful.</p>
+<p>Here is the core prompt I used with Gemini 3 Pro:</p>
+<blockquote>
+<p>You are a senior telcom market and competition analyst. I have received competing reports from two other analysts that provide differing perspectives on the market, competition and data. Evaluate the two reports I attached. Use the instructions and data I gave to the analysts, that they used to prepare their reports, as your baseline. Identify where each report is inaccurate, incomplete, inconsistent and also the strongest most compelling points from each. Resolve any conflicts and produce one set of recommendations in a detailed document. Your output should be precise, internally consistent, and supported with clear reasoning.</p>
+</blockquote>
+<p>Long story short, the results were merely &quot;okay&quot;. The merged output was clearer, more accurate, and more consistent than the individual runs but overall, the output lacked the depth of the two input documents, even with the benefit of the same context. After six different tries, with slight tweaks to the prompt each time, it still felt like I was reading a copy of a copy. For all of the extra effort, the extra steps don&#39;t quite seem to be worth it.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>Prompt Design</category>
+      <category>Experiments</category>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Day 1</title>
+      <link>https://rossrader.ca/posts/hellowhirled.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/hellowhirled.html</guid>
+      <pubDate>Sat, 22 Nov 2025 05:00:00 GMT</pubDate>
+      <description>A personal site feels right again, so I rebuilt one with a simple GitHub and Netlify workflow and a bit of nostalgia for how the web used to work. If you’re curious how it came together or why I bothered, read on...</description>
+      <content:encoded><![CDATA[<p>I’ve been meaning to start writing again, but I kept stalling on the question of &quot;where?&quot; I’ve never liked handing my thoughts to someone else’s platform, and that feels even worse now given the chase for likes and the pile of AI generated slop.</p>
+<p>I wanted to learn more about Netlify and similar services, and I needed a use case, so I set up a static site that commits to GitHub and gets automatically pushed into production at Netlify. There are simpler ways to get HTML online - I still remember hand coding HTML in 1993 using <a href="https://datatracker.ietf.org/doc/html/draft-ietf-iiir-html-00">the original HTML spec</a> and FTPing files to the company web server. </p>
+<p>This site runs on a simple build and deployment flow. A local script turns Markdown into HTML, commits it to a Git repo, and Netlify deploys it. If I wasn’t interested in leaving room for app driven dynamic content later, I’d probably just use GitHub Pages, Surge.sh, or a host like NearlyFreeSpeech.</p>
+<p>So, Hello World! rossrader.ca is back on the air.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>Meta</category>
+      <category>Method</category>
+      <category>AI</category>
+    </item>
+  </channel>
+</rss>
