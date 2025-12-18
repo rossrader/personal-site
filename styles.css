@@ -358,6 +358,17 @@ main {
   gap: 0.25rem;
 }
 
+/* Icon styling for inline SVG icons */
+.post-meta svg {
+  flex-shrink: 0;
+  stroke: var(--text-muted);
+  transition: stroke 0.2s ease;
+}
+
+.blog-post-preview:hover .post-meta svg {
+  stroke: var(--accent-terracotta);
+}
+
 .post-excerpt {
   font-size: var(--text-body);
   color: var(--text-secondary);

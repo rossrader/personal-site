@@ -74,8 +74,8 @@ function generatePreviewCard(post) {
             <article class="blog-post-preview">
               <h2>${post.title}</h2>
               <div class="post-meta">
-                <span>📅 ${post.date}</span>
-                <span>⏱️ ${post.readingTime || '5 min read'}</span>
+                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>${post.date}</span>
+                <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>${post.readingTime || '5 min read'}</span>
               </div>
               <p class="post-excerpt">
                 ${post.excerpt || ''}
