@@ -272,25 +272,16 @@ main {
   color: inherit;
   display: block;
   cursor: pointer;
-  grid-column: 2 / 12;
-}
-
-/* Featured post (first child) spans full width */
-.blog-post-preview-link:first-child {
   grid-column: 1 / -1;
 }
 
-/* Asymmetric positioning for subsequent posts */
-.blog-post-preview-link:nth-child(3n+2):not(:first-child) {
-  grid-column: 3 / 11;
+/* Asymmetric positioning for posts (alternating pattern) */
+.blog-post-preview-link:nth-child(odd) {
+  grid-column: 1 / 11;
 }
 
-.blog-post-preview-link:nth-child(3n+3) {
-  grid-column: 2 / 10;
-}
-
-.blog-post-preview-link:nth-child(3n+4) {
-  grid-column: 4 / 12;
+.blog-post-preview-link:nth-child(even) {
+  grid-column: 3 / -1;
 }
 
 .blog-post-preview {
