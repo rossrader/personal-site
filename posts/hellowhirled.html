@@ -9,10 +9,72 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@400;600&family=DM+Sans:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+  <style>
+    /* Custom Editorial Prism Theme */
+    .post-content .token.keyword,
+    .post-content .token.boolean,
+    .post-content .token.important,
+    .post-content .token.tag {
+      color: #C41E3A;
+      font-weight: 600;
+    }
+
+    .post-content .token.string,
+    .post-content .token.attr-name,
+    .post-content .token.attr-value,
+    .post-content .token.char,
+    .post-content .token.inserted {
+      color: #2C5F2D;
+    }
+
+    .post-content .token.function,
+    .post-content .token.class-name {
+      color: #2D4654;
+      font-weight: 500;
+    }
+
+    .post-content .token.number,
+    .post-content .token.constant,
+    .post-content .token.symbol {
+      color: #D4A574;
+    }
+
+    .post-content .token.comment,
+    .post-content .token.prolog,
+    .post-content .token.doctype,
+    .post-content .token.cdata {
+      color: #6B6360;
+      font-style: italic;
+    }
+
+    .post-content .token.operator,
+    .post-content .token.punctuation,
+    .post-content .token.property {
+      color: #1A1714;
+    }
+
+    .post-content .token.selector,
+    .post-content .token.atrule,
+    .post-content .token.builtin,
+    .post-content .token.entity,
+    .post-content .token.url {
+      color: #2D4654;
+    }
+
+    .post-content .token.deleted {
+      color: #C41E3A;
+      font-style: italic;
+    }
+
+    .post-content .token.variable {
+      color: #1A1714;
+    }
+  </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+  <div id="reading-progress" aria-hidden="true"></div>
   <header>
     <div class="container">
       <div class="header-content">
@@ -73,5 +135,24 @@
       </section>
     </div>
   </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
 </body>
 </html>

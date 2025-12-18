@@ -79,6 +79,20 @@ Use blockquotes for important callouts or quotes:
 > "This is a blockquote. Use it for quotes, important notes, or key takeaways."
 > — Attribution
 
+### Pull Quotes (Editorial Feature)
+
+For special editorial emphasis, use pull quotes. These render in large italic font with a dramatic presentation:
+
+<blockquote class="pullquote">
+This is a pull quote - use it sparingly to highlight key insights or memorable phrases.
+</blockquote>
+
+**When to use pull quotes:**
+- Highlight a key insight or memorable phrase from your content
+- Use 1-2 per post maximum for best impact
+- Choose quotes that capture the essence of your message
+- They render much larger than regular blockquotes with crimson accent
+
 ## Another Main Section
 
 Continue structuring your content with clear headings. Each section should cover one main idea.

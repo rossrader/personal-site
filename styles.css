@@ -625,6 +625,30 @@ footer {
   box-shadow: 0 4px 12px var(--shadow-soft);
 }
 
+/* ===== Reading Progress Indicator ===== */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: var(--accent-crimson);
+  width: 0%;
+  z-index: 1000;
+  transition: width 0.1s ease-out;
+}
+
+/* Modern CSS approach (progressive enhancement) */
+@supports (animation-timeline: scroll()) {
+  #reading-progress {
+    animation: reading-progress-animation linear;
+    animation-timeline: scroll();
+  }
+
+  @keyframes reading-progress-animation {
+    to { width: 100%; }
+  }
+}
+
 /* ===== Animations ===== */
 @keyframes fadeUp {
   from {
