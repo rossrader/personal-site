@@ -6,8 +6,6 @@ excerpt: "Today’s models fail loudly and visibly. That makes their limits easy
 readingTime: "4 min read"
 ---
 
-# Yes, AI Sucks. That Makes It The Best Time to Learn
-
 There is a genre of AI writing that I see fairly regularly on LinkedIn, facebook, etc. etc. It usually starts by telling you your AI sounds smart. Then it tells you it isn't. It warns that models fabricate, lack judgment, and should never be trusted. The conclusion is always the same. Don't confuse coherence with intelligence.
 
 Most of the claims in these posts are overstated, overwrought or just plain wrong. But those matter less than the posture they encourage.

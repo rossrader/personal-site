@@ -4,6 +4,7 @@ const readline = require('readline');
 const { marked } = require('marked');
 const matter = require('gray-matter');
 const { postToBluesky, previewPost } = require('./bluesky');
+const { execSync } = require('child_process');
 
 // Directories
 const CONTENT_DIR = path.join(__dirname, 'content', 'posts');
@@ -272,6 +273,52 @@ async function handleBlueskyPosting(newPosts) {
   }
 }
 
+// Git commit and push changes
+async function handleGitCommit(newPosts) {
+  try {
+    // Check if there are any changes to commit
+    const status = execSync('git status --porcelain', { encoding: 'utf-8' });
+
+    if (!status.trim()) {
+      console.log('\nℹ️  No changes to commit.');
+      return;
+    }
+
+    console.log('\n📝 Changes detected:');
+    console.log(status);
+
+    const answer = await promptUser('\nWould you like to commit and push these changes? (y/n): ');
+
+    if (answer === 'y' || answer === 'yes') {
+      console.log('\n📤 Committing and pushing changes...\n');
+
+      // Add all changes
+      execSync('git add .', { stdio: 'inherit' });
+
+      // Generate commit message
+      let commitMessage;
+      if (newPosts.length > 0) {
+        const postTitles = newPosts.map(p => `"${p.title}"`).join(', ');
+        commitMessage = `Add new blog post${newPosts.length > 1 ? 's' : ''}: ${postTitles}\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
+      } else {
+        commitMessage = `Update blog\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
+      }
+
+      // Commit
+      execSync(`git commit -m "${commitMessage}"`, { stdio: 'inherit' });
+
+      // Push
+      execSync('git push', { stdio: 'inherit' });
+
+      console.log('\n✅ Changes committed and pushed!');
+    } else {
+      console.log('\nℹ️  Skipped git commit. You can commit manually later.');
+    }
+  } catch (error) {
+    console.error('\n❌ Git operation failed:', error.message);
+  }
+}
+
 // Main build function
 async function build() {
   console.log('🔨 Building blog...\n');
@@ -311,6 +358,9 @@ async function build() {
   // Check for new posts and prompt for Bluesky posting
   const newPosts = getNewPosts(posts);
   await handleBlueskyPosting(newPosts);
+
+  // Prompt for git commit and push
+  await handleGitCommit(newPosts);
 }
 
 // Run build
