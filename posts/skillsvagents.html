@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code Skills vs. Spawned Subagents - Ross Rader</title>
+  <meta name="description" content="Claude Code Skills vs. Spawned Subagents">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@400;600&family=DM+Sans:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+  <style>
+    /* Custom Contemporary Warm Prism Theme */
+    .post-content .token.keyword,
+    .post-content .token.boolean,
+    .post-content .token.important,
+    .post-content .token.tag {
+      color: #D85D3E;
+      font-weight: 600;
+    }
+
+    .post-content .token.string,
+    .post-content .token.attr-name,
+    .post-content .token.attr-value,
+    .post-content .token.char,
+    .post-content .token.inserted {
+      color: #1B7A7A;
+    }
+
+    .post-content .token.function,
+    .post-content .token.class-name {
+      color: #A74428;
+      font-weight: 500;
+    }
+
+    .post-content .token.number,
+    .post-content .token.constant,
+    .post-content .token.symbol {
+      color: #E8A547;
+    }
+
+    .post-content .token.comment,
+    .post-content .token.prolog,
+    .post-content .token.doctype,
+    .post-content .token.cdata {
+      color: #9B8F82;
+      font-style: italic;
+    }
+
+    .post-content .token.operator,
+    .post-content .token.punctuation,
+    .post-content .token.property {
+      color: #544B43;
+    }
+
+    .post-content .token.selector,
+    .post-content .token.atrule,
+    .post-content .token.builtin,
+    .post-content .token.entity,
+    .post-content .token.url {
+      color: #6B9080;
+    }
+
+    .post-content .token.deleted {
+      color: #D85D3E;
+      font-style: italic;
+    }
+
+    .post-content .token.variable {
+      color: #1F1812;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="../index.html">Ross Rader</a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>Claude Code Skills vs. Spawned Subagents</h1>
+          <div class="post-meta">
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>January 6, 2026</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">Claude Code</span>
+            <span class="tag">Agents</span>
+            <span class="tag">AI</span>
+            <span class="tag">Learning</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <p>I&#39;ve been building an autonomous system using Claude Code. When I read about Claude Code skills - reusable prompt libraries with progressive loading - I wondered if they could help.</p>
+<p>Spoiler alert - they weren&#39;t. But the exploration taught me something useful about what I was already doing.</p>
+<h2>How Skills Work</h2>
+<p>Skills are SKILL.md files that live in <code>.claude/skills/</code>. They&#39;re designed for interactive Claude Code sessions. At startup, Claude loads just the name and description from each skill&#39;s YAML frontmatter—around 30-100 tokens per skill. The actual instructions in SKILL.md only get read into context when Claude decides the skill is relevant. Reference files bundled with the skill load later still, only when Claude needs them for a specific task.</p>
+<p>The value proposition is progressive disclosure. You can have dozens of skills installed and only pay tokens for the ones you actually invoke.</p>
+<h2>Why They Don&#39;t Work for My System</h2>
+<p>My system spawns agents as separate CLI processes:</p>
+<pre><code class="language-python">cmd = [
+    &quot;claude&quot;, &quot;--print&quot;,
+    &quot;-p&quot;, prompt,
+    &quot;--model&quot;, model,
+    &quot;--allowedTools&quot;, &quot;Read&quot;, &quot;Write&quot;, ...
+]
+subprocess.Popen(cmd, ...)
+</code></pre>
+<p>Each agent is a fresh <code>claude --print</code> invocation. Stateless. No session memory. All context arrives via the prompt string. The <code>--print</code> flag runs in non-interactive mode, so there&#39;s no progressive loading benefit.</p>
+<p>Skills require an interactive Claude Code environment that maintains session state. I don&#39;t have one. My orchestrator is Python. Each spawn is isolated. Skills can&#39;t help here.</p>
+<h2>The Realization</h2>
+<p>Despite the technical incompatibility, skills and my system solve the same problem:</p>
+<p><strong>Reusable instructions.</strong> Skills use SKILL.md files. I use AGENT.md files.</p>
+<p><strong>Selective loading.</strong> Skills auto-invoke when Claude matches your request to their descriptions. I use a <code>TASK_CONTEXT_REQUIREMENTS</code> dictionary.</p>
+<p><strong>Domain knowledge.</strong> Skills use a <code>reference/</code> folder. I use <code>hub/config/</code> and <code>hub/strategy/</code>.</p>
+<p>I&#39;ve essentially built a custom skills system for spawned agents. It just operates at the process level instead of the session level.</p>
+<p>Here&#39;s what that looks like in practice:</p>
+<pre><code class="language-python">TASK_CONTEXT_REQUIREMENTS = {
+    &quot;write_content&quot;: [&quot;strategy/pillars.md&quot;, &quot;config/site.json&quot;],
+    &quot;analyze_performance&quot;: [&quot;config/site.json&quot;, &quot;strategy/goals.md&quot;],
+    &quot;deploy_content&quot;: [&quot;config/site.json&quot;],
+    # 30+ more mappings
+}
+</code></pre>
+<p>Instead of loading everything, each task type gets only the context files it needs.</p>
+<h2>When to Use Which</h2>
+<p><strong>Use Claude Code skills when:</strong></p>
+<p>You&#39;re working interactively. You want instructions to persist across conversations. You have domain-specific workflows—code review, PR creation, documentation. You want Claude to automatically invoke relevant capabilities based on your request.</p>
+<p><strong>Use spawned subagents when:</strong></p>
+<p>You need autonomous multi-agent orchestration. Agents need different tool permissions. You want programmatic control over dispatch. You&#39;re building pipelines where task A feeds task B feeds task C.</p>
+<p>There&#39;s also a hybrid approach. If you&#39;re running an orchestrator from within Claude Code, you could use skills for the orchestrator itself while spawning subagents for the workers. The orchestrator benefits from skills; the workers don&#39;t.</p>
+<p>There are probably other approaches too. I haven&#39;t learned them yet ;-)</p>
+<h2>What I Learned</h2>
+<p>Skills and spawned subagents serve different architectures. Skills are single-session knowledge injection. Subagents are multi-process autonomous execution.</p>
+<p>If you&#39;re building an autonomous agent system, you&#39;re already doing what skills do. Just at the process level instead of the session level. The concept of &quot;load only what you need&quot; applies to both. The implementation differs.</p>
+<p>The lesson isn&#39;t that one approach is better. It&#39;s that both approaches exist because the underlying problem is real: context is expensive, and selective loading matters.</p>
+
+        </div>
+
+        <a href="../blog.html" class="back-link">← Back to blog</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="https://x.com/rossrader">X</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="../feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>

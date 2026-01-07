@@ -373,8 +373,9 @@ async function handleGitCommit(newPosts) {
         commitMessage = `Update blog\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>`;
       }
 
-      // Commit
-      execSync(`git commit -m "${commitMessage}"`, { stdio: 'inherit' });
+      // Commit (escape double quotes in message for shell)
+      const escapedMessage = commitMessage.replace(/"/g, '\\"');
+      execSync(`git commit -m "${escapedMessage}"`, { stdio: 'inherit' });
 
       // Push
       execSync('git push', { stdio: 'inherit' });

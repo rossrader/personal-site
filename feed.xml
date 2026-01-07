@@ -10,6 +10,62 @@
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Claude Code Skills vs. Spawned Subagents</title>
+      <link>https://rossrader.ca/posts/skillsvagents.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/skillsvagents.html</guid>
+      <pubDate>Tue, 06 Jan 2026 05:00:00 GMT</pubDate>
+      <description>Claude Code skills and spawned subagents solve the same problem—selective context loading, but for different architectures. One works inside a session, the other across processes.</description>
+      <content:encoded><![CDATA[<p>I&#39;ve been building an autonomous system using Claude Code. When I read about Claude Code skills - reusable prompt libraries with progressive loading - I wondered if they could help.</p>
+<p>Spoiler alert - they weren&#39;t. But the exploration taught me something useful about what I was already doing.</p>
+<h2>How Skills Work</h2>
+<p>Skills are SKILL.md files that live in <code>.claude/skills/</code>. They&#39;re designed for interactive Claude Code sessions. At startup, Claude loads just the name and description from each skill&#39;s YAML frontmatter—around 30-100 tokens per skill. The actual instructions in SKILL.md only get read into context when Claude decides the skill is relevant. Reference files bundled with the skill load later still, only when Claude needs them for a specific task.</p>
+<p>The value proposition is progressive disclosure. You can have dozens of skills installed and only pay tokens for the ones you actually invoke.</p>
+<h2>Why They Don&#39;t Work for My System</h2>
+<p>My system spawns agents as separate CLI processes:</p>
+<pre><code class="language-python">cmd = [
+    &quot;claude&quot;, &quot;--print&quot;,
+    &quot;-p&quot;, prompt,
+    &quot;--model&quot;, model,
+    &quot;--allowedTools&quot;, &quot;Read&quot;, &quot;Write&quot;, ...
+]
+subprocess.Popen(cmd, ...)
+</code></pre>
+<p>Each agent is a fresh <code>claude --print</code> invocation. Stateless. No session memory. All context arrives via the prompt string. The <code>--print</code> flag runs in non-interactive mode, so there&#39;s no progressive loading benefit.</p>
+<p>Skills require an interactive Claude Code environment that maintains session state. I don&#39;t have one. My orchestrator is Python. Each spawn is isolated. Skills can&#39;t help here.</p>
+<h2>The Realization</h2>
+<p>Despite the technical incompatibility, skills and my system solve the same problem:</p>
+<p><strong>Reusable instructions.</strong> Skills use SKILL.md files. I use AGENT.md files.</p>
+<p><strong>Selective loading.</strong> Skills auto-invoke when Claude matches your request to their descriptions. I use a <code>TASK_CONTEXT_REQUIREMENTS</code> dictionary.</p>
+<p><strong>Domain knowledge.</strong> Skills use a <code>reference/</code> folder. I use <code>hub/config/</code> and <code>hub/strategy/</code>.</p>
+<p>I&#39;ve essentially built a custom skills system for spawned agents. It just operates at the process level instead of the session level.</p>
+<p>Here&#39;s what that looks like in practice:</p>
+<pre><code class="language-python">TASK_CONTEXT_REQUIREMENTS = {
+    &quot;write_content&quot;: [&quot;strategy/pillars.md&quot;, &quot;config/site.json&quot;],
+    &quot;analyze_performance&quot;: [&quot;config/site.json&quot;, &quot;strategy/goals.md&quot;],
+    &quot;deploy_content&quot;: [&quot;config/site.json&quot;],
+    # 30+ more mappings
+}
+</code></pre>
+<p>Instead of loading everything, each task type gets only the context files it needs.</p>
+<h2>When to Use Which</h2>
+<p><strong>Use Claude Code skills when:</strong></p>
+<p>You&#39;re working interactively. You want instructions to persist across conversations. You have domain-specific workflows—code review, PR creation, documentation. You want Claude to automatically invoke relevant capabilities based on your request.</p>
+<p><strong>Use spawned subagents when:</strong></p>
+<p>You need autonomous multi-agent orchestration. Agents need different tool permissions. You want programmatic control over dispatch. You&#39;re building pipelines where task A feeds task B feeds task C.</p>
+<p>There&#39;s also a hybrid approach. If you&#39;re running an orchestrator from within Claude Code, you could use skills for the orchestrator itself while spawning subagents for the workers. The orchestrator benefits from skills; the workers don&#39;t.</p>
+<p>There are probably other approaches too. I haven&#39;t learned them yet ;-)</p>
+<h2>What I Learned</h2>
+<p>Skills and spawned subagents serve different architectures. Skills are single-session knowledge injection. Subagents are multi-process autonomous execution.</p>
+<p>If you&#39;re building an autonomous agent system, you&#39;re already doing what skills do. Just at the process level instead of the session level. The concept of &quot;load only what you need&quot; applies to both. The implementation differs.</p>
+<p>The lesson isn&#39;t that one approach is better. It&#39;s that both approaches exist because the underlying problem is real: context is expensive, and selective loading matters.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>Claude Code</category>
+      <category>Agents</category>
+      <category>AI</category>
+      <category>Learning</category>
+    </item>
+    <item>
       <title>Yes, AI Sucks. That Makes It The Best Time to Learn</title>
       <link>https://rossrader.ca/posts/aisucks.html</link>
       <guid isPermaLink="true">https://rossrader.ca/posts/aisucks.html</guid>
