@@ -8,7 +8,7 @@ readingTime: "3 min read"
 
 I've been building an autonomous system using Claude Code. When I read about Claude Code skills - reusable prompt libraries with progressive loading - I wondered if they could help.
 
-Spoiler alert - they weren't. But the exploration taught me something useful about what I was already doing.
+Spoiler alert - they can't. But the exploration taught me something useful about what I was already doing.
 
 ## How Skills Work
 

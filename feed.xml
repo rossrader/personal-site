@@ -16,7 +16,7 @@
       <pubDate>Tue, 06 Jan 2026 05:00:00 GMT</pubDate>
       <description>Claude Code skills and spawned subagents solve the same problem—selective context loading, but for different architectures. One works inside a session, the other across processes.</description>
       <content:encoded><![CDATA[<p>I&#39;ve been building an autonomous system using Claude Code. When I read about Claude Code skills - reusable prompt libraries with progressive loading - I wondered if they could help.</p>
-<p>Spoiler alert - they weren&#39;t. But the exploration taught me something useful about what I was already doing.</p>
+<p>Spoiler alert - they can&#39;t. But the exploration taught me something useful about what I was already doing.</p>
 <h2>How Skills Work</h2>
 <p>Skills are SKILL.md files that live in <code>.claude/skills/</code>. They&#39;re designed for interactive Claude Code sessions. At startup, Claude loads just the name and description from each skill&#39;s YAML frontmatter—around 30-100 tokens per skill. The actual instructions in SKILL.md only get read into context when Claude decides the skill is relevant. Reference files bundled with the skill load later still, only when Claude needs them for a specific task.</p>
 <p>The value proposition is progressive disclosure. You can have dozens of skills installed and only pay tokens for the ones you actually invoke.</p>
