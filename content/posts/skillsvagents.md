@@ -80,3 +80,5 @@ Skills and spawned subagents serve different architectures. Skills are single-se
 If you're building an autonomous agent system, you're already doing what skills do. Just at the process level instead of the session level. The concept of "load only what you need" applies to both. The implementation differs.
 
 The lesson isn't that one approach is better. It's that both approaches exist because the underlying problem is real: context is expensive, and selective loading matters.
+
+*For Anthropic's full comparison of Skills, subagents, Projects, MCP, and prompts, see their [Skills Explained](https://claude.com/blog/skills-explained) guide.*
