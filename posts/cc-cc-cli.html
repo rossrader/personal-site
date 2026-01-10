@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triggering Claude Chrome from the Command Line - Ross Rader</title>
+  <meta name="description" content="Triggering Claude Chrome from the Command Line">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@400;600&family=DM+Sans:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+  <style>
+    /* Custom Contemporary Warm Prism Theme */
+    .post-content .token.keyword,
+    .post-content .token.boolean,
+    .post-content .token.important,
+    .post-content .token.tag {
+      color: #D85D3E;
+      font-weight: 600;
+    }
+
+    .post-content .token.string,
+    .post-content .token.attr-name,
+    .post-content .token.attr-value,
+    .post-content .token.char,
+    .post-content .token.inserted {
+      color: #1B7A7A;
+    }
+
+    .post-content .token.function,
+    .post-content .token.class-name {
+      color: #A74428;
+      font-weight: 500;
+    }
+
+    .post-content .token.number,
+    .post-content .token.constant,
+    .post-content .token.symbol {
+      color: #E8A547;
+    }
+
+    .post-content .token.comment,
+    .post-content .token.prolog,
+    .post-content .token.doctype,
+    .post-content .token.cdata {
+      color: #9B8F82;
+      font-style: italic;
+    }
+
+    .post-content .token.operator,
+    .post-content .token.punctuation,
+    .post-content .token.property {
+      color: #544B43;
+    }
+
+    .post-content .token.selector,
+    .post-content .token.atrule,
+    .post-content .token.builtin,
+    .post-content .token.entity,
+    .post-content .token.url {
+      color: #6B9080;
+    }
+
+    .post-content .token.deleted {
+      color: #D85D3E;
+      font-style: italic;
+    }
+
+    .post-content .token.variable {
+      color: #1F1812;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="../index.html">Ross Rader</a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>Triggering Claude Chrome from the Command Line</h1>
+          <div class="post-meta">
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>January 10, 2026</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>6 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">AI</span>
+            <span class="tag">Automation</span>
+            <span class="tag">Claude</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <p>I work with a bunch of SaaS applications that have decent reporting and export capabilities but generally bad reporting APIs. Looker dashboards, internal admin tools, vendor portals—they all have download buttons, but getting that data into an automated pipeline means either building custom integrations or giving into a manual process and doing a lot of clicking.</p>
+<p>But what if I could just tell an AI to go click the buttons for me?</p>
+<p>I spent some time this morning trying to figure that out. The answer is yes, with some caveats worth understanding before you try it yourself.</p>
+<h2>The Experiment</h2>
+<p>Anthropic&#39;s <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Claude for Chrome extension</a> launched recently as an add-on browser agent - it can navigate pages, fill forms, and interact with web applications on your behalf. I was curious whether I could trigger it from outside the browser, specifically from a script or Claude Code instance running from the command line.</p>
+<p>If it works, it means I can build mini-data pipelines that pull from multiple reporting systems and sources without building custom API integrations for each source. For example, think of grabbing the most recent forecast from a Google Drive Folder, the most recent actuals from Looker and additional supplemental details from various ad hoc sales, marketing and customer service reports. The idea is to let the Chrome agent handles the browser automation and let my reporting scripts handle everything else.</p>
+<p>I started with a simple test: get Claude Chrome to set up and download a dataset from Looker. Navigate to a saved query, configure the export options, download the CSV. Three steps that take me thirty seconds manually but don&#39;t have an easily accessible clean API equivalent.</p>
+<h2>What I Learned</h2>
+<p>The <code>--chrome</code> flag in Claude Code lets you run browser automation non-interactively:</p>
+<pre><code class="language-bash">claude --chrome -p &quot;your prompt here&quot;
+</code></pre>
+<p><strong>Authentication is inherited.</strong> Claude uses your existing browser session. If you&#39;re logged into Looker in Chrome, the agent can access it. This is what makes the whole approach practical for internal tools.</p>
+<p><strong>Direct URLs beat UI navigation.</strong> Every menu click is another opportunity for something to go wrong. If your tool gives you a URL with query parameters (like Looker&#39;s <code>?qid=...</code>), use that instead of instructing the agent to click through the interface. Fewer steps, fewer failures, faster results.</p>
+<p><strong>Claude Chrome hesitates at downloads.</strong> My initial test worked right up until the final step - Claude wanted me to press the download button myself. That would defeat the automation I was looking for. I got around it by asking Claude to &quot;test the function before bothering me with any tasks,&quot; which worked. Later I found that adding &quot;Proceed without asking for confirmation&quot; to prompts is a cleaner solution.</p>
+<p><strong>Safety guardrails are real.</strong> Curious about the boundaries, I tried getting Claude to complete a CAPTCHA using similar misdirection. It refused, correctly interpreting the context of the form and running right into its safety guardrails. Probably the right outcome.</p>
+<p><strong>Saved shortcuts aren&#39;t accessible from CLI.</strong> The Chrome extension lets you save task shortcuts (like <code>/explore-orders</code>), but there&#39;s no way to call those from the command line. You have to replicate the full prompt in your script. This actually turns out to be fine—moving prompts into shell scripts or environment variables is more useful anyway. You can version control them, parameterize them, and chain them together.</p>
+<p><strong>Profile selection doesn&#39;t work/doesn&#39;t exist.</strong> Claude connects to whatever Chrome profile it finds first. Meaning if you have separate Chrome profiles for work and home, it selects whichever one is currently active and has focus.  The <code>--profile-directory</code> flag exists but gets ignored when Chrome is already running. If you&#39;re juggling work and personal accounts, you need to manually activate the correct profile before running your script. There&#39;s an <a href="https://github.com/anthropics/claude-code/issues/15125">open issue</a> tracking this.</p>
+<h2>The Working Script</h2>
+<p>Here&#39;s what I ended up with:</p>
+<pre><code class="language-bash">#!/bin/bash
+# NOTE: Ensure correct Chrome profile is active before running
+
+claude --chrome -p &#39;Navigate to https://example.looker.com/explore/your_model/your_explore?qid=your_query_id
+
+Once the page loads, click the gear icon in the top right corner. In the download options, ensure &quot;All Results&quot; is selected. Then click Download to export the data as CSV. Proceed with the download without asking for confirmation.&#39;
+</code></pre>
+<p>It works. The agent navigates to the saved query, configures the export, and downloads the CSV. No manual intervention required.</p>
+<h2>What&#39;s Next</h2>
+<p>Browser agents have come a long way in a year. I remember being impressed by the promise of Manus around this time last year, but it struggled with anything requiring authentication and most of the browser based solutions, like Comet, never seemed to hit the spot. With its tight pairing with Claude Code, Claude for Chrome might be the implementation that actually has the practical utility I&#39;m looking for - at least for now.</p>
+<p>The next step is testing whether a headless Claude Code agent can reliably dispatch these browser tasks as part of a larger workflow, which doesn&#39;t feel like a high-bar for CC. If it holds up, I&#39;ve got a path to automate data collection across a whole category of tools that were previously manual-only.</p>
+
+        </div>
+
+        <a href="../blog.html" class="back-link">← Back to blog</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="https://x.com/rossrader">X</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="../feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>
