@@ -5,7 +5,8 @@ tags: ["AI", "Automation", "Claude"]
 excerpt: "PSA for anyone dealing with SaaS tools that have good reporting UIs but garbage APIs: Claude Chrome + Claude Code might be your workaround."
 readingTime: "6 min read"
 ---
-I work with a bunch of SaaS applications that have decent reporting and export capabilities but generally bad reporting APIs. Looker dashboards, internal admin tools, vendor portals—they all have download buttons, but getting that data into an automated pipeline means either building custom integrations or giving into a manual process and doing a lot of clicking.
+I work with a bunch of SaaS applications that have decent reporting and export capabilities but generally
+poor or unavailable reporting APIs, so getting that data into an automated pipeline means either building custom integrations or giving into a manual process and doing a lot of clicking.
 
 But what if I could just tell an AI to go click the buttons for me?
 
@@ -13,7 +14,7 @@ I spent some time this morning trying to figure that out. The answer is yes, wit
 
 ## The Experiment
 
-Anthropic's [Claude for Chrome extension](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) launched recently as an add-on browser agent - it can navigate pages, fill forms, and interact with web applications on your behalf. I was curious whether I could trigger it from outside the browser, specifically from a script or Claude Code instance running from the command line.
+I had been itching to try out some new Claude features.  Anthropic's [Claude for Chrome extension](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) launched recently as an add-on browser agent - it can navigate pages, fill forms, and interact with web applications on your behalf. I was curious whether I could trigger it from outside the browser, specifically from a script or Claude Code instance running from the command line.
 
 If it works, it means I can build mini-data pipelines that pull from multiple reporting systems and sources without building custom API integrations for each source. For example, think of grabbing the most recent forecast from a Google Drive Folder, the most recent actuals from Looker and additional supplemental details from various ad hoc sales, marketing and customer service reports. The idea is to let the Chrome agent handles the browser automation and let my reporting scripts handle everything else.
 

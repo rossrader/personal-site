@@ -109,11 +109,12 @@
         </header>
 
         <div class="post-content">
-          <p>I work with a bunch of SaaS applications that have decent reporting and export capabilities but generally bad reporting APIs. Looker dashboards, internal admin tools, vendor portals—they all have download buttons, but getting that data into an automated pipeline means either building custom integrations or giving into a manual process and doing a lot of clicking.</p>
+          <p>I work with a bunch of SaaS applications that have decent reporting and export capabilities but generally
+poor or unavailable reporting APIs, so getting that data into an automated pipeline means either building custom integrations or giving into a manual process and doing a lot of clicking.</p>
 <p>But what if I could just tell an AI to go click the buttons for me?</p>
 <p>I spent some time this morning trying to figure that out. The answer is yes, with some caveats worth understanding before you try it yourself.</p>
 <h2>The Experiment</h2>
-<p>Anthropic&#39;s <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Claude for Chrome extension</a> launched recently as an add-on browser agent - it can navigate pages, fill forms, and interact with web applications on your behalf. I was curious whether I could trigger it from outside the browser, specifically from a script or Claude Code instance running from the command line.</p>
+<p>I had been itching to try out some new Claude features.  Anthropic&#39;s <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Claude for Chrome extension</a> launched recently as an add-on browser agent - it can navigate pages, fill forms, and interact with web applications on your behalf. I was curious whether I could trigger it from outside the browser, specifically from a script or Claude Code instance running from the command line.</p>
 <p>If it works, it means I can build mini-data pipelines that pull from multiple reporting systems and sources without building custom API integrations for each source. For example, think of grabbing the most recent forecast from a Google Drive Folder, the most recent actuals from Looker and additional supplemental details from various ad hoc sales, marketing and customer service reports. The idea is to let the Chrome agent handles the browser automation and let my reporting scripts handle everything else.</p>
 <p>I started with a simple test: get Claude Chrome to set up and download a dataset from Looker. Navigate to a saved query, configure the export options, download the CSV. Three steps that take me thirty seconds manually but don&#39;t have an easily accessible clean API equivalent.</p>
 <h2>What I Learned</h2>
