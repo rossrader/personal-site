@@ -14,16 +14,16 @@
       <link>https://rossrader.ca/posts/agile-slower-machine.html</link>
       <guid isPermaLink="true">https://rossrader.ca/posts/agile-slower-machine.html</guid>
       <pubDate>Sun, 01 Mar 2026 05:00:00 GMT</pubDate>
-      <description>AI tooling is making software teams faster than ever — but the processes they&apos;re running were designed for when speed was the problem. What happens when building is cheap and the bottleneck moves somewhere else?</description>
+      <description>AI tooling is making software teams faster than ever - but the processes they&apos;re running were designed for when speed was the problem. What happens when building is cheap and the bottleneck moves somewhere else?</description>
       <content:encoded><![CDATA[<h1>Agile was built for a slower machine</h1>
 <p>I&#39;ve seen a growing conversation on LinkedIn and Reddit about what AI tooling is doing to 
-software teams — Cursor, Claude, Copilot, the whole wave. Velocity is up, backlogs are 
+software teams - Cursor, Claude, Copilot, the whole wave. Velocity is up, backlogs are 
 shrinking - by every measure teams track, things look great. But what&#39;s catching my attention 
 is the feeling that teams are losing context - code review burdens have exploded as weeks are 
 compressed into days and features are shipping, but its becoming harder to tell which ones 
 moved the needle. Teams are building faster than ever but its not claer if they&#39;re learning 
 faster too.</p>
-<p>And it got me thinking: sprints, backlogs, velocity, story points — all of it was designed to 
+<p>And it got me thinking: sprints, backlogs, velocity, story points - all of it was designed to 
 manage build capacity. To prioritize carefully, because building was expensive and slow. That 
 was the bottleneck, and agile was a really good answer to it. But what if that&#39;s not the 
 bottleneck anymore? For a growing chunk of the work, AI has made building fast and cheap. But 
