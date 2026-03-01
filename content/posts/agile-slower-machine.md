@@ -1,4 +1,4 @@
-c---
+---
 title: "Agile was built for a slower machine"
 date: "March 1, 2026"
 tags: ["agile", "vibes", "product"]
