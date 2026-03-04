@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exploring Semantic MCP - Ross Rader</title>
+  <meta name="description" content="Exploring Semantic MCP">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@400;600&family=DM+Sans:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+  <style>
+    /* Custom Contemporary Warm Prism Theme */
+    .post-content .token.keyword,
+    .post-content .token.boolean,
+    .post-content .token.important,
+    .post-content .token.tag {
+      color: #D85D3E;
+      font-weight: 600;
+    }
+
+    .post-content .token.string,
+    .post-content .token.attr-name,
+    .post-content .token.attr-value,
+    .post-content .token.char,
+    .post-content .token.inserted {
+      color: #1B7A7A;
+    }
+
+    .post-content .token.function,
+    .post-content .token.class-name {
+      color: #A74428;
+      font-weight: 500;
+    }
+
+    .post-content .token.number,
+    .post-content .token.constant,
+    .post-content .token.symbol {
+      color: #E8A547;
+    }
+
+    .post-content .token.comment,
+    .post-content .token.prolog,
+    .post-content .token.doctype,
+    .post-content .token.cdata {
+      color: #9B8F82;
+      font-style: italic;
+    }
+
+    .post-content .token.operator,
+    .post-content .token.punctuation,
+    .post-content .token.property {
+      color: #544B43;
+    }
+
+    .post-content .token.selector,
+    .post-content .token.atrule,
+    .post-content .token.builtin,
+    .post-content .token.entity,
+    .post-content .token.url {
+      color: #6B9080;
+    }
+
+    .post-content .token.deleted {
+      color: #D85D3E;
+      font-style: italic;
+    }
+
+    .post-content .token.variable {
+      color: #1F1812;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="../index.html">Ross Rader</a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>Exploring Semantic MCP</h1>
+          <div class="post-meta">
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>March 4, 2026</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>5 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">mcp</span>
+            <span class="tag">ai</span>
+            <span class="tag">ideas</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <h1>MCP as a semantic layer</h1>
+<p>Most MCP servers connect AI to things it can&#39;t reach on its own. Send a Slack message. Create a GitHub issue. Query a database. The tools add capability.</p>
+<p>There&#39;s a second kind of MCP server that nobody&#39;s really building yet. One where the AI <em>could</em> do the work itself, but the tools make it reason correctly instead 
+of probably.</p>
+<h2>Capability vs. meaning</h2>
+<p>You could hand an AI a JSON file full of reference data and say &quot;figure it out.&quot; It will parse the schema, invent heuristics, cross-reference fields, and produce a 
+plausible answer. It might even be right. But it&#39;s doing that from scratch every time, with no guarantee it interprets the data the way a domain expert would.</p>
+<p>Wrap that same data in a thin set of tools, and something changes. The tools don&#39;t add new information. They add judgment. Priority order for evaluating conflicts. 
+Ranking logic built on real-world experience. Labels that distinguish &quot;technically claimed but safe to use&quot; from &quot;do not touch.&quot;</p>
+<p>The AI goes from reasoning probabilistically to reasoning reliably. Not because it gained a new capability, but because the tools reduced its cognitive load the 
+same way a good API reduces a developer&#39;s.</p>
+<h2>The experiment</h2>
+<p>I built <a href="https://keygap.app">KeyGap</a> to test this. It&#39;s a keyboard shortcut availability tool: pick your platform, pick your apps, see which hotkey combos are still 
+free. There&#39;s an interactive web UI and an MCP endpoint, both served from the same Cloudflare Worker, both reading from the same shortcut database.</p>
+<p>I should be clear about what KeyGap is not. It&#39;s not a comprehensive shortcut reference. <a href="https://keycheck.dev">keycheck.dev</a> already does that far better, covering 
+1,400+ shortcuts across 100+ apps with community contributions. KeyGap covers 12 apps. It&#39;s a toy by comparison.</p>
+<p>The point was never &quot;can I build a better shortcut tool.&quot; The point was: what&#39;s the narrowest expression of an MCP server that creates semantic value? How little 
+data and how few tools can you get away with and still produce something that makes an AI more reliable than its training data alone?</p>
+<p>The answer: a single TypeScript file of curated data, three query functions, and good tool descriptions. One Cloudflare Worker, zero databases. The HTML is a big 
+self-contained file. The data module is a big static object. Neither is elegant. But the constraint was deliberate. I wanted to find the floor, not the ceiling.</p>
+<h2>What the tools add</h2>
+<p>The shortcut data in KeyGap is roughly 300 lines of TypeScript. An AI could read the raw JSON and cross-reference it. But the tools encode things the data alone 
+doesn&#39;t express.</p>
+<p><code>suggest_hotkeys</code> doesn&#39;t just filter available keys. It ranks by ergonomic comfort, because a human figured out that Cmd+Ctrl is a natural 
+left-thumb-plus-left-pinky reach while Cmd+Ctrl+Shift requires three fingers and falls apart at speed. That judgment isn&#39;t in the data. It&#39;s in the function.</p>
+<p><code>check_key</code> doesn&#39;t just look up a value. It cascades through OS-level claims, then app claims, then risky-but-probably-fine status, in that priority order. The 
+ordering reflects how shortcut conflicts actually work. Give an AI the raw data and it might check app claims first, or treat &quot;risky&quot; the same as &quot;taken.&quot;</p>
+<p>The tools are opinions encoded as functions. The data is facts. The tools are facts plus judgment.</p>
+<h2>What a real version looks like</h2>
+<p>KeyGap is the narrow version: hand-curated data, small scope, single file. A broader take on the same idea would pull from something like keycheck&#39;s 
+community-maintained database, covering hundreds of apps instead of twelve. The tools would stay thin, but the ranking logic could get smarter: weighting by app 
+install base, factoring in user-reported conflicts, scoring ergonomic comfort based on actual hand geometry research rather than my rough notes.</p>
+<p>The web UI and the MCP tools would diverge further. The UI could become a full shortcut explorer with search, filtering, and contribution flows. The MCP tools would 
+stay focused on the three questions an AI actually needs to answer: what&#39;s free, is this specific combo taken, and what do you recommend.</p>
+<p>The architecture stays the same. Static data, thin query layer, two interfaces. The investment shifts from code to curation.</p>
+<h2>Other approaches</h2>
+<p>Static data plus tools is the simplest version of a knowledge server. It&#39;s not the only one.</p>
+<p><strong>Retrieval-backed.</strong> The tools query a vector store or search index instead of holding everything in memory. You&#39;d need this for something like npm&#39;s full 
+dependency graph or the CVE database. More infrastructure, but it scales.</p>
+<p><strong>Computed.</strong> Some domains need to calculate answers, not look them up. A color contrast checker doesn&#39;t store every possible color pair. It computes WCAG 
+compliance on the fly. The judgment is in the algorithm, not the data.</p>
+<p><strong>Hybrid.</strong> Static reference data combined with live lookups. A browser compatibility server might embed curated &quot;safe to use&quot; thresholds but fetch current support 
+percentages from caniuse at query time. Static layer for opinions, live layer for facts.</p>
+<p>If I were building another one of these, I&#39;d probably start with hybrid. The static data keeps the tools opinionated, and the live lookups keep them current. But 
+the pure static version is where I&#39;d tell anyone to start, because it proves the concept with zero infrastructure risk.</p>
+<h2>The pattern</h2>
+<p>Three things make this work:</p>
+<p><strong>Curated data, not just structured data.</strong> A CSV is structured. A curated dataset includes editorial judgment: risk assessments, quality ratings, &quot;this is the one 
+you actually want&quot; designations. The curation is the value. The tools are just delivery.</p>
+<p><strong>Domain logic in tools, not left to the AI.</strong> Anywhere you have reasoning that an AI would otherwise hallucinate, put it in a tool. The tool doesn&#39;t prevent the AI 
+from thinking. It prevents it from guessing where guessing is unnecessary.</p>
+<p><strong>Two interfaces from one source of truth.</strong> Humans get a visual interface optimized for scanning and pattern recognition. Machines get MCP tools optimized for 
+structured queries and parameter validation. Neither wraps the other. They&#39;re parallel projections of the same data.</p>
+<h2>Where it breaks down</h2>
+<p>This doesn&#39;t work when data changes faster than you can redeploy, when the dataset outgrows memory, or when domain experts genuinely disagree on the right answer 
+(encoding one opinion in a tool is limiting).</p>
+<p>But for small, curated, slowly-changing reference data where cross-referencing is tedious and judgment matters? A static file and five functions might be all you 
+need.</p>
+<p>The current MCP ecosystem is almost entirely integration servers. I think there&#39;s a lot of room for knowledge servers. Not <em>&quot;connect me to a thing&quot;</em> but <em>&quot;help me 
+reason correctly about a thing.&quot;</em> The bar is lower than people think. No API keys, no database, no state. Just curated data, a few functions, and well-written tool 
+descriptions.</p>
+
+        </div>
+
+        <a href="../blog.html" class="back-link">← Back to blog</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="../feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>
