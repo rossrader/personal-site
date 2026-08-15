@@ -4,6 +4,10 @@ node_modules/
 # Environment variables
 .env
 
+# Server-local state (publish history) and server host data dir
+.state/
+data/
+
 # System files
 .DS_Store
 .DS_Store?

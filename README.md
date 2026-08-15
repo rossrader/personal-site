@@ -1,6 +1,16 @@
 # Ross Rader's Personal Blog
 
-A minimal, static blog with glassmorphism design and a simple Markdown-to-HTML build system.
+A static blog ("Phosphor & ink" dark theme). **This repo is content only** —
+markdown posts, templates, styles, the generated site (deployed by Netlify on
+push), and the microblog log (`content/log/YYYY-MM.jsonl`). The build engine,
+admin server, and Telegram intake live in the private `blog-admin` repo,
+expected as a sibling checkout (`../blog-admin`).
+
+Three ways to publish:
+
+1. **Laptop CLI** — write markdown in `content/posts/`, run `npm run build` (delegates to `../blog-admin/cli.js`; interactive: build → Bluesky? → commit+push?).
+2. **Admin server** — `npm run serve` locally, or the Docker deployment on the home server: WYSIWYG post editor, log management, one-click publish, all over Tailscale.
+3. **Telegram** — message the private bot; each text becomes a log entry, auto-published after a 5-minute debounce. `/undo`, `/status`, `/publish` supported.
 
 ## Quick Start
 
@@ -72,7 +82,7 @@ The post format is:
 I just posted something new to my blog. [excerpt], read more about it at [link]
 ```
 
-Posts are automatically tracked in `posts-published.json` so they won't be posted twice.
+Posts are automatically tracked in `posts-published.json` (committed to git, so the record survives a fresh clone) and won't be posted twice.
 
 ### Important Notes
 
@@ -106,7 +116,8 @@ Blog/
 | `date` | Yes | Publication date | `"January 15, 2025"` |
 | `tags` | No | Array of topic tags | `["AI", "Technology"]` |
 | `excerpt` | No | Brief description for list pages | `"A short summary..."` |
-| `readingTime` | No | Estimated reading time | `"5 min read"` |
+| `featured` | No | Set `true` to highlight on the home page (falls back to newest posts if none are flagged) | `true` |
+| `readingTime` | No | Overrides the auto-computed estimate (based on word count) | `"5 min read"` |
 
 ## Markdown Syntax
 
@@ -164,7 +175,7 @@ The `npm run build` command:
 - The filename becomes the URL slug: `posts/my-post-title.html`
 - Run `npm run build` after editing existing posts to regenerate HTML
 - Preview posts locally by opening HTML files in your browser
-- The build script won't overwrite manually edited files in `posts/`
+- Generated files in `posts/` are overwritten on every build — make edits in `content/posts/*.md`, not in the generated HTML
 
 ## Customization
 
