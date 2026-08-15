@@ -1,0 +1,14 @@
+# Log entries are independent lines with unique ids (render order comes
+# from sorting by timestamp), so concurrent appends from the laptop and
+# the server should merge by keeping both sides.
+content/log/*.jsonl merge=union
+
+# Generated files are rebuilt from sources after every rebase, so merge
+# conflicts in them can resolve to either side ("regen" is a keep-ours
+# no-op driver configured by the publish tooling; unset, git falls back
+# to a normal merge, which is only cosmetic here for the same reason).
+posts/*.html merge=regen
+index.html merge=regen
+blog.html merge=regen
+log.html merge=regen
+feed.xml merge=regen
