@@ -579,6 +579,23 @@ main section + section {
   margin: 0 0.45rem;
 }
 
+.log-link {
+  display: inline-flex;
+  vertical-align: -2px;
+}
+
+.log-link .icon {
+  width: 14px;
+  height: 14px;
+  stroke: var(--cyan);
+  transition: stroke 0.15s ease;
+}
+
+.log-link:hover .icon,
+.log-link:focus-visible .icon {
+  stroke: var(--amber);
+}
+
 /* ===== Reading shelf (Hardcover) ===== */
 .book-shelf {
   display: flex;
