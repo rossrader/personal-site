@@ -9,7 +9,6 @@ excerpt: >-
   track record, plus 57 supporting footnotes. Beacon, Cambridge Analytica,
   hospital tracking pixels: the pattern isn't subtle.
 featured: true
-draft: true
 ---
 
 On August 10, 2026, Mark Zuckerberg published "[The Future is for Everyone](https://www.meta.com/thefutureisforeveryone/)," a corporate manifesto explaining how personal superintelligence will empower every single person on the planet. It's a stirring read. Optimistic. Generous. Full of the kind of humanity you'd expect from a PR firm.

@@ -7,7 +7,7 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 22:54:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 22:55:53 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
@@ -25,6 +25,23 @@
       <category>ai</category>
       <category>reading</category>
       <category>literature</category>
+    </item>
+    <item>
+      <title>The Future is for Everyone</title>
+      <link>https://rossrader.ca/posts/the-future-is-for-me.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/the-future-is-for-me.html</guid>
+      <pubDate>Sat, 15 Aug 2026 04:00:00 GMT</pubDate>
+      <description>Zuckerberg&apos;s superintelligence manifesto is a stirring read about a company that never existed. I rewrote it with adjustments that match Meta&apos;s actual track record, plus 57 supporting footnotes. Beacon, Cambridge Analytica, hospital tracking pixels: the pattern isn&apos;t subtle.</description>
+      <content:encoded><![CDATA[<p>On August 10, 2026, Mark Zuckerberg published &quot;<a href="https://www.meta.com/thefutureisforeveryone/">The Future is for Everyone</a>,&quot; a corporate manifesto explaining how personal superintelligence will empower every single person on the planet. It&#39;s a stirring read. Optimistic. Generous. Full of the kind of humanity you&#39;d expect from a PR firm.</p>
+<p>It also describes a company that never existed. The gap was striking and obvious, and didn&#39;t sit well with me, so I rewrote it with a few adjustments that more accurately reflect twenty-plus years of observed behavior. And to keep it fair and balanced, I added footnotes to support the various claims. Fifty-seven of them.</p>
+<p><a href="https://thefutureisfor.me">https://thefutureisfor.me</a></p>
+<p>Meta&#39;s pattern isn&#39;t subtle. Beacon in 2007. The FTC consent decree in 2011. The $5 billion fine for violating that consent decree. Cambridge Analytica. Tracking pixels that turned up inside hospital patient portals. Each time: apologize, settle, continue. Zuckerberg asks us to believe that the twenty-first apology will be the sincere one.</p>
+<p>We live in a state of constant surveillance. Not by governments, but by business models. <a href="https://en.wikipedia.org/wiki/Shoshana_Zuboff">Shoshana Zuboff </a>gave it a name: surveillance capitalism. The trend is less privacy and more monetization of our attention, our preferences, and our experiences. And every new product category (AI assistants, camera glasses, VR headsets) extends the extraction into more intimate territory well before regulation can catch it.</p>
+<p>It doesn&#39;t have to be this way. But it won&#39;t change as long as we let a twenty-year pattern of harm be laundered through inspirational prose. Call the behavior what it is: the economic strip-mining of human interaction.</p>
+<p>And call out nonsense like this manifesto for what it is: PR written by the mining company.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>ideas</category>
     </item>
     <item>
       <title>Exploring Semantic MCP</title>
