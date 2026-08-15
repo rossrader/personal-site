@@ -12,3 +12,6 @@ index.html merge=regen
 blog.html merge=regen
 log.html merge=regen
 feed.xml merge=regen
+
+# App-owned page shells (copied from blog-admin templates on every build)
+styles.css merge=regen
