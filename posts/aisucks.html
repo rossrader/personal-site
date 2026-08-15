@@ -4,73 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yes, AI Sucks. That Makes It The Best Time to Learn - Ross Rader</title>
-  <meta name="description" content="Yes, AI Sucks. That Makes It The Best Time to Learn">
+  <meta name="description" content="Today’s models fail loudly and visibly. That makes their limits easy to study and their mistakes easy to catch. Future systems will not be so forgiving.">
+  <link rel="canonical" href="https://rossrader.ca/posts/aisucks.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Yes, AI Sucks. That Makes It The Best Time to Learn">
+  <meta property="og:description" content="Today’s models fail loudly and visibly. That makes their limits easy to study and their mistakes easy to catch. Future systems will not be so forgiving.">
+  <meta property="og:url" content="https://rossrader.ca/posts/aisucks.html">
+  <meta property="og:site_name" content="Ross Rader">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Yes, AI Sucks. That Makes It The Best Time to Learn">
+  <meta name="twitter:description" content="Today’s models fail loudly and visibly. That makes their limits easy to study and their mistakes easy to catch. Future systems will not be so forgiving.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:wght@400;600&family=DM+Sans:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
-  <style>
-    /* Custom Contemporary Warm Prism Theme */
-    .post-content .token.keyword,
-    .post-content .token.boolean,
-    .post-content .token.important,
-    .post-content .token.tag {
-      color: #D85D3E;
-      font-weight: 600;
-    }
-
-    .post-content .token.string,
-    .post-content .token.attr-name,
-    .post-content .token.attr-value,
-    .post-content .token.char,
-    .post-content .token.inserted {
-      color: #1B7A7A;
-    }
-
-    .post-content .token.function,
-    .post-content .token.class-name {
-      color: #A74428;
-      font-weight: 500;
-    }
-
-    .post-content .token.number,
-    .post-content .token.constant,
-    .post-content .token.symbol {
-      color: #E8A547;
-    }
-
-    .post-content .token.comment,
-    .post-content .token.prolog,
-    .post-content .token.doctype,
-    .post-content .token.cdata {
-      color: #9B8F82;
-      font-style: italic;
-    }
-
-    .post-content .token.operator,
-    .post-content .token.punctuation,
-    .post-content .token.property {
-      color: #544B43;
-    }
-
-    .post-content .token.selector,
-    .post-content .token.atrule,
-    .post-content .token.builtin,
-    .post-content .token.entity,
-    .post-content .token.url {
-      color: #6B9080;
-    }
-
-    .post-content .token.deleted {
-      color: #D85D3E;
-      font-style: italic;
-    }
-
-    .post-content .token.variable {
-      color: #1F1812;
-    }
-  </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
 </head>
@@ -80,12 +28,13 @@
     <div class="container">
       <div class="header-content">
         <h1 class="site-title">
-          <a href="../index.html">Ross Rader</a>
+          <a href="../index.html">Ross Rader<span class="cursor">_</span></a>
         </h1>
         <nav>
           <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../log.html">Log</a></li>
           </ul>
         </nav>
       </div>
@@ -98,14 +47,14 @@
         <header class="post-header">
           <h1>Yes, AI Sucks. That Makes It The Best Time to Learn</h1>
           <div class="post-meta">
-            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>December 18, 2025</span>
-            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -0.125em; margin-right: 0.3em;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 min read</span>
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2025-12-18</span>
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 min read</span>
           </div>
           <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">Thoughts</span>
-            <span class="tag">Innovation</span>
-            <span class="tag">Learning</span>
+            <span class="tag">ai</span>
+            <span class="tag">thoughts</span>
+            <span class="tag">innovation</span>
+            <span class="tag">learning</span>
           </div>
         </header>
 
@@ -138,7 +87,7 @@ Before someone builds a “super-bad robot,” someone has to build a “mildly 
 
         </div>
 
-        <a href="../blog.html" class="back-link">← Back to blog</a>
+        <a href="../blog.html" class="back-link">← back to blog</a>
       </article>
     </div>
   </main>

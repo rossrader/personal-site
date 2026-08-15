@@ -7,8 +7,21 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2026 12:23:31 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Just a test</title>
+      <link>https://rossrader.ca/posts/my-post-test.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/my-post-test.html</guid>
+      <pubDate>Sat, 15 Aug 2026 04:00:00 GMT</pubDate>
+      <description></description>
+      <content:encoded><![CDATA[<h1>This is just a test</h1>
+<p>hello world! I am testing out the new WYSIWYG editor I built for my personal blog. we&#39;ve mainained the markdown -&gt; git -&gt; github -&gt; netlify pipeline, but added a hosted front-end that lives in a docker container on my server.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>testing</category>
+    </item>
     <item>
       <title>Exploring Semantic MCP</title>
       <link>https://rossrader.ca/posts/semantic-mcp.html</link>
@@ -148,9 +161,9 @@ Once the page loads, click the gear icon in the top right corner. In the downloa
 <p>The next step is testing whether a headless Claude Code agent can reliably dispatch these browser tasks as part of a larger workflow, which doesn&#39;t feel like a high-bar for CC. If it holds up, I&#39;ve got a path to automate data collection across a whole category of tools that were previously manual-only.</p>
 ]]></content:encoded>
       <author>rossrader@gmail.com (Ross Rader)</author>
-      <category>AI</category>
-      <category>Automation</category>
-      <category>Claude</category>
+      <category>ai</category>
+      <category>automation</category>
+      <category>claude</category>
     </item>
     <item>
       <title>Claude Code Skills vs. Spawned Subagents</title>
@@ -204,10 +217,10 @@ subprocess.Popen(cmd, ...)
 <p><em>For Anthropic&#39;s full comparison of Skills, subagents, Projects, MCP, and prompts, see their <a href="https://claude.com/blog/skills-explained">Skills Explained</a> guide.</em></p>
 ]]></content:encoded>
       <author>rossrader@gmail.com (Ross Rader)</author>
-      <category>Claude Code</category>
-      <category>Agents</category>
-      <category>AI</category>
-      <category>Learning</category>
+      <category>claude code</category>
+      <category>agents</category>
+      <category>ai</category>
+      <category>learning</category>
     </item>
     <item>
       <title>Yes, AI Sucks. That Makes It The Best Time to Learn</title>
@@ -242,10 +255,10 @@ Before someone builds a “super-bad robot,” someone has to build a “mildly 
 <p>The window where you can learn cheaply, visibly, and with low consequence is now. Ignoring it doesn&#39;t make you prudent, it makes you unprepared.</p>
 ]]></content:encoded>
       <author>rossrader@gmail.com (Ross Rader)</author>
-      <category>AI</category>
-      <category>Thoughts</category>
-      <category>Innovation</category>
-      <category>Learning</category>
+      <category>ai</category>
+      <category>thoughts</category>
+      <category>innovation</category>
+      <category>learning</category>
     </item>
     <item>
       <title>Multi Model Deep Research: Not Quite What I Expected</title>
@@ -264,9 +277,9 @@ Before someone builds a “super-bad robot,” someone has to build a “mildly 
 <p>Long story short, the results were merely &quot;okay&quot;. The merged output was clearer, more accurate, and more consistent than the individual runs but overall, the output lacked the depth of the two input documents, even with the benefit of the same context. After six different tries, with slight tweaks to the prompt each time, it still felt like I was reading a copy of a copy. For all of the extra effort, the extra steps don&#39;t quite seem to be worth it.</p>
 ]]></content:encoded>
       <author>rossrader@gmail.com (Ross Rader)</author>
-      <category>Prompt Design</category>
-      <category>Experiments</category>
-      <category>Models</category>
+      <category>prompt design</category>
+      <category>experiments</category>
+      <category>models</category>
     </item>
     <item>
       <title>Day 1</title>
@@ -280,9 +293,9 @@ Before someone builds a “super-bad robot,” someone has to build a “mildly 
 <p>So, Hello World! rossrader.ca is back on the air.</p>
 ]]></content:encoded>
       <author>rossrader@gmail.com (Ross Rader)</author>
-      <category>Meta</category>
-      <category>Method</category>
-      <category>AI</category>
+      <category>meta</category>
+      <category>method</category>
+      <category>ai</category>
     </item>
   </channel>
 </rss>
