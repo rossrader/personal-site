@@ -7,9 +7,25 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 13:32:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 13:44:21 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Gibson on AI</title>
+      <link>https://rossrader.ca/posts/gibson-on-ai.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/gibson-on-ai.html</guid>
+      <pubDate>Sat, 15 Aug 2026 04:00:00 GMT</pubDate>
+      <description>William Gibson had it all figured out - but we didn&apos;t listen.</description>
+      <content:encoded><![CDATA[<p>Sounds like a smart design pattern. Sam and Dario aren&#39;t reading the right books it seems.</p>
+<p>“<em>See, those things, they can work real hard, buy themselves time to write cookbooks or whatever, but the minute, I mean the nanosecond, that one starts figuring out ways to make itself smarter, [the central registry will] wipe it. Nobody trusts those fuckers, you know that. Every AI ever built has an electromagnetic shotgun wired to its forehead.</em>”</p>
+<p>Excerpt From
+&quot;Neuromancer&quot; by William Gibson</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>ai</category>
+      <category>reading</category>
+      <category>literature</category>
+    </item>
     <item>
       <title>Exploring Semantic MCP</title>
       <link>https://rossrader.ca/posts/semantic-mcp.html</link>
