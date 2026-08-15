@@ -117,6 +117,7 @@ Blog/
 | `tags` | No | Array of topic tags | `["AI", "Technology"]` |
 | `excerpt` | No | Brief description for list pages | `"A short summary..."` |
 | `featured` | No | Set `true` to highlight on the home page (falls back to newest posts if none are flagged) | `true` |
+| `draft` | No | Set `true` to hold the post back: not built, not listed, not in the feed, not announceable. New posts created in the admin UI start as drafts. | `true` |
 | `readingTime` | No | Overrides the auto-computed estimate (based on word count) | `"5 min read"` |
 
 ## Markdown Syntax
