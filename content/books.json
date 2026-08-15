@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-08-15T14:17:21.546Z",
+  "username": "rossrader",
+  "profileUrl": "https://hardcover.app/@rossrader",
+  "reading": [
+    {
+      "title": "Neuromancer",
+      "slug": "neuromancer",
+      "authors": [
+        "William Gibson"
+      ],
+      "cover": "https://assets.hardcover.app/editions/30401722/203725739738019-PxOL.jpg",
+      "finished": null
+    }
+  ],
+  "read": [
+    {
+      "title": "101 Essays That Will Change The Way You Think",
+      "slug": "101-essays-that-will-change-the-way-you-think",
+      "authors": [
+        "Brianna Wiest"
+      ],
+      "cover": "https://assets.hardcover.app/edition/30545058/168b5ec695bc97713049b3d66af20ceab8f0e819.jpeg",
+      "finished": "2026-08-03"
+    },
+    {
+      "title": "Fahrenheit 451",
+      "slug": "fahrenheit-451",
+      "authors": [
+        "Ray Bradbury"
+      ],
+      "cover": "https://assets.hardcover.app/edition/6336191/3d353406f14fd36043a8bdfb8c3288f90ee4f96c.jpeg",
+      "finished": "2026-08-03"
+    },
+    {
+      "title": "Ready Player One",
+      "slug": "ready-player-one",
+      "authors": [
+        "Ernest Cline"
+      ],
+      "cover": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg",
+      "finished": "2026-07-02"
+    },
+    {
+      "title": "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
+      "slug": "team-topologies",
+      "authors": [
+        "Matthew Skelton",
+        "Manuel Pais"
+      ],
+      "cover": "https://assets.hardcover.app/external_data/59509611/9f7a581e8505f1625ab6b3b4e0bca562b4b58966.jpeg",
+      "finished": "2026-07-01"
+    }
+  ]
+}
