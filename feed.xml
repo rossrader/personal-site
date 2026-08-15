@@ -7,7 +7,7 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2026 14:28:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:38:50 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
@@ -15,8 +15,8 @@
       <link>https://rossrader.ca/posts/gibson-on-ai.html</link>
       <guid isPermaLink="true">https://rossrader.ca/posts/gibson-on-ai.html</guid>
       <pubDate>Sat, 15 Aug 2026 04:00:00 GMT</pubDate>
-      <description>William Gibson had it all figured out - but we didn&apos;t listen.</description>
-      <content:encoded><![CDATA[<p>Sounds like a smart design pattern. Sam and Dario aren&#39;t reading the right books it seems.</p>
+      <description>William Gibson saw it all way before we did - from the trivial use cases we&apos;ve embraced, to the need for a kill switch.</description>
+      <content:encoded><![CDATA[<p>Sounds like a smart design pattern.</p>
 <p>“<em>See, those things, they can work real hard, buy themselves time to write cookbooks or whatever, but the minute, I mean the nanosecond, that one starts figuring out ways to make itself smarter, [the central registry will] wipe it. Nobody trusts those fuckers, you know that. Every AI ever built has an electromagnetic shotgun wired to its forehead.</em>”</p>
 <p>Excerpt From
 &quot;Neuromancer&quot; by William Gibson</p>
