@@ -8,7 +8,6 @@ tags:
 excerpt: >-
   William Gibson saw it all way before we did - from the trivial use cases we've
   embraced, to the need for a kill switch.
-featured: true
 ---
 
 Sounds like a smart design pattern.
