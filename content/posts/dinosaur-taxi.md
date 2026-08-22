@@ -1,5 +1,5 @@
 ---
-title: '# One day, a dinosaur took a taxi to the observatory...'
+title: 'One day, a dinosaur took a taxi to the observatory...'
 date: 'August 22, 2026'
 tags:
   - telecom
