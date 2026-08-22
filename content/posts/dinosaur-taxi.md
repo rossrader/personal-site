@@ -80,4 +80,4 @@ That's why the conversation is orbital. Each new noun resets the amortization sc
 
 None of this means the network stopped mattering. Packets still need to move, and moving them well is honest, necessary, albeit capital-intensive, work. It means the value of the network is the value of transport, utility-priced, and every attempt to charge platform margins for utility assets ends the same way: with the platform built by someone else, on top, at the edge, exactly where the protocol said the intelligence would thrive.
 
-IP was a verdict. Telecom has spent twenty-five years appealing it, repeatedly.
+IP was a verdict. Telecom has spent twenty-five years appealing it, one noun at a time.
