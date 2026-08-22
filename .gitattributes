@@ -15,3 +15,7 @@ feed.xml merge=regen
 
 # App-owned page shells (copied from blog-admin templates on every build)
 styles.css merge=regen
+
+# Hardcover shelf cache: refreshed from the API on every build, so
+# concurrent laptop/server builds both rewrite it — either side is fine.
+content/books.json merge=regen
