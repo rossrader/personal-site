@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One History of DNS - Ross Rader</title>
+  <meta name="description" content="A 2001 essay tracing the domain name system from HOSTS.TXT through the Domain Wars to the birth of ICANN. Reproduced from the original PDF.">
+  <link rel="canonical" href="https://rossrader.ca/one-history-of-dns.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="One History of DNS">
+  <meta property="og:description" content="A 2001 essay tracing the domain name system from HOSTS.TXT through the Domain Wars to the birth of ICANN. Reproduced from the original PDF.">
+  <meta property="og:url" content="https://rossrader.ca/one-history-of-dns.html">
+  <meta property="og:site_name" content="Ross Rader">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="One History of DNS">
+  <meta name="twitter:description" content="A 2001 essay tracing the domain name system from HOSTS.TXT through the Domain Wars to the birth of ICANN.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="index.html">Ross Rader<span class="cursor">_</span></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="log.html">Log</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>One History of DNS</h1>
+          <div class="post-meta">
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2001-04-25</span>
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>35 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">dns</span>
+            <span class="tag">icann</span>
+            <span class="tag">history</span>
+            <span class="tag">archive</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <aside class="doc-note">
+            <p class="eyebrow">a note from present-day ross</p>
+            <p>I wrote this over 20 years ago. Boy, was I pretentious—but some of you may find the story interesting.</p>
+          </aside>
+
+          <p class="doc-source">
+            Originally published April 25, 2001 by Ross Wm. Rader. Reproduced here in full from the
+            <a href="http://www.byte.org/one-history-of-dns.pdf">original PDF at byte.org</a>,
+            with formatting adapted for the web. The text is otherwise unchanged.
+          </p>
+
+          <hr>
+
+          <h2>Introduction</h2>
+
+          <p>Like most Internet protocols, DNS (or &ldquo;Domain Name Service&rdquo;) is 10% technical in nature and 90% political, which means that it is the conscious product of human design. Also like most other protocols, no one really realizes this until the time to make a change has long passed. The most unfortunate side effect is that the average person, who is generally the most affected, has little or no opportunity to participate in the process.</p>
+
+          <p>DNS acts as the backbone to the Internet. It is important to understand the dynamics that shaped the system. Why is ICANN important to every single person that uses the Internet? What role does the United States Government actually play behind the scenes? How did Network Solutions get to where they are today? The answers to these questions have, and will continue to determine what the Internet looks like today and what it will look like tomorrow. As George Santayana said, &ldquo;Those who cannot remember the past are condemned to repeat it.&rdquo; Without the benefit of these answers, the scope and scale of accomplishment in this sector will be limited.</p>
+
+          <h2>The Early Years</h2>
+
+          <blockquote class="epigraph">
+            &ldquo;In [the early days] there was no &lsquo;commercial motivation&rsquo;&hellip;&rdquo;
+            <cite>&mdash; Dr. David Mills</cite>
+          </blockquote>
+
+          <p>The evolution of DNS has been long governed by technicians and politicians. Often time, the same people simultaneously assumed both roles. This makes it very difficult at times to look back at the events that critically shaped DNS and determine what really happened. Anthony Rutkowski, Vice President of Internet Strategy for Network Solutions Inc. stated, &ldquo;The evolution of the Internet's method for names and number assignment is one of the Internet's most enduring and difficult transitions.&rdquo;</p>
+
+          <p>When Doug Engelbart created the ARPAnet NIC (Network Information Center) at Stanford&rsquo;s Research Institute in 1967, DNS did not exist. The network was small enough that the users and servers generally knew how to get around from service to service and interact with each other without the benefit of a global directory structure. As the network grew in size, it became apparent that such a service would be important, but due to scale reasons, it was never quite taken to its conclusion. Instead, in 1971, Peggy Karp conceived of &ldquo;host mnemonics&rdquo; (RFC 226), or more simply, Internet names.</p>
+
+          <p>Building on the concepts contained in RFC 226, she created lookup table that mapped all of the network resources in one text formatted file. Called &ldquo;HOSTS.TXT&rdquo;, the table contained all of the hostnames and their related IP addresses. Operators would install this file on their local server, which would then gain the capability to perform the requisite lookups locally and enable the computer to find resources out on the larger network without a lot of overhead. Whenever an operator added a new machine to the network, they would complete an email template with the appropriate information, send it off to the appropriate people at Stanford Research Institute (SRI) who would compile all of the changes and include them in the next release of HOSTS.TXT and store the new file on a globally available FTP server. Operators would retrieve the updated versions on a regular basis and install them on their local servers. The first version of this table was distributed in 1972. While this arrangement worked well for a number of years, but it suffered from one systemic problem &ndash; it wasn&rsquo;t scalable.</p>
+
+          <p>As the network grew in popularity and new hosts were added, the size of HOSTS.TXT grew in direct relationship. For each host on the ARPAnet, HOSTS.TXT added a new record. Further exacerbating this problem of scale were the problems of authority. If operators did not update their records on a regular basis, HOSTS.TXT would grow out of date which led to name collisions and all sorts of confusion. Name collisions occur when the network thinks that more than host shares the same domain (i.e. &lsquo;rader.example.com&rsquo; produces an answer of both 10.10.10.141 and 10.10.10.25). On the brighter side, it was the success of the ARPAnet that led to the failure of the lookup service. Needless to say, both of these issues led the engineers of the time to come to the conclusion that a new structure would have to be put into place to replace HOSTS.TXT.</p>
+
+          <p>The Domain Name System was conceived in RFC (Request for Comments) 799 in 1981. Written by Dr. David Mills who was at COMSAT at the time, RFC 799 outlined the concepts and facilities required for an Internet Name Domains system that would eventually scale to facilitate addressing of &ldquo;thousands of hosts&rdquo;. Although a working solution to the much larger problem resulted, Mills initial intent was much more practical.</p>
+
+          <p>&ldquo;&hellip;The emerging intercommunity mail forwarding of the time was highly fragmented and ad hoc. Everyone knew that the mail world would eventually be fragmented according to conventional organizational principles. My interests [in creating Internet Name Domains] were more focused on the mechanics of doing this and on mail forwarding principles for the Internet. Not the least of my concerns were the mechanisms for handing off mail between forwarders and handling errors as they might develop,&rdquo; He recently commented.</p>
+
+          <p>Interestingly enough, the solution would ultimately address a problem far larger than what Mills had originally designed. As Mills observes in the RFC, &ldquo;it will not be practicable for every internet host to include all Internet hosts in its name-address tables. Even now, with over four hundred names and nicknames in the combined tables, this has become awkward.&rdquo; The current DNS supports millions of host entries.</p>
+
+          <p>RFC 819, written by Jon Postel from the Information Sciences Institute (ISI) at the University of Southern California (USC) &amp; Zaw-Sing Su from Stanford Research Institute (SRI) in 1982 built on the earlier work by Mills and gave the first general outline of the DNS structure and how it would allow for easier cross-network access. In November of 1983, Dr. Paul Mockapetris, also from ISI, published a request for comments to the Internet community entitled &ldquo;Domain Names &ndash; Concepts and Facilities&rdquo; as RFC 882 and &ldquo;Domain Names &ndash; Implementation and Specification&rdquo; as RFC 883. These two papers (later made obsolete by RFC 1034 and RFC 1035) outlined a completely new way of managing host name lookups. Most importantly, they included two very important concepts, delegation and authority.</p>
+
+          <p>Authority can be described as the &ldquo;sphere of influence that one has complete control over&rdquo;. In the case of DNS, this is true on a zone-to-zone basis. A zone consists of the sub-domains that fall directly beneath any given domain. For instance SRI has authority over all domains created below sri.com including mail.sri.com, www.sri.com, ftp.sri.com, usenet.sri.com, and so on. Delegation described the process by which someone gains authority for his or her zone. SRI Network Operations might delegate authority to their Hong Kong office for hk.sri.com. The Hong Kong office would then be authoritative for the hk.sri.com domain and all sub domains that fell underneath it (for instance, mail.hk.sri.com and so on.) The Hong Kong office could also delegate authority to another party for the fourth level domain to yet another third party.</p>
+
+          <p>Delegation is the basis upon which all power and conflict in the DNS today is derived.</p>
+
+          <p>When the design work was finally complete, Jon Postel and Joyce Reynolds wrote RFC 920, which outlined the groundwork that had to take place and set the rapid pace at which the change would occur. RFC 920 was also significant for another reason: it outlined the initial top-level domain names that would be added to the DNS when it was finally deployed. These included .com, .net, .org, .edu, .gov, .mil and .arpa. The document also outlines plans for the creation of country-related TLDs using the two letter ISO (International Standards Organization) codes (becoming, .ca, .us, .uk etc) and TLDs for &ldquo;multiorganizations&rdquo; that called for the creation of TLDs for organizations that were &ldquo;&hellip;large, and composed of other organizations; particularly if the multiorganization can not be easily classified into one of the categories and is international in scope.&rdquo; The concept of multiorganizational TLDs was later assumed under the .int TLD.</p>
+
+          <p>The successful deployment of DNS made it apparent to the Defense Communications Agency (the &ldquo;DCA&rdquo;, now called the &ldquo;Defense Information Systems Agency&rdquo; or &ldquo;DISA&rdquo;) that a centralized management structure was necessary to manage the root and delegate authority to registrants within that root. As the DCA had split the ARPAnet into the ARPAnet and MILnet in 1993 (With MILnet becoming integrated into the Defense Data Network (DDN) shortly thereafter), it was important that whomever they choose to manage the technical operations of the root and the registry did so in a manner consistent with the requirements of the military.</p>
+
+          <p>The DCA chose the Stanford Research Institute to manage the registration of all domain names in the new DNS and awarded the root management and the operations of DDN-NIC (Defense Data Network Network Information Center, a semi-private digital packet switched network meeting the United States Department of Defense&rsquo;s stringent communications standards) to ISI. After all, who better to manage the services, but those that had created it? In March of 1985, all of the work paid off and the first domain names were registered. (Some claim the very first &ldquo;.com&rdquo; was &ldquo;symbolics.com&rdquo; and others, &ldquo;think.com&rdquo;). By most accounts, 1985 was the year that the &ldquo;Modern History&rdquo; of DNS actually began.</p>
+
+          <p>For a number of years, the evolution of DNS progressed smoothly and functioned very much as back-office support to the operation of the network. In 1986, the growing needs of the academic community led to the creation of the NSFnet by the United States National Science Foundation, which awarded the backbone management contract to Merit Networks Inc. in 1987. The NSFnet was the last incarnation of the network prior to the Internet that we use today. By the time that the ARPAnet was retired in 1990, the network of networks had grown to include over 100,000 connected host computers.</p>
+
+          <p>The demise of the ARPAnet was certainly the end of the grand experiment and proved that the concept of a globally distributed, fault-tolerant, standards-based network was indeed a practical concept. It was the first step towards moving towards the commercialized environment that we know today. It was also the last time that politics was incidental to the DNS. Very quickly, politics would completely overshadow what the wizards behind ARPAnet had set out to accomplish.</p>
+
+          <h2>Towards Commercialization</h2>
+
+          <blockquote class="epigraph">
+            &ldquo;What we call 'Progress' is the exchange of one nuisance for another nuisance.&rdquo;
+            <cite>&mdash; Henry Havelock Ellis</cite>
+          </blockquote>
+
+          <p>In 1991, DISA awarded a small contract that would change the face of DNS. The contract specified the terms under which a new third party to take over the administration and maintenance of DDN-NIC, which had been up until this point under the management of SRI. A defense contractor, Government Systems, Inc. was awarded the bid in May. By late September, GSI had assumed operational responsibility for DDN-NIC.</p>
+
+          <p>Although the official record indicates that the contract was fulfilled by GSI internally, GSI actually outsourced it to a small private-sector contractor, Network Solutions Inc. As Rutkowski points out, a number of people have incorrectly concluded that &ldquo;&hellip;NSI was a spin-off because of the similar names and the fact that NSI was performing the entire DISA NIC contract.&rdquo;</p>
+
+          <p>Even Rutkowski himself had earlier been a believer of the misinformation. &ldquo;It was only relatively recently that I found out that GSI outsourced the entire contract to NSI, and that they were in fact independent companies.&rdquo; when commenting on the seeming paradox.</p>
+
+          <p>Leveraging the experience gained in managing the DDN-NIC operations for DISA, Network Solutions tendered a bid in May of 1992 with the National Science Foundation to provide network information services management to NSFnet and NREN (NASA Research &amp; Education Network). NSI was awarded this contract in October of 1992 under the terms of NSF Cooperative Agreement # NCR-9218742 which, among other things, specified &ldquo;The Non-military internet registration services to be provided under this agreement will initially include, but not be limited to, the following: Domain name registration, Domain name server registration, Network number assignment, Autonomous system number assignment&rdquo;.</p>
+
+          <p>The import of this development is two-fold. First, the academics that had built the service were now no longer involved. Secondly, the central nervous system of the Internet was squarely in the hands of the private sector. Certainly NSF still exerted a great deal of control over the activities of Network Solutions and made sure that the Cooperative Agreement was executed in a manner consistent with the needs of the network and its community. The seeds of privatization had been sown.</p>
+
+          <p>1994 was a watershed year in the development of the Internet. First, it was the year that saw the beginning of the popular adoption of Tim Berners-Lee&rsquo;s World Wide Web with the release of NCSA Mosaic. Second, the National Science Foundation and the United States Government started to remove themselves from the picture allowing commercial interests to start exploiting the network. Suddenly, everyone wanted to get online, surf the net and dive into Gopher-space. The rush towards a connected society had begun.</p>
+
+          <p>Until 1995, academic policy on the name-space allowed anyone that had access to a name server to register a domain name with the NSI InterNIC &ndash; for free. Needless to say, as the perceived value of being online increased, so did the perceived value of Internet Domain Names. Thus, warehousing and speculation was born. It wasn&rsquo;t unusual for a speculator to register hundreds, or even thousands of domain names simply based on the potential that someone might want to purchase the domain name from them in the future. After all, the names were free to the first-comer to register, why not grab as many as you could on the off chance you could make a few bucks?</p>
+
+          <p>In an attempt to mitigate this as well as recover some of the costs of operation, NSF began to allow NSI to start charging $50 per domain name registration this same year. Needless to say, this did not please the general Internet public who were used to the US Government subsidies.</p>
+
+          <p>The NSF was eventually forced to drop 30% of the $50 fee that had been earmarked by the US Government for general Internet infrastructure projects. The infrastructure fund was deemed an illegal tax because Congress had not approved it. The NSF, as a governmental body had no mandate to levy fees of this nature on the populace. During the short time period that this additional fee was collected, hundreds of thousands of dollars were collected from individuals not under US jurisdiction.</p>
+
+          <h2>&ldquo;The DNS Wars&rdquo;</h2>
+
+          <blockquote class="epigraph">
+            &ldquo;The Internet is about consensus, not truth. Never mistake truth for consensus.&rdquo;
+            <cite>&mdash; Brian Reid</cite>
+          </blockquote>
+
+          <p>Network Solutions&rsquo; decision move to charge for domain names started a period in DNS history that some refer to as the &ldquo;Domain Wars&rdquo;. Battle lines were drawn around the thorny issue of who ultimately controlled the namespace in fact and who should control the namespace. These opposing camps could be roughly characterized as The Old Guard, The Geeks, The Monopolist and The Politicos. Unfortunately, it was seldom easy to identify who belonged to which camp most of the time. Many people held multiple allegiances. Each of these players saw an opportunity to leverage control of the name space into something much larger. What that something was varied from group to group based on their agenda.</p>
+
+          <p>The rallying point for these groups often centered on Network Solutions role as a monopoly within the DNS. Partially answering this question, Jon Postel released the first of his iTLD (International Top-Level Domain) drafts in May of 1996. These drafts were based on prior work of Larry Landweber that had been revised and iterated upon by Randy Bush, Karl Denninger and Brian Carpenter. The iTLD drafts put forth a number of very important concepts that completely define the political structure of DNS today. It also sparked a continuing unresolved debate.</p>
+
+          <p>Postel&rsquo;s goals were very simple. One, his draft outlined a mechanism to allow open competition in domain name registration within the namespace, thus muting the monopoly that NSI had. Second, it provided a way to give IANA the legal and financial umbrella it needed to survive. Later that month, the board of directors of ISOC (the Internet Society) voted to accept Postel&rsquo;s draft as a proposal for the management and expansion of the namespace at their annual meeting in Montreal, Canada. While the board recognized that significant work was needed to complete the plan, it was thought that it could be achieved in a matter of months. This meeting would ultimately lead to the creation what would become known as the IAHC, or &ldquo;Internet Ad Hoc Committee&rdquo;.</p>
+
+          <p>Founded in October of 1996, the IAHC&rsquo;s stated goal was to &ldquo;&hellip;undertake defining, investigating, and resolving issues resulting from current international debate over a proposal to establish global registries and additional international Top Level Domain names (iTLDs),&rdquo; according to Don Heath, who was then president and CEO of the Internet Society. The founding board read like a who&rsquo;s who of the inside track of the Internet, with some interesting new faces as well. The International Telecommunication Union (ITU), the World Intellectual Property Organization (WIPO), and the International Trademark Association (INTA), ISOC, IANA, and the Internet Architecture Board (IAB) all appointed members to the IAHC board. The IAHC quickly became symbolic of the efforts of The Old Guard to change the face of the namespace. IAHC wasted no time and quickly announced to the world that they would quickly be creating seven new top-level domain names - firm, .store, .web, .arts, .rec, .info, and nom. They were also calling for the creation of a competing group of domain registrars.</p>
+
+          <p>The IAHC issued a report concerning the administration and management of gTLDs (generic top-level domains). The plan, released to the public on February 4, 1997, expanded on the concepts originally put forth by Postel and wrapped them in a number of compromises designed to satisfy the many interests involved in the process. The trademark community was represented, as were the privacy advocates, standards bodies and Internet and telecommunications carriers. These groups were to be embodied in a group known as the Interim Policy Oversight Committee (IPOC), a bootstrap committee that would later cede control to a permanent Policy Oversight Committee. Further, it also described in detail a new not-for-profit registry model that would be managed by a consortium of international registrars. This consortium was known as CORE. The IPOC/POC and CORE would be self-enacted through a document called the gTLD-MoU.</p>
+
+          <p>The gTLD-MoU, or &ldquo;Generic Top-level Domain Memorandum of Understanding&rdquo;, was released on February 4, 1997 for public comment to formalize the recommendations made by the IAHC. Some viewed it as simply a more complex and unworkable version of the earlier IAHC, Postel and ISOC efforts. Others still viewed it as a scary step towards a new world government led by the ITU and WIPO. These concerns, and many more, consumed almost all of 1997 in debate. The international flavor of the arrangements was a concern to many. The registry would be run by a Swiss non-profit (CORE), dispute resolution would be managed by a Swiss based, United Nations treaty organization, the World Intellectual Property Organization (WIPO) and administrative activities would be supported by another Swiss based organization, the ITU (International Telecommunications Union).</p>
+
+          <p>While IAHC Old Guard was pushing the gTLD-MoU as a done deal the dissident voices were getting louder. One of these voices coalesced into an organization known as eDNS. eDNS was a loosely knit group of individuals that came together to create an &lsquo;alternative root namespace&rdquo;. Led chiefly by Karl Denninger and Eugene Kashpureff, eDNS attempted to replicate what Network Solutions and IANA had already accomplished with .com, .net and .org. eDNS also set the pace for the Geeks involved in the process. Their efforts proved to be short-lived. Infighting between the two leaders eventually led to Karl Denninger disassociating himself from eDNS&rsquo;, which he characterized as &ldquo;a disgusting joke begotten from what it was envisioned to be.&rdquo; in his resignation letter.</p>
+
+          <p>While Denninger remained active around the fringes of the process, Kashpureff escalated his efforts to dethrone Network Solutions. In July, he altered the DNS for InterNIC.net, which was then Network Solutions primary face on the web, so that all traffic flowed instead to his new effort, AlterNIC, not once but twice. AlterNIC was essentially a protest vehicle against Kashpureff&rsquo;s view of the NSI monopoly. In a statement to CNET, Kashpureff stated that &ldquo;The hack was a result of a years' worth of work&hellip; I'm proud of what I did." However, "I have some remorse. I understand that what I did was wrong. My ideals, my emotions got the best of me&rdquo;. Kashpureff ended up leaving the country and fled to Canada where he was eventually jailed for three months pending extradition. Upon his return to the United States, his penalties ended being a $100 fine and probation.</p>
+
+          <p>While The Old Guard debated and The Geeks revolted, another incident took place which, had it occurred at a different time, would have been nothing more than a temporary anomaly. On July 17, 1997, human error at Network Solutions corrupted the master zone files for .com, .net and .org throwing the Internet into a state of disarray. While the problem was resolved in roughly 4 hours, the repercussions of the meltdown were felt by the Internet community throughout the rest of that day and into the next. Not only did this event occur the same week that Kashpureff &ldquo;hijacked&rdquo; the InterNIC, the story was broken by John Markoff of the New York Times, a prominent writer known for his coverage of and subsequent book about Kevin Mitnick. With the story making headlines in the New York Times and many other major news outlets, everyone quickly realized that the Internet wasn&rsquo;t as indestructible as they had been led to believe. In fact, many realized that the stability of the Internet rested largely with Network Solutions.</p>
+
+          <p>Through this uncertainty, President Clinton directed the Secretary of Commerce to &ldquo;privatize, increase competition in, and promote international participation in the domain name system&rdquo; as part of his administrations &ldquo;Framework for Global Electronic Commerce&rdquo;. Accordingly the Department of Commerce issued their first request for comments on July 2nd soliciting &ldquo;&hellip;public input on issues relating to the overall framework of the DNS system, the creation of new top-level domains, policies for registrars, and trademark issues.&rdquo; This was widely viewed as a very important step. For the first time in the history of the Internet, the government of the United States had proven their capability to be aware of such arcane subjects as DNS. It was also the first indication that the deal The Old Guard was pushing was perhaps &ldquo;not quite done&rdquo;.</p>
+
+          <p>This confluence of events and uncertainty spurred the debate from which ARIN grew. ARIN, the American Registry for Internet Numbers, is a non-profit organization established for the purpose of administration and registration of Internet Protocol (IP) numbers for North America, South America, the Caribbean and sub-Saharan Africa. Until 1997, InterNIC/NSI had taken care of these responsibilities, but as Kim Hubbard, past-president of ARIN puts it, &ldquo;After NSI began charging for DNS registration and the discussion on DNS registration competition began, there was concern voiced among some in the industry that IP registration might somehow be affected.&rdquo;</p>
+
+          <p>Others in the business have a decidedly different view. &ldquo;ARIN was created as a non-profit entity that Network Solutions could more or less spin off because there was just not going to be any money in that part of their business.&rdquo; commented a source close to the issue that declined to be named for this article. Regardless of the primary motivation, it was quite widely held that the community had to move forward with the ARIN idea.</p>
+
+          <p>&ldquo;DNS registration competition discussions at one point became quite hostile and the last thing anyone wanted was IP registration to be pulled into the political morass that DNS had become,&rdquo; said Hubbard. &ldquo;There was concern that while it was plausible to make DNS registration a financially competitive function, the same could not be said for IP registration. For various technical reasons, it was not viable for companies to compete on a monetary basis to allocate IP numbers&rdquo;. Once the community had recognized the potential problems, ARIN was created quickly. As Hubbard indicates, &ldquo;&hellip;it became evident that the best way to handle the situation was to separate the two registration processes in every way possible&rdquo;. Through work with NSI, the Internet community and in consultation with the Federal Networking Council, ARIN officially opened for operation on December 22, 1997.</p>
+
+          <p>The situation with CORE and the gTLD-MoU was not progressing any smoother at this point. The US House of Representatives held hearings into the state of the DNS that were specifically concerned with the activities arising from the original IAHC plans. Opposition to the gTLD-MoU was at an all-time high as original supporters dropped out. Further, the involvement of the government gave the opposition a chance to derail the entire process that was still being sold as a &ldquo;done deal&rdquo; between the various parties and the US Department of Commerce. Success appeared to be at hand. On September 30, 1997 however, the deal start to unravel.</p>
+
+          <p>At one of the many House Committee hearings on the subject at the time, opponents of the IAHC/gTLD-MoU plan seemed to gain the upper hand. The Commercial Internet Exchange (CIX), Information Technology Association of America (ITAA), Tony Rutkowski representing World Internetworking Alliance (WIA) and Andy Sernovitz representing the Association for Interactive Media (AIM) all went on the record in some manner opposing the plan. Perhaps most damaging to the gTLD-MoU was Sernovitz&rsquo;s denunciation of IAHC and IANA as betraying the United States to the governments of Libya and Iraq. While the claims were never completely substantiated or formally investigated, they damaged the credibility of the group behind the gTLD-MoU. Further, the total of all the comments successfully managed to call into focus the potential shift of power that the Internet represented to a country other than the United States.</p>
+
+          <p>Even though much damage had been done at the hearings and The Old Guard were now largely on the defensive, the gTLD-MoU continued to press forward. In October, the Internet Council of Registrars, CORE, awarded the technical management contract to run the registry system needed to support the new top-level domains and the shared registry system to Emergent Corporation, a small US consultancy.</p>
+
+          <p>On January 30, 1998, Ira Magaziner, who was the senior advisor to President Clinton for policy development, released a discussion paper that later became known as &ldquo;The Green Paper&rdquo;. According to Jonathan Weinberg who was working close to the matter at the time, the Green Paper was the result of thinking within the higher levels of the Government that &ldquo;&hellip;the USG thought it could design an institution that would work better.&rdquo; And, it appeared that Magaziner had the authority of the President to make certain that US rule of the DNS was maintained.</p>
+
+          <p>While Magaziner&rsquo;s Green Paper was very similar to Postel&rsquo;s original iTLD drafts, they made one very important distinction. The United States Government would remain involved over the short and mid terms to ensure a reasonable and orderly transition a new, non-profit organization, or NewCo. This statement would effectively unravel ISOC&rsquo;s position as the driver behind the IAHC/gTLD-MoU process. It also spoke out directly against the trademark resolution processes that WIPO had written into the gTLD-MoU. While Magaziner was in favor of trademark protection as part of NewCo&rsquo;s mandate, he made it very clear that the domain registrars and not NewCo should hold the cost of dispute resolution and all liability.</p>
+
+          <p>Magaziner also outlined the early demise of the Network Solutions Cooperative Agreement with the US Government. His major points on this subject stated that:</p>
+
+          <ul>
+            <li>&ldquo;NSI will effectively separate and maintain a clear division between its current registry business and its current registrar business. NSI will continue to operate .com, .net and .org but on a fully shared-registry basis; it will shift operation of .edu to a not-for-profit entity. The registry will treat all registrars on a nondiscriminatory basis and will price registry services according to an agreed upon formula for a period of time.&rdquo;</li>
+            <li>&ldquo;As part of the transition to a fully shared-registry system, NSI will develop (or license) and implement the technical capability to share the registration of its top-level domains with any registrar so that any registrar can register domain names there in as soon as possible, by a date certain to be agreed upon.&rdquo;</li>
+            <li>&ldquo;NSI will give the U.S. government a copy and documentation of all the data, software, and appropriate licenses to other intellectual property generated under the cooperative agreement, for use by the new corporation for the benefit of the Internet.&rdquo;</li>
+            <li>&ldquo;NSI will turn over control of the "A" root server and the management of the root server system when instructed to do so by the U.S. government.&rdquo;</li>
+            <li>&ldquo;NSI will agree to meet the requirements for registries and registrars&rdquo; as defined by the Green Paper.</li>
+          </ul>
+
+          <p>Magaziner&rsquo;s Green Paper specifically indicated that NSI&rsquo;s monopoly was scheduled to end on September 30 of that year. For the first time, there was a clear indication from the highest levels that the government endowed monopoly that NSI enjoyed was finite. The IAHC/gTLD-MoU detractors suddenly had a unified proposal to rally around, The Old Guard were left with a plan in shambles, Network Solutions was faced with a severe limitation of power and profits and Jon Postel was not happy with the new direction.</p>
+
+          <p>In response to the Green Paper, Postel issued a statement that note that ''I am in agreement with the main theme of the proposal... I am less comfortable with the details of the proposal on how new generic top-level domains, registrars and registries would be established, and the restriction to only five new gTLDs.''</p>
+
+          <p>On the weekend preceding February 4th, Jon Postel undertook what he characterized as a &ldquo;transition plan test&rdquo;. During this test, he had the root DNS system reconfigured to obtain DNS information not from the &ldquo;A&rdquo; root server operated by Network Solutions, but rather by one that he operated at ISI. In a written statement by Postel at the time he stated &ldquo;I wanted to see how easily management of the root servers could be passed to another machine when the government gives up its control of the domain system as described in the Green Paper.&rdquo; The US Government did not react well to this test. According to a report published in Network World at the time, Becky Burr, a senior official with the Department of Commerce, said the government knew nothing of the test beforehand. ''The timing is unfortunate,'' she said, referring to the release of the controversial domain plan.</p>
+
+          <p>Although control of the DNS was quickly handed back to Network Solutions, and therefore the US Government, Postel had made it very clear that he was unhappy with the statements made in the Green Paper and that he was still very much in charge of the DNS, regardless of who had contractual control.</p>
+
+          <p>On February 17, unknown individuals broke into Best Communications (now owned by Verio) and stole the registry servers that Emergent was installing for CORE. While this event was most likely the result of unfortunate timing, many at the time attributed the theft to a conspiracy backed by Network Solutions to discredit CORE and IAHC. Others seemed to think that this event was nothing more than an insurance fraud designed to underwrite the mounting costs faced by CORE. To this day, it has not been established who was responsible for the break-in or what happened to the equipment, but it was clear that CORE now had some serious obstacles to overcome.</p>
+
+          <p>On June 5th, Magaziner released a revised version of the Green Paper that took into account the extensive public commentary that had been collected by the Government since the release of the original draft. This new document referred to as &ldquo;The White Paper&rdquo; was released as an official statement of policy on behalf of the Department of Commerce. Most relevant was Magaziner&rsquo;s call to establish consensus on the issues presented in the White Paper by the relevant stakeholders. Essentially, he was granting the Internet one last chance to determine what their fate under the White Paper would look like.</p>
+
+          <p>Following the release of this document, a number of groups scurried to organize and forge towards consensus. At the time, Wired magazine&rsquo;s online counterpart reported that &ldquo;&hellip;the Clinton administration's new policy on Internet domain-name administration deferred most of the tough decisions about the system's shape and who would run it. Now, only two weeks after the plan's release, a host of companies, interest groups, and individuals are dashing into the decision-making vacuum. The rush is evident in a flurry of clashing announcements over the past 10 days that a variety of Internet "stakeholders" will hold conferences to address questions about the domain system and Internet governance.&rdquo;</p>
+
+          <p>The most important of these emerging groups was the International Forum for the White Paper or, IFWP. The IFWP genesis can be traced back to the announcement of a slightly earlier group, the Global Incorporation Alliance Workshop (GIAW) that had come out of nowhere and announced a conference to be held in Washington on July 1st and 2nd. The prevailing sentiment quickly emerged that the GIAW was nothing more than a Network Solutions front to address the issues presented by the White Paper in a manner amenable to NSI shareholders. As Rick Wesson of Alice&rsquo;s Registry Tools noted at the time on an IAHC mailing list, &ldquo;It would seem NSI and all the folks that lay claim to the goldmine of TLDs are setting up a meeting&hellip; the scary part is it looks like only those folks that oppose the gTLD-MoU are coming&rdquo;. Minutes from an organizers&rsquo; conference call show that there was agreement on a need to &ldquo;diffuse some of the negative associations with the GIAW&rdquo;. Thus, the IFWP was born.</p>
+
+          <p>The IFWP described themselves as &ldquo;an ad hoc coalition of professional, trade and educational associations representing a diversity of Internet stakeholder groups, including ISPs, content developers, trademark holders, networkers, intergovernmental groups, policy experts, and-users and others. This coalition has come together to sponsor a framework of coordinated international meetings, to be held around the world, called the International Forum on the White Paper, at which stakeholders will discuss the transition to private sector management of the technical administration of Internet names and numbers as outlined in the "White Paper" recently released by the United States Government. These international meetings are open to all Internet stakeholders, who are encouraged to support this on-going process.&rdquo;</p>
+
+          <p>The IFWP quickly gained support for a few very important reasons. First, it was quickly gaining momentum at a time when the IAHC/gTLD-MoU/CORE process was losing steam. Second, each group that had felt left out of the IAHC process was specifically embraced by the IFWP. Lastly, Network Solutions&rsquo; backed the IFWP lending it credibility where the IAHC lacked.</p>
+
+          <p>The IFWP sponsored a number of regional workshops held throughout the world in an attempt to address the issues raised by the White Paper and define a specific course of action that could fulfill the terms put forth by the Government. While The IFWP, it appears, did not produce a full working draft of bylaws for NewCo as requested by the White Paper, it succeeded by becoming a catalyst for the process the White Paper contemplated.</p>
+
+          <p>Through July and August, Jon Postel wrote a new draft set of bylaws for a &ldquo;new IANA&rdquo; that would satisfy the role set forth by the White Paper. Postel positioned the new IANA as &ldquo;&hellip;having responsibilities in three interrelated areas: Internet Protocol addresses, domain names, and protocol parameters. This will include the root server system and the work carried out currently by the existing IANA.&rdquo; The new IANA's goal was to "preserve the central coordinating functions of the global Internet for the public good&rdquo;. Postel released these drafts throughout June, July and August. The most important was released on September 17 with the benefit of the endorsement of Gabe Battista on behalf of Network Solutions. This iteration was characterized as &ldquo;the best elements of earlier drafts and include broad inputs from Internet stakeholders and users while remaining true to the guiding principles set forth in the US Government's White Paper&rdquo;. The goal of these new drafts were to &ldquo;&hellip;capture the best ideas from all sources, including the International Forum for the White Paper (IFWP), the business community, the Internet technical community and other stakeholders.&rdquo; This draft is known the community as IANA/NSI Draft 4. Draft 5 followed a few weeks later on September 28, curiously, without the explicit support of Network Solutions.</p>
+
+          <p>Other groups, finding the NSI/IANA drafts lacking, engaged in a similar effort in an attempt to define NewCo. Most notably, The Boston Working Group was concerned that the NSI/IANA drafts lacked a clear set of checks and balances to ensure democracy within the new organization. Further, they posited, &ldquo;&hellip;the IANA/NSI proposal is neither a product of the IFWP process nor does it conform to the IFWP consensus points. Nor does it meet the standards required by the NTIA White Paper, either in terms of content or the process through which that proposal was derived.&rdquo; The Boston Working Group derived their name from the fact that their drafting efforts took place at an ad hoc working group meeting held on September 19th and 20th.</p>
+
+          <p>On October 1, 1997, the NTIA announced that NewCo (or the new IANA) would be called the Internet Corporation for Assigned Names and Numbers, or ICANN. This same day, the Cooperative Agreement between the United States Government and Network Solutions had been scheduled to terminate and the transition to ICANN would start to occur. Jon Postel was now mainly concerned with ensuring that the transition to ICANN would occur on terms that were agreeable and fair to everyone involved.</p>
+
+          <p>On October 7, Joe Sims, Postel&rsquo;s lawyer, appeared before the United States House of Representatives Subcommittee on Basic Research and The Subcommittee on Technology of the Committee on Sciences on Jon&rsquo;s behalf. Postel, having recently taken ill, was unable to testify in person. Postel&rsquo;s testimony included a simple statement describing his current feelings. &ldquo;Most of the work to come will be done by others; IANA will continue its technical work and I will of course stay involved in the process, but it is time for ICANN to begin to lead this effort&rdquo;. His words, although simple, foreshadowed far more than anyone could imagine.</p>
+
+          <p>On October 16, 1998 Jon Postel passed away.</p>
+
+          <p>With Jon no longer involved, the processed wavered somewhat. However, having laid most of the groundwork with the flurry of drafts produced earlier that year, others were able to pick up where he left off. Through the remainder of October and most of November, Esther Dyson, Joe Sims, Mike Roberts and others worked towards satisfying the comments issued by the NTIA on the IANA drafts. On November 25, the United States Department of Commerce announced that they had finalized negotiations with NewCo and officially recognized it as the Internet Corporation for Assigned Names and Numbers for the purpose of transitioning DNS management from the US Government to industry.</p>
+
+          <p>Gabe Battista resigned as CEO of Network Solutions mid-November and Ira Magaziner left at the end of December. It appeared that there were very few people left standing outside of the new ICANN.</p>
+
+          <p>Although ICANN had made it through the Domain Wars and was deemed worthy enough to assume the mantle from the Department of Commerce, the organization still had some significant challenges ahead of it. Now they were actually faced with overseeing the DNS, bringing competition to the namespace and adding new gTLDs to the root in an open, transparent and bottom-up manner. With an appointed interim Board of Directors in place, ICANN tackled the thorny issue of competition first. ICANN chose to pursue implementation of a Shared Registry Service with Verisign that would see Network Solutions split off into two entities, the registry and the registrar, while new competitive registrars would be accredited. The threat originally raised by Magaziner had come to pass.</p>
+
+          <p>Jim Rutt, the new CEO of Network Solutions, drew up his battle plans. On October 7, 1998, Network Solutions entered into a revised Cooperative Agreement with the Department of Commerce. The Cooperative Agreement had granted Network Solutions their monopoly and was regularly amended by various governmental agencies and Network Solutions to address new operating realities. Most recently, Amendment 11 had specified that Network Solutions must work with &ldquo;NewCo&rdquo; through the transition specified by the DOC and enter into a contract with them to provide the DNS services that they had originally provided to the US Government. Rutt&rsquo;s plan of attack was very simple. Amendment 11 was signed on October 7, prior to ICANN being named as &ldquo;NewCo/New IANA&rdquo;. As such if NSI refused to recognize ICANN as being the NewCo described in the Cooperative Agreement, ICANN would have no one with whom to enter into an agreement. This put ICANN into a tough spot but they pushed forward with their plans to introduce competition. Network Solutions&rsquo; tactics delayed this effort significantly, as the only way that ICANN could get NSI to do anything was to first file the request with the Department of Commerce that would then relay it to NSI. Despite the odds being against them, ICANN announced on April 25, 1999 that they had selected 34 companies that would be accredited to compete with Network Solutions for the registration of domain names. Five of these companies would be allowed to participate in a special test-bed which had been designed to allow a limited number of companies to work out the technical issues associated with the new Shared Registry System that NSI was implementing. On June 7, register.com Inc. announced that they had successfully registered the first domain name under the new competitive regime. The test-bed, originally scheduled to last until June 24, was extended until September 10, and then November 30.</p>
+
+          <p>NSI continued to refuse to recognize ICANN through the summer of 1999. The tactics worked reasonably well until the situation came under the scrutiny of a House Commerce Committee investigation into ICANN. The panel, chaired by Tom Bliley, grilled Rutt. One of the most widely reported exchanges occurred between Jim Rutt and Bart Stupak, a House Representative from Michigan.</p>
+
+          <blockquote>
+            <p><strong>Stupak:</strong> NSI claims that it only has to recognize ICANN if ICANN has a &ldquo;final agreement.&rdquo; DoC says the agreement has been finalized. Sounds like a delay tactic to me. What do you think? Have you ever told ICANN or DoC that there is no final agreement?</p>
+            <p><strong>Rutt:</strong> Let me ask my lawyer and get back to you tomorrow. Yes, I have said there is no final agreement.</p>
+          </blockquote>
+
+          <p>The press jumped on the story as hard as the committee had jumped on Rutt. As ABCNews.com reported, &ldquo;Rutt told the committee that although his company controls about 75 percent of the names on the World Wide Web and the Internet, it does not have a monopoly &mdash; which drew snickers from the standing-room-only crowd. Democrats on the committee were even more skeptical of NSI&rsquo;s claims that ICANN was out to destroy its business. &ldquo;It seems to me NSI questions the very basis of ICANN&rsquo;s authority,&rdquo; said Rep. Bart Stupak, a Michigan Democrat. &ldquo;This sounds to me like a classic delay tactic.&rdquo; Network Solutions stalling tactics were now out in the open. The Commerce Committee did not take it lightly. Andy Pincus, general counsel for the Commerce Department, summed it up best at the hearings, &ldquo;If we hit a stone wall, we&rsquo;ve got to do it another way.&rdquo;</p>
+
+          <p>Industry insiders widely regard the July hearings as Rutt&rsquo;s Waterloo. Nonetheless, Network Solutions still maintained enough leverage with ICANN and the Department of Commerce to push the issue closer to the concessions that NSI wanted.</p>
+
+          <p>Between November 2nd and the 4th, 1999, ICANN&rsquo;s first annual general meeting was held in Los Angeles, California at the Sheraton Gateway Hotel. The agenda was specifically geared towards ratifying a proposed agreement between ICANN and Network Solutions. Everyone agreed a truce was necessary, but few felt it could be pulled off. While ICANN kept a firm grip on the proceedings, there was a new sense of empowerment amongst certain groups, a feeling that anything could be accomplished given the right effort. There was an unspoken understanding that this agreement would make or break ICANN. If the parties did not successfully arrive at a conclusion on this issue, it was almost certain that the structure would disintegrate.</p>
+
+          <p>The original agreements tabled provided Network Solutions with significant concessions. Through a number of informal meetings held by a number of interests through the week, various positions were readied for presentation during the November 3rd Public Comment forum. The comment forum was especially raucous. People were lining up for hours to present their views. In some cases, such as with the Registrars group, dozens of proposed revisions to the agreement were put forward to the ICANN Board. Somehow, the board of directors and ICANN staff managed to reconcile most of these presentations and to negotiate a revised agreement with Network Solutions through the night. On November 4, ICANN and Network Solutions agreed to a truce. Among other things, the agreements specifically provided that Network Solutions would have to separate their registry and registrar businesses, that they would receive an extension to their operating agreement if they divested one or the other business in two years time and most importantly, that they recognized ICANN as NewCo. As expected, a few weeks later, the Department of Commerce also accepted these revised agreements.</p>
+
+          <p>The ensuing year went relatively quietly. The introduction of new registrars precipitated an average price drop from $35 per year to roughly $15. Registration rates rose rapidly. ICANN occupied itself with the introduction of new generic top-level domains. Although the introduction process took quite some time, the ground covered was well trod by the previous debates. On the 16th of November 2000, the ICANN Board of Directors finally approved the introduction of seven new top-level domains, .aero, .biz, .coop, .info, .museum, .name, and .pro. While this process is not yet completed, it is expected that the general public will be able to register these domain names sometime during the last half of 2001.</p>
+
+          <p>ICANN&rsquo;s work is not yet done, nor have the dynamics of DNS become any less complex. The industry is still struggling with internationalizing the namespace, the impact of private root systems and a myriad of other issues. ICANN itself is also still the center of a maelstrom of controversy, but, for better or worse, work is being done and progress is being made.</p>
+
+          <p style="text-align:center"><em>-End-</em></p>
+
+          <hr>
+
+          <h2>Author&rsquo;s Note</h2>
+
+          <blockquote class="epigraph">
+            &ldquo;It&rsquo;s dry and it&rsquo;s factual. But it&rsquo;s DNS, and the story needs to be told&hellip;&rdquo;
+            <cite>&mdash; Tim Denton</cite>
+          </blockquote>
+
+          <p>All the material for this article was gathered through hours of research on the Internet, including web sites, mailing list archives and the venerable IETF RFC server. While every attempt has been made to verify that the actual events occurred as documented, incomplete transcripts, poor memories and non-existent web archives made this a difficult task. As Anthony Rutkowski says on www.domainhandbook.com, &ldquo;a lot of this stuff is like reading chicken bones&rdquo;. If you feel that an important event was missed or unfairly portrayed in this article, please drop Ross Rader (ross@tucows.com) a line with the corrections for inclusion in future versions of this essay. Thanks go out to everyone who took time out of their busy days to assist in the creation of this piece, including Anthony Rutkowski, David Mills, Tim Denton, Richard Sexton, Jonathan Weinberg, Antony Van Couvering and many others. Special thanks go out to the countless thousands that built the system and implemented the policy that made it worthwhile to write this article in the first place.</p>
+        </div>
+
+        <a href="index.html" class="back-link">← back home</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>
