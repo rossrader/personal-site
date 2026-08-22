@@ -989,6 +989,221 @@ footer {
   border-color: var(--cyan-dim);
 }
 
+/* ===== Archive (historical documents) ===== */
+.archive-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.6rem;
+}
+
+.archive-box > .eyebrow {
+  color: var(--amber);
+  margin-bottom: 0.7rem;
+}
+
+.archive-box > p:not(.eyebrow) {
+  color: var(--text-tertiary);
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  max-width: 68ch;
+}
+
+.archive-items {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.archive-item {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 1.2rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.archive-item:hover {
+  border-color: var(--amber-dim);
+  transform: translateY(-2px);
+}
+
+.archive-item .archive-year {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  letter-spacing: 0.14em;
+  color: var(--amber);
+}
+
+.archive-item h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  margin-top: 0.2rem;
+}
+
+.archive-item p {
+  color: var(--text-tertiary);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin-top: 0.35rem;
+}
+
+/* ===== Archived document pages ===== */
+.doc-note {
+  border: 1px solid var(--amber-dim);
+  background: var(--amber-faint);
+  border-radius: var(--radius-sm);
+  padding: 1.1rem 1.3rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.doc-note .eyebrow {
+  color: var(--amber);
+  font-style: normal;
+  margin-bottom: 0.5rem;
+}
+
+.doc-source {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.doc-source a {
+  color: var(--cyan);
+  border-bottom: none;
+}
+
+.doc-source a:hover {
+  border-bottom: 1px solid var(--cyan-dim);
+}
+
+.post-content .epigraph {
+  border-left: 2px solid var(--cyan-dim);
+  padding: 0.2rem 0 0.2rem 1.2rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  font-size: var(--text-sm);
+}
+
+.post-content .epigraph cite {
+  display: block;
+  font-style: normal;
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.footnotes {
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+}
+
+.footnotes p + p {
+  margin-top: 1rem;
+}
+
+/* ===== Org chart (Heathrow board structure) ===== */
+.org-chart {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.org-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.org-chart-caption {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.oc-band {
+  fill: rgba(245, 169, 127, 0.05);
+  stroke: var(--amber-dim);
+  stroke-width: 1;
+}
+
+.oc-seat {
+  fill: var(--surface-2);
+  stroke: var(--amber-dim);
+  stroke-width: 1.2;
+}
+
+.oc-ghost {
+  fill: var(--surface);
+  stroke: var(--border-bright);
+  stroke-width: 1;
+}
+
+.oc-node {
+  fill: var(--surface-2);
+  stroke: var(--border-bright);
+  stroke-width: 1.2;
+}
+
+.oc-group {
+  fill: var(--cyan-faint);
+  stroke: var(--cyan-dim);
+  stroke-width: 1;
+}
+
+.oc-community {
+  fill: var(--cyan-faint);
+  stroke: var(--cyan-dim);
+  stroke-width: 1.2;
+  stroke-dasharray: 6 5;
+}
+
+.oc-link {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.4;
+}
+
+.org-chart text {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  fill: var(--text);
+}
+
+.org-chart .oc-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  fill: var(--amber);
+}
+
+.org-chart .oc-small {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 400;
+  fill: var(--muted);
+}
+
+.org-chart .oc-dim {
+  fill: var(--text-secondary);
+  font-weight: 500;
+}
+
 /* ===== Legacy read-more link ===== */
 .read-more {
   font-family: var(--font-mono);
