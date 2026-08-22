@@ -20,7 +20,7 @@ Telecom and its attendants are having their periodic conversation about how to m
 
 The focus rotates. The conversation doesn't. It has the mechanics of a near-Earth asteroid: a known orbit and a return date anyone could calculate, though the people funding the observation campaigns never seem to. Every few years it swings back into view wearing a new designation, as if it were some newly discovered object rather than the same old rock on a known ellipse. The industry press excitedly tracks its approach, analysts publish trajectory estimates, and consultants are retained the way governments retain astronomers: to watch something whose path was settled long ago, reporting, gravely, that it is still coming. Then it makes its close pass, failing, as always, to make an impact. The headlines peak, it recedes, and everyone stands down until the next perihelion, when the object will be rediscovered, renamed, and greeted with the same surprise and concern.
 
-I'm not going to engage with this cycle's planetary threat. What follows isn't an argument. Arguments are for open questions. This is a rundown of the orbital mechanics: mass, velocity, trajectory, all measured decades ago, and enough to say exactly what happens next. The math hasn't changed in twenty-five years, and it isn't going to change now.
+I'm not going to engage with this cycle's planetary threat. What follows isn't an argument. Arguments are for open questions. This is a rundown of the orbital mechanics: mass, velocity, trajectory, all measured decades ago, and understood well enough to say exactly what happens next. The math hasn't changed in twenty-five years, and it isn't going to change now.
 
 ## The end-to-end principle already settled this
 
