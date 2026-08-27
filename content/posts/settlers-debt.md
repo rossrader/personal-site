@@ -1,6 +1,6 @@
 ---
-title: A Settler's Debt
-date: 'August 22, 2026'
+title: Credits Due
+date: 'August 27, 2026'
 tags:
   - ip
   - e2e
@@ -10,13 +10,13 @@ tags:
 excerpt: >-
   I recently posted arguing that telecom's periodic panic about new technology
   is orbital, and that the outcome was settled by network architecture decades
-  ago. Some readers were kind enough to call it insightful. It is, but the
-  insights aren't mine. I'm a settler on land that was mapped a generation ago.
-  Here are the maps and these are the ideas that make our Internet work
+  ago. Some was kind enough to call it insightful. It is, but the insights
+  aren't mine. I'm a settler on land that was mapped a generation ago. Here are
+  the maps and these are the ideas that make our Internet work
 draft: true
 ---
 
-I recently posted arguing that telecom's periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Some readers were kind enough to call it insightful. It is, but the insights aren't mine. I'm a settler on land that was mapped a generation ago. Here are the maps.
+I recently posted arguing that telecom's periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Someone was kind enough to call it insightful. It is, but note! Credit where credit is due, the insights aren't mine. I'm a settler on land that was mapped a generation ago. Here are the maps....
 
 These are the ideas that make our Internet work.
 
@@ -38,7 +38,7 @@ My piece is just an echo of this one, with updated nouns.
 
 ## The lawyers
 
-Lawrence Lessig took the engineering and showed it was politics. Somewhere around 1998, I attended a lecture on what became [*Code*](https://lessig.org/product/codev2/) (1999) and spent the weekend swimming in his big ideas and talking with Isenberg and Reed and others - my mind was blown. "Code" made the argument that architecture regulates as surely as law does, and [*The Future of Ideas*](https://www.the-future-of-ideas.com/) (2001) applied it to the Internet specifically: end-to-end is a design choice that doubles as an innovation commons, and the incumbents' attempts to reassert control are enclosure. Both books are now free downloads, because Lessig convinced his publisher to release them under Creative Commons, which is the most on-brand thing an author has ever done.
+Lawrence Lessig took the engineering and showed it was politics. Somewhere around 1998, I attended a lecture on what became [*Code*](https://lessig.org/product/codev2/) (1999) and spent the weekend swimming in his big ideas and talking with Isenberg and Reed and others - my mind was blown. "*Code*" made the argument that architecture regulates as surely as law does, and [*The Future of Ideas*](https://www.the-future-of-ideas.com/) (2001) applied it to the Internet specifically: end-to-end is a design choice that doubles as an innovation commons, and the incumbents' attempts to reassert control are enclosure. Both books are now free downloads, because Lessig convinced his publisher to release them under Creative Commons, which is the most on-brand thing an author has ever done.
 
 Doc Searls and David Weinberger compressed the whole worldview into a pamphlet in 2003: ["World of Ends"](https://worldofends.com/). Ten points, one thesis: the Internet's value lives at its edges, and everyone who tries to move it to the middle is mistaking the Internet for something else. Today it reads like prophecy.
 
@@ -56,6 +56,6 @@ And underneath all of it, Claude Shannon's ["A Mathematical Theory of Communicat
 
 ## The debt
 
-Marc Andreessen's ["Why Software Is Eating the World"](https://a16z.com/why-software-is-eating-the-world/) (2011) is the popular register of all of the above, and I borrowed his verb without asking. I don't think he'd mind. I met him and Jim Barksdale in a Netscape cafeteria in the mid-nineties as they were partway through judging an engineering margarita mix-off.
+Marc Andreessen's ["Why Software Is Eating the World"](https://a16z.com/why-software-is-eating-the-world/) (2011) is the popular register of all of the above, and I borrowed his verb without asking. I don't think he'd mind. I met him and Jim Barksdale in a Netscape cafeteria in the mid-nineties as they were partway through judging an engineering margarita mix-off. I thought better of him back then.
 
 So when I say the math hasn't changed in twenty-five years, this is the math, and these are the mathematicians. Some of them did it from inside the institutions they were describing, which took more nerve than writing a blog post ever will. The territory was mapped well before I came along.
