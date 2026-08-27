@@ -13,7 +13,6 @@ excerpt: >-
   ago. Some was kind enough to call it insightful. It is, but the insights
   aren't mine. I'm a settler on land that was mapped a generation ago. Here are
   the maps and these are the ideas that make our Internet work
-draft: true
 ---
 
 I recently posted arguing that telecom's periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Someone was kind enough to call it insightful. It is, but note! Credit where credit is due, the insights aren't mine. I'm a settler on land that was mapped a generation ago. Here are the maps....

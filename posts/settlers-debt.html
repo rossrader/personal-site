@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credits Due - Ross Rader</title>
+  <meta name="description" content="I recently posted arguing that telecom&#39;s periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Some was kind enough to call it insightful. It is, but the insights aren&#39;t mine. I&#39;m a settler on land that was mapped a generation ago. Here are the maps and these are the ideas that make our Internet work">
+  <link rel="canonical" href="https://rossrader.ca/posts/settlers-debt.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Credits Due">
+  <meta property="og:description" content="I recently posted arguing that telecom&#39;s periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Some was kind enough to call it insightful. It is, but the insights aren&#39;t mine. I&#39;m a settler on land that was mapped a generation ago. Here are the maps and these are the ideas that make our Internet work">
+  <meta property="og:url" content="https://rossrader.ca/posts/settlers-debt.html">
+  <meta property="og:site_name" content="Ross Rader">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Credits Due">
+  <meta name="twitter:description" content="I recently posted arguing that telecom&#39;s periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Some was kind enough to call it insightful. It is, but the insights aren&#39;t mine. I&#39;m a settler on land that was mapped a generation ago. Here are the maps and these are the ideas that make our Internet work">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="../index.html">Ross Rader<span class="cursor">_</span></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../log.html">Log</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>Credits Due</h1>
+          <div class="post-meta">
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-08-27</span>
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>5 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">ip</span>
+            <span class="tag">e2e</span>
+            <span class="tag">internet</span>
+            <span class="tag">history</span>
+            <span class="tag">dns</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <p>I recently posted arguing that telecom&#39;s periodic panic about new technology is orbital, and that the outcome was settled by network architecture decades ago. Someone was kind enough to call it insightful. It is, but note! Credit where credit is due, the insights aren&#39;t mine. I&#39;m a settler on land that was mapped a generation ago. Here are the maps....</p>
+<p>These are the ideas that make our Internet work.</p>
+<h2>The architects</h2>
+<p>The whole argument starts with one paper: Saltzer, Reed, and Clark, <a href="https://web.mit.edu/saltzer/www/publications/endtoend/endtoend.pdf">&quot;End-to-End Arguments in System Design&quot;</a>, presented in Paris in 1981 and published in 1984. It makes a claim that sounds like engineering minutiae and turns out to be destiny: </p>
+<blockquote>
+<p><em>&quot;The function in question can completely and correctly be implemented only with the knowledge and help of the application standing at the end points of the communication system. Therefore, providing that questioned function as a feature of the communication system itself is not possible.&quot;</em></p>
+</blockquote>
+<p>That&#39;s it. That&#39;s the paper. Well, there&#39;s more, but it&#39;s the entire premise that makes the Internet possible, and it fits in a tweet.</p>
+<p>Everything the Internet became, and everything the telephone network failed to become, follows from that sentence. When I write &quot;<em>intelligence lives at the edge,</em>&quot; I am quoting those guys and they worked it all out before I owned a modem.</p>
+<h2>The insider</h2>
+<p>In May 1997, over a long weekend, a researcher at AT&amp;T Labs named David Isenberg wrote <a href="https://isen.com/stupid.html">&quot;The Rise of the Stupid Network: Why the Intelligent Network was a Good Idea Once but isn&#39;t Anymore&quot;</a>. Read that subtitle again. It&#39;s more generous than anything I wrote, and more damning. Isenberg wasn&#39;t sniping from outside; he was inside the cathedral, explaining to the congregation that the theology had expired. A senior AT&amp;T executive told the Wall Street Journal it was &quot;<em>like a glass of cold water in the face.</em>&quot; Isenberg left the company within a year, and AT&amp;T later asked him to remove the essay from his own website. Institutions rarely view their own obituaries kindly.</p>
+<p>My piece is just an echo of this one, with updated nouns.</p>
+<h2>The lawyers</h2>
+<p>Lawrence Lessig took the engineering and showed it was politics. Somewhere around 1998, I attended a lecture on what became <a href="https://lessig.org/product/codev2/"><em>Code</em></a> (1999) and spent the weekend swimming in his big ideas and talking with Isenberg and Reed and others - my mind was blown. &quot;<em>Code</em>&quot; made the argument that architecture regulates as surely as law does, and <a href="https://www.the-future-of-ideas.com/"><em>The Future of Ideas</em></a> (2001) applied it to the Internet specifically: end-to-end is a design choice that doubles as an innovation commons, and the incumbents&#39; attempts to reassert control are enclosure. Both books are now free downloads, because Lessig convinced his publisher to release them under Creative Commons, which is the most on-brand thing an author has ever done.</p>
+<p>Doc Searls and David Weinberger compressed the whole worldview into a pamphlet in 2003: <a href="https://worldofends.com/">&quot;World of Ends&quot;</a>. Ten points, one thesis: the Internet&#39;s value lives at its edges, and everyone who tries to move it to the middle is mistaking the Internet for something else. Today it reads like prophecy.</p>
+<h2>The spectrum heretics</h2>
+<p>The spectrum argument has its own lineage, and it starts with an economist being right for reasons that later expired. Ronald Coase&#39;s <a href="https://cramton.umd.edu/market-design-papers/coase-the-federal-communications-commission.pdf">&quot;The Federal Communications Commission&quot;</a> (1959) demolished command-and-control licensing and proposed property rights instead. He was right about the disease, but his remedy became the next ailment.</p>
+<p>Eli Noam saw that coming in a title so good I barely needed to write my spectrum section: <a href="https://chicagounbound.uchicago.edu/jle/vol41/iss3/13/">&quot;Spectrum Auctions: Yesterday&#39;s Heresy, Today&#39;s Orthodoxy, Tomorrow&#39;s Anachronism&quot;</a> (1998). The same year, Yochai Benkler&#39;s <a href="http://www.benkler.org/agoraphobia.pdf">&quot;Overcoming Agoraphobia&quot;</a> made the full case that wireless could be regulated as a commons, like highways, rather than as parcels, like land. Kevin Werbach&#39;s <a href="http://werbach.com/docs/new_wireless_paradigm.htm">&quot;Open Spectrum&quot;</a> (2002) carried it forward, and David Reed, the same Reed from the end-to-end paper, spent years arguing that interference is a property of the receiver, not the ether (see the <a href="http://www.greaterdemocracy.org/OpenSpectrumFAQ.html">&quot;Open Spectrum FAQ&quot;</a>). Every WiFi access point shipped since is a footnote agreeing with them.</p>
+<h2>The dynamics</h2>
+<p>Two books explain why incumbents behave the way they do even when they can read the maps as well as anyone. Clayton Christensen&#39;s <em>The Innovator&#39;s Dilemma</em> (1997) explains why rational companies defend the revenue and lose the future; when I wrote that the telcos didn&#39;t pick wrong, they picked revenue, I was paraphrasing him. Somewhere around here I have a signed copy of Dilemma, being an early disciple. Tim Wu&#39;s <em>The Master Switch</em> (2010) documents the longer cycle: every open communications medium eventually attracts an empire that tries to close it. Wu also gave us the term &quot;network neutrality,&quot; which is the suit the end-to-end argument wears when it&#39;s called to testify before Congress.</p>
+<p>And underneath all of it, Claude Shannon&#39;s <a href="https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf">&quot;A Mathematical Theory of Communication&quot;</a> (1948), written at Bell Labs, which established that information is bits regardless of meaning. A network that only needs to move bits doesn&#39;t need to know anything about them. Shannon proved, inside the phone company, that the phone company&#39;s architecture was optional. It took the rest of us fifty years to notice.</p>
+<h2>The debt</h2>
+<p>Marc Andreessen&#39;s <a href="https://a16z.com/why-software-is-eating-the-world/">&quot;Why Software Is Eating the World&quot;</a> (2011) is the popular register of all of the above, and I borrowed his verb without asking. I don&#39;t think he&#39;d mind. I met him and Jim Barksdale in a Netscape cafeteria in the mid-nineties as they were partway through judging an engineering margarita mix-off. I thought better of him back then.</p>
+<p>So when I say the math hasn&#39;t changed in twenty-five years, this is the math, and these are the mathematicians. Some of them did it from inside the institutions they were describing, which took more nerve than writing a blog post ever will. The territory was mapped well before I came along.</p>
+
+        </div>
+
+        <a href="../blog.html" class="back-link">← back to blog</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="../feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>
