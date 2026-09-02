@@ -1,8 +1,19 @@
 {
-  "fetchedAt": "2026-08-30T15:45:06.636Z",
+  "fetchedAt": "2026-09-02T15:13:05.147Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
+    {
+      "title": "Count Zero",
+      "slug": "count-zero",
+      "authors": [
+        "William Gibson"
+      ],
+      "cover": "https://assets.hardcover.app/edition/30703528/3717d341-fced-4ca9-b130-7586ce8885fa.jpg",
+      "finished": null
+    }
+  ],
+  "read": [
     {
       "title": "Stardust",
       "slug": "stardust",
@@ -10,10 +21,8 @@
         "Neil Gaiman"
       ],
       "cover": "https://assets.hardcover.app/edition/30737789/6a01d7ae-02fb-4951-a33d-c319ce55b5d1.jpg",
-      "finished": null
-    }
-  ],
-  "read": [
+      "finished": "2026-08-30"
+    },
     {
       "title": "Neuromancer",
       "slug": "neuromancer",
@@ -40,15 +49,6 @@
       ],
       "cover": "https://assets.hardcover.app/edition/30545058/168b5ec695bc97713049b3d66af20ceab8f0e819.jpeg",
       "finished": "2026-08-03"
-    },
-    {
-      "title": "Ready Player One",
-      "slug": "ready-player-one",
-      "authors": [
-        "Ernest Cline"
-      ],
-      "cover": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg",
-      "finished": "2026-07-02"
     }
   ]
 }
