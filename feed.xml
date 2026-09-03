@@ -7,9 +7,43 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 15:29:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 11:31:38 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Dumb Won</title>
+      <link>https://rossrader.ca/posts/dumb-won.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/dumb-won.html</guid>
+      <pubDate>Thu, 03 Sep 2026 04:00:00 GMT</pubDate>
+      <description>AI is moving to the edges, so the middle needs to get smarter and cost more. Not really.</description>
+      <content:encoded><![CDATA[<h1>Dumb won</h1>
+<p>The internet was built on an important idea: the network moves bits and stays out of the way, and everything interesting happens at the ends. It works. That architecture beat every smart network the phone companies built to compete with it. But every few years someone argues the deal has run its course and the network needs to get clever again. </p>
+<p>This week, AI is the pretext.</p>
+<p>Two industry reports make the case. <a href="https://www.ctia.org/news/wireless-ai">CTIA&#39;s &quot;Wireless &amp; AI&quot;</a> says AI is leaving the data centre for phones, sensors, drones and factory floors, that AI traffic will grow three times faster than everything else and reach a third of all broadband use by 2034, and that the fix is a 6G network with intelligence in the radio layer to allocate spectrum, predict congestion and authenticate devices on its own. The <a href="https://canadatelecoms.ca/canadas-connectivity-future-depends-on-sustaining-investment/">Canadian Telecommunications Association</a> supplies the other half: wireless prices fell 45% since 2020, investors have noticed, and regulators should ease up on pricing and wholesale access so carriers can afford to build it.</p>
+<p>In other words, intelligence is moving to the edges, so the middle needs to get smarter and cost more. Only the first part is true, and not in the way the reports think.</p>
+<h2>A world of ends</h2>
+<p>David Weinberger and Doc Searls gave the idea its name in 2003. Nobody owns the internet and nobody runs it. It&#39;s an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don&#39;t look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn&#39;t care what it carries lets anyone build anything on it without asking. Permissionless innovation.</p>
+<p>That&#39;s why the internet won. The phone companies had intelligence in every switch and a business built on knowing what crossed the wire. They lost to a network that knew nothing and carried everything.</p>
+<h2>Ends aren&#39;t devices</h2>
+<p>The CTIA report pictures a model running inside every sensor. That doesn&#39;t make sense.</p>
+<p>Nobody puts a DNS server in a thermostat. The thermostat asks a resolver down the hall. The resolver is local, fast and an end of the network. Two ends share the job. The internet has worked this way for 40 years. Services sit near the things that use them.</p>
+<p>AI at the edge works the same way. The sensor reports a number. A box on the shop floor, or at the base of the tower, thinks for a few thousand sensors at once. That box is the end. Copying the model into every device is the expensive way to do it. Each one needs the compute to run it and the plumbing to keep it current, and the payoff on the wide-area network is nothing, because the raw data was never going to cross it either way.</p>
+<p>Once the intelligence lives in a local service, most of the traffic in that forecast never leaves the building. What leaves is a summary. The network-buckling forecast assumes the one architecture nobody who builds these systems would pick.</p>
+<h2>&quot;AI-native&quot; is the smart network again</h2>
+<p>An AI-native network inspects traffic, ranks it, decides which devices to trust and allocates capacity based on what it thinks is happening. Each of those is the network making a decision about someone else&#39;s application.</p>
+<p>It&#39;s the smart network back under a new name. A toll booth that reads your plates. Whoever owns it decides what moves and what waits, and we know how that ends because we watched it end once. Don&#39;t spend time trying to understand it further. It&#39;s a control function for a network architecture that already lost.</p>
+<p>Video was going to break the network. Then mobile. Then IoT. Then 5G. Now AI. The technology in the pitch changes. The ask at the end never does.</p>
+<h2>What to build instead</h2>
+<p>Traffic is growing. Networks need capital. Neither needs a word about intelligence in the radio layer.</p>
+<p>Build capacity. Push fibre as deep as it goes. Separate wholesale from retail in law, and open the wires to anyone who can pay a fair, cost-based rate, because competition at the ends is the only thing that has ever made the middle bigger. Keep the network dumb. Put the services next to the things that need them.</p>
+<p>Let the edges be clever. There&#39;s still good money in running a utility.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>ai</category>
+      <category>ideas</category>
+      <category>telecom</category>
+      <category>dinosaurs</category>
+    </item>
     <item>
       <title>Credits Due</title>
       <link>https://rossrader.ca/posts/settlers-debt.html</link>

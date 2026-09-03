@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dumb Won - Ross Rader</title>
+  <meta name="description" content="AI is moving to the edges, so the middle needs to get smarter and cost more. Not really.">
+  <link rel="canonical" href="https://rossrader.ca/posts/dumb-won.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Dumb Won">
+  <meta property="og:description" content="AI is moving to the edges, so the middle needs to get smarter and cost more. Not really.">
+  <meta property="og:url" content="https://rossrader.ca/posts/dumb-won.html">
+  <meta property="og:site_name" content="Ross Rader">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dumb Won">
+  <meta name="twitter:description" content="AI is moving to the edges, so the middle needs to get smarter and cost more. Not really.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <a href="../index.html">Ross Rader<span class="cursor">_</span></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../log.html">Log</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article>
+        <header class="post-header">
+          <h1>Dumb Won</h1>
+          <div class="post-meta">
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-09-03</span>
+            <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 min read</span>
+          </div>
+          <div class="tags">
+            <span class="tag">ai</span>
+            <span class="tag">ideas</span>
+            <span class="tag">telecom</span>
+            <span class="tag">dinosaurs</span>
+          </div>
+        </header>
+
+        <div class="post-content">
+          <h1>Dumb won</h1>
+<p>The internet was built on an important idea: the network moves bits and stays out of the way, and everything interesting happens at the ends. It works. That architecture beat every smart network the phone companies built to compete with it. But every few years someone argues the deal has run its course and the network needs to get clever again. </p>
+<p>This week, AI is the pretext.</p>
+<p>Two industry reports make the case. <a href="https://www.ctia.org/news/wireless-ai">CTIA&#39;s &quot;Wireless &amp; AI&quot;</a> says AI is leaving the data centre for phones, sensors, drones and factory floors, that AI traffic will grow three times faster than everything else and reach a third of all broadband use by 2034, and that the fix is a 6G network with intelligence in the radio layer to allocate spectrum, predict congestion and authenticate devices on its own. The <a href="https://canadatelecoms.ca/canadas-connectivity-future-depends-on-sustaining-investment/">Canadian Telecommunications Association</a> supplies the other half: wireless prices fell 45% since 2020, investors have noticed, and regulators should ease up on pricing and wholesale access so carriers can afford to build it.</p>
+<p>In other words, intelligence is moving to the edges, so the middle needs to get smarter and cost more. Only the first part is true, and not in the way the reports think.</p>
+<h2>A world of ends</h2>
+<p>David Weinberger and Doc Searls gave the idea its name in 2003. Nobody owns the internet and nobody runs it. It&#39;s an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don&#39;t look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn&#39;t care what it carries lets anyone build anything on it without asking. Permissionless innovation.</p>
+<p>That&#39;s why the internet won. The phone companies had intelligence in every switch and a business built on knowing what crossed the wire. They lost to a network that knew nothing and carried everything.</p>
+<h2>Ends aren&#39;t devices</h2>
+<p>The CTIA report pictures a model running inside every sensor. That doesn&#39;t make sense.</p>
+<p>Nobody puts a DNS server in a thermostat. The thermostat asks a resolver down the hall. The resolver is local, fast and an end of the network. Two ends share the job. The internet has worked this way for 40 years. Services sit near the things that use them.</p>
+<p>AI at the edge works the same way. The sensor reports a number. A box on the shop floor, or at the base of the tower, thinks for a few thousand sensors at once. That box is the end. Copying the model into every device is the expensive way to do it. Each one needs the compute to run it and the plumbing to keep it current, and the payoff on the wide-area network is nothing, because the raw data was never going to cross it either way.</p>
+<p>Once the intelligence lives in a local service, most of the traffic in that forecast never leaves the building. What leaves is a summary. The network-buckling forecast assumes the one architecture nobody who builds these systems would pick.</p>
+<h2>&quot;AI-native&quot; is the smart network again</h2>
+<p>An AI-native network inspects traffic, ranks it, decides which devices to trust and allocates capacity based on what it thinks is happening. Each of those is the network making a decision about someone else&#39;s application.</p>
+<p>It&#39;s the smart network back under a new name. A toll booth that reads your plates. Whoever owns it decides what moves and what waits, and we know how that ends because we watched it end once. Don&#39;t spend time trying to understand it further. It&#39;s a control function for a network architecture that already lost.</p>
+<p>Video was going to break the network. Then mobile. Then IoT. Then 5G. Now AI. The technology in the pitch changes. The ask at the end never does.</p>
+<h2>What to build instead</h2>
+<p>Traffic is growing. Networks need capital. Neither needs a word about intelligence in the radio layer.</p>
+<p>Build capacity. Push fibre as deep as it goes. Separate wholesale from retail in law, and open the wires to anyone who can pay a fair, cost-based rate, because competition at the ends is the only thing that has ever made the middle bigger. Keep the network dumb. Put the services next to the things that need them.</p>
+<p>Let the edges be clever. There&#39;s still good money in running a utility.</p>
+
+        </div>
+
+        <a href="../blog.html" class="back-link">← back to blog</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <section class="about-section">
+        <h3>About the Author</h3>
+        <p>
+          Hi, I'm Ross Rader. I've worked at Tucows since 1993 and currently serve as Chief Customer Experience Officer at Ting.
+          I write about AI, Internet Services, and Customer Experience Design—exploring how technology shapes the way we connect and interact online.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rader/">LinkedIn</a>
+          <a href="https://bsky.app/profile/rossrader.bsky.social">Bluesky</a>
+          <a href="mailto:rossrader@gmail.com">Email</a>
+          <a href="../feed.xml">RSS Feed</a>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+  <script>
+  // Reading progress indicator (fallback for browsers without scroll timeline support)
+  if (!CSS.supports('animation-timeline: scroll()')) {
+    const progressBar = document.getElementById('reading-progress');
+    const postContent = document.querySelector('.post-content');
+
+    if (progressBar && postContent) {
+      window.addEventListener('scroll', () => {
+        const windowHeight = window.innerHeight;
+        const documentHeight = postContent.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
+
+        progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+      });
+    }
+  }
+  </script>
+</body>
+</html>
