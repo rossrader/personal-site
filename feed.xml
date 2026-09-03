@@ -7,7 +7,7 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 11:31:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 11:36:08 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
@@ -22,7 +22,7 @@
 <p>Two industry reports make the case. <a href="https://www.ctia.org/news/wireless-ai">CTIA&#39;s &quot;Wireless &amp; AI&quot;</a> says AI is leaving the data centre for phones, sensors, drones and factory floors, that AI traffic will grow three times faster than everything else and reach a third of all broadband use by 2034, and that the fix is a 6G network with intelligence in the radio layer to allocate spectrum, predict congestion and authenticate devices on its own. The <a href="https://canadatelecoms.ca/canadas-connectivity-future-depends-on-sustaining-investment/">Canadian Telecommunications Association</a> supplies the other half: wireless prices fell 45% since 2020, investors have noticed, and regulators should ease up on pricing and wholesale access so carriers can afford to build it.</p>
 <p>In other words, intelligence is moving to the edges, so the middle needs to get smarter and cost more. Only the first part is true, and not in the way the reports think.</p>
 <h2>A world of ends</h2>
-<p>David Weinberger and Doc Searls gave the idea its name in 2003. Nobody owns the internet and nobody runs it. It&#39;s an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don&#39;t look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn&#39;t care what it carries lets anyone build anything on it without asking. Permissionless innovation.</p>
+<p><a href="https://weinberger.org/">Dave Weinberger</a> and <a href="https://doc.searls.com/">Doc Searls</a> <a href="https://web.archive.org/web/20040331183105/http://worldofends.com/">gave the idea its name</a> in 2003. Nobody owns the internet and nobody runs it. It&#39;s an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don&#39;t look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn&#39;t care what it carries lets anyone build anything on it without asking. Permissionless innovation.</p>
 <p>That&#39;s why the internet won. The phone companies had intelligence in every switch and a business built on knowing what crossed the wire. They lost to a network that knew nothing and carried everything.</p>
 <h2>Ends aren&#39;t devices</h2>
 <p>The CTIA report pictures a model running inside every sensor. That doesn&#39;t make sense.</p>

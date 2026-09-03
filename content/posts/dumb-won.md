@@ -23,7 +23,7 @@ In other words, intelligence is moving to the edges, so the middle needs to get 
 
 ## A world of ends
 
-David Weinberger and Doc Searls gave the idea its name in 2003. Nobody owns the internet and nobody runs it. It's an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don't look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn't care what it carries lets anyone build anything on it without asking. Permissionless innovation.
+[Dave Weinberger](https://weinberger.org/) and [Doc Searls](https://doc.searls.com/) [gave the idea its name](https://web.archive.org/web/20040331183105/http://worldofends.com/) in 2003. Nobody owns the internet and nobody runs it. It's an agreement among everyone connected to it, with one term: carry the bits from one end to the other and don't look inside. That term is what puts the value, the applications and the intelligence at the ends. A network that doesn't care what it carries lets anyone build anything on it without asking. Permissionless innovation.
 
 That's why the internet won. The phone companies had intelligence in every switch and a business built on knowing what crossed the wire. They lost to a network that knew nothing and carried everything.
 
