@@ -1,8 +1,29 @@
 {
-  "fetchedAt": "2026-09-03T11:36:08.583Z",
+  "fetchedAt": "2026-09-09T02:59:05.882Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
+    {
+      "title": "The Martian Chronicles",
+      "slug": "the-martian-chronicles",
+      "authors": [
+        "Ray Bradbury"
+      ],
+      "cover": "https://assets.hardcover.app/book_mappings/7332674/0acf6282b03c56c91ee95d99cdbc7075e595786f.jpeg",
+      "finished": null
+    }
+  ],
+  "read": [
+    {
+      "title": "Rage",
+      "slug": "rage-1977",
+      "authors": [
+        "Richard Bachman",
+        "Stephen King"
+      ],
+      "cover": "https://assets.hardcover.app/edition/30370506/d6e2fb3fe136b130c56449dc221343d3025e7420.jpeg",
+      "finished": "2026-09-05"
+    },
     {
       "title": "Count Zero",
       "slug": "count-zero",
@@ -10,10 +31,8 @@
         "William Gibson"
       ],
       "cover": "https://assets.hardcover.app/edition/30703528/3717d341-fced-4ca9-b130-7586ce8885fa.jpg",
-      "finished": null
-    }
-  ],
-  "read": [
+      "finished": "2026-09-05"
+    },
     {
       "title": "Stardust",
       "slug": "stardust",
@@ -31,24 +50,6 @@
       ],
       "cover": "https://assets.hardcover.app/editions/30401722/203725739738019-PxOL.jpg",
       "finished": "2026-08-26"
-    },
-    {
-      "title": "Fahrenheit 451",
-      "slug": "fahrenheit-451",
-      "authors": [
-        "Ray Bradbury"
-      ],
-      "cover": "https://assets.hardcover.app/edition/6336191/3d353406f14fd36043a8bdfb8c3288f90ee4f96c.jpeg",
-      "finished": "2026-08-03"
-    },
-    {
-      "title": "101 Essays That Will Change The Way You Think",
-      "slug": "101-essays-that-will-change-the-way-you-think",
-      "authors": [
-        "Brianna Wiest"
-      ],
-      "cover": "https://assets.hardcover.app/edition/30545058/168b5ec695bc97713049b3d66af20ceab8f0e819.jpeg",
-      "finished": "2026-08-03"
     }
   ]
 }
