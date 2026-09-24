@@ -7,9 +7,45 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:27:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 12:10:58 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Rules, not clicks</title>
+      <link>https://rossrader.ca/posts/rules-not-clicks.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/rules-not-clicks.html</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 GMT</pubDate>
+      <description></description>
+      <content:encoded><![CDATA[<h1>Rules, not clicks</h1>
+<p><em>Why approving every agent action isn&#39;t the control it looks like</em></p>
+<p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
+<p>I agree with most of it. An agent that reads the data but leaves someone to go do the work in three systems isn&#39;t saving much. Getting that person to just approve is a real step up.</p>
+<p>Where I disagree is the idea that anything touching billing, identity or policy should always need a person to sign off. <a href="https://lnkd.in/p/dAhPMzT7">In the comments, Glenn said</a> he was mostly thinking about large enterprise accounts, and there I agree with him - a major decision on a big B2B account is a good place for a person. But most billing decisions aren&#39;t that, and treating them all the same way is where the cost comes from.</p>
+<p>I think a lot of that comes from the systems we run. Most older billing systems can&#39;t undo an action cleanly, can&#39;t limit how much gets done and can&#39;t tell you when something looks wrong. A person in the loop covers for all of that. It works, but it&#39;s a workaround for modern design.</p>
+<p>It also works less well than we&#39;d like to think. Anthropic says people <a href="https://claude.com/blog/auto-mode-default-in-claude-code">approve 97% of permission prompts</a> in Claude Code. When they slipped a dangerous command into a study with 1,053 paid testers, people caught it 13.6% of the time, and only about 5% of the time once they&#39;d seen 50 or more prompts. Coding isn&#39;t billing, but I doubt a busy support queue gets read more carefully.</p>
+<p>And its not like the human interventions are working without rules either. A front-line rep can usually issue a credit up to a set limit, a supervisor can go higher and the billing system just won&#39;t let either of them do some things. That&#39;s policy enforced by software, and nobody calls it unsupervised. The trouble is that most of the rest lives in training decks and people&#39;s heads (which is exactly why we keep a person in the loop). Write it down in <a href="https://www.openpolicyagent.org/docs">a form the system can enforce</a>, and it constrains agents and people the same way. The agent can suggest the credit. The rules decide whether it happens.</p>
+<p>That shared rule layer is where I&#39;d put the work. Before I let an agent act alone on top of it, I&#39;d want;</p>
+<ul>
+<li>limits on how much the agent can do per type of action (e.g. no more than $500 a day in credits)</li>
+<li>alerts when it starts doing something unusual</li>
+<li>an off switch we&#39;ve actually tested</li>
+<li>people reviewing a sample of what it did after the fact</li>
+<li>a record of what it decided not to do, not just what it did (a wrong &quot;no&quot; is the hardest mistake to spot)</li>
+</ul>
+<p>The review matters because rules and limits don&#39;t catch bad calls inside them. A $40 credit for the wrong reason is still wrong, and nobody notices until Finance does.</p>
+<p>The worry I hear most is scale. If someone approves a bad credit, that&#39;s one bad credit. If a rule is wrong, the agent can repeat that mistake thousands of times before anyone notices (which is why I&#39;d never skip the limits or the off switch).</p>
+<p>Regulation comes up a lot too, and much of it already reads like a rule a system could enforce. In Canada, the CRTC&#39;s <a href="https://www.crtc.gc.ca/eng/archive/2021/2021-177.htm">Internet Code</a> only lets an ISP disconnect for non-payment when the customer owes more than $50 and has been past due for more than two months. Rules like that call for a control and someone accountable for it, not a person approving each item.</p>
+<p>I&#39;d get there one action at a time. Start with approval on most everything. Then check what the agent did against what actually happened later - reversals, refunds, customers calling back. Override rates help too, but after a few weeks of reflex approvals they&#39;ll look better than they are. When the outcomes hold up long enough, let that action run on its own (and move it back when they don&#39;t). The same agent can add account notes by itself and still wait for a yes before disconnecting a business customer (Glenn&#39;s enterprise case, and a good one). Even Anthropic, with its automated mode on by default, still <a href="https://claude.com/blog/auto-mode-default-in-claude-code">recommends reviewing</a> high-stakes production changes yourself.</p>
+<p>People don&#39;t go away in this. They write the rules, handle the odd cases and check the work. That&#39;s also where they review best. In the <a href="https://claude.com/blog/auto-mode-default-in-claude-code">same Anthropic data</a>, people rejected 39% of the plans Claude proposed but only 3% of individual permission requests. We&#39;re good at judging the plan and bad at judging the click. So let&#39;s stop asking people to approve every credit one by one.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>ai</category>
+      <category>ideas</category>
+      <category>bss</category>
+      <category>governance</category>
+      <category>software</category>
+      <category>design</category>
+    </item>
     <item>
       <title>Dumb Won</title>
       <link>https://rossrader.ca/posts/dumb-won.html</link>
