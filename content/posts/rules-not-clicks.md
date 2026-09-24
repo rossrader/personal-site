@@ -8,6 +8,11 @@ tags:
   - governance
   - software
   - design
+excerpt: >-
+  Most "human must approve" rules for AI agents in billing stand in for policy
+  nobody ever wrote down. People already work inside rules the system enforces,
+  and agents can too. Here's how I'd let an agent act on its own, one action at
+  a time, and what I'd want in place first.
 ---
 
 # Rules, not clicks

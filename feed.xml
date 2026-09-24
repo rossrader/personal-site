@@ -7,7 +7,7 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 12:25:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 12:31:58 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
@@ -15,7 +15,7 @@
       <link>https://rossrader.ca/posts/rules-not-clicks.html</link>
       <guid isPermaLink="true">https://rossrader.ca/posts/rules-not-clicks.html</guid>
       <pubDate>Thu, 24 Sep 2026 04:00:00 GMT</pubDate>
-      <description></description>
+      <description>Most &quot;human must approve&quot; rules for AI agents in billing stand in for policy nobody ever wrote down. People already work inside rules the system enforces, and agents can too. Here&apos;s how I&apos;d let an agent act on its own, one action at a time, and what I&apos;d want in place first.</description>
       <content:encoded><![CDATA[<h1>Rules, not clicks</h1>
 <p><em>Why approving every agent action isn&#39;t the control it looks like</em></p>
 <p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
