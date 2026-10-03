@@ -723,10 +723,11 @@ main section + section {
   overflow-wrap: anywhere;
 }
 
-/* Underline draws in left-to-right, amber into cyan, and follows
-   the title across line wraps */
+/* Links alternate warm paper / pale phosphor-cyan, so where one title
+   ends and the next begins stays obvious even across line wraps. On hover
+   an amber→cyan underline draws in and follows the title across wraps. */
 .link-entries a {
-  color: inherit;
+  color: var(--text-secondary);
   text-decoration: none;
   background-image: linear-gradient(90deg, var(--amber), var(--cyan));
   background-size: 0% 1px;
@@ -737,8 +738,8 @@ main section + section {
   transition: color var(--transition), background-size 0.35s ease;
 }
 
-.link-entries a:visited {
-  color: var(--text-tertiary);
+.link-entries a:nth-of-type(even) {
+  color: color-mix(in srgb, var(--cyan) 55%, var(--text-secondary));
 }
 
 .link-entries a:hover,
@@ -749,10 +750,10 @@ main section + section {
 
 .link-sep {
   font-family: var(--font-mono);
-  font-size: var(--text-mono-sm);
+  font-size: var(--text-mono);
   font-weight: 500;
-  color: var(--amber-dim);
-  margin-left: 0.15rem;
+  color: var(--amber);
+  margin: 0 0.2rem 0 0.3rem;
   letter-spacing: -0.04em;
 }
 
