@@ -651,7 +651,7 @@ main section + section {
 }
 
 .link-day + .link-day {
-  margin-top: 1.5rem;
+  margin-top: 1.6rem;
 }
 
 @keyframes link-day-in {
@@ -666,7 +666,7 @@ main section + section {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.65rem;
   font-family: var(--font-mono);
   font-size: var(--text-mono-sm);
   letter-spacing: 0.12em;
@@ -716,18 +716,24 @@ main section + section {
   opacity: 0.75;
 }
 
-.link-entries {
+.link-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.link-list li {
   font-size: var(--text-sm);
-  line-height: 1.8;
+  line-height: 1.5;
   color: var(--text-secondary);
   overflow-wrap: anywhere;
 }
 
-/* Links alternate warm paper / pale phosphor-cyan, so where one title
-   ends and the next begins stays obvious even across line wraps. On hover
-   an amber→cyan underline draws in and follows the title across wraps. */
-.link-entries a {
-  color: var(--text-secondary);
+/* Underline draws in left-to-right, amber into cyan, and follows
+   the title across line wraps */
+.link-list a {
+  color: inherit;
   text-decoration: none;
   background-image: linear-gradient(90deg, var(--amber), var(--cyan));
   background-size: 0% 1px;
@@ -738,25 +744,26 @@ main section + section {
   transition: color var(--transition), background-size 0.35s ease;
 }
 
-.link-entries a:nth-of-type(even) {
-  color: color-mix(in srgb, var(--cyan) 55%, var(--text-secondary));
-}
-
-.link-entries a:hover,
-.link-entries a:focus-visible {
+.link-list a:hover,
+.link-list a:focus-visible {
   color: var(--text);
   background-size: 100% 1px;
 }
 
-.link-sep {
+/* Source domain closes each link, like the site's other mono metadata */
+.link-host {
   font-family: var(--font-mono);
-  font-size: 1.35em;
-  line-height: 0;
-  color: var(--amber);
-  margin: 0 0.1rem 0 0.3rem;
-  position: relative;
-  top: 0.04em;
-  text-shadow: 0 0 8px var(--amber-dim);
+  font-size: var(--text-mono-sm);
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-left: 0.2rem;
+  transition: color var(--transition);
+}
+
+.link-list li:hover .link-host,
+.link-list li:focus-within .link-host {
+  color: var(--cyan);
 }
 
 .link-cursor {
