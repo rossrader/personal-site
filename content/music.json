@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-03T14:53:21.862Z",
+  "fetchedAt": "2026-10-03T19:07:15.776Z",
   "albums": [
     {
       "id": "0mjXPFDiAnSFIbEZkGFI4i",
       "title": "Left My Blues In San Francisco",
       "artist": "Buddy Guy",
       "year": 1967,
-      "plays": 4,
+      "plays": 11,
       "cover": "content/music/al-0mjXPFDiAnSFIbEZkGFI4i_8a83ab45d209d429.jpg"
     },
     {

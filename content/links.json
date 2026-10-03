@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-03T14:53:21.980Z",
+  "fetchedAt": "2026-10-03T19:07:15.904Z",
   "links": [
+    {
+      "id": "rp3k9sn0ro3s4l49p8itv7q5",
+      "url": "https://share.google/Ep9kpq6b9mnuC8kQg",
+      "title": "CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada",
+      "ts": "2026-10-03T14:38:04-04:00"
+    },
     {
       "id": "dr16d7octy2dtfzk67jfkwad",
       "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
@@ -96,12 +102,6 @@
       "url": "https://youtube.com/shorts/JZjeI03nFlc",
       "title": "3 Open Source Intelligence Tools I Wish I knew About Earlier!",
       "ts": "2026-09-23T11:32:20-04:00"
-    },
-    {
-      "id": "fq81xxmv09rnortlyczjoq6s",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "ts": "2026-09-22T18:26:17-04:00"
     }
   ]
 }
