@@ -1,0 +1,107 @@
+{
+  "fetchedAt": "2026-10-03T13:25:23.405Z",
+  "links": [
+    {
+      "id": "dr16d7octy2dtfzk67jfkwad",
+      "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
+      "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
+      "ts": "2026-10-02T22:28:01-04:00"
+    },
+    {
+      "id": "m8r3anhdxrfd6uus4b4fihag",
+      "url": "https://charliehills.substack.com/p/28-things-to-install-into-claude",
+      "title": "28 things to install into Claude for motion graphics",
+      "ts": "2026-10-02T21:52:44-04:00"
+    },
+    {
+      "id": "uymu52wx4h2pm4vfjtvxzl06",
+      "url": "https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/",
+      "title": "Claude Code’s desktop GUI has one superpower the terminal version will never match",
+      "ts": "2026-10-02T21:51:35-04:00"
+    },
+    {
+      "id": "ubgmigiruatc69dj7plyv1ie",
+      "url": "https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/",
+      "title": "I added health checks to every Docker container, and now my homelab restarts its own broken services",
+      "ts": "2026-10-02T21:39:54-04:00"
+    },
+    {
+      "id": "h7h57fk99du989k1bl0g1ek6",
+      "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+      "title": "GitHub - jaywcjlove/awesome-swift-macos-apps: A curated collection of open-source macOS applications built with Swift",
+      "ts": "2026-09-29T02:59:24-04:00"
+    },
+    {
+      "id": "miawylhjaa78pxlbty5lyu4t",
+      "url": "https://github.com/The01Geek/prflow",
+      "title": "GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.",
+      "ts": "2026-09-29T02:50:25-04:00"
+    },
+    {
+      "id": "hbp3jj5lwe9hqfdb99bc68mn",
+      "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+      "ts": "2026-09-28T21:16:13-04:00"
+    },
+    {
+      "id": "au36tsb0ao13qx7xtj6y9le3",
+      "url": "https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/",
+      "title": "I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner",
+      "ts": "2026-09-27T22:55:17-04:00"
+    },
+    {
+      "id": "jxlmg4n4etm7bq74sf79n6s8",
+      "url": "https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/",
+      "title": "I stopped my local LLM agent from running out of context, and now it handles what Claude Code does",
+      "ts": "2026-09-27T12:25:31-04:00"
+    },
+    {
+      "id": "r1op35moroluealkn2zjb4f9",
+      "url": "https://github.com/Mininglamp-OSS",
+      "title": "MININGLAMP TECHNOLOGY",
+      "ts": "2026-09-26T22:05:52-04:00"
+    },
+    {
+      "id": "fxy3mobjcvqodq7yjr6r4iub",
+      "url": "https://www.xda-developers.com/docker-containers-i-use-to-manage-my-small-business-like-a-pro/",
+      "title": "5 Docker containers I use to manage my small business like a pro",
+      "ts": "2026-09-26T21:27:47-04:00"
+    },
+    {
+      "id": "nxel3vhsroslhfuqtl7rdkvn",
+      "url": "https://www.opensourceprojects.dev/post/ava",
+      "title": "Visual analytics that loads your data and suggests what to query",
+      "ts": "2026-09-26T21:01:17-04:00"
+    },
+    {
+      "id": "g46vcx4r2rzo0y4ycfjzbsco",
+      "url": "https://www.opensourceprojects.dev/post/pi-desktop",
+      "title": "A desktop workspace where agents, plugins, and workflows live together",
+      "ts": "2026-09-26T20:56:02-04:00"
+    },
+    {
+      "id": "cohto7bvemgauwvjejoczoxv",
+      "url": "https://www.howtogeek.com/clever-places-to-hide-sensors-and-other-smart-home-devices-in-your-house/",
+      "title": "7 clever places to hide sensors and other smart home gadgets in your house",
+      "ts": "2026-09-26T20:45:58-04:00"
+    },
+    {
+      "id": "mfvbzg9z8ee7qlks2jfcbq4s",
+      "url": "https://github.com/peakflo/20x",
+      "title": "GitHub - peakflo/20x: Self-improving Agent orchestrator for all knowledge work",
+      "ts": "2026-09-26T20:33:45-04:00"
+    },
+    {
+      "id": "krl2xif94k2k30j67ryce3ld",
+      "url": "https://youtube.com/shorts/JZjeI03nFlc",
+      "title": "3 Open Source Intelligence Tools I Wish I knew About Earlier!",
+      "ts": "2026-09-23T11:32:20-04:00"
+    },
+    {
+      "id": "fq81xxmv09rnortlyczjoq6s",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "ts": "2026-09-22T18:26:17-04:00"
+    }
+  ]
+}

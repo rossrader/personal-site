@@ -596,6 +596,58 @@ main section + section {
   stroke: var(--amber);
 }
 
+/* ===== Home layout: main column + link rail ===== */
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 900px) {
+  .home-grid {
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 3rem;
+  }
+}
+
+/* ===== Link rail (Karakeep linkdump) ===== */
+.link-day + .link-day {
+  margin-top: 1.4rem;
+}
+
+.link-date {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.link-entries {
+  font-size: var(--text-sm);
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.link-entries a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.link-entries a:hover,
+.link-entries a:focus-visible {
+  color: var(--amber);
+}
+
+.link-sep {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  color: var(--amber-dim);
+  margin-left: 0.2rem;
+}
+
 /* ===== Reading shelf (Hardcover) ===== */
 .book-shelf {
   display: flex;
@@ -608,7 +660,7 @@ main section + section {
   flex-direction: column;
   gap: 0.35rem;
   text-decoration: none;
-  flex: 1 1 128px;
+  flex: 1 1 108px;
   max-width: 170px;
 }
 
@@ -1223,8 +1275,13 @@ footer {
     padding: 2.5rem 0 3rem;
   }
 
-  main section + section {
+  main section + section,
+  .home-grid {
     margin-top: 3rem;
+  }
+
+  .home-grid {
+    gap: 3rem;
   }
 
   .header-content {
