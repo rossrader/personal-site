@@ -750,11 +750,13 @@ main section + section {
 
 .link-sep {
   font-family: var(--font-mono);
-  font-size: var(--text-mono);
-  font-weight: 500;
+  font-size: 1.35em;
+  line-height: 0;
   color: var(--amber);
-  margin: 0 0.2rem 0 0.3rem;
-  letter-spacing: -0.04em;
+  margin: 0 0.1rem 0 0.3rem;
+  position: relative;
+  top: 0.04em;
+  text-shadow: 0 0 8px var(--amber-dim);
 }
 
 .link-cursor {
