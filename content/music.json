@@ -1,12 +1,11 @@
 {
-  "fetchedAt": "2026-10-03T14:36:04.055Z",
+  "fetchedAt": "2026-10-03T14:38:00.223Z",
   "albums": [
     {
       "id": "7GUmjI4SBPaNURvLAfqU4g",
       "title": "Chrome Dreams",
       "artist": "Neil Young",
       "year": 2023,
-      "played": "2026-09-25T20:05:38.142Z",
       "plays": 16,
       "cover": "content/music/al-7GUmjI4SBPaNURvLAfqU4g_9612c4b526f9ca65.jpg"
     },
@@ -15,7 +14,6 @@
       "title": "Sloe Gin",
       "artist": "Joe Bonamassa",
       "year": 2007,
-      "played": "2026-09-25T18:40:39.928Z",
       "plays": 11,
       "cover": "content/music/al-4WKR3LmJ0kQzW6ztLvc2oF_da718567731e2973.jpg"
     },
@@ -24,7 +22,6 @@
       "title": "Renegade",
       "artist": "Thin Lizzy",
       "year": 2001,
-      "played": "2026-09-19T16:57:57.086Z",
       "plays": 6,
       "cover": "content/music/al-73Ngh1iXF7juRz0vX3uwgZ_5eedf92391cdd0d2.jpg"
     },
@@ -33,7 +30,6 @@
       "title": "Ukulele Songs",
       "artist": "Eddie Vedder",
       "year": 2011,
-      "played": "2026-09-19T14:57:15.741Z",
       "plays": 12,
       "cover": "content/music/al-5eaLEP3rGete9PFmxFd8C5_299de0ae5ef7b2b1.jpg"
     },
@@ -42,7 +38,6 @@
       "title": "Check Your Head (Remastered Edition)",
       "artist": "Beastie Boys",
       "year": 2009,
-      "played": "2026-09-18T22:16:40.464Z",
       "plays": 14,
       "cover": "content/music/al-5ay95cH01azf8xg1Flj0cD_88f738e5c4c705c5.jpg"
     }
