@@ -884,6 +884,21 @@ main section + section {
   color: var(--muted);
 }
 
+/* Listening shelf (Navidrome) reuses the book cards: square covers,
+   and no hover lift since the cards aren't links */
+.album-card .book-cover {
+  aspect-ratio: 1;
+}
+
+.album-card:hover .book-cover {
+  border-color: var(--border);
+  transform: none;
+}
+
+.album-card:hover .book-title {
+  color: var(--text);
+}
+
 /* ===== Post page ===== */
 .post-header {
   margin-bottom: 2.5rem;
