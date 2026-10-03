@@ -611,41 +611,156 @@ main section + section {
   }
 }
 
-/* ===== Link rail (Karakeep linkdump) ===== */
-.link-day + .link-day {
-  margin-top: 1.4rem;
-}
-
-.link-date {
+/* ===== Link rail (Karakeep linkdump) =====
+   A phosphor feed: a gradient spine borrowed from the shelf divider,
+   diamond day markers, and older days fading like a cooling screen. */
+.rail-meta {
   font-family: var(--font-mono);
   font-size: var(--text-mono-sm);
   letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 0.4rem;
+}
+
+.link-block {
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.link-block::before {
+  content: '';
+  position: absolute;
+  top: 0.35rem;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background: linear-gradient(180deg, var(--amber), var(--cyan) 45%, transparent);
+}
+
+.link-day {
+  --fade: max(0.55, calc(1 - var(--age, 0) * 0.075));
+  opacity: var(--fade);
+  transition: opacity 0.35s ease;
+  animation: link-day-in 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  animation-delay: calc(var(--age, 0) * 70ms + 120ms);
+}
+
+.link-day:hover,
+.link-day:focus-within {
+  opacity: 1;
+}
+
+.link-day + .link-day {
+  margin-top: 1.5rem;
+}
+
+@keyframes link-day-in {
+  from {
+    opacity: 0;
+    transform: translateX(-6px);
+  }
+}
+
+.link-date {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  letter-spacing: 0.12em;
+}
+
+/* Diamond on the spine — echoes the shelf divider's cap */
+.link-date::before {
+  content: '';
+  position: absolute;
+  left: calc(-1.35rem - 3.5px);
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  transform: rotate(45deg);
+  background: var(--bg);
+  border: 1px solid var(--cyan-dim);
+}
+
+.link-day.is-latest .link-date::before {
+  background: var(--amber);
+  border-color: var(--amber);
+  box-shadow: 0 0 10px var(--amber-dim);
+}
+
+.link-date time {
+  color: var(--text-tertiary);
+}
+
+.link-day.is-latest .link-date time {
+  color: var(--amber);
+}
+
+.link-dow {
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.link-rule {
+  flex: 1;
+  height: 0;
+  border-top: 1px dashed var(--border-bright);
+}
+
+.link-count {
+  color: var(--cyan);
+  opacity: 0.75;
 }
 
 .link-entries {
   font-size: var(--text-sm);
-  line-height: 1.75;
+  line-height: 1.8;
+  color: var(--text-secondary);
   overflow-wrap: anywhere;
 }
 
+/* Underline draws in left-to-right, amber into cyan, and follows
+   the title across line wraps */
 .link-entries a {
-  color: var(--text-secondary);
+  color: inherit;
   text-decoration: none;
-  transition: color var(--transition);
+  background-image: linear-gradient(90deg, var(--amber), var(--cyan));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: color var(--transition), background-size 0.35s ease;
+}
+
+.link-entries a:visited {
+  color: var(--text-tertiary);
 }
 
 .link-entries a:hover,
 .link-entries a:focus-visible {
-  color: var(--amber);
+  color: var(--text);
+  background-size: 100% 1px;
 }
 
 .link-sep {
   font-family: var(--font-mono);
   font-size: var(--text-mono-sm);
+  font-weight: 500;
   color: var(--amber-dim);
-  margin-left: 0.2rem;
+  margin-left: 0.15rem;
+  letter-spacing: -0.04em;
+}
+
+.link-cursor {
+  font-family: var(--font-mono);
+  color: var(--amber);
+  margin-left: 0.15rem;
+  animation: cursor-blink 1.2s steps(1) infinite;
 }
 
 /* ===== Reading shelf (Hardcover) ===== */
