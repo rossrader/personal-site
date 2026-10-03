@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-03T14:47:30.266Z",
+  "fetchedAt": "2026-10-03T14:48:32.893Z",
   "albums": [
+    {
+      "id": "0mjXPFDiAnSFIbEZkGFI4i",
+      "title": "Left My Blues In San Francisco",
+      "artist": "Buddy Guy",
+      "year": 1967,
+      "plays": 3,
+      "cover": "content/music/al-0mjXPFDiAnSFIbEZkGFI4i_8a83ab45d209d429.jpg"
+    },
     {
       "id": "7GUmjI4SBPaNURvLAfqU4g",
       "title": "Chrome Dreams",
@@ -32,14 +40,6 @@
       "year": 2011,
       "plays": 12,
       "cover": "content/music/al-5eaLEP3rGete9PFmxFd8C5_299de0ae5ef7b2b1.jpg"
-    },
-    {
-      "id": "5ay95cH01azf8xg1Flj0cD",
-      "title": "Check Your Head (Remastered Edition)",
-      "artist": "Beastie Boys",
-      "year": 2009,
-      "plays": 14,
-      "cover": "content/music/al-5ay95cH01azf8xg1Flj0cD_88f738e5c4c705c5.jpg"
     }
   ]
 }
