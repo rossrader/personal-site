@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-06T00:47:20.716Z",
+  "fetchedAt": "2026-10-06T10:37:16.713Z",
   "albums": [
+    {
+      "id": "09lo0JNySb0BlLdGvwYO3q",
+      "title": "Gigantoid",
+      "artist": "Fu Manchu",
+      "year": 2014,
+      "plays": 10,
+      "cover": "content/music/al-09lo0JNySb0BlLdGvwYO3q_ed66c522c868fb7a.jpg"
+    },
     {
       "id": "5YUXKGt0Bzz7Gp230aj0JV",
       "title": "Angels & Ghosts",
@@ -32,14 +40,6 @@
       "year": 2012,
       "plays": 7,
       "cover": "content/music/al-0c3f4GzGpDDDLgarKoA8nk_678d79c18a131670.jpg"
-    },
-    {
-      "id": "3iEGzjDVsjYzLxmKJqNovo",
-      "title": "Sleepless Nights",
-      "artist": "Gram Parsons",
-      "year": null,
-      "plays": 12,
-      "cover": "content/music/al-3iEGzjDVsjYzLxmKJqNovo_294e4cd79526d9a1.jpg"
     }
   ]
 }
