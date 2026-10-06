@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-06T10:37:16.861Z",
+  "fetchedAt": "2026-10-06T11:07:16.911Z",
   "links": [
+    {
+      "id": "cccyv955c1tzwxszqungvupl",
+      "url": "https://share.google/4FnHKVGW24j4o9IMq",
+      "title": "Agents have made CI the bottleneck. Faster pipelines are the wrong fix.",
+      "ts": "2026-10-06T06:47:42-04:00"
+    },
     {
       "id": "ydfu82ypipeozwhzny2s4obx",
       "url": "https://share.google/o8Dofo5RBT5klirsv",
