@@ -1,45 +1,45 @@
 {
-  "fetchedAt": "2026-10-04T05:07:15.980Z",
+  "fetchedAt": "2026-10-06T00:47:20.716Z",
   "albums": [
     {
-      "id": "0mjXPFDiAnSFIbEZkGFI4i",
-      "title": "Left My Blues In San Francisco",
-      "artist": "Buddy Guy",
-      "year": 1967,
+      "id": "5YUXKGt0Bzz7Gp230aj0JV",
+      "title": "Angels & Ghosts",
+      "artist": "Dave Gahan",
+      "year": 2015,
+      "plays": 8,
+      "cover": "content/music/al-5YUXKGt0Bzz7Gp230aj0JV_ed68fa32ef0ad9af.jpg"
+    },
+    {
+      "id": "0TzLfYx2FjK18mnowMpiw5",
+      "title": "Play Loud",
+      "artist": "The Record Company",
+      "year": 2021,
+      "plays": 8,
+      "cover": "content/music/al-0TzLfYx2FjK18mnowMpiw5_44eded907b523927.jpg"
+    },
+    {
+      "id": "0hUwZ6AX8iBhJWns7gnHss",
+      "title": "Sweet Baby James",
+      "artist": "James Taylor",
+      "year": 1970,
       "plays": 11,
-      "cover": "content/music/al-0mjXPFDiAnSFIbEZkGFI4i_8a83ab45d209d429.jpg"
+      "cover": "content/music/al-0hUwZ6AX8iBhJWns7gnHss_bb56670d93e924e4.jpg"
     },
     {
-      "id": "7GUmjI4SBPaNURvLAfqU4g",
-      "title": "Chrome Dreams",
-      "artist": "Neil Young",
-      "year": 2023,
-      "plays": 16,
-      "cover": "content/music/al-7GUmjI4SBPaNURvLAfqU4g_9612c4b526f9ca65.jpg"
+      "id": "0c3f4GzGpDDDLgarKoA8nk",
+      "title": "Last of a Dyin’ Breed",
+      "artist": "Lynyrd Skynyrd",
+      "year": 2012,
+      "plays": 7,
+      "cover": "content/music/al-0c3f4GzGpDDDLgarKoA8nk_678d79c18a131670.jpg"
     },
     {
-      "id": "4WKR3LmJ0kQzW6ztLvc2oF",
-      "title": "Sloe Gin",
-      "artist": "Joe Bonamassa",
-      "year": 2007,
-      "plays": 11,
-      "cover": "content/music/al-4WKR3LmJ0kQzW6ztLvc2oF_da718567731e2973.jpg"
-    },
-    {
-      "id": "73Ngh1iXF7juRz0vX3uwgZ",
-      "title": "Renegade",
-      "artist": "Thin Lizzy",
-      "year": 2001,
-      "plays": 6,
-      "cover": "content/music/al-73Ngh1iXF7juRz0vX3uwgZ_5eedf92391cdd0d2.jpg"
-    },
-    {
-      "id": "5eaLEP3rGete9PFmxFd8C5",
-      "title": "Ukulele Songs",
-      "artist": "Eddie Vedder",
-      "year": 2011,
+      "id": "3iEGzjDVsjYzLxmKJqNovo",
+      "title": "Sleepless Nights",
+      "artist": "Gram Parsons",
+      "year": null,
       "plays": 12,
-      "cover": "content/music/al-5eaLEP3rGete9PFmxFd8C5_299de0ae5ef7b2b1.jpg"
+      "cover": "content/music/al-3iEGzjDVsjYzLxmKJqNovo_294e4cd79526d9a1.jpg"
     }
   ]
 }
