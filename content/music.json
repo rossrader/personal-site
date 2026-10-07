@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-10-06T11:07:16.739Z",
+  "fetchedAt": "2026-10-07T05:07:17.035Z",
   "albums": [
+    {
+      "id": "1ptWEmAlKD4QJXvuOUNDlB",
+      "title": "Privateering",
+      "artist": "Mark Knopfler",
+      "year": 2012,
+      "plays": 5,
+      "cover": "content/music/al-1ptWEmAlKD4QJXvuOUNDlB_a1c3212b967af8fb.jpg"
+    },
+    {
+      "id": "43eNG9tS1pLX4I5ZiOCGcz",
+      "title": "Lawyers in Love",
+      "artist": "Jackson Browne",
+      "year": 1983,
+      "plays": 8,
+      "cover": "content/music/al-43eNG9tS1pLX4I5ZiOCGcz_b76076c5d19249d8.jpg"
+    },
+    {
+      "id": "2O0AHkDL1HrplRtI2d9guN",
+      "title": "Black Holes",
+      "artist": "The Blue Stones",
+      "year": 2015,
+      "plays": 12,
+      "cover": "content/music/al-2O0AHkDL1HrplRtI2d9guN_8dd72636deb08d1e.jpg"
+    },
     {
       "id": "09lo0JNySb0BlLdGvwYO3q",
       "title": "Gigantoid",
@@ -16,30 +40,6 @@
       "year": 2015,
       "plays": 8,
       "cover": "content/music/al-5YUXKGt0Bzz7Gp230aj0JV_ed68fa32ef0ad9af.jpg"
-    },
-    {
-      "id": "0TzLfYx2FjK18mnowMpiw5",
-      "title": "Play Loud",
-      "artist": "The Record Company",
-      "year": 2021,
-      "plays": 8,
-      "cover": "content/music/al-0TzLfYx2FjK18mnowMpiw5_44eded907b523927.jpg"
-    },
-    {
-      "id": "0hUwZ6AX8iBhJWns7gnHss",
-      "title": "Sweet Baby James",
-      "artist": "James Taylor",
-      "year": 1970,
-      "plays": 11,
-      "cover": "content/music/al-0hUwZ6AX8iBhJWns7gnHss_bb56670d93e924e4.jpg"
-    },
-    {
-      "id": "0c3f4GzGpDDDLgarKoA8nk",
-      "title": "Last of a Dyin’ Breed",
-      "artist": "Lynyrd Skynyrd",
-      "year": 2012,
-      "plays": 7,
-      "cover": "content/music/al-0c3f4GzGpDDDLgarKoA8nk_678d79c18a131670.jpg"
     }
   ]
 }
