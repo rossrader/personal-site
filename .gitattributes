@@ -19,3 +19,12 @@ styles.css merge=regen
 # Hardcover shelf cache: refreshed from the API on every build, so
 # concurrent laptop/server builds both rewrite it — either side is fine.
 content/books.json merge=regen
+
+# Link dump: page, feed and caches are rebuilt from Karakeep on every build
+links.html merge=regen
+links.xml merge=regen
+content/links.json merge=regen
+content/links-archive.json merge=regen
+
+# Navidrome shelf cache, same as books.json
+content/music.json merge=regen
