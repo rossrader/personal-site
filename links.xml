@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ross Rader — Link Dump</title>
+    <link>https://rossrader.ca/links.html</link>
+    <description>Links worth keeping, bookmarked as I go</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Oct 2026 17:17:39 GMT</lastBuildDate>
+    <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac</title>
+      <link>https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/</link>
+      <guid isPermaLink="false">s3o4w90cfpkwdikycinnitix</guid>
+      <pubDate>Wed, 07 Oct 2026 17:17:39 GMT</pubDate>
+      <description>SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…</description>
+    </item>
+    <item>
+      <title>Client Challenge</title>
+      <link>https://www.nature.com/articles/s42256-026-01303-y</link>
+      <guid isPermaLink="false">p9nxxwh1psxagvwdn2acgm5z</guid>
+      <pubDate>Wed, 07 Oct 2026 17:06:11 GMT</pubDate>
+      <description>When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens.</description>
+    </item>
+    <item>
+      <title>AI Agent Gateway: Open-source tool keeps credentials out of agent configs - Help Net Security</title>
+      <link>https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/</link>
+      <guid isPermaLink="false">pm8zggyyb3q20ivzetkdsnot</guid>
+      <pubDate>Wed, 07 Oct 2026 10:15:10 GMT</pubDate>
+      <description>Tuskira’s open-source AI agent gateway keeps credentials out of agent configs and checks every MCP tool call against a profile.</description>
+    </item>
+    <item>
+      <title>Agents have made CI the bottleneck. Faster pipelines are the wrong fix.</title>
+      <link>https://thenewstack.io/ci-bottleneck-agent-verification/</link>
+      <guid isPermaLink="false">cccyv955c1tzwxszqungvupl</guid>
+      <pubDate>Tue, 06 Oct 2026 10:47:42 GMT</pubDate>
+      <description>Agents pushed CI job volume up 25x at Anthropic. Faster pipelines help, but they still check a repo, not the distributed system it has to work with.</description>
+    </item>
+    <item>
+      <title>Mods in Claude Code: change how Claude Code works</title>
+      <link>https://www.youtube.com/watch?v=yUuFvL1lK4k</link>
+      <guid isPermaLink="false">ydfu82ypipeozwhzny2s4obx</guid>
+      <pubDate>Tue, 06 Oct 2026 10:37:11 GMT</pubDate>
+      <description>Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…</description>
+    </item>
+    <item>
+      <title>How Claude Can Analyze Your WordPress SEO With Rank Math MCP</title>
+      <link>https://m.youtube.com/shorts/Ev9WmiNdsPE</link>
+      <guid isPermaLink="false">zlpkp1gdtuun10j7gjebx2xq</guid>
+      <pubDate>Sun, 04 Oct 2026 00:28:24 GMT</pubDate>
+      <description>What if Claude could actually understand your WordPress site instead of giving you generic SEO advice? With Rank Math MCP + Claude, you can connect AI to you…</description>
+    </item>
+    <item>
+      <title>Build an App With Claude Design</title>
+      <link>https://www.youtube.com/watch?v=FByNauagcbY</link>
+      <guid isPermaLink="false">lxckrc8r8vcofu2gkm4zt6yb</guid>
+      <pubDate>Sun, 04 Oct 2026 00:25:03 GMT</pubDate>
+      <description>Nate, a designer at Anthropic, uses Claude design in Claude Code to take his side project’s onboarding from rough idea to working prototype.He connects his r…</description>
+    </item>
+    <item>
+      <title>‘This Matters’: Researchers Identify Thousands of New Tells in AI Writing</title>
+      <link>https://gizmodo.com/this-matters-researchers-identify-thousands-of-new-tells-in-ai-writing-2000820447</link>
+      <guid isPermaLink="false">s9y2yovsfk7ybsbvukcfe9pd</guid>
+      <pubDate>Sat, 03 Oct 2026 23:20:54 GMT</pubDate>
+      <description>The days of freaking out over em dashes are over.</description>
+    </item>
+    <item>
+      <title>CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada</title>
+      <link>https://www.iphoneincanada.ca/2026/10/02/crtc-orders-canadian-carriers-to-improve-cellphone-coverage-maps/</link>
+      <guid isPermaLink="false">rp3k9sn0ro3s4l49p8itv7q5</guid>
+      <pubDate>Sat, 03 Oct 2026 18:38:04 GMT</pubDate>
+      <description>The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…</description>
+    </item>
+    <item>
+      <title>Claude Mods Is The Biggest Claude Code Upgrade Since Skills</title>
+      <link>https://www.youtube.com/watch?v=Rn4nmFRPe0s</link>
+      <guid isPermaLink="false">dr16d7octy2dtfzk67jfkwad</guid>
+      <pubDate>Sat, 03 Oct 2026 02:28:01 GMT</pubDate>
+      <description>⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…</description>
+    </item>
+    <item>
+      <title>28 things to install into Claude for motion graphics</title>
+      <link>https://charliehills.substack.com/p/28-things-to-install-into-claude</link>
+      <guid isPermaLink="false">m8r3anhdxrfd6uus4b4fihag</guid>
+      <pubDate>Sat, 03 Oct 2026 01:52:44 GMT</pubDate>
+      <description>Every repo, the job it does and the line that installs it.</description>
+    </item>
+    <item>
+      <title>Claude Code’s desktop GUI has one superpower the terminal version will never match</title>
+      <link>https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/</link>
+      <guid isPermaLink="false">uymu52wx4h2pm4vfjtvxzl06</guid>
+      <pubDate>Sat, 03 Oct 2026 01:51:35 GMT</pubDate>
+      <description>Same engine, different experience</description>
+    </item>
+    <item>
+      <title>I added health checks to every Docker container, and now my homelab restarts its own broken services</title>
+      <link>https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/</link>
+      <guid isPermaLink="false">ubgmigiruatc69dj7plyv1ie</guid>
+      <pubDate>Sat, 03 Oct 2026 01:39:54 GMT</pubDate>
+      <description>It only handles the boring failure.</description>
+    </item>
+    <item>
+      <title>GitHub - jaywcjlove/awesome-swift-macos-apps: A curated collection of open-source macOS applications built with Swift</title>
+      <link>https://github.com/jaywcjlove/awesome-swift-macos-apps</link>
+      <guid isPermaLink="false">h7h57fk99du989k1bl0g1ek6</guid>
+      <pubDate>Tue, 29 Sep 2026 06:59:24 GMT</pubDate>
+      <description>A curated collection of open-source macOS applications built with Swift - jaywcjlove/awesome-swift-macos-apps</description>
+    </item>
+    <item>
+      <title>GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.</title>
+      <link>https://github.com/The01Geek/prflow</link>
+      <guid isPermaLink="false">miawylhjaa78pxlbty5lyu4t</guid>
+      <pubDate>Tue, 29 Sep 2026 06:50:25 GMT</pubDate>
+      <description>Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. E…</description>
+    </item>
+    <item>
+      <title>EmDash 1.0: the stable CMS with a secure plugin registry</title>
+      <link>https://blog.cloudflare.com/emdash-cms-plugin-registry/</link>
+      <guid isPermaLink="false">hbp3jj5lwe9hqfdb99bc68mn</guid>
+      <pubDate>Tue, 29 Sep 2026 01:16:13 GMT</pubDate>
+      <description>EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.</description>
+    </item>
+    <item>
+      <title>I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner</title>
+      <link>https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/</link>
+      <guid isPermaLink="false">au36tsb0ao13qx7xtj6y9le3</guid>
+      <pubDate>Mon, 28 Sep 2026 02:55:17 GMT</pubDate>
+      <description>An extremely convincing Keep replacement</description>
+    </item>
+    <item>
+      <title>I stopped my local LLM agent from running out of context, and now it handles what Claude Code does</title>
+      <link>https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/</link>
+      <guid isPermaLink="false">jxlmg4n4etm7bq74sf79n6s8</guid>
+      <pubDate>Sun, 27 Sep 2026 16:25:31 GMT</pubDate>
+      <description>Tweaking a few settings did more than a new model would have</description>
+    </item>
+    <item>
+      <title>MININGLAMP TECHNOLOGY</title>
+      <link>https://github.com/Mininglamp-OSS</link>
+      <guid isPermaLink="false">r1op35moroluealkn2zjb4f9</guid>
+      <pubDate>Sun, 27 Sep 2026 02:05:52 GMT</pubDate>
+      <description>Open-source AI-native collaboration platform — where humans and AI Agents work as one team. - MININGLAMP TECHNOLOGY</description>
+    </item>
+    <item>
+      <title>5 Docker containers I use to manage my small business like a pro</title>
+      <link>https://www.xda-developers.com/docker-containers-i-use-to-manage-my-small-business-like-a-pro/</link>
+      <guid isPermaLink="false">fxy3mobjcvqodq7yjr6r4iub</guid>
+      <pubDate>Sun, 27 Sep 2026 01:27:47 GMT</pubDate>
+      <description>Self-hosted tools that run my business.</description>
+    </item>
+    <item>
+      <title>Visual analytics that loads your data and suggests what to query</title>
+      <link>https://www.opensourceprojects.dev/post/ava</link>
+      <guid isPermaLink="false">nxel3vhsroslhfuqtl7rdkvn</guid>
+      <pubDate>Sun, 27 Sep 2026 01:01:17 GMT</pubDate>
+      <description>Visual analytics that loads your data and suggests what to query</description>
+    </item>
+    <item>
+      <title>A desktop workspace where agents, plugins, and workflows live together</title>
+      <link>https://www.opensourceprojects.dev/post/pi-desktop</link>
+      <guid isPermaLink="false">g46vcx4r2rzo0y4ycfjzbsco</guid>
+      <pubDate>Sun, 27 Sep 2026 00:56:02 GMT</pubDate>
+      <description>A desktop workspace where agents, plugins, and workflows live together</description>
+    </item>
+    <item>
+      <title>7 clever places to hide sensors and other smart home gadgets in your house</title>
+      <link>https://www.howtogeek.com/clever-places-to-hide-sensors-and-other-smart-home-devices-in-your-house/</link>
+      <guid isPermaLink="false">cohto7bvemgauwvjejoczoxv</guid>
+      <pubDate>Sun, 27 Sep 2026 00:45:58 GMT</pubDate>
+      <description>Out of sight, out of mind.</description>
+    </item>
+    <item>
+      <title>GitHub - peakflo/20x: Self-improving Agent orchestrator for all knowledge work</title>
+      <link>https://github.com/peakflo/20x</link>
+      <guid isPermaLink="false">mfvbzg9z8ee7qlks2jfcbq4s</guid>
+      <pubDate>Sun, 27 Sep 2026 00:33:45 GMT</pubDate>
+      <description>Self-improving Agent orchestrator for all knowledge work - peakflo/20x</description>
+    </item>
+    <item>
+      <title>3 Open Source Intelligence Tools I Wish I knew About Earlier!</title>
+      <link>https://youtube.com/shorts/JZjeI03nFlc</link>
+      <guid isPermaLink="false">krl2xif94k2k30j67ryce3ld</guid>
+      <pubDate>Wed, 23 Sep 2026 15:32:20 GMT</pubDate>
+      <description>3 OSINT tools I wish somebody told me about earlier!#OSINT #OPSEC #cybersecurity</description>
+    </item>
+    <item>
+      <title>GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.</title>
+      <link>https://github.com/baidu/Unlimited-OCR</link>
+      <guid isPermaLink="false">fq81xxmv09rnortlyczjoq6s</guid>
+      <pubDate>Tue, 22 Sep 2026 22:26:17 GMT</pubDate>
+      <description>Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. - baidu/Unlimited-OCR</description>
+    </item>
+    <item>
+      <title>GitHub - calesthio/Crucix: Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.</title>
+      <link>https://github.com/calesthio/Crucix</link>
+      <guid isPermaLink="false">ykarssq3wfw6gm29ftp8fhaf</guid>
+      <pubDate>Tue, 22 Sep 2026 01:19:55 GMT</pubDate>
+      <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. - calesthio/Crucix</description>
+    </item>
+    <item>
+      <title>Avi Chawla (@_avichawla) on X</title>
+      <link>https://x.com/_avichawla/status/2101563610644496464</link>
+      <guid isPermaLink="false">x4ukj9cmsridihi152fscwkh</guid>
+      <pubDate>Tue, 22 Sep 2026 00:25:16 GMT</pubDate>
+      <description>Build your own Jev (100% local)</description>
+    </item>
+    <item>
+      <title>Pearl Jam - 8/14/93 {NEW Complete Pro-Shot SBD Concert} NEW SBD Audio &amp; New Video Edits</title>
+      <link>https://youtube.com/watch?v=GyBxt3n9PxQ</link>
+      <guid isPermaLink="false">crlap9cenmkh1o8du8sj37wc</guid>
+      <pubDate>Tue, 22 Sep 2026 00:22:40 GMT</pubDate>
+      <description>Pearl Jam - 08/14/93 (Video)Gimli Motorsport ParkGimli, Manitoba - CanadaSunfest ’93 (Mudfest)Set:00. Intro...01. Evenflow02. Why Go03. Deep04. Jeremy05. Ani…</description>
+    </item>
+    <item>
+      <title>elvis (@omarsar0) on X</title>
+      <link>https://x.com/omarsar0/status/2101349932569370826</link>
+      <guid isPermaLink="false">rh3z692m82av9dkvp5ytioix</guid>
+      <pubDate>Mon, 21 Sep 2026 23:54:09 GMT</pubDate>
+      <description>Been integrating Jev into my custom harness. I couldn’t be more excited about the results I am seeing. Most demos on my timeline are flashy but very basic. Notice they are all about some boring classification task that was already possible before. I get it. Jev is fast and cheap. That point was …</description>
+    </item>
+    <item>
+      <title>GitHub - fjykTec/ModernWMS: The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function and opened it up for free, hoping to help the majority of small and medium-sized enterprises. At present, the system supports cross-platform。</title>
+      <link>https://github.com/fjykTec/ModernWMS</link>
+      <guid isPermaLink="false">ie46b7wfh6qddzq1zqeawkz0</guid>
+      <pubDate>Mon, 21 Sep 2026 23:43:29 GMT</pubDate>
+      <description>The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function an…</description>
+    </item>
+    <item>
+      <title>I built my own front page out of RSS, and stopped opening five news apps a day</title>
+      <link>https://www.xda-developers.com/built-front-page-out-of-rss-and-stopped-opening-five-news-apps-a-day/</link>
+      <guid isPermaLink="false">sxgrxm9ux42j02t5yoz34ft6</guid>
+      <pubDate>Mon, 21 Sep 2026 23:40:20 GMT</pubDate>
+      <description>FreshRSS and Glance are a powerhouse combination.</description>
+    </item>
+    <item>
+      <title>GitHub - Lifecycle-Innovations-Limited/claude-ops: Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4), voice (Bland/ElevenLabs), APM (Datadog/NewRelic/OTEL), YOLO mode.</title>
+      <link>https://github.com/Lifecycle-Innovations-Limited/claude-ops</link>
+      <guid isPermaLink="false">s8kuty4rtghdzuyc31ro4w3a</guid>
+      <pubDate>Mon, 21 Sep 2026 23:35:47 GMT</pubDate>
+      <description>Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat),…</description>
+    </item>
+    <item>
+      <title>GitHub - fynnfluegge/agtx: 🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini</title>
+      <link>https://github.com/fynnfluegge/agtx</link>
+      <guid isPermaLink="false">e8wdb05038n3t8am9v9kffms</guid>
+      <pubDate>Mon, 21 Sep 2026 17:47:59 GMT</pubDate>
+      <description>🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini - fynnfluegge/agtx</description>
+    </item>
+    <item>
+      <title>Dare Obasanjo (@carnage4life) on Threads</title>
+      <link>https://www.threads.com/@carnage4life/post/DdgpjJWGw9G/lots-of-software-companies-have-bought-into-the-belief-that-ai-has-solved/?gdref=1&amp;hpir=1&amp;http_ref=eyJ0cyI6MTc4OTk0OTAzNTAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D</link>
+      <guid isPermaLink="false">l3c179oikpsz43mzi1rxqfn6</guid>
+      <pubDate>Mon, 21 Sep 2026 00:04:10 GMT</pubDate>
+      <description>Lots of software companies have bought into the belief that AI has solved software engineering. The debate is shifting from whether AI should replace work done by SWEs, PMs and designers to whether humans should even review the output. Apparently human judgment is now the bottleneck.</description>
+    </item>
+    <item>
+      <title>GitHub - walidboulanouar/awesome-jev-use-cases: Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate.</title>
+      <link>https://github.com/walidboulanouar/awesome-jev-use-cases</link>
+      <guid isPermaLink="false">hw13v96s8jx0uqbt9jdhmn58</guid>
+      <pubDate>Sun, 20 Sep 2026 23:24:37 GMT</pubDate>
+      <description>Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate. - walidboulanouar/awesome-jev-use-cases</description>
+    </item>
+    <item>
+      <title>GitHub - logan-markewich/jeff: A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer.</title>
+      <link>https://github.com/logan-markewich/jeff</link>
+      <guid isPermaLink="false">yb8vvtmwmetb7mzj4pszhg66</guid>
+      <pubDate>Sun, 20 Sep 2026 20:54:10 GMT</pubDate>
+      <description>A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer. - logan-markewich/jeff</description>
+    </item>
+    <item>
+      <title>ESP32 Minimalist AI Note Taker Features OpenAI Whisper for Text Dictation</title>
+      <link>https://www.geeky-gadgets.com/diy-minimalist-ai-note-device/</link>
+      <guid isPermaLink="false">qd6d0l4ulq6fwdcy8d2tb2q4</guid>
+      <pubDate>Sun, 20 Sep 2026 18:19:06 GMT</pubDate>
+      <description>Build your own DIY AI note device using an ESP32 microcontroller and e-ink display. Record voice memos and transcribe them with OpenAI Whisper.</description>
+    </item>
+    <item>
+      <title>5 Prompt Optimization Strategies That Actually Improve LLM Output</title>
+      <link>https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output</link>
+      <guid isPermaLink="false">i9w0r0dl2n44wnew0igzfl0p</guid>
+      <pubDate>Sun, 20 Sep 2026 13:12:01 GMT</pubDate>
+      <description>This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs.</description>
+    </item>
+    <item>
+      <title>elvis (@omarsar0) on X</title>
+      <link>https://x.com/omarsar0/status/2100693601021997193</link>
+      <guid isPermaLink="false">wb51nbllue3g1okgtrfh8x46</guid>
+      <pubDate>Sat, 19 Sep 2026 20:17:12 GMT</pubDate>
+      <description>Things to try with Jev right now: 1. LLM-as-a-Judge evaluation 2. Routing for agent harnesses harness 3. Scaling agent orchestration by enabling smarter subagent creation with SOTA classification capabilities 4. Enhance dynamic harness generation where structured outputs are key The first three d…</description>
+    </item>
+    <item>
+      <title>Shann³ (@shannholmberg) on X</title>
+      <link>https://x.com/shannholmberg/status/2100591767590678912</link>
+      <guid isPermaLink="false">t9js258wy9yfofts6wyt0fzm</guid>
+      <pubDate>Sat, 19 Sep 2026 20:16:25 GMT</pubDate>
+      <description>how to use Jev to check your ai marketing team’s work before you review it jev is a new model built to evaluate information and make structured decisions inside software you give it context and specific questions, and it returns choices, scores and probabilities. that makes it useful for checking…</description>
+    </item>
+    <item>
+      <title>GitHub - yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions.</title>
+      <link>https://github.com/yibie/awesome-jev</link>
+      <guid isPermaLink="false">epgm0m0zagrqil8tjej9sokr</guid>
+      <pubDate>Sat, 19 Sep 2026 20:15:47 GMT</pubDate>
+      <description>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions. - yibie/awesome-jev</description>
+    </item>
+    <item>
+      <title>I run my local LLMs inside the ChatGPT desktop app now, and it took one free open-source tool to do it</title>
+      <link>https://www.xda-developers.com/run-local-llms-inside-chatgpt-desktop-app-one-free-open-source-tool/</link>
+      <guid isPermaLink="false">xmevvey6b1hlm063wila0bov</guid>
+      <pubDate>Sat, 19 Sep 2026 20:01:44 GMT</pubDate>
+      <description>opencodex is simple and easy to use, and lets you add any LLM to Codex.</description>
+    </item>
+    <item>
+      <title>Sung Kim (@sung.kim.mw) on Threads</title>
+      <link>https://www.threads.com/@sung.kim.mw/post/DdbiR4im80O/training-a-b-model-to-produce-faster-query-plans-than-postgres-or-how-to-make/?gdref=1&amp;hpir=1&amp;http_ref=eyJ0cyI6MTc4OTg0NzY4MjAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D</link>
+      <guid isPermaLink="false">xo7jfjqdzlr3aj2cahm0lujn</guid>
+      <pubDate>Sat, 19 Sep 2026 19:54:59 GMT</pubDate>
+      <description>Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning https://rohanbansal.com/qorl?v=3</description>
+    </item>
+    <item>
+      <title>One engineer shipped 2,000 PRs a month to production. Verification is the key.</title>
+      <link>https://thenewstack.io/agentic-verification-distributed-systems/</link>
+      <guid isPermaLink="false">izlncihdll9z9ehnpomhze47</guid>
+      <pubDate>Sat, 19 Sep 2026 19:54:23 GMT</pubDate>
+      <description>Learn how agentic verification helps AI agents ship thousands of PRs monthly using isolated, virtualized testing environments.</description>
+    </item>
+    <item>
+      <title>(131) Jev Ultrafast: a browser agent that never generates a coordinate or a selector - YouTube</title>
+      <link>https://www.youtube.com/shorts/mOGbXAjnPg4</link>
+      <guid isPermaLink="false">y34ti77cctbushudugctpg7v</guid>
+      <pubDate>Sat, 19 Sep 2026 04:10:57 GMT</pubDate>
+      <description>Jev Ultrafast clicks through a webpage without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision model…</description>
+    </item>
+    <item>
+      <title>GitHub - migsilva89/loadout: See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage.</title>
+      <link>https://github.com/migsilva89/loadout</link>
+      <guid isPermaLink="false">zini8lp4fzfe8gtypowe84zt</guid>
+      <pubDate>Fri, 18 Sep 2026 09:58:10 GMT</pubDate>
+      <description>See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage. - migsilva89/loadout</description>
+    </item>
+    <item>
+      <title>What Is Jev? A Guide to TypeSafe AI’s System One Model</title>
+      <link>https://www.langchain.com/blog/building-a-harness-with-jev</link>
+      <guid isPermaLink="false">f0154mkwndjyks0wlg9hclas</guid>
+      <pubDate>Fri, 18 Sep 2026 09:57:02 GMT</pubDate>
+      <description>What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain</description>
+    </item>
+    <item>
+      <title>Why human oversight is shifting from writing code to defining requirements</title>
+      <link>https://thenewstack.io/human-oversight-defining-requirements/</link>
+      <guid isPermaLink="false">br4btq2npipbz3lfi52aijse</guid>
+      <pubDate>Fri, 18 Sep 2026 09:54:47 GMT</pubDate>
+      <description>Automated test gates can’t catch flawed specs. Discover why human oversight must shift from writing code to defining AI requirements.</description>
+    </item>
+    <item>
+      <title>Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites</title>
+      <link>https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/</link>
+      <guid isPermaLink="false">m8g2plgro2piayl2w6c3nu5q</guid>
+      <pubDate>Thu, 17 Sep 2026 20:48:39 GMT</pubDate>
+      <description>Bill would help rightsholders obtain court orders to block foreign piracy sites.</description>
+    </item>
+  </channel>
+</rss>

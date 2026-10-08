@@ -1,0 +1,1300 @@
+{
+  "fetchedAt": "2026-10-08T12:59:23.799Z",
+  "links": [
+    {
+      "id": "s3o4w90cfpkwdikycinnitix",
+      "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
+      "title": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac",
+      "ts": "2026-10-07T13:17:39-04:00",
+      "description": "SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…"
+    },
+    {
+      "id": "p9nxxwh1psxagvwdn2acgm5z",
+      "url": "https://www.nature.com/articles/s42256-026-01303-y",
+      "title": "Client Challenge",
+      "ts": "2026-10-07T13:06:11-04:00",
+      "description": "When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens."
+    },
+    {
+      "id": "pm8zggyyb3q20ivzetkdsnot",
+      "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
+      "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs - Help Net Security",
+      "ts": "2026-10-07T06:15:10-04:00",
+      "description": "Tuskira’s open-source AI agent gateway keeps credentials out of agent configs and checks every MCP tool call against a profile."
+    },
+    {
+      "id": "cccyv955c1tzwxszqungvupl",
+      "url": "https://thenewstack.io/ci-bottleneck-agent-verification/",
+      "title": "Agents have made CI the bottleneck. Faster pipelines are the wrong fix.",
+      "ts": "2026-10-06T06:47:42-04:00",
+      "description": "Agents pushed CI job volume up 25x at Anthropic. Faster pipelines help, but they still check a repo, not the distributed system it has to work with."
+    },
+    {
+      "id": "ydfu82ypipeozwhzny2s4obx",
+      "url": "https://www.youtube.com/watch?v=yUuFvL1lK4k",
+      "title": "Mods in Claude Code: change how Claude Code works",
+      "ts": "2026-10-06T06:37:11-04:00",
+      "description": "Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…"
+    },
+    {
+      "id": "zlpkp1gdtuun10j7gjebx2xq",
+      "url": "https://m.youtube.com/shorts/Ev9WmiNdsPE",
+      "title": "How Claude Can Analyze Your WordPress SEO With Rank Math MCP",
+      "ts": "2026-10-03T20:28:24-04:00",
+      "description": "What if Claude could actually understand your WordPress site instead of giving you generic SEO advice? With Rank Math MCP + Claude, you can connect AI to you…"
+    },
+    {
+      "id": "lxckrc8r8vcofu2gkm4zt6yb",
+      "url": "https://www.youtube.com/watch?v=FByNauagcbY",
+      "title": "Build an App With Claude Design",
+      "ts": "2026-10-03T20:25:03-04:00",
+      "description": "Nate, a designer at Anthropic, uses Claude design in Claude Code to take his side project’s onboarding from rough idea to working prototype.He connects his r…"
+    },
+    {
+      "id": "s9y2yovsfk7ybsbvukcfe9pd",
+      "url": "https://gizmodo.com/this-matters-researchers-identify-thousands-of-new-tells-in-ai-writing-2000820447",
+      "title": "‘This Matters’: Researchers Identify Thousands of New Tells in AI Writing",
+      "ts": "2026-10-03T19:20:54-04:00",
+      "description": "The days of freaking out over em dashes are over."
+    },
+    {
+      "id": "rp3k9sn0ro3s4l49p8itv7q5",
+      "url": "https://www.iphoneincanada.ca/2026/10/02/crtc-orders-canadian-carriers-to-improve-cellphone-coverage-maps/",
+      "title": "CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada",
+      "ts": "2026-10-03T14:38:04-04:00",
+      "description": "The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…"
+    },
+    {
+      "id": "dr16d7octy2dtfzk67jfkwad",
+      "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
+      "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
+      "ts": "2026-10-02T22:28:01-04:00",
+      "description": "⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…"
+    },
+    {
+      "id": "m8r3anhdxrfd6uus4b4fihag",
+      "url": "https://charliehills.substack.com/p/28-things-to-install-into-claude",
+      "title": "28 things to install into Claude for motion graphics",
+      "ts": "2026-10-02T21:52:44-04:00",
+      "description": "Every repo, the job it does and the line that installs it."
+    },
+    {
+      "id": "uymu52wx4h2pm4vfjtvxzl06",
+      "url": "https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/",
+      "title": "Claude Code’s desktop GUI has one superpower the terminal version will never match",
+      "ts": "2026-10-02T21:51:35-04:00",
+      "description": "Same engine, different experience"
+    },
+    {
+      "id": "ubgmigiruatc69dj7plyv1ie",
+      "url": "https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/",
+      "title": "I added health checks to every Docker container, and now my homelab restarts its own broken services",
+      "ts": "2026-10-02T21:39:54-04:00",
+      "description": "It only handles the boring failure."
+    },
+    {
+      "id": "h7h57fk99du989k1bl0g1ek6",
+      "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
+      "title": "GitHub - jaywcjlove/awesome-swift-macos-apps: A curated collection of open-source macOS applications built with Swift",
+      "ts": "2026-09-29T02:59:24-04:00",
+      "description": "A curated collection of open-source macOS applications built with Swift - jaywcjlove/awesome-swift-macos-apps"
+    },
+    {
+      "id": "miawylhjaa78pxlbty5lyu4t",
+      "url": "https://github.com/The01Geek/prflow",
+      "title": "GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.",
+      "ts": "2026-09-29T02:50:25-04:00",
+      "description": "Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. E…"
+    },
+    {
+      "id": "hbp3jj5lwe9hqfdb99bc68mn",
+      "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+      "ts": "2026-09-28T21:16:13-04:00",
+      "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
+    },
+    {
+      "id": "au36tsb0ao13qx7xtj6y9le3",
+      "url": "https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/",
+      "title": "I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner",
+      "ts": "2026-09-27T22:55:17-04:00",
+      "description": "An extremely convincing Keep replacement"
+    },
+    {
+      "id": "jxlmg4n4etm7bq74sf79n6s8",
+      "url": "https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/",
+      "title": "I stopped my local LLM agent from running out of context, and now it handles what Claude Code does",
+      "ts": "2026-09-27T12:25:31-04:00",
+      "description": "Tweaking a few settings did more than a new model would have"
+    },
+    {
+      "id": "r1op35moroluealkn2zjb4f9",
+      "url": "https://github.com/Mininglamp-OSS",
+      "title": "MININGLAMP TECHNOLOGY",
+      "ts": "2026-09-26T22:05:52-04:00",
+      "description": "Open-source AI-native collaboration platform — where humans and AI Agents work as one team. - MININGLAMP TECHNOLOGY"
+    },
+    {
+      "id": "fxy3mobjcvqodq7yjr6r4iub",
+      "url": "https://www.xda-developers.com/docker-containers-i-use-to-manage-my-small-business-like-a-pro/",
+      "title": "5 Docker containers I use to manage my small business like a pro",
+      "ts": "2026-09-26T21:27:47-04:00",
+      "description": "Self-hosted tools that run my business."
+    },
+    {
+      "id": "nxel3vhsroslhfuqtl7rdkvn",
+      "url": "https://www.opensourceprojects.dev/post/ava",
+      "title": "Visual analytics that loads your data and suggests what to query",
+      "ts": "2026-09-26T21:01:17-04:00",
+      "description": "Visual analytics that loads your data and suggests what to query"
+    },
+    {
+      "id": "g46vcx4r2rzo0y4ycfjzbsco",
+      "url": "https://www.opensourceprojects.dev/post/pi-desktop",
+      "title": "A desktop workspace where agents, plugins, and workflows live together",
+      "ts": "2026-09-26T20:56:02-04:00",
+      "description": "A desktop workspace where agents, plugins, and workflows live together"
+    },
+    {
+      "id": "cohto7bvemgauwvjejoczoxv",
+      "url": "https://www.howtogeek.com/clever-places-to-hide-sensors-and-other-smart-home-devices-in-your-house/",
+      "title": "7 clever places to hide sensors and other smart home gadgets in your house",
+      "ts": "2026-09-26T20:45:58-04:00",
+      "description": "Out of sight, out of mind."
+    },
+    {
+      "id": "mfvbzg9z8ee7qlks2jfcbq4s",
+      "url": "https://github.com/peakflo/20x",
+      "title": "GitHub - peakflo/20x: Self-improving Agent orchestrator for all knowledge work",
+      "ts": "2026-09-26T20:33:45-04:00",
+      "description": "Self-improving Agent orchestrator for all knowledge work - peakflo/20x"
+    },
+    {
+      "id": "krl2xif94k2k30j67ryce3ld",
+      "url": "https://youtube.com/shorts/JZjeI03nFlc",
+      "title": "3 Open Source Intelligence Tools I Wish I knew About Earlier!",
+      "ts": "2026-09-23T11:32:20-04:00",
+      "description": "3 OSINT tools I wish somebody told me about earlier!#OSINT #OPSEC #cybersecurity"
+    },
+    {
+      "id": "fq81xxmv09rnortlyczjoq6s",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "ts": "2026-09-22T18:26:17-04:00",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. - baidu/Unlimited-OCR"
+    },
+    {
+      "id": "ykarssq3wfw6gm29ftp8fhaf",
+      "url": "https://github.com/calesthio/Crucix",
+      "title": "GitHub - calesthio/Crucix: Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+      "ts": "2026-09-21T21:19:55-04:00",
+      "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. - calesthio/Crucix"
+    },
+    {
+      "id": "x4ukj9cmsridihi152fscwkh",
+      "url": "https://x.com/_avichawla/status/2101563610644496464",
+      "title": "Avi Chawla (@_avichawla) on X",
+      "ts": "2026-09-21T20:25:16-04:00",
+      "description": "Build your own Jev (100% local)"
+    },
+    {
+      "id": "crlap9cenmkh1o8du8sj37wc",
+      "url": "https://youtube.com/watch?v=GyBxt3n9PxQ",
+      "title": "Pearl Jam - 8/14/93 {NEW Complete Pro-Shot SBD Concert} NEW SBD Audio & New Video Edits",
+      "ts": "2026-09-21T20:22:40-04:00",
+      "description": "Pearl Jam - 08/14/93 (Video)Gimli Motorsport ParkGimli, Manitoba - CanadaSunfest ’93 (Mudfest)Set:00. Intro...01. Evenflow02. Why Go03. Deep04. Jeremy05. Ani…"
+    },
+    {
+      "id": "rh3z692m82av9dkvp5ytioix",
+      "url": "https://x.com/omarsar0/status/2101349932569370826",
+      "title": "elvis (@omarsar0) on X",
+      "ts": "2026-09-21T19:54:09-04:00",
+      "description": "Been integrating Jev into my custom harness. I couldn’t be more excited about the results I am seeing. Most demos on my timeline are flashy but very basic. Notice they are all about some boring classification task that was already possible before. I get it. Jev is fast and cheap. That point was …"
+    },
+    {
+      "id": "ie46b7wfh6qddzq1zqeawkz0",
+      "url": "https://github.com/fjykTec/ModernWMS",
+      "title": "GitHub - fjykTec/ModernWMS: The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function and opened it up for free, hoping to help the majority of small and medium-sized enterprises. At present, the system supports cross-platform。",
+      "ts": "2026-09-21T19:43:29-04:00",
+      "description": "The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function an…"
+    },
+    {
+      "id": "sxgrxm9ux42j02t5yoz34ft6",
+      "url": "https://www.xda-developers.com/built-front-page-out-of-rss-and-stopped-opening-five-news-apps-a-day/",
+      "title": "I built my own front page out of RSS, and stopped opening five news apps a day",
+      "ts": "2026-09-21T19:40:20-04:00",
+      "description": "FreshRSS and Glance are a powerhouse combination."
+    },
+    {
+      "id": "s8kuty4rtghdzuyc31ro4w3a",
+      "url": "https://github.com/Lifecycle-Innovations-Limited/claude-ops",
+      "title": "GitHub - Lifecycle-Innovations-Limited/claude-ops: Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4), voice (Bland/ElevenLabs), APM (Datadog/NewRelic/OTEL), YOLO mode.",
+      "ts": "2026-09-21T19:35:47-04:00",
+      "description": "Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat),…"
+    },
+    {
+      "id": "e8wdb05038n3t8am9v9kffms",
+      "url": "https://github.com/fynnfluegge/agtx",
+      "title": "GitHub - fynnfluegge/agtx: 🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini",
+      "ts": "2026-09-21T13:47:59-04:00",
+      "description": "🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini - fynnfluegge/agtx"
+    },
+    {
+      "id": "l3c179oikpsz43mzi1rxqfn6",
+      "url": "https://www.threads.com/@carnage4life/post/DdgpjJWGw9G/lots-of-software-companies-have-bought-into-the-belief-that-ai-has-solved/?gdref=1&hpir=1&http_ref=eyJ0cyI6MTc4OTk0OTAzNTAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D",
+      "title": "Dare Obasanjo (@carnage4life) on Threads",
+      "ts": "2026-09-20T20:04:10-04:00",
+      "description": "Lots of software companies have bought into the belief that AI has solved software engineering. The debate is shifting from whether AI should replace work done by SWEs, PMs and designers to whether humans should even review the output. Apparently human judgment is now the bottleneck."
+    },
+    {
+      "id": "hw13v96s8jx0uqbt9jdhmn58",
+      "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+      "title": "GitHub - walidboulanouar/awesome-jev-use-cases: Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate.",
+      "ts": "2026-09-20T19:24:37-04:00",
+      "description": "Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate. - walidboulanouar/awesome-jev-use-cases"
+    },
+    {
+      "id": "yb8vvtmwmetb7mzj4pszhg66",
+      "url": "https://github.com/logan-markewich/jeff",
+      "title": "GitHub - logan-markewich/jeff: A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer.",
+      "ts": "2026-09-20T16:54:10-04:00",
+      "description": "A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer. - logan-markewich/jeff"
+    },
+    {
+      "id": "qd6d0l4ulq6fwdcy8d2tb2q4",
+      "url": "https://www.geeky-gadgets.com/diy-minimalist-ai-note-device/",
+      "title": "ESP32 Minimalist AI Note Taker Features OpenAI Whisper for Text Dictation",
+      "ts": "2026-09-20T14:19:06-04:00",
+      "description": "Build your own DIY AI note device using an ESP32 microcontroller and e-ink display. Record voice memos and transcribe them with OpenAI Whisper."
+    },
+    {
+      "id": "i9w0r0dl2n44wnew0igzfl0p",
+      "url": "https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output",
+      "title": "5 Prompt Optimization Strategies That Actually Improve LLM Output",
+      "ts": "2026-09-20T09:12:01-04:00",
+      "description": "This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs."
+    },
+    {
+      "id": "wb51nbllue3g1okgtrfh8x46",
+      "url": "https://x.com/omarsar0/status/2100693601021997193",
+      "title": "elvis (@omarsar0) on X",
+      "ts": "2026-09-19T16:17:12-04:00",
+      "description": "Things to try with Jev right now: 1. LLM-as-a-Judge evaluation 2. Routing for agent harnesses harness 3. Scaling agent orchestration by enabling smarter subagent creation with SOTA classification capabilities 4. Enhance dynamic harness generation where structured outputs are key The first three d…"
+    },
+    {
+      "id": "t9js258wy9yfofts6wyt0fzm",
+      "url": "https://x.com/shannholmberg/status/2100591767590678912",
+      "title": "Shann³ (@shannholmberg) on X",
+      "ts": "2026-09-19T16:16:25-04:00",
+      "description": "how to use Jev to check your ai marketing team’s work before you review it jev is a new model built to evaluate information and make structured decisions inside software you give it context and specific questions, and it returns choices, scores and probabilities. that makes it useful for checking…"
+    },
+    {
+      "id": "epgm0m0zagrqil8tjej9sokr",
+      "url": "https://github.com/yibie/awesome-jev",
+      "title": "GitHub - yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions.",
+      "ts": "2026-09-19T16:15:47-04:00",
+      "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions. - yibie/awesome-jev"
+    },
+    {
+      "id": "xmevvey6b1hlm063wila0bov",
+      "url": "https://www.xda-developers.com/run-local-llms-inside-chatgpt-desktop-app-one-free-open-source-tool/",
+      "title": "I run my local LLMs inside the ChatGPT desktop app now, and it took one free open-source tool to do it",
+      "ts": "2026-09-19T16:01:44-04:00",
+      "description": "opencodex is simple and easy to use, and lets you add any LLM to Codex."
+    },
+    {
+      "id": "xo7jfjqdzlr3aj2cahm0lujn",
+      "url": "https://www.threads.com/@sung.kim.mw/post/DdbiR4im80O/training-a-b-model-to-produce-faster-query-plans-than-postgres-or-how-to-make/?gdref=1&hpir=1&http_ref=eyJ0cyI6MTc4OTg0NzY4MjAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D",
+      "title": "Sung Kim (@sung.kim.mw) on Threads",
+      "ts": "2026-09-19T15:54:59-04:00",
+      "description": "Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning https://rohanbansal.com/qorl?v=3"
+    },
+    {
+      "id": "izlncihdll9z9ehnpomhze47",
+      "url": "https://thenewstack.io/agentic-verification-distributed-systems/",
+      "title": "One engineer shipped 2,000 PRs a month to production. Verification is the key.",
+      "ts": "2026-09-19T15:54:23-04:00",
+      "description": "Learn how agentic verification helps AI agents ship thousands of PRs monthly using isolated, virtualized testing environments."
+    },
+    {
+      "id": "y34ti77cctbushudugctpg7v",
+      "url": "https://www.youtube.com/shorts/mOGbXAjnPg4",
+      "title": "(131) Jev Ultrafast: a browser agent that never generates a coordinate or a selector - YouTube",
+      "ts": "2026-09-19T00:10:57-04:00",
+      "description": "Jev Ultrafast clicks through a webpage without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision model…"
+    },
+    {
+      "id": "zini8lp4fzfe8gtypowe84zt",
+      "url": "https://github.com/migsilva89/loadout",
+      "title": "GitHub - migsilva89/loadout: See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage.",
+      "ts": "2026-09-18T05:58:10-04:00",
+      "description": "See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage. - migsilva89/loadout"
+    },
+    {
+      "id": "f0154mkwndjyks0wlg9hclas",
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
+      "ts": "2026-09-18T05:57:02-04:00",
+      "description": "What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain"
+    },
+    {
+      "id": "br4btq2npipbz3lfi52aijse",
+      "url": "https://thenewstack.io/human-oversight-defining-requirements/",
+      "title": "Why human oversight is shifting from writing code to defining requirements",
+      "ts": "2026-09-18T05:54:47-04:00",
+      "description": "Automated test gates can’t catch flawed specs. Discover why human oversight must shift from writing code to defining AI requirements."
+    },
+    {
+      "id": "m8g2plgro2piayl2w6c3nu5q",
+      "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+      "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
+      "ts": "2026-09-17T16:48:39-04:00",
+      "description": "Bill would help rightsholders obtain court orders to block foreign piracy sites."
+    },
+    {
+      "id": "oeepic44mbvfsdunekl4fhum",
+      "url": "https://www.xda-developers.com/used-speculative-decoding-my-local-llm-feel-instant-prefer-cloud-apis/",
+      "title": "I used speculative decoding to make my local LLM feel instant, and now I actually prefer it to cloud APIs",
+      "ts": "2026-09-17T05:33:51-04:00",
+      "description": "It really made a difference."
+    },
+    {
+      "id": "tv6hvgy4ufrx0j4urgj3okqv",
+      "url": "https://github.com/BayramAnnakov/claude-reflect",
+      "title": "GitHub - BayramAnnakov/claude-reflect: A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md.",
+      "ts": "2026-09-16T23:40:47-04:00",
+      "description": "A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md. - BayramAnnakov/claude-reflect"
+    },
+    {
+      "id": "nallbped6tz8xbiqvawpubhj",
+      "url": "https://thenewstack.io/zed-delta-github-alternative/",
+      "title": "“Everyone’s in a race to replace GitHub”: Zed launches Delta because agents made pull requests obsolete",
+      "ts": "2026-09-16T22:51:12-04:00",
+      "description": "Zed disabled pull requests on its own codebase. Delta, now in public beta, bets that shared threads suit agents better than GitHub’s review model."
+    },
+    {
+      "id": "sp93fnr5945p3ttmvmouy6lu",
+      "url": "https://github.com/rt-bishop/Look4Sat",
+      "title": "GitHub - rt-bishop/Look4Sat: Satellite tracker and pass predictor for Android, inspired by Gpredict",
+      "ts": "2026-09-16T06:13:07-04:00",
+      "description": "Satellite tracker and pass predictor for Android, inspired by Gpredict - rt-bishop/Look4Sat"
+    },
+    {
+      "id": "mms5o6ow73nv6wc5x5cf1yro",
+      "url": "https://www.searchenginejournal.com/anthropic-shares-power-prompts-that-improve-ai-results/589448/",
+      "title": "Anthropic Shares Power Prompts That Improve AI Results",
+      "ts": "2026-09-16T06:11:52-04:00",
+      "description": "Anthropic shares prompting upgrades that save tokens, improve writing & coding, and get the most from the least expensive effort settings."
+    },
+    {
+      "id": "pqr6tlyh5b2d06d7um02zae1",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "title": "GitHub - nidhinjs/prompt-master: A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "ts": "2026-09-16T06:06:45-04:00",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention - nidhinjs/prompt-master"
+    },
+    {
+      "id": "eogb21tij23ecojtpkq3uf1l",
+      "url": "https://www.virtualizationhowto.com/2026/09/i-gave-ai-control-of-my-docker-home-lab-with-komodo-mcp/",
+      "title": "I Gave AI Control of My Docker Home Lab With Komodo MCP",
+      "ts": "2026-09-16T05:59:40-04:00",
+      "description": "I installed a Docker MCP server with Komodo to let AI inspect, troubleshoot, and manage containers, stacks, and Docker hosts across my home lab."
+    },
+    {
+      "id": "k7a0qwmtbgea7n461ixb1ym7",
+      "url": "https://darkwebinformer.com/pricing/",
+      "title": "Subscribe - Dark Web Informer | Threat Intelligence Plans",
+      "ts": "2026-09-14T22:54:11-04:00",
+      "description": "Choose a plan for real-time threat intelligence from the dark web, deep web, and clearnet. Monitor breaches, leaks, ransomware, and threats as they happen."
+    },
+    {
+      "id": "o1fi32ze6b1uyvaafd34ufpe",
+      "url": "https://github.com/bugbasesecurity/pentest-copilot",
+      "title": "GitHub - bugbasesecurity/pentest-copilot: Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows.",
+      "ts": "2026-09-14T22:49:19-04:00",
+      "description": "Pentest Copilot is an AI-powered browser based ethical hacking assistant tool designed to streamline pentesting workflows. - bugbasesecurity/pentest-copilot"
+    },
+    {
+      "id": "bkhkybf74t9pnxb91ioabw0k",
+      "url": "https://x.com/TheAhmadOsman/status/2099259677985190044",
+      "title": "Ahmad (@TheAhmadOsman) on X",
+      "ts": "2026-09-14T22:48:02-04:00",
+      "description": "They’re trying to stop you from owning your AI and running it locally, so you should start using Local AI today - Install ODS - Let it detect your hardware - It will download the best model for your hardware - And then it starts local inference and Open WebUI for you With ODS, you can > Add voic…"
+    },
+    {
+      "id": "lbahegbbunp6eksmgjq9rlto",
+      "url": "https://www.opensourceprojects.dev/post/fleetbase",
+      "title": "Modular logistics and supply chain OS you can extend via API",
+      "ts": "2026-09-14T22:46:36-04:00",
+      "description": "Modular logistics and supply chain OS you can extend via API"
+    },
+    {
+      "id": "o1eiob1b84irx9tv35zlpth5",
+      "url": "https://www.howtogeek.com/monitoring-tools-homelab-havent-lost-sleep-about-failures-september-11-13/",
+      "title": "I deployed these 2 monitoring tools in my homelab and haven’t lost sleep about failures since (September 11 - 13)",
+      "ts": "2026-09-14T22:41:39-04:00",
+      "description": "These projects surface quiet problems before they become major headaches."
+    },
+    {
+      "id": "d71w9hd2zdaqp95kza5svwk5",
+      "url": "https://github.com/HKUDS/OpenSpace",
+      "title": "GitHub - HKUDS/OpenSpace: “OpenSpace: The Skill Management Layer for AI Agents” -- https://open-space.cloud/",
+      "ts": "2026-09-14T22:39:51-04:00",
+      "description": "“OpenSpace: The Skill Management Layer for AI Agents” -- https://open-space.cloud/ - HKUDS/OpenSpace"
+    },
+    {
+      "id": "qloyab9ddww75ck73xekogvg",
+      "url": "https://www.xda-developers.com/5-rules-i-use-for-sane-vlan-design-at-home-without-overcomplicating-it/",
+      "title": "5 rules I use for sane VLAN design at home (without overcomplicating it)",
+      "ts": "2026-09-14T22:35:05-04:00",
+      "description": "These keep me sane as well…"
+    },
+    {
+      "id": "lwyigplagj7lltia94qzadqa",
+      "url": "https://www.makeuseof.com/dont-need-claude-code-anymore-best-replacement-qwen-is-free/",
+      "title": "We don't need Claude Code anymore and the best replacement is free",
+      "ts": "2026-09-14T19:25:54-04:00",
+      "description": "Here’s what changed when I stopped paying for the harness"
+    },
+    {
+      "id": "ajg4mxx076jlk0rzy6hk0ees",
+      "url": "https://www.xda-developers.com/switched-to-firefly-iii-made-budgeting-easier-it-can-import-from-my-bank/",
+      "title": "I switched to Firefly III, and it’s made budgeting easier because it can import from my bank",
+      "ts": "2026-09-14T19:19:22-04:00",
+      "description": "I spend less time managing my budget and more time following it."
+    },
+    {
+      "id": "hsaufkd7vlpvl22aq49rmz4k",
+      "url": "https://x.com/Pirat_Nation/status/2099196663021945136",
+      "title": "Pirat_Nation 🔴 (@Pirat_Nation) on X",
+      "ts": "2026-09-14T19:10:08-04:00",
+      "description": "Switzerland is spending more than $11 million to move away from Microsoft 365 and switch to open-source software. The Swiss government plans to spend 9 million Swiss francs to replace Microsoft apps such as Outlook and Teams with the open-source openDesk suite. The first step will cover 3,000 gove…"
+    },
+    {
+      "id": "sta52qzx997j27bqvxry65bi",
+      "url": "https://www.xda-developers.com/tailcat-replaces-tailscale-without-account-bloat-exactly-what-needed/",
+      "title": "Tailcat replaces Tailscale without the account bloat, and it’s exactly what I needed",
+      "ts": "2026-09-14T15:54:10-04:00",
+      "description": "Tailcat requires minimal setup."
+    },
+    {
+      "id": "g2csrb8jbs69i8omofargol4",
+      "url": "https://www.xda-developers.com/anthropic-analyzed-400000-claude-code-sessions-turns-out-theres-a-right-way-to-use-it/",
+      "title": "Anthropic analyzed 400,000 Claude Code sessions, and it turns out there’s a right way to use it",
+      "ts": "2026-09-14T15:53:25-04:00",
+      "description": "The data says you’re probably using it wrong"
+    },
+    {
+      "id": "o759ppyqzedt41osvwt21cpj",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "title": "GitHub - petergyang/no-ai-slop: Removes 20+ patterns of AI slop from any piece of writing.",
+      "ts": "2026-09-13T00:29:34-04:00",
+      "description": "Removes 20+ patterns of AI slop from any piece of writing. - petergyang/no-ai-slop"
+    },
+    {
+      "id": "au2caoxrml01xgfekeo5m9hk",
+      "url": "https://github.com/tinyhumansai/opencompany",
+      "title": "GitHub - tinyhumansai/opencompany: Run a hive mind of agents to focus on a specific goal",
+      "ts": "2026-09-12T23:42:35-04:00",
+      "description": "Run a hive mind of agents to focus on a specific goal - tinyhumansai/opencompany"
+    },
+    {
+      "id": "r6aiztojyqz5pcb3sevibld8",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "title": "GitHub - SnailSploit/Claude-Red: claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "ts": "2026-09-12T23:37:26-04:00",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a s…"
+    },
+    {
+      "id": "xvejnnkp2zn51mh8y1p18m9d",
+      "url": "https://github.com/Untrivial-ai/agent-orchestrator",
+      "title": "GitHub - Untrivial-ai/agent-orchestrator: Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.",
+      "ts": "2026-09-12T23:27:08-04:00",
+      "description": "Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents. - Untrivial-ai/agent-orchestrator"
+    },
+    {
+      "id": "gij9vkpgsam0d5zkdu1ad3qb",
+      "url": "https://thenewstack.io/ai-agents-soc-autonomy/",
+      "title": "How much control should AI get? A CISO roundtable takes on SOC autonomy",
+      "ts": "2026-09-12T23:18:31-04:00",
+      "description": "AI agents could ease SOC alert overload, but control remains a challenge that The New Stack’s CISO roundtable will explore on September 15. Here’s how to get a seat at the table."
+    },
+    {
+      "id": "xuzjm84s3fofepj15qb3v0t7",
+      "url": "https://towardsdatascience.com/coding-agents-dont-need-longer-history-they-need-intent-continuity/",
+      "title": "Coding Agents Don’t Need Longer History — They Need Intent Continuity | Towards Data Science",
+      "ts": "2026-09-12T23:08:40-04:00",
+      "description": "I built a system that automatically discovers, verifies, and applies relevant requirements from earlier interactions without asking the user where they came from."
+    },
+    {
+      "id": "up50sgsk991tnd059kj284xf",
+      "url": "https://github.com/RaidOwl/homelab-hub",
+      "title": "GitHub - RaidOwl/homelab-hub",
+      "ts": "2026-09-12T23:04:19-04:00",
+      "description": "Contribute to RaidOwl/homelab-hub development by creating an account on GitHub."
+    },
+    {
+      "id": "cf98jxl7m4fmys8153p4rv28",
+      "url": "https://www.xda-developers.com/turned-old-laptop-remote-coding-agent-works-anything-ask/",
+      "title": "I turned my old laptop into a remote coding agent, and it works on anything I ask it to",
+      "ts": "2026-09-12T23:02:26-04:00",
+      "description": "Putting old Lenovo to good use."
+    },
+    {
+      "id": "xajxsyya5vjf3uc3g9nqpyjf",
+      "url": "https://github.com/amaancoderx/npxskillui",
+      "title": "GitHub - amaancoderx/npxskillui",
+      "ts": "2026-09-12T22:59:58-04:00",
+      "description": "Contribute to amaancoderx/npxskillui development by creating an account on GitHub."
+    },
+    {
+      "id": "pv5d0cdi5n4t57sllwd5ltnd",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "title": "GitHub - Egonex-AI/Understand-Anything: Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "ts": "2026-09-12T22:26:10-04:00",
+      "description": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemin…"
+    },
+    {
+      "id": "zpjaou6y5kw6r13rhgbmrjpr",
+      "url": "https://github.com/sharpdeveye/maestro",
+      "title": "GitHub - sharpdeveye/maestro: Workflow fluency for AI coding agents. 1 core skill · 25 commands · 7 domain references · memory layer · audit trail — works across Cursor, Claude Code, Gemini CLI, Copilot, and 6 more.",
+      "ts": "2026-09-12T22:21:51-04:00",
+      "description": "Workflow fluency for AI coding agents. 1 core skill · 25 commands · 7 domain references · memory layer · audit trail — works across Cursor, Claude Code, Gemini CLI, Copilot, and 6 more. - sharpdeve…"
+    },
+    {
+      "id": "rtsv0qwrjmrq10pskf229sy9",
+      "url": "https://www.howtogeek.com/esp32-and-lora-module-let-you-text-off-grid-with-no-internet-or-cell-signal/",
+      "title": "How a $2 ESP32 and a LoRa module let you text off-grid with no internet or cell signal",
+      "ts": "2026-09-12T18:50:48-04:00",
+      "description": "It is like self-hosting your own private cellphone towers."
+    },
+    {
+      "id": "fpihl64jrdloupuhljn8lzwr",
+      "url": "https://hackaday.com/2026/09/10/if-its-electronic-paper-why-not-print-to-it/",
+      "title": "If It’s Electronic Paper, Why Not Print To It?",
+      "ts": "2026-09-10T11:28:01-04:00",
+      "description": "E-ink is supposed to be the electronic version of dead-tree paper, but there’s one enormous difference: how you get your images and text onto it. For paper, you print on it. E-ink? Well, it d…"
+    },
+    {
+      "id": "nq6054vvdelng3myy1qmknxu",
+      "url": "https://paywallskipper.com/r?url=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2F2026%2F05%2Fbillionaire-consequence-free-reality%2F686588%2F",
+      "title": "Reading Article — PaywallSkipper",
+      "ts": "2026-09-10T09:17:05-04:00",
+      "description": "Read the full article without any paywall."
+    },
+    {
+      "id": "rsi8kjcizmokvdnr6cize0yz",
+      "url": "https://github.com/voidauth/voidauth",
+      "title": "GitHub - voidauth/voidauth: Single Sign-On for Your Self-Hosted Universe",
+      "ts": "2026-09-10T08:43:10-04:00",
+      "description": "Single Sign-On for Your Self-Hosted Universe. Contribute to voidauth/voidauth development by creating an account on GitHub."
+    },
+    {
+      "id": "hpy8ozbxsl7rlwhvj7l7e3zt",
+      "url": "https://thenewstack.io/ai-code-review-pipelines/",
+      "title": "AI broke code review. Two experts disagree on what replaces it.",
+      "ts": "2026-09-10T06:35:19-04:00",
+      "description": "AI-generated code is overwhelming human review. Two engineers debate whether policy-driven delivery pipelines can restore trust without more AI."
+    },
+    {
+      "id": "uvispcxjcf3a6ps19kyl25lw",
+      "url": "https://github.com/victordibia/designing-multiagent-systems",
+      "title": "GitHub - victordibia/designing-multiagent-systems: Building LLM-Enabled Multi Agent Applications from Scratch",
+      "ts": "2026-09-10T06:33:26-04:00",
+      "description": "Building LLM-Enabled Multi Agent Applications from Scratch - victordibia/designing-multiagent-systems"
+    },
+    {
+      "id": "j7keeluhfaq7yzuia134flts",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineering",
+      "ts": "2026-09-09T05:42:28-04:00",
+      "description": "Most of what an AI coding agent does for me isn’t thinking. It’s I/O."
+    },
+    {
+      "id": "gc96e2rr41p00c2x4w5f50af",
+      "url": "https://www.youtube.com/watch?v=V5NgF_olsTo",
+      "title": "Ponytail Makes Claude Code Write 94% Less Code!",
+      "ts": "2026-09-09T05:39:57-04:00",
+      "description": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upco…"
+    },
+    {
+      "id": "coixbnzz1hk1s0gsh946zwk2",
+      "url": "https://www.threads.com/@githubprojects/post/Dc7lMowGwAi/a-tiny-coding-helper-that-fixes-software-bugs-automatically-using-just-lines-of/",
+      "title": "Github Projects (@githubprojects) on Threads",
+      "ts": "2026-09-08T05:46:40-04:00",
+      "description": "A tiny coding helper that fixes software bugs automatically, using just 100 lines of code. - Solves 74% of real-world programming tasks. - Works with any coding model you choose. - Runs in safe, isolated test environments. Explore it here: https://osp.fyi/mini-swe-agent"
+    },
+    {
+      "id": "nfe5tzi2rcjj0ano7v7pipm8",
+      "url": "https://www.raspberrypi.com/news/build-a-digitally-sovereign-second-brain/",
+      "title": "Build a digitally sovereign second brain - Raspberry Pi",
+      "ts": "2026-09-07T19:28:55-04:00",
+      "description": "Build a system to keep information and notes organised, searchable, synchronised, and backed up using Raspberry Pi."
+    },
+    {
+      "id": "udjfz6uygt9niotaxygufqdx",
+      "url": "https://youtube.com/shorts/XI3k7mDFjQs",
+      "title": "Headcount: a Claude Code setup where agents are split by which files they own, not by topic",
+      "ts": "2026-09-01T23:05:00-04:00",
+      "description": "Headcount turns Claude Code into an org chart instead of one prompt. It ships 16 departments and 143 skills, engineering to legal, and each installs as its o…"
+    },
+    {
+      "id": "hov5q71glsnahwc713oqo38h",
+      "url": "https://youtube.com/shorts/JeiMwG3CAOE",
+      "title": "Screendrop – Free Self-Hosted Loom Alternative for macOS",
+      "ts": "2026-09-01T23:01:42-04:00",
+      "description": "Screendrop is a free macOS app that replaces Loom with self-hosted screen recordings. Capture, annotate, edit, and share from your menu bar.More like this →…"
+    },
+    {
+      "id": "klkf9xic3vljiawkl1lsmr3r",
+      "url": "https://collider.com/best-non-fiction-books-all-time-ranked/",
+      "title": "The 10 Best Non-Fiction Books of All Time, Ranked",
+      "ts": "2026-08-30T19:20:06-04:00",
+      "description": "The best non-fiction books of all time include undeniable classics like The Right Stuff, Man’s Search for Meaning, and A Night to Remember."
+    },
+    {
+      "id": "ez29lugvowaxz0jaxctqylur",
+      "url": "http://youtube.com/post/UgkxmPwzt8-JHVUF1lGlOh1Nq_Vsw4m98HpQ?surface=shorts&data=Afs8hOttBZjLMRldkEGR6d9Uag3-1u2QctfwGjAYSXwJE-FgJ_vu2RlivwwJ-JX8VSe9IdX3p8GipybS",
+      "title": "Post from Yasar Ahmad",
+      "ts": "2026-08-29T22:14:55-04:00",
+      "description": "Phrases to sound like a concise leader!"
+    },
+    {
+      "id": "alxrv5ykzub2cjvtaxal0pwi",
+      "url": "https://x.com/tom_doerr/status/2092457915152015617",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-26T04:52:37-04:00",
+      "description": "Provides a set of Claude skills that allow an AI agent to manage cross-platform social media workflows, including post writing, video scripting, and profile optimization. https://t.co/difi4vhxSV"
+    },
+    {
+      "id": "b8lwxs7je4rumx1cx4l5uoja",
+      "url": "https://appleinsider.com/articles/26/08/25/jetbrains-local-model-wont-cost-any-tokens-but-needs-a-2700-mac-mini-to-run-it",
+      "title": "JetBrains local model won’t cost any tokens, but needs a $2,700 Mac mini to run it",
+      "ts": "2026-08-25T22:26:23-04:00",
+      "description": "Apple just announced the Mac mini with M5 Pro and you’ll need one with 64GB of RAM to run the Junie Local model, a free 27B parameter coding agent that compares to Sonnet 4.5 or GPT-5."
+    },
+    {
+      "id": "jrdd9pjxiot0kmt7wbq9gom5",
+      "url": "https://cybersecuritynews.com/cybermes-ai-red-teaming-agent/",
+      "title": "Cybermes - AI Red Teaming Agent for Automated Penetration Testing",
+      "ts": "2026-08-25T22:05:51-04:00",
+      "description": "A new open-source project called Cybermes has entered the crowded field of AI-powered offensive security tooling, positioning itself as an enterprise-grade autonomous agent capable of running full penetration tests with minimal human oversight."
+    },
+    {
+      "id": "h5g7foc8jv6dzv81uowf54vl",
+      "url": "https://x.com/tom_doerr/status/2092416434529816792",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-25T21:59:37-04:00",
+      "description": "Provides skills, plugins, and MCP servers to Claude Code to generate better-looking frontends. https://t.co/cS1n9T4oBL"
+    },
+    {
+      "id": "pxdpafzmyezmw7wm1nh6d8bt",
+      "url": "https://www.comet.com/site/pricing/",
+      "title": "Pricing",
+      "ts": "2026-08-25T21:59:07-04:00",
+      "description": "Comet’s AI observability and evaluation pricing is flexible, with the full Opik featureset available in the free open-source version."
+    },
+    {
+      "id": "daz6f3sflp0dt1jglgbjqfby",
+      "url": "https://www.xda-developers.com/replaced-google-keep-with-alternative-works-offline-syncs-to-phone/",
+      "title": "I replaced Google Keep with a self-hosted alternative that works offline and syncs to your phone",
+      "ts": "2026-08-25T21:32:44-04:00",
+      "description": "This self-hosted notes app imports your Google Keep data and gives you full ownership of everything"
+    },
+    {
+      "id": "opmdu20vr9dgd059a0brsqit",
+      "url": "https://x.com/tom_doerr/status/2092370736744665163",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-25T21:04:27-04:00",
+      "description": "Antonio Gulli’s guide provides a hands-on approach to agentic design patterns, featuring code notebooks for prompt chaining, routing, reflection, tool use, planning, and multi-agent systems. https://t.co/a0UplMrtyS"
+    },
+    {
+      "id": "cckrtut65vwztz1w0od5pbmr",
+      "url": "https://x.com/DanKornas/status/2091534670638809309",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-25T21:01:53-04:00",
+      "description": "Social media workflows get messy when every platform needs a different agent. Agentfy is a modular, multi-agent coordination system for builders automating tasks across social media platforms. It helps you turn a user request into structured task chains by using LLMs to route"
+    },
+    {
+      "id": "lo4ol9bid312spnf5g329y0d",
+      "url": "https://www.cbsnews.com/news/the-explosion-of-ticks-and-alpha-gal-syndrome/",
+      "title": "The explosion of ticks and Alpha-gal syndrome",
+      "ts": "2026-08-23T17:48:58-04:00",
+      "description": "This year, ER visits for tick bites have increased dramatically, corresponding with a new threat: a rise in Alpha-gal syndrome (AGS), where one bite from a lone star tick can make you violently allergic to red meat. How can you best avoid tick bites?"
+    },
+    {
+      "id": "pjim2tgpfgefbhgnvae8npgs",
+      "url": "https://x.com/The_Cyber_News/status/2090861012409037110",
+      "title": "Cyber Security News (@The_Cyber_News) on X",
+      "ts": "2026-08-22T22:28:13-04:00",
+      "description": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning More Details: https://t.co/22qfqv0hYS Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers"
+    },
+    {
+      "id": "noxleubm165fu9wdvlhqouxp",
+      "url": "https://www.opensourceforu.com/2026/08/openai-open-sources-codex-harness/",
+      "title": "OpenAI Open Sources Codex Harness Framework - Open Source For You",
+      "ts": "2026-08-22T22:27:20-04:00",
+      "description": "Powered by the Apache-2.0 licence, OpenAI’s open-source Harness engine slashes AI token consumption sixfold while boosting model benchmark scores."
+    },
+    {
+      "id": "hydp2wxj2z0sn8563k19fvo2",
+      "url": "https://venturebeat.com/infrastructure/servals-super-agent-catalyst-creates-roving-background-agents-to-identify-and-fix-it-issues-before-theyre-ticketed",
+      "title": "Serval’s super agent Catalyst creates roving background agents to identify and fix IT issues before they’re ticketed",
+      "ts": "2026-08-22T22:15:38-04:00",
+      "description": "An AI-native platform can make the administrative layer itself agentic: continuously finding repetitive work, building the necessary resources across the service stack, exposing generated code for review."
+    },
+    {
+      "id": "n95vx6e1k2l1z2xxkfehzq36",
+      "url": "https://x.com/tom_doerr/status/2090900754814980478",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-22T22:15:01-04:00",
+      "description": "Orchestrates multi-agent workflows for social media buyer targeting, cross-platform promotions, and messaging support. https://t.co/FexjZdlrjf"
+    },
+    {
+      "id": "jbdjy1svpr9uozl27umekrqh",
+      "url": "https://www.xda-developers.com/same-linux-setup-across-three-pcs-without-cloning-drives/",
+      "title": "The same Linux setup follows me across three PCs, without cloning a single drive",
+      "ts": "2026-08-22T22:13:46-04:00",
+      "description": "Keep the same Linux workflow across multiple PCs without cloning drives by syncing configs, package lists, and personal data separately."
+    },
+    {
+      "id": "z9xox6vsa3yg03zb8xaylc9t",
+      "url": "https://www.howtogeek.com/vibe-coded-app-claude-fix-one-windows-annoyances/",
+      "title": "I vibe-coded an app with Claude just to fix one of my smallest Windows annoyances",
+      "ts": "2026-08-22T20:52:04-04:00",
+      "description": "45 minutes with Claude solved a 10-year-old problem."
+    },
+    {
+      "id": "x3bfanf6vjq8umb4jiensl10",
+      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job I assumed needed a frontier model, and it finished in 30 minutes",
+      "ts": "2026-08-22T20:42:48-04:00",
+      "description": "Qwen 3.8 27B genuinely shocked me with what it achieved here."
+    },
+    {
+      "id": "kkv87j2dw12sqpbozo5g7fuz",
+      "url": "https://www.popularmechanics.com/home/how-to-plans/a73453858/suspended-garage-storage-platform/",
+      "title": "You Can Build This Suspended Garage Storage Platform in Less Than 2 Hours. Here’s How.",
+      "ts": "2026-08-22T20:40:55-04:00",
+      "description": "A 4-by-8-foot loft keeps bulky seasonal gear overhead and your garage floor open, making for an easy weekend project."
+    },
+    {
+      "id": "pl9zexnx67oom31cqq9j6reo",
+      "url": "https://www.xda-developers.com/connected-local-llm-esp32-display-designs-new-screen-every-question/",
+      "title": "I connected a local LLM to a $30 ESP32 display, and it designs a new screen for every question I ask",
+      "ts": "2026-08-22T20:39:10-04:00",
+      "description": "This rotary display can show whatever I want it to, and it’s all thanks to Hermes Agent."
+    },
+    {
+      "id": "ykbyiyd34tyb8ay3dna38v7l",
+      "url": "https://immigrationnewscanada.ca/new-cra-rule-for-dtc-september-2026/",
+      "title": "New CRA Rule For Disability Tax Credit Coming In September 2026",
+      "ts": "2026-08-22T03:45:15-04:00",
+      "description": "The Canada Revenue Agency (CRA) has announced a major change to the Disability Tax Credit application process that takes effect on September 8, 2026."
+    },
+    {
+      "id": "m2xo4uov2a83cgnsyw8bk9tm",
+      "url": "https://x.com/tom_doerr/status/2089913226913849505",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-20T22:36:46-04:00",
+      "description": "Writes marketing copy and strips out every sign of AI-written language so the final text reads as if a human wrote it. https://t.co/Dc7vg8zcAX"
+    },
+    {
+      "id": "mwigws5gwghjzqr78a4y7b0g",
+      "url": "https://github.com/markdown-viewer/skills",
+      "title": "GitHub - markdown-viewer/skills: Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.",
+      "ts": "2026-08-20T21:48:02-04:00",
+      "description": "Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, an…"
+    },
+    {
+      "id": "a2728zww5a8yhtkcb88y12eu",
+      "url": "https://github.com/walkinglabs/learn-harness-engineering/blob/main/docs/en/harness-designs/claude-code/index.md",
+      "title": "learn-harness-engineering/docs/en/harness-designs/claude-code/index.md at main · walkinglabs/learn-harness-engineering",
+      "ts": "2026-08-20T21:26:46-04:00",
+      "description": "Harness engineering beginner tutorial, from 0 to 1 - walkinglabs/learn-harness-engineering"
+    },
+    {
+      "id": "oacrekzlnhpw169eelb88wx2",
+      "url": "https://x.com/tom_doerr/status/2090402466223296706",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-20T21:25:14-04:00",
+      "description": "Mission Control is an open-source command center for solo entrepreneurs who delegate work to AI agents. It runs locally to preserve control and avoid vendor lock-in, enabling users to prioritize tasks, assign them to agents, and supervise their execution through a single"
+    },
+    {
+      "id": "j52wfbzpuzd4bdd5gs9rx19x",
+      "url": "https://x.com/ClaudeDevs/status/2090245922685063634",
+      "title": "ClaudeDevs (@ClaudeDevs) on X",
+      "ts": "2026-08-20T19:44:26-04:00",
+      "description": "You can now set Claude Code’s output style to Concise. Claude leads with the result, keeps responses short, and still gives full detail when you ask. Turn it on in /config → Output style, or set “outputStyle”: “Concise” in settings.json."
+    },
+    {
+      "id": "yzym2zxychjywza06xffjmke",
+      "url": "https://x.com/tom_doerr/status/2090042557208138054",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-20T06:03:27-04:00",
+      "description": "iFixAi audits AI agents by executing 32 inspections across five pillars. It identifies mistakes and blind spots to generate an A-F reliability grade. https://t.co/symNT5L4NK"
+    },
+    {
+      "id": "oih9d1kjqb1bprdpkvxnumqy",
+      "url": "https://x.com/tom_doerr/status/2089255714875126199",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-19T23:15:01-04:00",
+      "description": "Install and share technical documentation across AI coding agents using olore https://t.co/UkWJaj4rG2"
+    },
+    {
+      "id": "hv4l5bvtlonep2j2uhv8joyd",
+      "url": "https://x.com/tom_doerr/status/2090062320063955006",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-19T23:12:47-04:00",
+      "description": "gortex indexes code into graphs for AI agents and IDEs via CLI and MCP Server https://t.co/NC6oBTNwdw"
+    },
+    {
+      "id": "vlbpjgi76i9v7fofib9kc729",
+      "url": "https://x.com/tom_doerr/status/2090027405591142721",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-19T23:06:04-04:00",
+      "description": "Automates Home Assistant configuration management, remote CLI access, and builds tablet-optimized Lovelace dashboards using Claude Code skills. https://t.co/G1MjygoshC"
+    },
+    {
+      "id": "pj36t4mys3faf85mq2mqqh98",
+      "url": "https://x.com/tom_doerr/status/2090192604159742337",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-19T22:06:01-04:00",
+      "description": "Run a global DNS propagation check across 34 public resolvers and view the results on a world map directly within your terminal https://t.co/77GoX1jqaa"
+    },
+    {
+      "id": "qs56s9zhonpzoljqfrihcwgn",
+      "url": "https://thenewstack.io/truefoundry-trueforge-claude-managed-agents/",
+      "title": "An open source rival to Claude Managed Agents just launched",
+      "ts": "2026-08-19T19:51:51-04:00",
+      "description": "TrueFoundry’s open source TrueForge challenges Claude Managed Agents with vendor-neutral model choice, claiming 50% lower agent costs and no lock-in."
+    },
+    {
+      "id": "kt9cfgn1zz9c2bm62qat2een",
+      "url": "https://www.geeky-gadgets.com/diy-network-audio-amplifier/",
+      "title": "Build a Sonos Rival with the $30 AUD Louder ESP32 Board",
+      "ts": "2026-08-19T19:50:01-04:00",
+      "description": "Build a cheap Sonos alternative network audio amplifier for around $30 AUD. The Louder ESP32 board pushes 23W stereo with Home Assistant sync."
+    },
+    {
+      "id": "ih0hbbjk2qbyqbsnyyr4l4we",
+      "url": "https://www.makeuseof.com/stopped-forcing-excel-database-open-source-middle-ground/",
+      "title": "I stopped forcing Excel to be a database after finding this open-source middle ground",
+      "ts": "2026-08-19T19:44:03-04:00",
+      "description": "Your VLOOKUPs called. They’d like to retire."
+    },
+    {
+      "id": "fke27bph1n2914q3sgbselbg",
+      "url": "https://x.com/tom_doerr/status/2089498173257462118",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-17T23:40:53-04:00",
+      "description": "Visualizes macOS disk space with treemaps and sunbursts. Detects duplicate files, highlights storage heatmaps, and searches directories interactively. https://t.co/axKAeu6aRx"
+    },
+    {
+      "id": "uzfavopbsst4kw26zb2j2qnr",
+      "url": "https://x.com/tom_doerr/status/2088543287623778736",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-17T23:38:04-04:00",
+      "description": "Generates educational videos from knowledge points using executable Manim code https://t.co/vk6UZJTjWf"
+    },
+    {
+      "id": "b2o608yeljbzv6ip9g1qf4nq",
+      "url": "https://x.com/tom_doerr/status/2089172438948913462",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-17T23:24:50-04:00",
+      "description": "Visualizes local Claude Code sessions to display timelines, costs, and live activity on your machine. https://t.co/MC03JYFDwJ"
+    },
+    {
+      "id": "neo8m62xhbczj3rbyo81yfik",
+      "url": "https://pausemag.co.uk/2026/08/meta-glasses-now-banned-in-the-uk/",
+      "title": "Meta Glasses Now Banned in the UK",
+      "ts": "2026-08-17T22:50:35-04:00",
+      "description": "Visit the post for more."
+    },
+    {
+      "id": "hj1jfl15jtioacew6p66l43r",
+      "url": "https://www.washingtonpost.com/technology/2026/08/17/meta-faces-federal-trial-demanding-14-trillion-alleged-teen-harms/",
+      "title": "Zuckerberg faces potential reckoning in court over Instagram’s effects on teens",
+      "ts": "2026-08-17T22:48:23-04:00",
+      "description": "Four states are demanding $1.4 trillion in damages from Meta for alleged harms to young users."
+    },
+    {
+      "id": "tab7n4oysp3md8s1zx9qbwgi",
+      "url": "https://www.tomsguide.com/ai/meta-files-patent-for-ai-camera-glasses-that-use-facial-recognition-expression-analysis-and-information-about-your-relationships-to-identify-people-around-you-and-create-highlights",
+      "title": "Meta files patent for AI facial recognition glasses that identify people around you and record automatically",
+      "ts": "2026-08-17T19:27:22-04:00",
+      "description": "Meta has patented AI glasses that could recognize your friends, detect when they laugh and decide which moments are worth saving."
+    },
+    {
+      "id": "o5b1gvpvd9aczdhnv7n220fp",
+      "url": "https://x.com/tom_doerr/status/2089143858248478851",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-17T05:13:50-04:00",
+      "description": "Nyx cleans forensic traces on Linux, macOS, and Windows, removing shell histories, system logs, temporary files, and application caches. https://t.co/POXh2CyEG8"
+    },
+    {
+      "id": "qohajzm3emxe2gamgoxssbxs",
+      "url": "https://x.com/GithubProjects/status/2088530894584009121",
+      "title": "GitHub Projects Community (@GithubProjects) on X",
+      "ts": "2026-08-16T22:00:22-04:00",
+      "description": "10 GitHub repositories that went viral last week: From AI development and browser-based coding to analytics, databases, video editing, and image compression. Here’s what each project does ↓"
+    },
+    {
+      "id": "k3ue17aj4rnjx3ycqdpn6ueg",
+      "url": "https://www.kdnuggets.com/5-fun-agentic-ai-papers-to-read",
+      "title": "5 Fun Agentic AI Papers to Read - KDnuggets",
+      "ts": "2026-08-16T21:59:43-04:00",
+      "description": "If you read only five papers on AI agents, make them these."
+    },
+    {
+      "id": "mirzateqmi3ro0irnkddj0je",
+      "url": "https://x.com/tom_doerr/status/2089016599873204673",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T21:53:49-04:00",
+      "description": "Build open source data dashboards with Shaper simply by writing SQL. https://t.co/C7wbAFFo42"
+    },
+    {
+      "id": "e9zfews0jg7un3bhvy2pofww",
+      "url": "https://x.com/tom_doerr/status/2088165598874251438",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T21:33:29-04:00",
+      "description": "Luna is a self-hosted calendar frontend and aggregator that unifies CalDav, iCal, and Google Calendar into a single web app with user management. https://t.co/vzYZ5okdoi"
+    },
+    {
+      "id": "sfz5g0ejyxt628su3fm2s9jf",
+      "url": "https://x.com/tom_doerr/status/2088864049559699701",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T21:32:24-04:00",
+      "description": "Claude Run launches a local web UI to view your Claude Code session history. https://t.co/oyOa6c64fI"
+    },
+    {
+      "id": "cjglx38z8drkaowew4hy8xcp",
+      "url": "https://shop.freedommobile.ca/en-CA/plans",
+      "title": "Cell Phone Plans - Unlimited 5G Mobile Plans | Freedom Mobile",
+      "ts": "2026-08-16T21:15:11-04:00",
+      "description": "Cellphone plans that are bigger, better and faster than ever! Experience affordable 5G network nationwide unlimited plans with Freedom Mobile."
+    },
+    {
+      "id": "seookwkgt10jebaxvgs7xdpu",
+      "url": "https://x.com/simplifyinAI/status/2088583290785861926",
+      "title": "Simplifying AI (@simplifyinAI) on X",
+      "ts": "2026-08-16T20:38:28-04:00",
+      "description": "A self-hosted AI workspace replaces the chat app, the notes app, and the email client with one private setup. Odysseus bundles chat and agents, research, documents, email, notes, and calendar into a single self-hosted workspace. - Chat + Agents: local or API models, tools, MCP,"
+    },
+    {
+      "id": "fkjctccw10no8m4ug7kmilj3",
+      "url": "https://www.xda-developers.com/best-productivity-tool-i-set-up-is-built-for-developers-should-have-done-it-sooner/",
+      "title": "The best productivity tool I set up this month is built for developers, and I should have done it sooner",
+      "ts": "2026-08-16T19:42:54-04:00",
+      "description": "The productivity tool I keep recommending is a coding tool"
+    },
+    {
+      "id": "muklz9o32vrmywlapfz7vxjj",
+      "url": "https://x.com/tom_doerr/status/2089092604910551455/photo/1",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T19:39:07-04:00",
+      "description": "Orchestrates AI agents to automate workflows. https://t.co/hJPKVQSkei"
+    },
+    {
+      "id": "tmj513l3de1y95lbq6p3bc66",
+      "url": "https://x.com/tom_doerr/status/2088363148269011366",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T19:35:01-04:00",
+      "description": "Liam ERD generates beautiful and easy-to-read entity-relationship diagrams from your database schema. https://t.co/EpIJChhxag"
+    },
+    {
+      "id": "ma19purg1s032rkg3l0buke1",
+      "url": "https://x.com/DAIEvolutionHub/status/2088357681463775339",
+      "title": "Kshitij Mishra | AI & Tech (@DAIEvolutionHub) on X",
+      "ts": "2026-08-16T18:17:44-04:00",
+      "description": "🚨 Alibaba just open-sourced the sandbox that all AI agents needed… and it’s already #1 on GitHub Trending. OpenSandbox = truly isolated environments so your agents can: • Run code • Browse the web • Control full desktops • Run Claude Code / Cursor / Codex / Gemini CLI"
+    },
+    {
+      "id": "p2avuqiwb96uvql6k7rmf0fw",
+      "url": "https://www.xda-developers.com/hermes-agent-gave-local-model-thing-missing-finally-finishing-tasks/",
+      "title": "Hermes Agent gave my local model the one thing it was missing, and it finally started finishing tasks",
+      "ts": "2026-08-16T18:16:49-04:00",
+      "description": "My local model can finally prove its worth."
+    },
+    {
+      "id": "tvjfetypa46qs5vhf7yg5fa7",
+      "url": "https://x.com/tom_doerr/status/2088897221819253200",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T13:13:13-04:00",
+      "description": "Collaborator arranges terminals, context files, and running code on an infinite canvas for agentic development. https://t.co/IYLb7WeDVw"
+    },
+    {
+      "id": "r317japupbkvcm2bbj3uwjkj",
+      "url": "https://x.com/tom_doerr/status/2088447694616317991",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T13:08:09-04:00",
+      "description": "Solves real-world software engineering issues by autonomously evolving its own capabilities at runtime. https://t.co/kHMDlZs11w"
+    },
+    {
+      "id": "a67zkx010uumk5uopfwqd0mo",
+      "url": "https://x.com/tom_doerr/status/2088963116071612636/photo/1",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T13:04:18-04:00",
+      "description": "btw is an open source personal website builder and Medium alternative. It allows you to build a personal blog in minutes, available via a hosted service or self-hosting. https://t.co/aVH4Y5iqwz"
+    },
+    {
+      "id": "rnzcf04of2njtguf8uedhl54",
+      "url": "https://x.com/tom_doerr/status/2088888582740000906",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T12:58:48-04:00",
+      "description": "Manages agents, chat, terminals, and MCP servers for the Hermes AI stack via a self-hosted web dashboard. https://t.co/F38u6glfdd"
+    },
+    {
+      "id": "e3ppq0bp5wdvfol1bkvm74xd",
+      "url": "https://x.com/DanKornas/status/2088839471475122284",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-16T12:57:32-04:00",
+      "description": "Stop re-explaining the same UI style to Claude Code. Nothing Design Skill is a reusable design-system skill for Claude Code inspired by Nothing’s monochrome, typographic, industrial visual language. It helps you generate a consistent UI direction by packaging design rules,"
+    },
+    {
+      "id": "oqqfvwcecvn8e3vsm4z0cgiz",
+      "url": "https://x.com/tom_doerr/status/2088645777698509188",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T12:10:56-04:00",
+      "description": "Supports real-time GPS tracking across more than 200 protocols and 2000 device models through a self-hosted Java backend. https://t.co/6ruXMNghiB"
+    },
+    {
+      "id": "fesyrgoa5ke2zxhtcpa31aep",
+      "url": "https://x.com/DanKornas/status/2088816767212646677",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-16T10:38:48-04:00",
+      "description": "Building a local AI voice workflow shouldn’t mean leaving ComfyUI. ComfyUI-QwenTTS is a custom node package for running Qwen3-TTS (12Hz) voice workflows inside ComfyUI. It helps you generate preset, designed, or cloned voices through node-based workflows, with practical"
+    },
+    {
+      "id": "d9adrf08uas1ocf7a9arft2k",
+      "url": "https://screenrant.com/best-sci-fi-books-1990s-goodreads-exclusive/",
+      "title": "Goodreads Officially Reveals the 10 Most Popular Sci-Fi Books of the 1990s (Exclusive)",
+      "ts": "2026-08-16T10:33:03-04:00",
+      "description": "The 10 greatest books of the 90s!"
+    },
+    {
+      "id": "x3eo0gfsvu5g8vb45tg0a13w",
+      "url": "https://x.com/Docker/status/2087913354937405942",
+      "title": "Docker (@Docker) on X",
+      "ts": "2026-08-16T07:50:41-04:00",
+      "description": "When an agent exceeds its intended scope, who is accountable? How do you audit a chain of sub-agents? Docker, @snyksec, and @KeycardAI built Agent Baseline to answer those questions. Open source, vendor agnostic. Read more: https://t.co/EaqR6oW2Ev"
+    },
+    {
+      "id": "g46e33c3vw7i63zzvb39qdns",
+      "url": "https://www.infoworld.com/article/4208733/mcp-didnt-remove-sessions-it-handed-them-to-the-model.html",
+      "title": "MCP didn’t remove sessions. It handed them to the model",
+      "ts": "2026-08-16T07:49:43-04:00",
+      "description": "MCP makes models carry session handles, improving scalability while making reliable correlation and authorization an application concern."
+    },
+    {
+      "id": "zl1ia55tkxgmk20f3rkoczda",
+      "url": "https://x.com/tom_doerr/status/2088258905914646893",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-16T07:47:48-04:00",
+      "description": "Organize library skills into reusable collections and mount them into coding agents like Cursor, Claude Code, and Gemini CLI without moving source files. https://t.co/VFBvt668uh"
+    },
+    {
+      "id": "rk0caofkckcpgajye3o8ane2",
+      "url": "https://x.com/DanKornas/status/2088748810625593578",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-16T07:47:09-04:00",
+      "description": "Managing remote servers shouldn’t mean handing your AI agent unrestricted SSH. MCP SSH Manager is an MCP server for managing multiple SSH connections from Claude Code or OpenAI Codex. It helps you automate remote operations by exposing 37 tools for commands, file transfers,"
+    },
+    {
+      "id": "bepzwcpwrsfhkwinjergbfek",
+      "url": "https://x.com/tom_doerr/status/2088212191392497973",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T22:59:33-04:00",
+      "description": "Removes duplicate files across directories while preserving one copy per group. https://t.co/V6idQPTX58"
+    },
+    {
+      "id": "bmj49xg9y0nz8cukphb38azn",
+      "url": "https://x.com/DanKornas/status/2087748714215383069",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-15T22:57:41-04:00",
+      "description": "Vague or complex Claude Code prompts can require correction round-trips when needed context is missing before Claude acts. Claude Code Prompt Improver is a declarative hook plugin that injects targeted context at prompt submission, tool use, and subagent start. A single engine"
+    },
+    {
+      "id": "x1wkwdobx043t1nuo4qno026",
+      "url": "https://x.com/tom_doerr/status/2088455006345212129",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T22:20:01-04:00",
+      "description": "Manage Homebrew services directly from the macOS menu bar, allowing users to start, stop, and restart processes without using the terminal. https://t.co/KhcxguJPg9"
+    },
+    {
+      "id": "g7qz6smggtpz5yggi2pf667r",
+      "url": "https://www.mensa.org/mensa-iq-challenge/",
+      "title": "Mensa IQ Challenge – Mensa International",
+      "ts": "2026-08-15T22:17:40-04:00",
+      "description": "This challenge involves trying to solve 35 puzzles within 25 minutes. The puzzles get progressively difficult as you move through the test."
+    },
+    {
+      "id": "hoe217y7y1fw8jqngdvoals5",
+      "url": "https://x.com/DanKornas/status/2088567611277578674",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-15T21:54:19-04:00",
+      "description": "Market-analysis agents are easy to demo. This repo connects them to backtests and paper trades. Claude Market Agents is a Python system for builders who want to automate US stock-market analysis, report generation, backtesting, and Alpaca paper-trading workflows with Claude Code"
+    },
+    {
+      "id": "q3etnwxqges091ig9exkml3q",
+      "url": "https://ca.news.yahoo.com/flock-boss-admits-surveillance-firm-130229755.html",
+      "title": "Flock boss admits surveillance firm took too long to act over police abuse",
+      "ts": "2026-08-15T21:41:25-04:00",
+      "description": "US police officers have quit after using licence plate-reading cameras to track romantic partners."
+    },
+    {
+      "id": "dwhja6kqend2xju0uhd53bjd",
+      "url": "https://x.com/tom_doerr/status/2088502748186607782",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T21:40:45-04:00",
+      "description": "A practical guide offering 40+ tips for enhancing Claude Code proficiency. Techniques covered include configuring status lines, managing AI context, utilizing voice input, and structuring autonomous workflows. https://t.co/RC7IjNtO6r"
+    },
+    {
+      "id": "x18da88otwvbus6jzbswedjk",
+      "url": "https://carbuzz.com/flock-license-cameras-feds-watching/",
+      "title": "Angry About Flock License Plate Cameras? Be Careful What You Say On Social Media",
+      "ts": "2026-08-15T21:40:08-04:00",
+      "description": "A report claims the US government is watching social media and could link peaceful protesters to rising vandalism against Flock cameras."
+    },
+    {
+      "id": "bth6hrrmvz0mwgtgvnx6dith",
+      "url": "https://x.com/tom_doerr/status/2088593268359541047",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T21:26:54-04:00",
+      "description": "Transforms Claude Code into a continuously learning system that orchestrates agents and maintains context across sessions. https://t.co/FnykxBa0ls"
+    },
+    {
+      "id": "f4byna3z8u3wbdrqm2rpdgdx",
+      "url": "https://x.com/tom_doerr/status/2087799577533358374",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T21:26:08-04:00",
+      "description": "Gives your AI agent access to over 600 platforms, including Gmail and Shopify, through a unified command line interface. https://t.co/gNpasdrkqh"
+    },
+    {
+      "id": "ox3qeew7tg939e21gf51bls0",
+      "url": "https://x.com/quantscience_/status/2087932975446900821",
+      "title": "Quant Science (@quantscience_) on X",
+      "ts": "2026-08-15T21:23:05-04:00",
+      "description": "🚨BREAKING: A new Python library for algorithmic trading. Introducing TensorTrade: An open-source Python framework for trading using Reinforcement Learning (AI)"
+    },
+    {
+      "id": "sduq941aobttc4y5spcsl6y4",
+      "url": "https://x.com/tom_doerr/status/2088684801586860448",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T21:21:33-04:00",
+      "description": "Map your entire project, including code, docs, and PDFs, into a queryable knowledge graph by typing /graphify in your AI coding assistant. https://t.co/mkwtvf8opo"
+    },
+    {
+      "id": "qetu29ol1diyszxcioh23vql",
+      "url": "https://x.com/DanKornas/status/2088261863020659045",
+      "title": "Dan Kornas (@DanKornas) on X",
+      "ts": "2026-08-15T20:50:46-04:00",
+      "description": "Your agent’s memory doesn’t need another cloud database. IWE is a local-first knowledge graph that turns a directory of Markdown files into connected, queryable context for you and your AI agents. It helps you keep notes and agent memory in the same inspectable files by adding"
+    },
+    {
+      "id": "ns220r6bdhoo518vxip0rwu1",
+      "url": "https://x.com/tom_doerr/status/2088302888233623959",
+      "title": "Tom Dörr (@tom_doerr) on X",
+      "ts": "2026-08-15T20:39:56-04:00",
+      "description": "Runs a local privacy-first smart home assistant that spins up in seconds with Docker. https://t.co/ZYAOi3GMV5"
+    },
+    {
+      "id": "fbxgo5lk0wg5eyzwamqiyv77",
+      "url": "https://www.ctm360.com/reports/recruittrap-browser-in-the-browser-bitb-recruitment-scams",
+      "title": "RecruitTrap: Browser-in-the-Browser (BitB) Recruitment Scams",
+      "ts": "2026-08-15T20:38:45-04:00",
+      "description": "CTM360 uncovers RecruitTrap, a global Browser-in-the-Browser (BitB) phishing campaign impersonating recruiters to steal credentials and bypass MFA."
+    },
+    {
+      "id": "jhtnggrufol0lgm3fele6vu4",
+      "url": "https://octelium.com/",
+      "title": "The Open Source Zero Trust Secure Access Platform",
+      "ts": "2026-08-15T20:33:37-04:00",
+      "description": "A FOSS unified secure zero trust access platform that can operate as a Zero-Config VPN, a ZTNA/BeyondCorp Platform, an API/AI Gateway, an infrastructure for secure tunnels, MCP and A2A architectures as well as a PaaS to deploy and secure access to containerized applications."
+    },
+    {
+      "id": "ep7n123dzgreicmmi2n5el0d",
+      "url": "https://www.techradar.com/tech/flock-ceo-says-were-not-big-brother-in-the-face-of-surveillance-allegations-as-3d-printing-enthusiasts-share-flock-sock-camera-cover-to-help-protestors",
+      "title": "‘I’m sorry the system has failed you’: Flock CEO admits police have abused its system, as activists share 3D-printed ‘Flock Socks’ to block its cameras",
+      "ts": "2026-08-15T20:28:25-04:00",
+      "description": "Flock is introducing some extra controls over how its cameras can be used, to counter claims of unnecessary spying."
+    },
+    {
+      "id": "n1cw87f9ltsyd56okmih6neq",
+      "url": "https://www.geeky-gadgets.com/claude-code-creator-tips/",
+      "title": "3 Ways Claude Code’s Creator Gets More Done with Simpler Prompts",
+      "ts": "2026-08-15T20:15:46-04:00",
+      "description": "Optimize Claude Code outputs by updating system prompts frequently. The creator recommends treating AI models like professionals instead of micromanaging."
+    },
+    {
+      "id": "y63w1omozvzfvqwwwb5s2twk",
+      "url": "https://restofworld.org/2026/open-source-ai-infrastructure-mozilla/",
+      "title": "Mozilla’s CTO thinks AI should be built like the internet",
+      "ts": "2026-08-15T20:06:12-04:00",
+      "description": "Raffi Krikorian explains that while consumers flock to ChatGPT and Claude, companies are increasingly turning to open models that they can customize and control."
+    },
+    {
+      "id": "di2z3uup7ait13gpn382jpsy",
+      "url": "https://share.google/aimode/vq1bI8i9JUDb8K11S",
+      "title": "https://www.google.com/search?smstk=ChhJcFVWeDZkYmJWSUxYdVByYm5pWEpWUT0QAQ%3D%3D&smstidx=0&q=why+do+people+hate+tokyo+rig&udm=50&csuir=1&rlz=1MDAPLA_enCA950CA950&source=sh/x/aim/m2/5&ioshw=iPhone14,5&mtid=_l4vao2_La6mruEP54ab8Ac&ctzn=America/Toronto&apps=ma,yt&ntc=1&hl=en&biw=390&channel=iss&client=mobilesearchapp&cs=1&pbx=1&aep=10&aep=33&v=424.4.924152415&acb=1&vse=1&fbs=ADc_l-bZnt6jMmErT-KRarIgXyuyxczIxhsbI1MLg7KohJVwHpn-hWc1BqYW6u--ilEMxy66DWr2gBHXtboTuuDyQO2CvCgcrV6Hk_sPfMlIgAUvY2TV1HuWIjAMnRvyQle2lHc12rL-3Q9y6-gmZIOkvSFMMEqjMW2pZe0io5ofVRjcTlzTcub6XGlyJPPffR3Ouqp7aWCnc9Lj2urtSc1AI1MO0H95CQ&ie=UTF-8&gsawvi=1&aioh=3&bih=797&ntyp=1&kgs=f72a908dedc4b734&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_3XNMQrCMBTGcbtJF8FRHIKjYGMXB_Eu4dk8XoJNXkgiabceyzN4BS-jgk7i-sHv-9ePql4XMwrNIiCHHoWBjCLzZWQRLa1OJueQjlKWUhpKGbLtmo6dTAixM7sQ2bEE61QyEFFlc3VnD7ZvgqfN8quJmXpswMrtbJgWU3Wb3yv179s6IEzyHMFr6-mjSVEEbdFn2Q4_m3p5ryFq1R72OrzzT7rSvBXeAAAA&shmds=v1_ATWGeeOUmPnf-awA5IdoqijojsfoY41l1fszK0Az4SNTnEPFxg&sei=qmAvao7SPOXtmLQPwrf2wQU",
+      "ts": "2026-06-14T22:17:13-04:00",
+      "description": null
+    },
+    {
+      "id": "mu09epak14yzbyk8gd3p8i6n",
+      "url": "https://www.temu.com/ca/self--coin-holders-no-stapler-needed--and-stick-cardboard-coin-flips-for-quick-and-secure-coin-protection-g-601102201507840.html?top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fb29b4523-3ca2-4019-94ad-ebcccc0a68b3.jpg&spec_gallery_id=141876",
+      "title": "self coin holders no stapler needed stick - Temu Canada",
+      "ts": "2026-05-30T07:55:48-04:00",
+      "description": "Shop self coin holders no stapler needed and stick cardboard coin flips for quick and secure coin protection at the lowest price at Temu. Check reviews and See of toys & games. ."
+    },
+    {
+      "id": "dp2z4cvni2nxdi94g57ycagf",
+      "url": "https://www.rapala.ca/ca_en/blog/tried-and-true-1-2-punch-for-spring-walleye",
+      "title": "Tried-And-True, 1-2 Punch For Spring Walleye",
+      "ts": "2026-05-16T22:48:56-04:00",
+      "description": "Spring is an excellent time to get on the water for walleye. There are plenty of effective tactics for catching fish this time of year, but two of the best are…"
+    },
+    {
+      "id": "lyu2hbnx9134tzridpund5ws",
+      "url": "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
+      "title": "RAG Is Blind to Time — I Built a Temporal Layer to Fix It in Production | Towards Data Science",
+      "ts": "2026-05-13T06:21:16-04:00",
+      "description": "Three weeks into testing, a learner told me my AI tutor gave her the wrong answer. Not obviously wrong — just outdated enough to mislead. That was the moment I realized something most RAG systems quietly ignore: they have no sense of time. My system retrieved the most similar document, not the most…"
+    },
+    {
+      "id": "fgfip9qhxhimkui7rc9kydlf",
+      "url": "https://thenewstack.io/enterprise-ai-agent-adoption/",
+      "title": "Datadog and T-Mobile leaders reveal the reality of deploying AI agents in production - The New Stack",
+      "ts": "2026-05-09T09:22:36-04:00",
+      "description": "Enterprise leaders at the AI Agent Conference in New York tell The New Stack about increased adoption of AI agents, emphasizing security, simulation, and human oversight."
+    },
+    {
+      "id": "f360rt81k98l01oa09jt5oq9",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/",
+      "title": "Interactive explanations - Agentic Engineering Patterns",
+      "ts": "2026-05-09T08:50:17-04:00",
+      "description": "Interactive explanations - Agentic Engineering Patterns"
+    },
+    {
+      "id": "gyu5pubef2a64u2e32gvjbh6",
+      "url": "https://newsboat.org/",
+      "title": "Newsboat, an RSS reader",
+      "ts": "2026-05-09T08:49:50-04:00",
+      "description": null
+    },
+    {
+      "id": "dfv17zyuhafnny257krqi89q",
+      "url": "https://domainnamewire.com/2026/03/10/icann-looks-into-zero-click-monetization/",
+      "title": "ICANN looks into zero-click monetization - Domain Name Wire | Domain Name News",
+      "ts": "2026-05-09T08:46:33-04:00",
+      "description": "The ICANN Security, Stability, and Resiliency research team is examining zero-click domain monetization in light of changes in the domain monetization business. Google shut down its AdSense for Domains program last month after opting all advertisers out of the program last year. As a result, more…"
+    },
+    {
+      "id": "p2bgjl4okbpvbv9lpcyfqtal",
+      "url": "https://www.reddit.com/r/rss/comments/1ezcwdh/large_collection_of_rss_feeds_in_the_ai_space/",
+      "title": "Large collection of RSS feeds in the AI space : r/rss",
+      "ts": "2026-05-09T00:27:03-04:00",
+      "description": null
+    }
+  ]
+}

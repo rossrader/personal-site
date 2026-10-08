@@ -1,113 +1,131 @@
 {
-  "fetchedAt": "2026-10-08T05:07:17.490Z",
+  "fetchedAt": "2026-10-08T12:59:23.799Z",
   "links": [
     {
       "id": "s3o4w90cfpkwdikycinnitix",
       "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
       "title": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac",
-      "ts": "2026-10-07T13:17:39-04:00"
+      "ts": "2026-10-07T13:17:39-04:00",
+      "description": "SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…"
     },
     {
       "id": "p9nxxwh1psxagvwdn2acgm5z",
       "url": "https://www.nature.com/articles/s42256-026-01303-y",
       "title": "Client Challenge",
-      "ts": "2026-10-07T13:06:11-04:00"
+      "ts": "2026-10-07T13:06:11-04:00",
+      "description": "When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens."
     },
     {
       "id": "pm8zggyyb3q20ivzetkdsnot",
       "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
       "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs - Help Net Security",
-      "ts": "2026-10-07T06:15:10-04:00"
+      "ts": "2026-10-07T06:15:10-04:00",
+      "description": "Tuskira’s open-source AI agent gateway keeps credentials out of agent configs and checks every MCP tool call against a profile."
     },
     {
       "id": "cccyv955c1tzwxszqungvupl",
       "url": "https://thenewstack.io/ci-bottleneck-agent-verification/",
       "title": "Agents have made CI the bottleneck. Faster pipelines are the wrong fix.",
-      "ts": "2026-10-06T06:47:42-04:00"
+      "ts": "2026-10-06T06:47:42-04:00",
+      "description": "Agents pushed CI job volume up 25x at Anthropic. Faster pipelines help, but they still check a repo, not the distributed system it has to work with."
     },
     {
       "id": "ydfu82ypipeozwhzny2s4obx",
       "url": "https://www.youtube.com/watch?v=yUuFvL1lK4k",
       "title": "Mods in Claude Code: change how Claude Code works",
-      "ts": "2026-10-06T06:37:11-04:00"
+      "ts": "2026-10-06T06:37:11-04:00",
+      "description": "Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…"
     },
     {
       "id": "zlpkp1gdtuun10j7gjebx2xq",
       "url": "https://m.youtube.com/shorts/Ev9WmiNdsPE",
       "title": "How Claude Can Analyze Your WordPress SEO With Rank Math MCP",
-      "ts": "2026-10-03T20:28:24-04:00"
+      "ts": "2026-10-03T20:28:24-04:00",
+      "description": "What if Claude could actually understand your WordPress site instead of giving you generic SEO advice? With Rank Math MCP + Claude, you can connect AI to you…"
     },
     {
       "id": "lxckrc8r8vcofu2gkm4zt6yb",
       "url": "https://www.youtube.com/watch?v=FByNauagcbY",
       "title": "Build an App With Claude Design",
-      "ts": "2026-10-03T20:25:03-04:00"
+      "ts": "2026-10-03T20:25:03-04:00",
+      "description": "Nate, a designer at Anthropic, uses Claude design in Claude Code to take his side project’s onboarding from rough idea to working prototype.He connects his r…"
     },
     {
       "id": "s9y2yovsfk7ybsbvukcfe9pd",
       "url": "https://gizmodo.com/this-matters-researchers-identify-thousands-of-new-tells-in-ai-writing-2000820447",
       "title": "‘This Matters’: Researchers Identify Thousands of New Tells in AI Writing",
-      "ts": "2026-10-03T19:20:54-04:00"
+      "ts": "2026-10-03T19:20:54-04:00",
+      "description": "The days of freaking out over em dashes are over."
     },
     {
       "id": "rp3k9sn0ro3s4l49p8itv7q5",
       "url": "https://www.iphoneincanada.ca/2026/10/02/crtc-orders-canadian-carriers-to-improve-cellphone-coverage-maps/",
       "title": "CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada",
-      "ts": "2026-10-03T14:38:04-04:00"
+      "ts": "2026-10-03T14:38:04-04:00",
+      "description": "The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…"
     },
     {
       "id": "dr16d7octy2dtfzk67jfkwad",
       "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
       "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
-      "ts": "2026-10-02T22:28:01-04:00"
+      "ts": "2026-10-02T22:28:01-04:00",
+      "description": "⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…"
     },
     {
       "id": "m8r3anhdxrfd6uus4b4fihag",
       "url": "https://charliehills.substack.com/p/28-things-to-install-into-claude",
       "title": "28 things to install into Claude for motion graphics",
-      "ts": "2026-10-02T21:52:44-04:00"
+      "ts": "2026-10-02T21:52:44-04:00",
+      "description": "Every repo, the job it does and the line that installs it."
     },
     {
       "id": "uymu52wx4h2pm4vfjtvxzl06",
       "url": "https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/",
       "title": "Claude Code’s desktop GUI has one superpower the terminal version will never match",
-      "ts": "2026-10-02T21:51:35-04:00"
+      "ts": "2026-10-02T21:51:35-04:00",
+      "description": "Same engine, different experience"
     },
     {
       "id": "ubgmigiruatc69dj7plyv1ie",
       "url": "https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/",
       "title": "I added health checks to every Docker container, and now my homelab restarts its own broken services",
-      "ts": "2026-10-02T21:39:54-04:00"
+      "ts": "2026-10-02T21:39:54-04:00",
+      "description": "It only handles the boring failure."
     },
     {
       "id": "h7h57fk99du989k1bl0g1ek6",
       "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps",
       "title": "GitHub - jaywcjlove/awesome-swift-macos-apps: A curated collection of open-source macOS applications built with Swift",
-      "ts": "2026-09-29T02:59:24-04:00"
+      "ts": "2026-09-29T02:59:24-04:00",
+      "description": "A curated collection of open-source macOS applications built with Swift - jaywcjlove/awesome-swift-macos-apps"
     },
     {
       "id": "miawylhjaa78pxlbty5lyu4t",
       "url": "https://github.com/The01Geek/prflow",
       "title": "GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.",
-      "ts": "2026-09-29T02:50:25-04:00"
+      "ts": "2026-09-29T02:50:25-04:00",
+      "description": "Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. E…"
     },
     {
       "id": "hbp3jj5lwe9hqfdb99bc68mn",
       "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
       "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-      "ts": "2026-09-28T21:16:13-04:00"
+      "ts": "2026-09-28T21:16:13-04:00",
+      "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
     },
     {
       "id": "au36tsb0ao13qx7xtj6y9le3",
       "url": "https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/",
       "title": "I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner",
-      "ts": "2026-09-27T22:55:17-04:00"
+      "ts": "2026-09-27T22:55:17-04:00",
+      "description": "An extremely convincing Keep replacement"
     },
     {
       "id": "jxlmg4n4etm7bq74sf79n6s8",
       "url": "https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/",
       "title": "I stopped my local LLM agent from running out of context, and now it handles what Claude Code does",
-      "ts": "2026-09-27T12:25:31-04:00"
+      "ts": "2026-09-27T12:25:31-04:00",
+      "description": "Tweaking a few settings did more than a new model would have"
     }
   ]
 }

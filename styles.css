@@ -773,6 +773,35 @@ main section + section {
   animation: cursor-blink 1.2s steps(1) infinite;
 }
 
+/* Archive page (links.html): the whole history at reading width, with no
+   cooling fade or staggered reveal — hundreds of days would never settle */
+.link-archive {
+  max-width: 68ch;
+}
+
+.link-archive .link-day {
+  --fade: 1;
+  animation: none;
+}
+
+.link-archive .link-day + .link-day {
+  margin-top: 1.4rem;
+}
+
+.link-month {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono-sm);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin: 2.4rem 0 1rem;
+}
+
+.link-archive .link-month:first-child {
+  margin-top: 0;
+}
+
 /* ===== Reading shelf (Hardcover) ===== */
 .book-shelf {
   display: flex;
