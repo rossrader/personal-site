@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-07T17:37:17.173Z",
+  "fetchedAt": "2026-10-08T05:07:17.386Z",
   "albums": [
     {
       "id": "1ptWEmAlKD4QJXvuOUNDlB",
       "title": "Privateering",
       "artist": "Mark Knopfler",
       "year": 2012,
-      "plays": 5,
+      "plays": 6,
       "cover": "content/music/al-1ptWEmAlKD4QJXvuOUNDlB_a1c3212b967af8fb.jpg"
     },
     {
