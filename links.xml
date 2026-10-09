@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 04:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 19:34:06 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>charmbracelet/crush: Glamourous agentic coding for all 💘</title>
+      <link>https://github.com/charmbracelet/crush</link>
+      <guid isPermaLink="false">ke8uihzs00lkpuk97viu56s2</guid>
+      <pubDate>Fri, 09 Oct 2026 19:34:06 GMT</pubDate>
+      <description>Glamourous agentic coding for all 💘. Contribute to charmbracelet/crush development by creating an account on GitHub.</description>
+    </item>
     <item>
       <title>9 NEW Claude Mods that can truly change how you work</title>
       <link>https://youtube.com/watch?v=lDrAZ1wAyVs</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">f0154mkwndjyks0wlg9hclas</guid>
       <pubDate>Fri, 18 Sep 2026 09:57:02 GMT</pubDate>
       <description>What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain</description>
-    </item>
-    <item>
-      <title>Why human oversight is shifting from writing code to defining requirements</title>
-      <link>https://thenewstack.io/human-oversight-defining-requirements/</link>
-      <guid isPermaLink="false">br4btq2npipbz3lfi52aijse</guid>
-      <pubDate>Fri, 18 Sep 2026 09:54:47 GMT</pubDate>
-      <description>Automated test gates can’t catch flawed specs. Discover why human oversight must shift from writing code to defining AI requirements.</description>
     </item>
   </channel>
 </rss>
