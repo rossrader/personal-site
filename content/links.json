@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-08T14:26:42.774Z",
+  "fetchedAt": "2026-10-09T04:29:20.994Z",
   "links": [
+    {
+      "id": "i8pfwup820yk75yz35ruebrc",
+      "url": "https://youtube.com/watch?v=lDrAZ1wAyVs&si=_XBrZoX355fmH0no",
+      "title": "9 NEW Claude Mods that can truly change how you work",
+      "ts": "2026-10-09T00:01:58-04:00",
+      "description": "Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…"
+    },
     {
       "id": "s3o4w90cfpkwdikycinnitix",
       "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
@@ -112,20 +119,6 @@
       "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
       "ts": "2026-09-28T21:16:13-04:00",
       "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
-    },
-    {
-      "id": "au36tsb0ao13qx7xtj6y9le3",
-      "url": "https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/",
-      "title": "I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner",
-      "ts": "2026-09-27T22:55:17-04:00",
-      "description": "An extremely convincing Keep replacement"
-    },
-    {
-      "id": "jxlmg4n4etm7bq74sf79n6s8",
-      "url": "https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/",
-      "title": "I stopped my local LLM agent from running out of context, and now it handles what Claude Code does",
-      "ts": "2026-09-27T12:25:31-04:00",
-      "description": "Tweaking a few settings did more than a new model would have"
     }
   ]
 }

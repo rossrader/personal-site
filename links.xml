@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 17:17:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 04:01:58 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>9 NEW Claude Mods that can truly change how you work</title>
+      <link>https://youtube.com/watch?v=lDrAZ1wAyVs&amp;si=_XBrZoX355fmH0no</link>
+      <guid isPermaLink="false">i8pfwup820yk75yz35ruebrc</guid>
+      <pubDate>Fri, 09 Oct 2026 04:01:58 GMT</pubDate>
+      <description>Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…</description>
+    </item>
     <item>
       <title>Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac</title>
       <link>https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">br4btq2npipbz3lfi52aijse</guid>
       <pubDate>Fri, 18 Sep 2026 09:54:47 GMT</pubDate>
       <description>Automated test gates can’t catch flawed specs. Discover why human oversight must shift from writing code to defining AI requirements.</description>
-    </item>
-    <item>
-      <title>Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites</title>
-      <link>https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/</link>
-      <guid isPermaLink="false">m8g2plgro2piayl2w6c3nu5q</guid>
-      <pubDate>Thu, 17 Sep 2026 20:48:39 GMT</pubDate>
-      <description>Bill would help rightsholders obtain court orders to block foreign piracy sites.</description>
     </item>
   </channel>
 </rss>
