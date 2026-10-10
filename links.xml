@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 01:28:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:31:50 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com</title>
+      <link>https://share.google/NbL36pmEfcwDNn7yB</link>
+      <guid isPermaLink="false">lkumukjqyifmjlu0h3o4dwdw</guid>
+      <pubDate>Sat, 10 Oct 2026 01:31:50 GMT</pubDate>
+      <description>In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity.</description>
+    </item>
+    <item>
+      <title>Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities</title>
+      <link>https://share.google/bNVyyw87aQqqFWqWr</link>
+      <guid isPermaLink="false">x9smno9kk9na9h6yvzw5qknm</guid>
+      <pubDate>Sat, 10 Oct 2026 01:30:42 GMT</pubDate>
+      <description>share.google</description>
+    </item>
     <item>
       <title>T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions</title>
       <link>https://share.google/kpy9XAhxtHzo0oVcw</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">epgm0m0zagrqil8tjej9sokr</guid>
       <pubDate>Sat, 19 Sep 2026 20:15:47 GMT</pubDate>
       <description>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions. - yibie/awesome-jev</description>
-    </item>
-    <item>
-      <title>I run my local LLMs inside the ChatGPT desktop app now, and it took one free open-source tool to do it</title>
-      <link>https://www.xda-developers.com/run-local-llms-inside-chatgpt-desktop-app-one-free-open-source-tool/</link>
-      <guid isPermaLink="false">xmevvey6b1hlm063wila0bov</guid>
-      <pubDate>Sat, 19 Sep 2026 20:01:44 GMT</pubDate>
-      <description>opencodex is simple and easy to use, and lets you add any LLM to Codex.</description>
-    </item>
-    <item>
-      <title>Sung Kim (@sung.kim.mw) on Threads</title>
-      <link>https://www.threads.com/@sung.kim.mw/post/DdbiR4im80O/training-a-b-model-to-produce-faster-query-plans-than-postgres-or-how-to-make/?gdref=1&amp;hpir=1&amp;http_ref=eyJ0cyI6MTc4OTg0NzY4MjAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D</link>
-      <guid isPermaLink="false">xo7jfjqdzlr3aj2cahm0lujn</guid>
-      <pubDate>Sat, 19 Sep 2026 19:54:59 GMT</pubDate>
-      <description>Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning https://rohanbansal.com/qorl?v=3</description>
     </item>
   </channel>
 </rss>

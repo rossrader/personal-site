@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-10T01:29:21.027Z",
+  "fetchedAt": "2026-10-10T01:59:20.943Z",
   "links": [
+    {
+      "id": "lkumukjqyifmjlu0h3o4dwdw",
+      "url": "https://share.google/NbL36pmEfcwDNn7yB",
+      "title": "Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com",
+      "ts": "2026-10-09T21:31:50-04:00",
+      "description": "In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity."
+    },
+    {
+      "id": "x9smno9kk9na9h6yvzw5qknm",
+      "url": "https://share.google/bNVyyw87aQqqFWqWr",
+      "title": "Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities",
+      "ts": "2026-10-09T21:30:42-04:00",
+      "description": null
+    },
     {
       "id": "d2u2hty32sm7pf0d85voijba",
       "url": "https://share.google/kpy9XAhxtHzo0oVcw",
