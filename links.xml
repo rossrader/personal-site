@@ -5,9 +5,37 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2026 19:34:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:28:11 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions</title>
+      <link>https://share.google/kpy9XAhxtHzo0oVcw</link>
+      <guid isPermaLink="false">d2u2hty32sm7pf0d85voijba</guid>
+      <pubDate>Sat, 10 Oct 2026 01:28:11 GMT</pubDate>
+      <description>John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical.</description>
+    </item>
+    <item>
+      <title>Client Challenge</title>
+      <link>https://share.google/6GwmLV2eJX1xl6gsK</link>
+      <guid isPermaLink="false">usv5262jritqh3yfcsepgfx9</guid>
+      <pubDate>Sat, 10 Oct 2026 01:23:31 GMT</pubDate>
+      <description>Byteification is a general method for retrofitting large language models to operate over bytes such that they approach the capabilities of subword-based systems and may be better for scientific data.</description>
+    </item>
+    <item>
+      <title>Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash</title>
+      <link>https://share.google/Gl2ZklpqF0amJf3bS</link>
+      <guid isPermaLink="false">ei0lr8ahkmgmv0x9c2fjkz7s</guid>
+      <pubDate>Sat, 10 Oct 2026 01:22:18 GMT</pubDate>
+      <description>We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline.</description>
+    </item>
+    <item>
+      <title>Microsoft-Decision-1: Our model for fast decision-making</title>
+      <link>https://share.google/cCfYqtv1iT8stnd3u</link>
+      <guid isPermaLink="false">cg2yjisuplkojomytgiis59p</guid>
+      <pubDate>Sat, 10 Oct 2026 01:21:34 GMT</pubDate>
+      <description>Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.</description>
+    </item>
     <item>
       <title>charmbracelet/crush: Glamourous agentic coding for all 💘</title>
       <link>https://github.com/charmbracelet/crush</link>
@@ -329,34 +357,6 @@
       <guid isPermaLink="false">xo7jfjqdzlr3aj2cahm0lujn</guid>
       <pubDate>Sat, 19 Sep 2026 19:54:59 GMT</pubDate>
       <description>Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning https://rohanbansal.com/qorl?v=3</description>
-    </item>
-    <item>
-      <title>One engineer shipped 2,000 PRs a month to production. Verification is the key.</title>
-      <link>https://thenewstack.io/agentic-verification-distributed-systems/</link>
-      <guid isPermaLink="false">izlncihdll9z9ehnpomhze47</guid>
-      <pubDate>Sat, 19 Sep 2026 19:54:23 GMT</pubDate>
-      <description>Learn how agentic verification helps AI agents ship thousands of PRs monthly using isolated, virtualized testing environments.</description>
-    </item>
-    <item>
-      <title>(131) Jev Ultrafast: a browser agent that never generates a coordinate or a selector - YouTube</title>
-      <link>https://www.youtube.com/shorts/mOGbXAjnPg4</link>
-      <guid isPermaLink="false">y34ti77cctbushudugctpg7v</guid>
-      <pubDate>Sat, 19 Sep 2026 04:10:57 GMT</pubDate>
-      <description>Jev Ultrafast clicks through a webpage without generating a single coordinate or selector. Most browser agents screenshot the page, feed it to a vision model…</description>
-    </item>
-    <item>
-      <title>GitHub - migsilva89/loadout: See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage.</title>
-      <link>https://github.com/migsilva89/loadout</link>
-      <guid isPermaLink="false">zini8lp4fzfe8gtypowe84zt</guid>
-      <pubDate>Fri, 18 Sep 2026 09:58:10 GMT</pubDate>
-      <description>See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP servers, with real usage. - migsilva89/loadout</description>
-    </item>
-    <item>
-      <title>What Is Jev? A Guide to TypeSafe AI’s System One Model</title>
-      <link>https://www.langchain.com/blog/building-a-harness-with-jev</link>
-      <guid isPermaLink="false">f0154mkwndjyks0wlg9hclas</guid>
-      <pubDate>Fri, 18 Sep 2026 09:57:02 GMT</pubDate>
-      <description>What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-10-09T19:59:20.961Z",
+  "fetchedAt": "2026-10-10T01:29:21.027Z",
   "links": [
+    {
+      "id": "d2u2hty32sm7pf0d85voijba",
+      "url": "https://share.google/kpy9XAhxtHzo0oVcw",
+      "title": "T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions",
+      "ts": "2026-10-09T21:28:11-04:00",
+      "description": "John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical."
+    },
+    {
+      "id": "usv5262jritqh3yfcsepgfx9",
+      "url": "https://share.google/6GwmLV2eJX1xl6gsK",
+      "title": "Client Challenge",
+      "ts": "2026-10-09T21:23:31-04:00",
+      "description": "Byteification is a general method for retrofitting large language models to operate over bytes such that they approach the capabilities of subword-based systems and may be better for scientific data."
+    },
+    {
+      "id": "ei0lr8ahkmgmv0x9c2fjkz7s",
+      "url": "https://share.google/Gl2ZklpqF0amJf3bS",
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "ts": "2026-10-09T21:22:18-04:00",
+      "description": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline."
+    },
+    {
+      "id": "cg2yjisuplkojomytgiis59p",
+      "url": "https://share.google/cCfYqtv1iT8stnd3u",
+      "title": "Microsoft-Decision-1: Our model for fast decision-making",
+      "ts": "2026-10-09T21:21:34-04:00",
+      "description": "Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models."
+    },
     {
       "id": "ke8uihzs00lkpuk97viu56s2",
       "url": "https://github.com/charmbracelet/crush",
