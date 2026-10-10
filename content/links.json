@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-10-10T04:59:20.998Z",
+  "fetchedAt": "2026-10-10T12:29:21.329Z",
   "links": [
+    {
+      "id": "c0mv8k8xyybl36ixd27jjju8",
+      "url": "https://nikhilgautam.me/nikki/",
+      "title": "Nikki CLI - Think it. Type it. Nikki remembers it.",
+      "ts": "2026-10-10T08:26:29-04:00",
+      "description": "A terminal-first personal notes and reminder app with natural language dates, local SQLite storage, and background notifications."
+    },
+    {
+      "id": "txgboyrhm2g7vbb8j7njf2vk",
+      "url": "https://www.copilotkit.ai/blog/introducing-opendots?via=dailydev",
+      "title": "Introducing OpenDots: the Open-Source Alternative to OpenAI Dots | Blog | CopilotKit",
+      "ts": "2026-10-10T08:23:17-04:00",
+      "description": "Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…"
+    },
+    {
+      "id": "f4stocty1i2bqheh2br8aqpx",
+      "url": "https://dly.to/YlqkEyDuOFS",
+      "title": "I’m Starting to Think Every Developer Should Build Their Own Internal Tools | daily.dev",
+      "ts": "2026-10-10T08:18:33-04:00",
+      "description": "Building internal tools for your own real problems teaches software development more effectively than generic practice projects. When you build something you…"
+    },
+    {
+      "id": "x2gbx4k4y6ub8h45uywo7ko0",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "title": "GitHub - Albert-Weasker/niubigeo: Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "ts": "2026-10-10T08:03:26-04:00",
+      "description": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing…"
+    },
     {
       "id": "lkumukjqyifmjlu0h3o4dwdw",
       "url": "https://machinelearningmastery.com/evaluating-graph-rag-vs-standard-rag-a-hallucination-benchmark-on-fact-dense-queries/",
@@ -161,13 +189,6 @@
       "title": "GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.",
       "ts": "2026-09-29T02:50:25-04:00",
       "description": "Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. E…"
-    },
-    {
-      "id": "hbp3jj5lwe9hqfdb99bc68mn",
-      "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
-      "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-      "ts": "2026-09-28T21:16:13-04:00",
-      "description": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
     }
   ]
 }

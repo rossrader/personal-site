@@ -5,9 +5,37 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 01:31:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 12:26:29 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Nikki CLI - Think it. Type it. Nikki remembers it.</title>
+      <link>https://nikhilgautam.me/nikki/</link>
+      <guid isPermaLink="false">c0mv8k8xyybl36ixd27jjju8</guid>
+      <pubDate>Sat, 10 Oct 2026 12:26:29 GMT</pubDate>
+      <description>A terminal-first personal notes and reminder app with natural language dates, local SQLite storage, and background notifications.</description>
+    </item>
+    <item>
+      <title>Introducing OpenDots: the Open-Source Alternative to OpenAI Dots | Blog | CopilotKit</title>
+      <link>https://www.copilotkit.ai/blog/introducing-opendots?via=dailydev</link>
+      <guid isPermaLink="false">txgboyrhm2g7vbb8j7njf2vk</guid>
+      <pubDate>Sat, 10 Oct 2026 12:23:17 GMT</pubDate>
+      <description>Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…</description>
+    </item>
+    <item>
+      <title>I’m Starting to Think Every Developer Should Build Their Own Internal Tools | daily.dev</title>
+      <link>https://dly.to/YlqkEyDuOFS</link>
+      <guid isPermaLink="false">f4stocty1i2bqheh2br8aqpx</guid>
+      <pubDate>Sat, 10 Oct 2026 12:18:33 GMT</pubDate>
+      <description>Building internal tools for your own real problems teaches software development more effectively than generic practice projects. When you build something you…</description>
+    </item>
+    <item>
+      <title>GitHub - Albert-Weasker/niubigeo: Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing</title>
+      <link>https://github.com/Albert-Weasker/niubigeo</link>
+      <guid isPermaLink="false">x2gbx4k4y6ub8h45uywo7ko0</guid>
+      <pubDate>Sat, 10 Oct 2026 12:03:26 GMT</pubDate>
+      <description>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing…</description>
+    </item>
     <item>
       <title>Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com</title>
       <link>https://machinelearningmastery.com/evaluating-graph-rag-vs-standard-rag-a-hallucination-benchmark-on-fact-dense-queries/</link>
@@ -329,34 +357,6 @@
       <guid isPermaLink="false">qd6d0l4ulq6fwdcy8d2tb2q4</guid>
       <pubDate>Sun, 20 Sep 2026 18:19:06 GMT</pubDate>
       <description>Build your own DIY AI note device using an ESP32 microcontroller and e-ink display. Record voice memos and transcribe them with OpenAI Whisper.</description>
-    </item>
-    <item>
-      <title>5 Prompt Optimization Strategies That Actually Improve LLM Output</title>
-      <link>https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output</link>
-      <guid isPermaLink="false">i9w0r0dl2n44wnew0igzfl0p</guid>
-      <pubDate>Sun, 20 Sep 2026 13:12:01 GMT</pubDate>
-      <description>This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs.</description>
-    </item>
-    <item>
-      <title>elvis (@omarsar0) on X</title>
-      <link>https://x.com/omarsar0/status/2100693601021997193</link>
-      <guid isPermaLink="false">wb51nbllue3g1okgtrfh8x46</guid>
-      <pubDate>Sat, 19 Sep 2026 20:17:12 GMT</pubDate>
-      <description>Things to try with Jev right now: 1. LLM-as-a-Judge evaluation 2. Routing for agent harnesses harness 3. Scaling agent orchestration by enabling smarter subagent creation with SOTA classification capabilities 4. Enhance dynamic harness generation where structured outputs are key The first three d…</description>
-    </item>
-    <item>
-      <title>Shann³ (@shannholmberg) on X</title>
-      <link>https://x.com/shannholmberg/status/2100591767590678912</link>
-      <guid isPermaLink="false">t9js258wy9yfofts6wyt0fzm</guid>
-      <pubDate>Sat, 19 Sep 2026 20:16:25 GMT</pubDate>
-      <description>how to use Jev to check your ai marketing team’s work before you review it jev is a new model built to evaluate information and make structured decisions inside software you give it context and specific questions, and it returns choices, scores and probabilities. that makes it useful for checking…</description>
-    </item>
-    <item>
-      <title>GitHub - yibie/awesome-jev: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions.</title>
-      <link>https://github.com/yibie/awesome-jev</link>
-      <guid isPermaLink="false">epgm0m0zagrqil8tjej9sokr</guid>
-      <pubDate>Sat, 19 Sep 2026 20:15:47 GMT</pubDate>
-      <description>A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI’s System One model for typed decisions. - yibie/awesome-jev</description>
     </item>
   </channel>
 </rss>
