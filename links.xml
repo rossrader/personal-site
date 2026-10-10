@@ -10,42 +10,42 @@
 
     <item>
       <title>Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com</title>
-      <link>https://share.google/NbL36pmEfcwDNn7yB</link>
+      <link>https://machinelearningmastery.com/evaluating-graph-rag-vs-standard-rag-a-hallucination-benchmark-on-fact-dense-queries/</link>
       <guid isPermaLink="false">lkumukjqyifmjlu0h3o4dwdw</guid>
       <pubDate>Sat, 10 Oct 2026 01:31:50 GMT</pubDate>
       <description>In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity.</description>
     </item>
     <item>
       <title>Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities</title>
-      <link>https://share.google/bNVyyw87aQqqFWqWr</link>
+      <link>https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html?m=1</link>
       <guid isPermaLink="false">x9smno9kk9na9h6yvzw5qknm</guid>
       <pubDate>Sat, 10 Oct 2026 01:30:42 GMT</pubDate>
-      <description>share.google</description>
+      <description>workspaceupdates.googleblog.com</description>
     </item>
     <item>
       <title>T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions</title>
-      <link>https://share.google/kpy9XAhxtHzo0oVcw</link>
+      <link>https://au.pcmag.com/wireless-carriers/120364/t-mobile-cto-gives-spacex-a-reality-check-on-its-starlink-mobile-ambitions</link>
       <guid isPermaLink="false">d2u2hty32sm7pf0d85voijba</guid>
       <pubDate>Sat, 10 Oct 2026 01:28:11 GMT</pubDate>
       <description>John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical.</description>
     </item>
     <item>
       <title>Client Challenge</title>
-      <link>https://share.google/6GwmLV2eJX1xl6gsK</link>
+      <link>https://www.nature.com/articles/s41586-026-11111-4</link>
       <guid isPermaLink="false">usv5262jritqh3yfcsepgfx9</guid>
       <pubDate>Sat, 10 Oct 2026 01:23:31 GMT</pubDate>
       <description>Byteification is a general method for retrofitting large language models to operate over bytes such that they approach the capabilities of subword-based systems and may be better for scientific data.</description>
     </item>
     <item>
       <title>Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash</title>
-      <link>https://share.google/Gl2ZklpqF0amJf3bS</link>
+      <link>https://blog.cloudflare.com/clef-faster-cheaper-multimodal/</link>
       <guid isPermaLink="false">ei0lr8ahkmgmv0x9c2fjkz7s</guid>
       <pubDate>Sat, 10 Oct 2026 01:22:18 GMT</pubDate>
       <description>We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline.</description>
     </item>
     <item>
       <title>Microsoft-Decision-1: Our model for fast decision-making</title>
-      <link>https://share.google/cCfYqtv1iT8stnd3u</link>
+      <link>https://commandline.microsoft.com/microsoft-decision-1-model-foundry/</link>
       <guid isPermaLink="false">cg2yjisuplkojomytgiis59p</guid>
       <pubDate>Sat, 10 Oct 2026 01:21:34 GMT</pubDate>
       <description>Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.</description>
