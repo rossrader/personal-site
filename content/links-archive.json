@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-10-10T12:29:21.329Z",
+  "fetchedAt": "2026-10-10T12:59:21.098Z",
   "links": [
+    {
+      "id": "k7zyr2ccjh8p57oydyztq9wd",
+      "url": "https://thetshaped.dev/p/outbox-pattern-why-you-need-typescript-postgresql-nodejs?via=dailydev",
+      "title": "Saved the Order, Lost the Event: Why You Need the Outbox Pattern",
+      "ts": "2026-10-10T08:41:32-04:00",
+      "description": "Save-then-publish drops messages without a single error in your logs. Here’s the outbox + inbox pair that stops it, in plain Postgres and Node.js."
+    },
+    {
+      "id": "u0to1x0kkqc13d9jw138oqd1",
+      "url": "https://www.ssp.sh/brain/claude-dashboards/?via=dailydev",
+      "title": "Claude Dashboards: The Jupyter Notebooks of Agent Age",
+      "ts": "2026-10-10T08:38:43-04:00",
+      "description": "Claude Dashboards were recently announced, and it goes to show that Dashboard are indeed not dead when Claude has now built their own services."
+    },
+    {
+      "id": "kexmspinwgspd9xwb5nmuzgb",
+      "url": "https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget?via=dailydev",
+      "title": "The LLM Blindspot: Why Models Forget What’s in the Middle of Your Prompt",
+      "ts": "2026-10-10T08:37:22-04:00",
+      "description": "In this article, we’ll look at why LLMs have this bias against middle information."
+    },
+    {
+      "id": "ltiv26t71fow61w65dlpcmjy",
+      "url": "https://openbao.org/blog/release-v2-7-0/?via=dailydev",
+      "title": "Announcing OpenBao v2.7! | OpenBao",
+      "ts": "2026-10-10T08:32:54-04:00",
+      "description": "We are thrilled to announce the availability of OpenBao v2.7, adding PostgreSQL horizontal scalability, External HSM and KMS-Backed Keys support, and Post-Quantum Cryptography!"
+    },
+    {
+      "id": "bcut9n454gs02o06oo68kgrj",
+      "url": "https://buf.build/blog/grpc-vs-rest-is-the-wrong-question?via=dailydev",
+      "title": "gRPC vs REST Is the Wrong Question · Buf Blog",
+      "ts": "2026-10-10T08:31:36-04:00",
+      "description": "The traditional advice is REST for public APIs and gRPC for microservices. But is this a false dichotomy? (hint: yes)"
+    },
     {
       "id": "c0mv8k8xyybl36ixd27jjju8",
       "url": "https://nikhilgautam.me/nikki/",

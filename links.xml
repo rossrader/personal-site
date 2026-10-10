@@ -5,9 +5,44 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 12:26:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 12:41:32 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Saved the Order, Lost the Event: Why You Need the Outbox Pattern</title>
+      <link>https://thetshaped.dev/p/outbox-pattern-why-you-need-typescript-postgresql-nodejs?via=dailydev</link>
+      <guid isPermaLink="false">k7zyr2ccjh8p57oydyztq9wd</guid>
+      <pubDate>Sat, 10 Oct 2026 12:41:32 GMT</pubDate>
+      <description>Save-then-publish drops messages without a single error in your logs. Here’s the outbox + inbox pair that stops it, in plain Postgres and Node.js.</description>
+    </item>
+    <item>
+      <title>Claude Dashboards: The Jupyter Notebooks of Agent Age</title>
+      <link>https://www.ssp.sh/brain/claude-dashboards/?via=dailydev</link>
+      <guid isPermaLink="false">u0to1x0kkqc13d9jw138oqd1</guid>
+      <pubDate>Sat, 10 Oct 2026 12:38:43 GMT</pubDate>
+      <description>Claude Dashboards were recently announced, and it goes to show that Dashboard are indeed not dead when Claude has now built their own services.</description>
+    </item>
+    <item>
+      <title>The LLM Blindspot: Why Models Forget What’s in the Middle of Your Prompt</title>
+      <link>https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget?via=dailydev</link>
+      <guid isPermaLink="false">kexmspinwgspd9xwb5nmuzgb</guid>
+      <pubDate>Sat, 10 Oct 2026 12:37:22 GMT</pubDate>
+      <description>In this article, we’ll look at why LLMs have this bias against middle information.</description>
+    </item>
+    <item>
+      <title>Announcing OpenBao v2.7! | OpenBao</title>
+      <link>https://openbao.org/blog/release-v2-7-0/?via=dailydev</link>
+      <guid isPermaLink="false">ltiv26t71fow61w65dlpcmjy</guid>
+      <pubDate>Sat, 10 Oct 2026 12:32:54 GMT</pubDate>
+      <description>We are thrilled to announce the availability of OpenBao v2.7, adding PostgreSQL horizontal scalability, External HSM and KMS-Backed Keys support, and Post-Quantum Cryptography!</description>
+    </item>
+    <item>
+      <title>gRPC vs REST Is the Wrong Question · Buf Blog</title>
+      <link>https://buf.build/blog/grpc-vs-rest-is-the-wrong-question?via=dailydev</link>
+      <guid isPermaLink="false">bcut9n454gs02o06oo68kgrj</guid>
+      <pubDate>Sat, 10 Oct 2026 12:31:36 GMT</pubDate>
+      <description>The traditional advice is REST for public APIs and gRPC for microservices. But is this a false dichotomy? (hint: yes)</description>
+    </item>
     <item>
       <title>Nikki CLI - Think it. Type it. Nikki remembers it.</title>
       <link>https://nikhilgautam.me/nikki/</link>
@@ -322,41 +357,6 @@
       <guid isPermaLink="false">s8kuty4rtghdzuyc31ro4w3a</guid>
       <pubDate>Mon, 21 Sep 2026 23:35:47 GMT</pubDate>
       <description>Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat),…</description>
-    </item>
-    <item>
-      <title>GitHub - fynnfluegge/agtx: 🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini</title>
-      <link>https://github.com/fynnfluegge/agtx</link>
-      <guid isPermaLink="false">e8wdb05038n3t8am9v9kffms</guid>
-      <pubDate>Mon, 21 Sep 2026 17:47:59 GMT</pubDate>
-      <description>🏄🏼‍♂️ The blackboard for coding agents - multi-session tool for claude code, cursor, codex, gemini - fynnfluegge/agtx</description>
-    </item>
-    <item>
-      <title>Dare Obasanjo (@carnage4life) on Threads</title>
-      <link>https://www.threads.com/@carnage4life/post/DdgpjJWGw9G/lots-of-software-companies-have-bought-into-the-belief-that-ai-has-solved/?gdref=1&amp;hpir=1&amp;http_ref=eyJ0cyI6MTc4OTk0OTAzNTAwMCwiciI6Imh0dHBzOlwvXC93d3cuZ29vZ2xlLmNvbVwvIn0%3D</link>
-      <guid isPermaLink="false">l3c179oikpsz43mzi1rxqfn6</guid>
-      <pubDate>Mon, 21 Sep 2026 00:04:10 GMT</pubDate>
-      <description>Lots of software companies have bought into the belief that AI has solved software engineering. The debate is shifting from whether AI should replace work done by SWEs, PMs and designers to whether humans should even review the output. Apparently human judgment is now the bottleneck.</description>
-    </item>
-    <item>
-      <title>GitHub - walidboulanouar/awesome-jev-use-cases: Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate.</title>
-      <link>https://github.com/walidboulanouar/awesome-jev-use-cases</link>
-      <guid isPermaLink="false">hw13v96s8jx0uqbt9jdhmn58</guid>
-      <pubDate>Sun, 20 Sep 2026 23:24:37 GMT</pubDate>
-      <description>Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits, cost and API examples. CC0, sponsored by AY Automate. - walidboulanouar/awesome-jev-use-cases</description>
-    </item>
-    <item>
-      <title>GitHub - logan-markewich/jeff: A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer.</title>
-      <link>https://github.com/logan-markewich/jeff</link>
-      <guid isPermaLink="false">yb8vvtmwmetb7mzj4pszhg66</guid>
-      <pubDate>Sun, 20 Sep 2026 20:54:10 GMT</pubDate>
-      <description>A self-hosted drop-in replacement for TypeSafe’s jev, powered by GliFormer. - logan-markewich/jeff</description>
-    </item>
-    <item>
-      <title>ESP32 Minimalist AI Note Taker Features OpenAI Whisper for Text Dictation</title>
-      <link>https://www.geeky-gadgets.com/diy-minimalist-ai-note-device/</link>
-      <guid isPermaLink="false">qd6d0l4ulq6fwdcy8d2tb2q4</guid>
-      <pubDate>Sun, 20 Sep 2026 18:19:06 GMT</pubDate>
-      <description>Build your own DIY AI note device using an ESP32 microcontroller and e-ink display. Record voice memos and transcribe them with OpenAI Whisper.</description>
     </item>
   </channel>
 </rss>
