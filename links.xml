@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 22:09:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 23:55:43 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - rcourtman/Pulse: Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures.</title>
+      <link>https://github.com/rcourtman/Pulse</link>
+      <guid isPermaLink="false">o0eiimi1wvfb26w7m1dtuax8</guid>
+      <pubDate>Sat, 10 Oct 2026 23:55:43 GMT</pubDate>
+      <description>Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures. - rcourtman/Pulse</description>
+    </item>
     <item>
       <title>OpenStore — The best of open source all in one place.</title>
       <link>https://www.openstore.site/?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ie46b7wfh6qddzq1zqeawkz0</guid>
       <pubDate>Mon, 21 Sep 2026 23:43:29 GMT</pubDate>
       <description>The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function an…</description>
-    </item>
-    <item>
-      <title>I built my own front page out of RSS, and stopped opening five news apps a day</title>
-      <link>https://www.xda-developers.com/built-front-page-out-of-rss-and-stopped-opening-five-news-apps-a-day/</link>
-      <guid isPermaLink="false">sxgrxm9ux42j02t5yoz34ft6</guid>
-      <pubDate>Mon, 21 Sep 2026 23:40:20 GMT</pubDate>
-      <description>FreshRSS and Glance are a powerhouse combination.</description>
     </item>
   </channel>
 </rss>
