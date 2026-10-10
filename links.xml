@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 12:41:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:09:13 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>OpenStore — The best of open source all in one place.</title>
+      <link>https://www.openstore.site/?via=dailydev</link>
+      <guid isPermaLink="false">p2mpajytn9ngg0wdgyaxqb6r</guid>
+      <pubDate>Sat, 10 Oct 2026 22:09:13 GMT</pubDate>
+      <description>Discover thoughtfully curated open-source alternatives to the apps you use every day.</description>
+    </item>
     <item>
       <title>Saved the Order, Lost the Event: Why You Need the Outbox Pattern</title>
       <link>https://thetshaped.dev/p/outbox-pattern-why-you-need-typescript-postgresql-nodejs?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">sxgrxm9ux42j02t5yoz34ft6</guid>
       <pubDate>Mon, 21 Sep 2026 23:40:20 GMT</pubDate>
       <description>FreshRSS and Glance are a powerhouse combination.</description>
-    </item>
-    <item>
-      <title>GitHub - Lifecycle-Innovations-Limited/claude-ops: Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4), voice (Bland/ElevenLabs), APM (Datadog/NewRelic/OTEL), YOLO mode.</title>
-      <link>https://github.com/Lifecycle-Innovations-Limited/claude-ops</link>
-      <guid isPermaLink="false">s8kuty4rtghdzuyc31ro4w3a</guid>
-      <pubDate>Mon, 21 Sep 2026 23:35:47 GMT</pubDate>
-      <description>Business operating system for Claude Code — 57 skills, 21 agents, smart daemon. Unified inbox (WhatsApp/Email/Slack/Telegram), autonomous PR merge, full-AWS monitoring, revenue (Stripe+RevenueCat),…</description>
     </item>
   </channel>
 </rss>

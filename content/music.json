@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-10-10T13:33:49.348Z",
+  "fetchedAt": "2026-10-10T22:29:21.469Z",
   "albums": [
+    {
+      "id": "066xSlSaMtQwLWbVndDnek",
+      "title": "Give Up",
+      "artist": "The Postal Service",
+      "year": 2003,
+      "plays": 3,
+      "cover": "content/music/al-066xSlSaMtQwLWbVndDnek_3ab39f9079a33b3e.jpg"
+    },
+    {
+      "id": "2ZfNNI9W0eF5QormwzHKkt",
+      "title": "Discreet Music",
+      "artist": "Brian Eno",
+      "year": 1975,
+      "plays": 4,
+      "cover": "content/music/al-2ZfNNI9W0eF5QormwzHKkt_4605013771cd521e.jpg"
+    },
     {
       "id": "6i9b5h7HihNt2B9sgQOmbM",
       "title": "Trio 64",
@@ -24,22 +40,6 @@
       "year": 1983,
       "plays": 8,
       "cover": "content/music/al-43eNG9tS1pLX4I5ZiOCGcz_b76076c5d19249d8.jpg"
-    },
-    {
-      "id": "2O0AHkDL1HrplRtI2d9guN",
-      "title": "Black Holes",
-      "artist": "The Blue Stones",
-      "year": 2015,
-      "plays": 12,
-      "cover": "content/music/al-2O0AHkDL1HrplRtI2d9guN_8dd72636deb08d1e.jpg"
-    },
-    {
-      "id": "09lo0JNySb0BlLdGvwYO3q",
-      "title": "Gigantoid",
-      "artist": "Fu Manchu",
-      "year": 2014,
-      "plays": 10,
-      "cover": "content/music/al-09lo0JNySb0BlLdGvwYO3q_ed66c522c868fb7a.jpg"
     }
   ]
 }
