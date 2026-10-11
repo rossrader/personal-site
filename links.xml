@@ -5,9 +5,30 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 02:10:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 13:21:22 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions</title>
+      <link>https://www.xda-developers.com/ran-this-hidden-claude-code-command-on-my-setup/?via=dailydev</link>
+      <guid isPermaLink="false">ji8v26n81t7dilgz32mlku37</guid>
+      <pubDate>Sun, 11 Oct 2026 13:21:22 GMT</pubDate>
+      <description>The model got better. My prompts didn’t.</description>
+    </item>
+    <item>
+      <title>GitHub - pinkpixel-dev/quota: Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go.</title>
+      <link>https://github.com/pinkpixel-dev/quota</link>
+      <guid isPermaLink="false">sjeotq8443ozdrajhr9xx09p</guid>
+      <pubDate>Sun, 11 Oct 2026 13:18:52 GMT</pubDate>
+      <description>Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota</description>
+    </item>
+    <item>
+      <title>Your Teammate Can’t Explain Their AI-Written PR. Here’s the Review System That Fixes It.</title>
+      <link>https://medium.com/@matthew.r.brown29/your-teammate-cant-explain-their-ai-written-pr-here-s-the-review-system-that-fixes-it-77c9d3814d25</link>
+      <guid isPermaLink="false">dgr7sz570wj0fdpazin5pfs6</guid>
+      <pubDate>Sun, 11 Oct 2026 13:18:09 GMT</pubDate>
+      <description>Five local checks (a size gate, an intent template, an explain-back, a red-before-green test and a risk-first reading order) that make AI…</description>
+    </item>
     <item>
       <title>GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</title>
       <link>https://github.com/morluto/rea</link>
@@ -336,27 +357,6 @@
       <guid isPermaLink="false">fq81xxmv09rnortlyczjoq6s</guid>
       <pubDate>Tue, 22 Sep 2026 22:26:17 GMT</pubDate>
       <description>Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. - baidu/Unlimited-OCR</description>
-    </item>
-    <item>
-      <title>GitHub - calesthio/Crucix: Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.</title>
-      <link>https://github.com/calesthio/Crucix</link>
-      <guid isPermaLink="false">ykarssq3wfw6gm29ftp8fhaf</guid>
-      <pubDate>Tue, 22 Sep 2026 01:19:55 GMT</pubDate>
-      <description>Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. - calesthio/Crucix</description>
-    </item>
-    <item>
-      <title>Avi Chawla (@_avichawla) on X</title>
-      <link>https://x.com/_avichawla/status/2101563610644496464</link>
-      <guid isPermaLink="false">x4ukj9cmsridihi152fscwkh</guid>
-      <pubDate>Tue, 22 Sep 2026 00:25:16 GMT</pubDate>
-      <description>Build your own Jev (100% local)</description>
-    </item>
-    <item>
-      <title>Pearl Jam - 8/14/93 {NEW Complete Pro-Shot SBD Concert} NEW SBD Audio &amp; New Video Edits</title>
-      <link>https://youtube.com/watch?v=GyBxt3n9PxQ</link>
-      <guid isPermaLink="false">crlap9cenmkh1o8du8sj37wc</guid>
-      <pubDate>Tue, 22 Sep 2026 00:22:40 GMT</pubDate>
-      <description>Pearl Jam - 08/14/93 (Video)Gimli Motorsport ParkGimli, Manitoba - CanadaSunfest ’93 (Mudfest)Set:00. Intro...01. Evenflow02. Why Go03. Deep04. Jeremy05. Ani…</description>
     </item>
   </channel>
 </rss>

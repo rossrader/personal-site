@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-10-11T02:29:21.338Z",
+  "fetchedAt": "2026-10-11T13:29:21.505Z",
   "links": [
+    {
+      "id": "ji8v26n81t7dilgz32mlku37",
+      "url": "https://www.xda-developers.com/ran-this-hidden-claude-code-command-on-my-setup/?via=dailydev",
+      "title": "I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions",
+      "ts": "2026-10-11T09:21:22-04:00",
+      "description": "The model got better. My prompts didn’t."
+    },
+    {
+      "id": "sjeotq8443ozdrajhr9xx09p",
+      "url": "https://github.com/pinkpixel-dev/quota",
+      "title": "GitHub - pinkpixel-dev/quota: Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go.",
+      "ts": "2026-10-11T09:18:52-04:00",
+      "description": "Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota"
+    },
+    {
+      "id": "dgr7sz570wj0fdpazin5pfs6",
+      "url": "https://medium.com/@matthew.r.brown29/your-teammate-cant-explain-their-ai-written-pr-here-s-the-review-system-that-fixes-it-77c9d3814d25",
+      "title": "Your Teammate Can’t Explain Their AI-Written PR. Here’s the Review System That Fixes It.",
+      "ts": "2026-10-11T09:18:09-04:00",
+      "description": "Five local checks (a size gate, an intent template, an explain-back, a red-before-green test and a risk-first reading order) that make AI…"
+    },
     {
       "id": "xgd4oss7qwfpkh327acwmlch",
       "url": "https://github.com/morluto/rea",

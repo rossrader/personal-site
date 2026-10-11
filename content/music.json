@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-11T02:29:21.119Z",
+  "fetchedAt": "2026-10-11T13:29:21.289Z",
   "albums": [
+    {
+      "id": "6JawXmoIvhyt08OaxGSYyI",
+      "title": "Rust Never Sleeps",
+      "artist": "Neil Young & Crazy Horse",
+      "year": 1979,
+      "plays": 4,
+      "cover": "content/music/al-6JawXmoIvhyt08OaxGSYyI_1b280822d135e89b.jpg"
+    },
     {
       "id": "066xSlSaMtQwLWbVndDnek",
       "title": "Give Up",
@@ -32,14 +40,6 @@
       "year": 2012,
       "plays": 6,
       "cover": "content/music/al-1ptWEmAlKD4QJXvuOUNDlB_a1c3212b967af8fb.jpg"
-    },
-    {
-      "id": "43eNG9tS1pLX4I5ZiOCGcz",
-      "title": "Lawyers in Love",
-      "artist": "Jackson Browne",
-      "year": 1983,
-      "plays": 8,
-      "cover": "content/music/al-43eNG9tS1pLX4I5ZiOCGcz_b76076c5d19249d8.jpg"
     }
   ]
 }
