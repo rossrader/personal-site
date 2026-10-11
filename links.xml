@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 01:29:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 02:10:34 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</title>
+      <link>https://github.com/morluto/rea</link>
+      <guid isPermaLink="false">xgd4oss7qwfpkh327acwmlch</guid>
+      <pubDate>Sun, 11 Oct 2026 02:10:34 GMT</pubDate>
+      <description>Reverse engineer anything with agents, from app behavior down to native binaries. - morluto/rea</description>
+    </item>
     <item>
       <title>GitHub - siddsachar/row-bot: Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.</title>
       <link>https://github.com/siddsachar/row-bot</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">crlap9cenmkh1o8du8sj37wc</guid>
       <pubDate>Tue, 22 Sep 2026 00:22:40 GMT</pubDate>
       <description>Pearl Jam - 08/14/93 (Video)Gimli Motorsport ParkGimli, Manitoba - CanadaSunfest ’93 (Mudfest)Set:00. Intro...01. Evenflow02. Why Go03. Deep04. Jeremy05. Ani…</description>
-    </item>
-    <item>
-      <title>elvis (@omarsar0) on X</title>
-      <link>https://x.com/omarsar0/status/2101349932569370826</link>
-      <guid isPermaLink="false">rh3z692m82av9dkvp5ytioix</guid>
-      <pubDate>Mon, 21 Sep 2026 23:54:09 GMT</pubDate>
-      <description>Been integrating Jev into my custom harness. I couldn’t be more excited about the results I am seeing. Most demos on my timeline are flashy but very basic. Notice they are all about some boring classification task that was already possible before. I get it. Jev is fast and cheap. That point was …</description>
     </item>
   </channel>
 </rss>
