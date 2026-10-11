@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-10T23:59:21.314Z",
+  "fetchedAt": "2026-10-11T01:29:21.245Z",
   "links": [
+    {
+      "id": "fkrk3zuoihn2awnn62e8cp9q",
+      "url": "https://github.com/siddsachar/row-bot",
+      "title": "GitHub - siddsachar/row-bot: Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.",
+      "ts": "2026-10-10T21:29:16-04:00",
+      "description": "Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and mess…"
+    },
     {
       "id": "o0eiimi1wvfb26w7m1dtuax8",
       "url": "https://github.com/rcourtman/Pulse",

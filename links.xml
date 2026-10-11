@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2026 23:55:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 01:29:16 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - siddsachar/row-bot: Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.</title>
+      <link>https://github.com/siddsachar/row-bot</link>
+      <guid isPermaLink="false">fkrk3zuoihn2awnn62e8cp9q</guid>
+      <pubDate>Sun, 11 Oct 2026 01:29:16 GMT</pubDate>
+      <description>Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and mess…</description>
+    </item>
     <item>
       <title>GitHub - rcourtman/Pulse: Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures.</title>
       <link>https://github.com/rcourtman/Pulse</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">rh3z692m82av9dkvp5ytioix</guid>
       <pubDate>Mon, 21 Sep 2026 23:54:09 GMT</pubDate>
       <description>Been integrating Jev into my custom harness. I couldn’t be more excited about the results I am seeing. Most demos on my timeline are flashy but very basic. Notice they are all about some boring classification task that was already possible before. I get it. Jev is fast and cheap. That point was …</description>
-    </item>
-    <item>
-      <title>GitHub - fjykTec/ModernWMS: The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function and opened it up for free, hoping to help the majority of small and medium-sized enterprises. At present, the system supports cross-platform。</title>
-      <link>https://github.com/fjykTec/ModernWMS</link>
-      <guid isPermaLink="false">ie46b7wfh6qddzq1zqeawkz0</guid>
-      <pubDate>Mon, 21 Sep 2026 23:43:29 GMT</pubDate>
-      <description>The open source simple and complete warehouse management system is derived from our many years of experience in implementing erp projects. We stripped the original commercial system wms function an…</description>
     </item>
   </channel>
 </rss>
