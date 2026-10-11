@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T15:59:21.361Z",
+  "fetchedAt": "2026-10-11T22:59:21.724Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
@@ -10,6 +10,25 @@
         "Thomas King"
       ],
       "cover": "https://assets.hardcover.app/external_data/59500833/cf7808cab30ac275d92c992ccbd1b265b70c1741.jpeg",
+      "finished": null
+    },
+    {
+      "title": "Man's Search for Meaning",
+      "slug": "mans-search-for-meaning",
+      "authors": [
+        "Viktor E. Frankl",
+        "Gordon W. Allport"
+      ],
+      "cover": "https://assets.hardcover.app/edition/30443934/9e06b9cfae5eb17e4d071c9caaeda029fcf353df.jpeg",
+      "finished": null
+    },
+    {
+      "title": "21 Things You May Not Know About the Indian Act: Helping Canadians Make Reconciliation with Indigenous Peoples a Reality",
+      "slug": "21-things-you-may-not-know-about-the-indian-act",
+      "authors": [
+        "Bob Joseph"
+      ],
+      "cover": "https://assets.hardcover.app/edition/9654156/d9e7bba20ebc15f6b69a46693ab174c847744d6b.jpeg",
       "finished": null
     }
   ],

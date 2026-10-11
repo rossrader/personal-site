@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-11T15:59:21.634Z",
+  "fetchedAt": "2026-10-11T22:59:21.967Z",
   "links": [
+    {
+      "id": "yw599ojisdghbpr415cr538k",
+      "url": "https://youtu.be/WVfAFTSS1lk",
+      "title": "This Claude OS combines Jev, Opus, Obsidian, + a local voice system",
+      "ts": "2026-10-11T18:56:01-04:00",
+      "description": "check the related video for a deeper dive"
+    },
     {
       "id": "izbv5x13227n9sr3r6abftih",
       "url": "https://github.com/simplifaisoul/osiris",
