@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 13:21:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 15:40:00 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - simplifaisoul/osiris: Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump</title>
+      <link>https://github.com/simplifaisoul/osiris</link>
+      <guid isPermaLink="false">izbv5x13227n9sr3r6abftih</guid>
+      <pubDate>Sun, 11 Oct 2026 15:40:00 GMT</pubDate>
+      <description>Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump - simplifaisoul/osiris</description>
+    </item>
     <item>
       <title>I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions</title>
       <link>https://www.xda-developers.com/ran-this-hidden-claude-code-command-on-my-setup/?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">krl2xif94k2k30j67ryce3ld</guid>
       <pubDate>Wed, 23 Sep 2026 15:32:20 GMT</pubDate>
       <description>3 OSINT tools I wish somebody told me about earlier!#OSINT #OPSEC #cybersecurity</description>
-    </item>
-    <item>
-      <title>GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.</title>
-      <link>https://github.com/baidu/Unlimited-OCR</link>
-      <guid isPermaLink="false">fq81xxmv09rnortlyczjoq6s</guid>
-      <pubDate>Tue, 22 Sep 2026 22:26:17 GMT</pubDate>
-      <description>Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. - baidu/Unlimited-OCR</description>
     </item>
   </channel>
 </rss>
