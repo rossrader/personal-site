@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 04:00:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 13:12:54 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>RSSHub</title>
+      <link>https://share.google/Kl8w2FFAd4oP1pJoF</link>
+      <guid isPermaLink="false">pr9orwihyo11lvx4kubqg6ei</guid>
+      <pubDate>Mon, 12 Oct 2026 13:12:54 GMT</pubDate>
+      <description>Everything is RSSible 🧡</description>
+    </item>
     <item>
       <title>Software Factories for Real Engineers</title>
       <link>https://www.aihero.dev/cohorts/software-factories-for-real-engineers-xdy1m</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">lxckrc8r8vcofu2gkm4zt6yb</guid>
       <pubDate>Sun, 04 Oct 2026 00:25:03 GMT</pubDate>
       <description>Nate, a designer at Anthropic, uses Claude design in Claude Code to take his side project’s onboarding from rough idea to working prototype.He connects his r…</description>
-    </item>
-    <item>
-      <title>‘This Matters’: Researchers Identify Thousands of New Tells in AI Writing</title>
-      <link>https://gizmodo.com/this-matters-researchers-identify-thousands-of-new-tells-in-ai-writing-2000820447</link>
-      <guid isPermaLink="false">s9y2yovsfk7ybsbvukcfe9pd</guid>
-      <pubDate>Sat, 03 Oct 2026 23:20:54 GMT</pubDate>
-      <description>The days of freaking out over em dashes are over.</description>
     </item>
   </channel>
 </rss>
