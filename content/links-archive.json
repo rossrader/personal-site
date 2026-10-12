@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T13:29:21.880Z",
+  "fetchedAt": "2026-10-12T13:59:21.895Z",
   "links": [
+    {
+      "id": "b6gowry0vcz2m58gtnu5zffy",
+      "url": "https://x.com/thedelost/status/2109369295860035641?s=12",
+      "title": "delost (@thedelost) on X - “Sonnet builds. Haiku explores. Opus reviews.”",
+      "ts": "2026-10-12T09:54:14-04:00",
+      "description": "THIS IS PURE F*CKING GOLD Anthropic just shared one of the best tricks for Claude Code. The idea: run Sonnet, Haiku and Opus 5.5 at the same time, each one doing only what it’s best at. Better results and way fewer tokens, because every task lands on the right model. You just start Claude Code …"
+    },
     {
       "id": "pr9orwihyo11lvx4kubqg6ei",
       "url": "https://share.google/Kl8w2FFAd4oP1pJoF",
