@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T01:59:22.122Z",
+  "fetchedAt": "2026-10-12T03:29:21.733Z",
   "links": [
+    {
+      "id": "sobpcyala5r818xnh9aur9a6",
+      "url": "https://share.google/rtmwPnpCJzelpFkXO",
+      "title": "I ditched Claude Cowork for a free open-source alternative, and I’m getting more done",
+      "ts": "2026-10-11T23:17:08-04:00",
+      "description": "Cowork set the bar, but it doesn’t own the idea"
+    },
     {
       "id": "y5n0d66snhfoqjjbcefspbfo",
       "url": "https://github.com/Maneek21/Deft",
@@ -273,13 +280,6 @@
       "title": "charmbracelet/crush: Glamourous agentic coding for all 💘",
       "ts": "2026-10-09T15:34:06-04:00",
       "description": "Glamourous agentic coding for all 💘. Contribute to charmbracelet/crush development by creating an account on GitHub."
-    },
-    {
-      "id": "i8pfwup820yk75yz35ruebrc",
-      "url": "https://youtube.com/watch?v=lDrAZ1wAyVs",
-      "title": "9 NEW Claude Mods that can truly change how you work",
-      "ts": "2026-10-09T00:01:58-04:00",
-      "description": "Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…"
     }
   ]
 }

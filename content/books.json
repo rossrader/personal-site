@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-10-12T01:59:21.840Z",
+  "fetchedAt": "2026-10-12T03:29:21.487Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
-    {
-      "title": "The Inconvenient Indian: A Curious Account of Native People in North America",
-      "slug": "the-inconvenient-indian",
-      "authors": [
-        "Thomas King"
-      ],
-      "cover": "https://assets.hardcover.app/external_data/59500833/cf7808cab30ac275d92c992ccbd1b265b70c1741.jpeg",
-      "finished": null
-    },
     {
       "title": "Man's Search for Meaning",
       "slug": "mans-search-for-meaning",
@@ -33,6 +24,15 @@
     }
   ],
   "read": [
+    {
+      "title": "The Inconvenient Indian: A Curious Account of Native People in North America",
+      "slug": "the-inconvenient-indian",
+      "authors": [
+        "Thomas King"
+      ],
+      "cover": "https://assets.hardcover.app/external_data/59500833/cf7808cab30ac275d92c992ccbd1b265b70c1741.jpeg",
+      "finished": "2026-10-11"
+    },
     {
       "title": "Do Androids Dream of Electric Sheep?",
       "slug": "do-androids-dream-of-electric-sheep",
@@ -59,15 +59,6 @@
         "Stephen King"
       ],
       "cover": "https://assets.hardcover.app/edition/30370506/d6e2fb3fe136b130c56449dc221343d3025e7420.jpeg",
-      "finished": "2026-09-05"
-    },
-    {
-      "title": "Count Zero",
-      "slug": "count-zero",
-      "authors": [
-        "William Gibson"
-      ],
-      "cover": "https://assets.hardcover.app/edition/30703528/3717d341-fced-4ca9-b130-7586ce8885fa.jpg",
       "finished": "2026-09-05"
     }
   ]

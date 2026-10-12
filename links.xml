@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 01:36:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 03:17:08 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>I ditched Claude Cowork for a free open-source alternative, and I’m getting more done</title>
+      <link>https://share.google/rtmwPnpCJzelpFkXO</link>
+      <guid isPermaLink="false">sobpcyala5r818xnh9aur9a6</guid>
+      <pubDate>Mon, 12 Oct 2026 03:17:08 GMT</pubDate>
+      <description>Cowork set the bar, but it doesn’t own the idea</description>
+    </item>
     <item>
       <title>GitHub - Maneek21/Deft: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.</title>
       <link>https://github.com/Maneek21/Deft</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">rp3k9sn0ro3s4l49p8itv7q5</guid>
       <pubDate>Sat, 03 Oct 2026 18:38:04 GMT</pubDate>
       <description>The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…</description>
-    </item>
-    <item>
-      <title>Claude Mods Is The Biggest Claude Code Upgrade Since Skills</title>
-      <link>https://www.youtube.com/watch?v=Rn4nmFRPe0s</link>
-      <guid isPermaLink="false">dr16d7octy2dtfzk67jfkwad</guid>
-      <pubDate>Sat, 03 Oct 2026 02:28:01 GMT</pubDate>
-      <description>⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…</description>
     </item>
   </channel>
 </rss>

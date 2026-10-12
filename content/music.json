@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-10-12T01:59:21.870Z",
+  "fetchedAt": "2026-10-12T03:29:21.503Z",
   "albums": [
+    {
+      "id": "7oUscUiDlfXXwQD6VADZ3M",
+      "title": "Mellow Gold",
+      "artist": "Beck",
+      "year": 1994,
+      "plays": 3,
+      "cover": "content/music/al-7oUscUiDlfXXwQD6VADZ3M_a9e5fb97264c8016.jpg"
+    },
+    {
+      "id": "0wnFMpTOI9AieOGm2TcBOr",
+      "title": "Murmur",
+      "artist": "R.E.M.",
+      "year": 1983,
+      "plays": 12,
+      "cover": "content/music/al-0wnFMpTOI9AieOGm2TcBOr_caf2113dc79f8a3e.jpg"
+    },
     {
       "id": "6JawXmoIvhyt08OaxGSYyI",
       "title": "Rust Never Sleeps",
@@ -24,22 +40,6 @@
       "year": 1975,
       "plays": 4,
       "cover": "content/music/al-2ZfNNI9W0eF5QormwzHKkt_4605013771cd521e.jpg"
-    },
-    {
-      "id": "6i9b5h7HihNt2B9sgQOmbM",
-      "title": "Trio 64",
-      "artist": "Bill Evans",
-      "year": 1964,
-      "plays": 4,
-      "cover": "content/music/al-6i9b5h7HihNt2B9sgQOmbM_3398d4ae891ab192.jpg"
-    },
-    {
-      "id": "1ptWEmAlKD4QJXvuOUNDlB",
-      "title": "Privateering",
-      "artist": "Mark Knopfler",
-      "year": 2012,
-      "plays": 6,
-      "cover": "content/music/al-1ptWEmAlKD4QJXvuOUNDlB_a1c3212b967af8fb.jpg"
     }
   ]
 }
