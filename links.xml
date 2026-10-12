@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 03:17:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 04:00:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Software Factories for Real Engineers</title>
+      <link>https://share.google/JqoiLnVsZ5J1AP06Z</link>
+      <guid isPermaLink="false">fsh7ewb15yozwjtivie70vnf</guid>
+      <pubDate>Mon, 12 Oct 2026 04:00:20 GMT</pubDate>
+      <description>Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase</description>
+    </item>
     <item>
       <title>I ditched Claude Cowork for a free open-source alternative, and I’m getting more done</title>
       <link>https://share.google/rtmwPnpCJzelpFkXO</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">s9y2yovsfk7ybsbvukcfe9pd</guid>
       <pubDate>Sat, 03 Oct 2026 23:20:54 GMT</pubDate>
       <description>The days of freaking out over em dashes are over.</description>
-    </item>
-    <item>
-      <title>CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada</title>
-      <link>https://www.iphoneincanada.ca/2026/10/02/crtc-orders-canadian-carriers-to-improve-cellphone-coverage-maps/</link>
-      <guid isPermaLink="false">rp3k9sn0ro3s4l49p8itv7q5</guid>
-      <pubDate>Sat, 03 Oct 2026 18:38:04 GMT</pubDate>
-      <description>The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…</description>
     </item>
   </channel>
 </rss>

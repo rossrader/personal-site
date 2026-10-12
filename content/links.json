@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T03:29:21.733Z",
+  "fetchedAt": "2026-10-12T04:29:21.844Z",
   "links": [
+    {
+      "id": "fsh7ewb15yozwjtivie70vnf",
+      "url": "https://share.google/JqoiLnVsZ5J1AP06Z",
+      "title": "Software Factories for Real Engineers",
+      "ts": "2026-10-12T00:00:20-04:00",
+      "description": "Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase"
+    },
     {
       "id": "sobpcyala5r818xnh9aur9a6",
       "url": "https://share.google/rtmwPnpCJzelpFkXO",
@@ -273,13 +280,6 @@
       "title": "Microsoft-Decision-1: Our model for fast decision-making",
       "ts": "2026-10-09T21:21:34-04:00",
       "description": "Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models."
-    },
-    {
-      "id": "ke8uihzs00lkpuk97viu56s2",
-      "url": "https://github.com/charmbracelet/crush",
-      "title": "charmbracelet/crush: Glamourous agentic coding for all 💘",
-      "ts": "2026-10-09T15:34:06-04:00",
-      "description": "Glamourous agentic coding for all 💘. Contribute to charmbracelet/crush development by creating an account on GitHub."
     }
   ]
 }

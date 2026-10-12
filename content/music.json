@@ -1,12 +1,28 @@
 {
-  "fetchedAt": "2026-10-12T03:29:21.503Z",
+  "fetchedAt": "2026-10-12T04:29:21.626Z",
   "albums": [
+    {
+      "id": "2c4XC1WMsu6agyUc9pQ9AC",
+      "title": "Neck and Neck",
+      "artist": "Chet Atkins",
+      "year": 1990,
+      "plays": 10,
+      "cover": "content/music/al-2c4XC1WMsu6agyUc9pQ9AC_0c1f7118dcf30ec4.jpg"
+    },
+    {
+      "id": "1dFKOuqu2t5CI534vZx0QP",
+      "title": "This Year’s Model",
+      "artist": "Elvis Costello",
+      "year": 1978,
+      "plays": 4,
+      "cover": "content/music/al-1dFKOuqu2t5CI534vZx0QP_794eef3401b533dd.jpg"
+    },
     {
       "id": "7oUscUiDlfXXwQD6VADZ3M",
       "title": "Mellow Gold",
       "artist": "Beck",
       "year": 1994,
-      "plays": 3,
+      "plays": 5,
       "cover": "content/music/al-7oUscUiDlfXXwQD6VADZ3M_a9e5fb97264c8016.jpg"
     },
     {
@@ -24,22 +40,6 @@
       "year": 1979,
       "plays": 4,
       "cover": "content/music/al-6JawXmoIvhyt08OaxGSYyI_1b280822d135e89b.jpg"
-    },
-    {
-      "id": "066xSlSaMtQwLWbVndDnek",
-      "title": "Give Up",
-      "artist": "The Postal Service",
-      "year": 2003,
-      "plays": 3,
-      "cover": "content/music/al-066xSlSaMtQwLWbVndDnek_3ab39f9079a33b3e.jpg"
-    },
-    {
-      "id": "2ZfNNI9W0eF5QormwzHKkt",
-      "title": "Discreet Music",
-      "artist": "Brian Eno",
-      "year": 1975,
-      "plays": 4,
-      "cover": "content/music/al-2ZfNNI9W0eF5QormwzHKkt_4605013771cd521e.jpg"
     }
   ]
 }
