@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-10-11T22:59:21.967Z",
+  "fetchedAt": "2026-10-12T01:29:21.732Z",
   "links": [
+    {
+      "id": "qedw8in97vsimajhyjuvat8r",
+      "url": "https://github.com/lithos-ai/lithos-metal",
+      "title": "GitHub - lithos-ai/lithos-metal: lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.",
+      "ts": "2026-10-11T21:27:12-04:00",
+      "description": "lithos-metal: high-performance LLM inference kernels and serving for Apple silicon. - lithos-ai/lithos-metal"
+    },
+    {
+      "id": "y3caejif4bd8xydv8wsw582p",
+      "url": "https://github.com/Glass-HQ/liquid-glass",
+      "title": "GitHub - Glass-HQ/liquid-glass: Liquid Glass materials for web and Electron, built with vgpu.",
+      "ts": "2026-10-11T21:26:11-04:00",
+      "description": "Liquid Glass materials for web and Electron, built with vgpu. - Glass-HQ/liquid-glass"
+    },
+    {
+      "id": "ejy3pmsdx9iin7sq435e21zf",
+      "url": "https://github.com/MrBongoC/ai-iso-skill",
+      "title": "GitHub - MrBongoC/ai-iso-skill: Claude skill that draws interactive isometric figures in a single HTML file",
+      "ts": "2026-10-11T21:25:21-04:00",
+      "description": "Claude skill that draws interactive isometric figures in a single HTML file - MrBongoC/ai-iso-skill"
+    },
+    {
+      "id": "dhvdg04yb9tz8qj8rptlbzt8",
+      "url": "https://github.com/HelixDB/helix-foundry",
+      "title": "GitHub - HelixDB/helix-foundry: Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
+      "ts": "2026-10-11T21:22:33-04:00",
+      "description": "Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB. - HelixDB/helix-foundry"
+    },
+    {
+      "id": "x6z57g5ix1n16ymgc8zvlku4",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "title": "GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+      "ts": "2026-10-11T21:21:11-04:00",
+      "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen"
+    },
+    {
+      "id": "tk66kr86rlt7p4zjakoybumt",
+      "url": "https://github.com/man15h/holm",
+      "title": "GitHub - man15h/holm: A self-hosted dashboard for your team, family, or org — not just the admin.",
+      "ts": "2026-10-11T21:19:29-04:00",
+      "description": "A self-hosted dashboard for your team, family, or org — not just the admin. - man15h/holm"
+    },
+    {
+      "id": "c7xxz6utdlgndvdg8fwpfaum",
+      "url": "https://github.com/Systaro/DocuVault",
+      "title": "GitHub - Systaro/DocuVault: Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available.",
+      "ts": "2026-10-11T21:18:42-04:00",
+      "description": "Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available. - Systaro/DocuVault"
+    },
+    {
+      "id": "evu3e14s331u62jafz3jgs2r",
+      "url": "https://github.com/crivion/laranode",
+      "title": "GitHub - crivion/laranode: Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative)",
+      "ts": "2026-10-11T21:17:45-04:00",
+      "description": "Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative) - crivion/laranode"
+    },
+    {
+      "id": "i28xgclq9hc84i3l2zsi62i7",
+      "url": "https://github.com/oleost/VisionState",
+      "title": "GitHub - oleost/VisionState: Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU.",
+      "ts": "2026-10-11T21:16:31-04:00",
+      "description": "Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState"
+    },
+    {
+      "id": "mt1tf3at7g2kgqxalbm1xu9k",
+      "url": "https://github.com/prasadpatil25/MindSpark",
+      "title": "GitHub - prasadpatil25/MindSpark: MindSpark - Mind Map for Everyone",
+      "ts": "2026-10-11T21:14:56-04:00",
+      "description": "MindSpark - Mind Map for Everyone. Contribute to prasadpatil25/MindSpark development by creating an account on GitHub."
+    },
+    {
+      "id": "as3g3emjrzn88de81aemprrt",
+      "url": "https://youtube.com/watch?v=3iDiWTt8lok&si=TA2bb0AaoI6yXEas",
+      "title": "These 19 Jev-Claude use cases are blowing people’s minds (with prompts)",
+      "ts": "2026-10-11T21:08:19-04:00",
+      "description": "Get the Jev use cases PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=dbe30d333e8f4abbb9af42be271933f2 search for n79Learn…"
+    },
     {
       "id": "yw599ojisdghbpr415cr538k",
       "url": "https://youtu.be/WVfAFTSS1lk",
@@ -203,76 +280,6 @@
       "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs - Help Net Security",
       "ts": "2026-10-07T06:15:10-04:00",
       "description": "Tuskira’s open-source AI agent gateway keeps credentials out of agent configs and checks every MCP tool call against a profile."
-    },
-    {
-      "id": "cccyv955c1tzwxszqungvupl",
-      "url": "https://thenewstack.io/ci-bottleneck-agent-verification/",
-      "title": "Agents have made CI the bottleneck. Faster pipelines are the wrong fix.",
-      "ts": "2026-10-06T06:47:42-04:00",
-      "description": "Agents pushed CI job volume up 25x at Anthropic. Faster pipelines help, but they still check a repo, not the distributed system it has to work with."
-    },
-    {
-      "id": "ydfu82ypipeozwhzny2s4obx",
-      "url": "https://www.youtube.com/watch?v=yUuFvL1lK4k",
-      "title": "Mods in Claude Code: change how Claude Code works",
-      "ts": "2026-10-06T06:37:11-04:00",
-      "description": "Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…"
-    },
-    {
-      "id": "zlpkp1gdtuun10j7gjebx2xq",
-      "url": "https://m.youtube.com/shorts/Ev9WmiNdsPE",
-      "title": "How Claude Can Analyze Your WordPress SEO With Rank Math MCP",
-      "ts": "2026-10-03T20:28:24-04:00",
-      "description": "What if Claude could actually understand your WordPress site instead of giving you generic SEO advice? With Rank Math MCP + Claude, you can connect AI to you…"
-    },
-    {
-      "id": "lxckrc8r8vcofu2gkm4zt6yb",
-      "url": "https://www.youtube.com/watch?v=FByNauagcbY",
-      "title": "Build an App With Claude Design",
-      "ts": "2026-10-03T20:25:03-04:00",
-      "description": "Nate, a designer at Anthropic, uses Claude design in Claude Code to take his side project’s onboarding from rough idea to working prototype.He connects his r…"
-    },
-    {
-      "id": "s9y2yovsfk7ybsbvukcfe9pd",
-      "url": "https://gizmodo.com/this-matters-researchers-identify-thousands-of-new-tells-in-ai-writing-2000820447",
-      "title": "‘This Matters’: Researchers Identify Thousands of New Tells in AI Writing",
-      "ts": "2026-10-03T19:20:54-04:00",
-      "description": "The days of freaking out over em dashes are over."
-    },
-    {
-      "id": "rp3k9sn0ro3s4l49p8itv7q5",
-      "url": "https://www.iphoneincanada.ca/2026/10/02/crtc-orders-canadian-carriers-to-improve-cellphone-coverage-maps/",
-      "title": "CRTC Orders Canadian Carriers to Improve Cellphone Coverage Maps | iPhone in Canada",
-      "ts": "2026-10-03T14:38:04-04:00",
-      "description": "The CRTC is changing how Canadian wireless carriers report cellphone coverage, with the goal of giving customers more accurate maps showing where service is available and where gaps remain. The regulator announced the new reporting rules on Friday following a public consultation. Wireless providers…"
-    },
-    {
-      "id": "dr16d7octy2dtfzk67jfkwad",
-      "url": "https://www.youtube.com/watch?v=Rn4nmFRPe0s",
-      "title": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
-      "ts": "2026-10-02T22:28:01-04:00",
-      "description": "⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…"
-    },
-    {
-      "id": "m8r3anhdxrfd6uus4b4fihag",
-      "url": "https://charliehills.substack.com/p/28-things-to-install-into-claude",
-      "title": "28 things to install into Claude for motion graphics",
-      "ts": "2026-10-02T21:52:44-04:00",
-      "description": "Every repo, the job it does and the line that installs it."
-    },
-    {
-      "id": "uymu52wx4h2pm4vfjtvxzl06",
-      "url": "https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/",
-      "title": "Claude Code’s desktop GUI has one superpower the terminal version will never match",
-      "ts": "2026-10-02T21:51:35-04:00",
-      "description": "Same engine, different experience"
-    },
-    {
-      "id": "ubgmigiruatc69dj7plyv1ie",
-      "url": "https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/",
-      "title": "I added health checks to every Docker container, and now my homelab restarts its own broken services",
-      "ts": "2026-10-02T21:39:54-04:00",
-      "description": "It only handles the boring failure."
     }
   ]
 }

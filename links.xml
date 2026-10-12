@@ -5,9 +5,86 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 22:56:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 01:27:12 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - lithos-ai/lithos-metal: lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.</title>
+      <link>https://github.com/lithos-ai/lithos-metal</link>
+      <guid isPermaLink="false">qedw8in97vsimajhyjuvat8r</guid>
+      <pubDate>Mon, 12 Oct 2026 01:27:12 GMT</pubDate>
+      <description>lithos-metal: high-performance LLM inference kernels and serving for Apple silicon. - lithos-ai/lithos-metal</description>
+    </item>
+    <item>
+      <title>GitHub - Glass-HQ/liquid-glass: Liquid Glass materials for web and Electron, built with vgpu.</title>
+      <link>https://github.com/Glass-HQ/liquid-glass</link>
+      <guid isPermaLink="false">y3caejif4bd8xydv8wsw582p</guid>
+      <pubDate>Mon, 12 Oct 2026 01:26:11 GMT</pubDate>
+      <description>Liquid Glass materials for web and Electron, built with vgpu. - Glass-HQ/liquid-glass</description>
+    </item>
+    <item>
+      <title>GitHub - MrBongoC/ai-iso-skill: Claude skill that draws interactive isometric figures in a single HTML file</title>
+      <link>https://github.com/MrBongoC/ai-iso-skill</link>
+      <guid isPermaLink="false">ejy3pmsdx9iin7sq435e21zf</guid>
+      <pubDate>Mon, 12 Oct 2026 01:25:21 GMT</pubDate>
+      <description>Claude skill that draws interactive isometric figures in a single HTML file - MrBongoC/ai-iso-skill</description>
+    </item>
+    <item>
+      <title>GitHub - HelixDB/helix-foundry: Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.</title>
+      <link>https://github.com/HelixDB/helix-foundry</link>
+      <guid isPermaLink="false">dhvdg04yb9tz8qj8rptlbzt8</guid>
+      <pubDate>Mon, 12 Oct 2026 01:22:33 GMT</pubDate>
+      <description>Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB. - HelixDB/helix-foundry</description>
+    </item>
+    <item>
+      <title>GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.</title>
+      <link>https://github.com/franzenzenhofer/big-arrow-on-the-screen</link>
+      <guid isPermaLink="false">x6z57g5ix1n16ymgc8zvlku4</guid>
+      <pubDate>Mon, 12 Oct 2026 01:21:11 GMT</pubDate>
+      <description>Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen</description>
+    </item>
+    <item>
+      <title>GitHub - man15h/holm: A self-hosted dashboard for your team, family, or org — not just the admin.</title>
+      <link>https://github.com/man15h/holm</link>
+      <guid isPermaLink="false">tk66kr86rlt7p4zjakoybumt</guid>
+      <pubDate>Mon, 12 Oct 2026 01:19:29 GMT</pubDate>
+      <description>A self-hosted dashboard for your team, family, or org — not just the admin. - man15h/holm</description>
+    </item>
+    <item>
+      <title>GitHub - Systaro/DocuVault: Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available.</title>
+      <link>https://github.com/Systaro/DocuVault</link>
+      <guid isPermaLink="false">c7xxz6utdlgndvdg8fwpfaum</guid>
+      <pubDate>Mon, 12 Oct 2026 01:18:42 GMT</pubDate>
+      <description>Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available. - Systaro/DocuVault</description>
+    </item>
+    <item>
+      <title>GitHub - crivion/laranode: Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative)</title>
+      <link>https://github.com/crivion/laranode</link>
+      <guid isPermaLink="false">evu3e14s331u62jafz3jgs2r</guid>
+      <pubDate>Mon, 12 Oct 2026 01:17:45 GMT</pubDate>
+      <description>Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative) - crivion/laranode</description>
+    </item>
+    <item>
+      <title>GitHub - oleost/VisionState: Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU.</title>
+      <link>https://github.com/oleost/VisionState</link>
+      <guid isPermaLink="false">i28xgclq9hc84i3l2zsi62i7</guid>
+      <pubDate>Mon, 12 Oct 2026 01:16:31 GMT</pubDate>
+      <description>Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState</description>
+    </item>
+    <item>
+      <title>GitHub - prasadpatil25/MindSpark: MindSpark - Mind Map for Everyone</title>
+      <link>https://github.com/prasadpatil25/MindSpark</link>
+      <guid isPermaLink="false">mt1tf3at7g2kgqxalbm1xu9k</guid>
+      <pubDate>Mon, 12 Oct 2026 01:14:56 GMT</pubDate>
+      <description>MindSpark - Mind Map for Everyone. Contribute to prasadpatil25/MindSpark development by creating an account on GitHub.</description>
+    </item>
+    <item>
+      <title>These 19 Jev-Claude use cases are blowing people’s minds (with prompts)</title>
+      <link>https://youtube.com/watch?v=3iDiWTt8lok&amp;si=TA2bb0AaoI6yXEas</link>
+      <guid isPermaLink="false">as3g3emjrzn88de81aemprrt</guid>
+      <pubDate>Mon, 12 Oct 2026 01:08:19 GMT</pubDate>
+      <description>Get the Jev use cases PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=dbe30d333e8f4abbb9af42be271933f2 search for n79Learn…</description>
+    </item>
     <item>
       <title>This Claude OS combines Jev, Opus, Obsidian, + a local voice system</title>
       <link>https://youtu.be/WVfAFTSS1lk</link>
@@ -280,83 +357,6 @@
       <guid isPermaLink="false">ubgmigiruatc69dj7plyv1ie</guid>
       <pubDate>Sat, 03 Oct 2026 01:39:54 GMT</pubDate>
       <description>It only handles the boring failure.</description>
-    </item>
-    <item>
-      <title>GitHub - jaywcjlove/awesome-swift-macos-apps: A curated collection of open-source macOS applications built with Swift</title>
-      <link>https://github.com/jaywcjlove/awesome-swift-macos-apps</link>
-      <guid isPermaLink="false">h7h57fk99du989k1bl0g1ek6</guid>
-      <pubDate>Tue, 29 Sep 2026 06:59:24 GMT</pubDate>
-      <description>A curated collection of open-source macOS applications built with Swift - jaywcjlove/awesome-swift-macos-apps</description>
-    </item>
-    <item>
-      <title>GitHub - The01Geek/prflow: Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. Each week its retrospective reads what you actually merged and proposes improvements to your skill extensions.</title>
-      <link>https://github.com/The01Geek/prflow</link>
-      <guid isPermaLink="false">miawylhjaa78pxlbty5lyu4t</guid>
-      <pubDate>Tue, 29 Sep 2026 06:50:25 GMT</pubDate>
-      <description>Turn feature requests into review-ready pull requests: issue, implementation, tests, a review-and-fix loop, and docs. Runs locally or on GitHub Actions, and is built for complex brownfield repos. E…</description>
-    </item>
-    <item>
-      <title>EmDash 1.0: the stable CMS with a secure plugin registry</title>
-      <link>https://blog.cloudflare.com/emdash-cms-plugin-registry/</link>
-      <guid isPermaLink="false">hbp3jj5lwe9hqfdb99bc68mn</guid>
-      <pubDate>Tue, 29 Sep 2026 01:16:13 GMT</pubDate>
-      <description>EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.</description>
-    </item>
-    <item>
-      <title>I replaced Google Keep with an open-source notes app, and I wish I’d done it sooner</title>
-      <link>https://www.xda-developers.com/replaced-google-keep-with-an-open-source-notes-app/</link>
-      <guid isPermaLink="false">au36tsb0ao13qx7xtj6y9le3</guid>
-      <pubDate>Mon, 28 Sep 2026 02:55:17 GMT</pubDate>
-      <description>An extremely convincing Keep replacement</description>
-    </item>
-    <item>
-      <title>I stopped my local LLM agent from running out of context, and now it handles what Claude Code does</title>
-      <link>https://www.xda-developers.com/stopped-my-local-llm-agent-from-running-out-of-context/</link>
-      <guid isPermaLink="false">jxlmg4n4etm7bq74sf79n6s8</guid>
-      <pubDate>Sun, 27 Sep 2026 16:25:31 GMT</pubDate>
-      <description>Tweaking a few settings did more than a new model would have</description>
-    </item>
-    <item>
-      <title>MININGLAMP TECHNOLOGY</title>
-      <link>https://github.com/Mininglamp-OSS</link>
-      <guid isPermaLink="false">r1op35moroluealkn2zjb4f9</guid>
-      <pubDate>Sun, 27 Sep 2026 02:05:52 GMT</pubDate>
-      <description>Open-source AI-native collaboration platform — where humans and AI Agents work as one team. - MININGLAMP TECHNOLOGY</description>
-    </item>
-    <item>
-      <title>5 Docker containers I use to manage my small business like a pro</title>
-      <link>https://www.xda-developers.com/docker-containers-i-use-to-manage-my-small-business-like-a-pro/</link>
-      <guid isPermaLink="false">fxy3mobjcvqodq7yjr6r4iub</guid>
-      <pubDate>Sun, 27 Sep 2026 01:27:47 GMT</pubDate>
-      <description>Self-hosted tools that run my business.</description>
-    </item>
-    <item>
-      <title>Visual analytics that loads your data and suggests what to query</title>
-      <link>https://www.opensourceprojects.dev/post/ava</link>
-      <guid isPermaLink="false">nxel3vhsroslhfuqtl7rdkvn</guid>
-      <pubDate>Sun, 27 Sep 2026 01:01:17 GMT</pubDate>
-      <description>Visual analytics that loads your data and suggests what to query</description>
-    </item>
-    <item>
-      <title>A desktop workspace where agents, plugins, and workflows live together</title>
-      <link>https://www.opensourceprojects.dev/post/pi-desktop</link>
-      <guid isPermaLink="false">g46vcx4r2rzo0y4ycfjzbsco</guid>
-      <pubDate>Sun, 27 Sep 2026 00:56:02 GMT</pubDate>
-      <description>A desktop workspace where agents, plugins, and workflows live together</description>
-    </item>
-    <item>
-      <title>7 clever places to hide sensors and other smart home gadgets in your house</title>
-      <link>https://www.howtogeek.com/clever-places-to-hide-sensors-and-other-smart-home-devices-in-your-house/</link>
-      <guid isPermaLink="false">cohto7bvemgauwvjejoczoxv</guid>
-      <pubDate>Sun, 27 Sep 2026 00:45:58 GMT</pubDate>
-      <description>Out of sight, out of mind.</description>
-    </item>
-    <item>
-      <title>GitHub - peakflo/20x: Self-improving Agent orchestrator for all knowledge work</title>
-      <link>https://github.com/peakflo/20x</link>
-      <guid isPermaLink="false">mfvbzg9z8ee7qlks2jfcbq4s</guid>
-      <pubDate>Sun, 27 Sep 2026 00:33:45 GMT</pubDate>
-      <description>Self-improving Agent orchestrator for all knowledge work - peakflo/20x</description>
     </item>
   </channel>
 </rss>
