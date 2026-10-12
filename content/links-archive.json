@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-10-12T01:29:21.732Z",
+  "fetchedAt": "2026-10-12T01:59:22.122Z",
   "links": [
+    {
+      "id": "y5n0d66snhfoqjjbcefspbfo",
+      "url": "https://github.com/Maneek21/Deft",
+      "title": "GitHub - Maneek21/Deft: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.",
+      "ts": "2026-10-11T21:36:50-04:00",
+      "description": "Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context. - Maneek21/Deft"
+    },
+    {
+      "id": "u18p4rfe5nx852mnoap92kes",
+      "url": "https://github.com/olalie/tapmap",
+      "title": "GitHub - olalie/tapmap: Watch your computer connect across the internet in real time. Discover the world behind your apps.",
+      "ts": "2026-10-11T21:34:17-04:00",
+      "description": "Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap"
+    },
+    {
+      "id": "sd2rydom7esqlrds73f1jhtz",
+      "url": "https://github.com/soulis-1256/assemblrr",
+      "title": "GitHub - soulis-1256/assemblrr: Your media stack, automated",
+      "ts": "2026-10-11T21:30:35-04:00",
+      "description": "Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub."
+    },
     {
       "id": "qedw8in97vsimajhyjuvat8r",
       "url": "https://github.com/lithos-ai/lithos-metal",

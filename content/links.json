@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-10-12T01:29:21.732Z",
+  "fetchedAt": "2026-10-12T01:59:22.122Z",
   "links": [
+    {
+      "id": "y5n0d66snhfoqjjbcefspbfo",
+      "url": "https://github.com/Maneek21/Deft",
+      "title": "GitHub - Maneek21/Deft: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.",
+      "ts": "2026-10-11T21:36:50-04:00",
+      "description": "Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context. - Maneek21/Deft"
+    },
+    {
+      "id": "u18p4rfe5nx852mnoap92kes",
+      "url": "https://github.com/olalie/tapmap",
+      "title": "GitHub - olalie/tapmap: Watch your computer connect across the internet in real time. Discover the world behind your apps.",
+      "ts": "2026-10-11T21:34:17-04:00",
+      "description": "Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap"
+    },
+    {
+      "id": "sd2rydom7esqlrds73f1jhtz",
+      "url": "https://github.com/soulis-1256/assemblrr",
+      "title": "GitHub - soulis-1256/assemblrr: Your media stack, automated",
+      "ts": "2026-10-11T21:30:35-04:00",
+      "description": "Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub."
+    },
     {
       "id": "qedw8in97vsimajhyjuvat8r",
       "url": "https://github.com/lithos-ai/lithos-metal",
@@ -259,27 +280,6 @@
       "title": "9 NEW Claude Mods that can truly change how you work",
       "ts": "2026-10-09T00:01:58-04:00",
       "description": "Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…"
-    },
-    {
-      "id": "s3o4w90cfpkwdikycinnitix",
-      "url": "https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/",
-      "title": "Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac",
-      "ts": "2026-10-07T13:17:39-04:00",
-      "description": "SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…"
-    },
-    {
-      "id": "p9nxxwh1psxagvwdn2acgm5z",
-      "url": "https://www.nature.com/articles/s42256-026-01303-y",
-      "title": "Client Challenge",
-      "ts": "2026-10-07T13:06:11-04:00",
-      "description": "When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens."
-    },
-    {
-      "id": "pm8zggyyb3q20ivzetkdsnot",
-      "url": "https://www.helpnetsecurity.com/2026/10/07/open-source-ai-agent-gateway/",
-      "title": "AI Agent Gateway: Open-source tool keeps credentials out of agent configs - Help Net Security",
-      "ts": "2026-10-07T06:15:10-04:00",
-      "description": "Tuskira’s open-source AI agent gateway keeps credentials out of agent configs and checks every MCP tool call against a profile."
     }
   ]
 }

@@ -5,9 +5,30 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 01:27:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 01:36:50 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - Maneek21/Deft: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.</title>
+      <link>https://github.com/Maneek21/Deft</link>
+      <guid isPermaLink="false">y5n0d66snhfoqjjbcefspbfo</guid>
+      <pubDate>Mon, 12 Oct 2026 01:36:50 GMT</pubDate>
+      <description>Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context. - Maneek21/Deft</description>
+    </item>
+    <item>
+      <title>GitHub - olalie/tapmap: Watch your computer connect across the internet in real time. Discover the world behind your apps.</title>
+      <link>https://github.com/olalie/tapmap</link>
+      <guid isPermaLink="false">u18p4rfe5nx852mnoap92kes</guid>
+      <pubDate>Mon, 12 Oct 2026 01:34:17 GMT</pubDate>
+      <description>Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap</description>
+    </item>
+    <item>
+      <title>GitHub - soulis-1256/assemblrr: Your media stack, automated</title>
+      <link>https://github.com/soulis-1256/assemblrr</link>
+      <guid isPermaLink="false">sd2rydom7esqlrds73f1jhtz</guid>
+      <pubDate>Mon, 12 Oct 2026 01:30:35 GMT</pubDate>
+      <description>Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub.</description>
+    </item>
     <item>
       <title>GitHub - lithos-ai/lithos-metal: lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.</title>
       <link>https://github.com/lithos-ai/lithos-metal</link>
@@ -336,27 +357,6 @@
       <guid isPermaLink="false">dr16d7octy2dtfzk67jfkwad</guid>
       <pubDate>Sat, 03 Oct 2026 02:28:01 GMT</pubDate>
       <description>⚡Master Claude Code + Codex: https://www.skool.com/chase-ai🔥FREE community: https://www.skool.com/chase-ai-community💻Get 1:1 help: https://chaseai.ioClaude…</description>
-    </item>
-    <item>
-      <title>28 things to install into Claude for motion graphics</title>
-      <link>https://charliehills.substack.com/p/28-things-to-install-into-claude</link>
-      <guid isPermaLink="false">m8r3anhdxrfd6uus4b4fihag</guid>
-      <pubDate>Sat, 03 Oct 2026 01:52:44 GMT</pubDate>
-      <description>Every repo, the job it does and the line that installs it.</description>
-    </item>
-    <item>
-      <title>Claude Code’s desktop GUI has one superpower the terminal version will never match</title>
-      <link>https://www.xda-developers.com/claude-code-desktop-gui-has-superpower-the-terminal-version-will-never-match/</link>
-      <guid isPermaLink="false">uymu52wx4h2pm4vfjtvxzl06</guid>
-      <pubDate>Sat, 03 Oct 2026 01:51:35 GMT</pubDate>
-      <description>Same engine, different experience</description>
-    </item>
-    <item>
-      <title>I added health checks to every Docker container, and now my homelab restarts its own broken services</title>
-      <link>https://www.xda-developers.com/added-health-checks-every-docker-container-homelab-restarts-its-own-broken-services/</link>
-      <guid isPermaLink="false">ubgmigiruatc69dj7plyv1ie</guid>
-      <pubDate>Sat, 03 Oct 2026 01:39:54 GMT</pubDate>
-      <description>It only handles the boring failure.</description>
     </item>
   </channel>
 </rss>
