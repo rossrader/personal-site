@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-12T13:59:21.895Z",
+  "fetchedAt": "2026-10-12T15:59:21.983Z",
   "links": [
+    {
+      "id": "aw95sx0gshtyx327bgt58cy1",
+      "url": "https://x.com/hayatomaruu/status/2109373280041816140?s=12",
+      "title": "hayato (@hayatomaruu) on X",
+      "ts": "2026-10-12T11:55:15-04:00",
+      "description": "Andrej Karpathy spent 8 years at OpenAI and Tesla Last week he compressed everything he knows into one free 2-hour lecture Prompts → Agents → Harness → Graphs → Loops People spend $15k on bootcamps that teach less than this You probably don’t have 2 hours right now Don’t let it vanish from yo…"
+    },
     {
       "id": "b6gowry0vcz2m58gtnu5zffy",
       "url": "https://x.com/thedelost/status/2109369295860035641?s=12",
@@ -273,13 +280,6 @@
       "title": "T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions",
       "ts": "2026-10-09T21:28:11-04:00",
       "description": "John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical."
-    },
-    {
-      "id": "usv5262jritqh3yfcsepgfx9",
-      "url": "https://www.nature.com/articles/s41586-026-11111-4",
-      "title": "Client Challenge",
-      "ts": "2026-10-09T21:23:31-04:00",
-      "description": "Byteification is a general method for retrofitting large language models to operate over bytes such that they approach the capabilities of subword-based systems and may be better for scientific data."
     }
   ]
 }

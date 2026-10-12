@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 13:54:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:55:15 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>hayato (@hayatomaruu) on X</title>
+      <link>https://x.com/hayatomaruu/status/2109373280041816140?s=12</link>
+      <guid isPermaLink="false">aw95sx0gshtyx327bgt58cy1</guid>
+      <pubDate>Mon, 12 Oct 2026 15:55:15 GMT</pubDate>
+      <description>Andrej Karpathy spent 8 years at OpenAI and Tesla Last week he compressed everything he knows into one free 2-hour lecture Prompts → Agents → Harness → Graphs → Loops People spend $15k on bootcamps that teach less than this You probably don’t have 2 hours right now Don’t let it vanish from yo…</description>
+    </item>
     <item>
       <title>delost (@thedelost) on X - “Sonnet builds. Haiku explores. Opus reviews.”</title>
       <link>https://x.com/thedelost/status/2109369295860035641?s=12</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ydfu82ypipeozwhzny2s4obx</guid>
       <pubDate>Tue, 06 Oct 2026 10:37:11 GMT</pubDate>
       <description>Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…</description>
-    </item>
-    <item>
-      <title>How Claude Can Analyze Your WordPress SEO With Rank Math MCP</title>
-      <link>https://m.youtube.com/shorts/Ev9WmiNdsPE</link>
-      <guid isPermaLink="false">zlpkp1gdtuun10j7gjebx2xq</guid>
-      <pubDate>Sun, 04 Oct 2026 00:28:24 GMT</pubDate>
-      <description>What if Claude could actually understand your WordPress site instead of giving you generic SEO advice? With Rank Math MCP + Claude, you can connect AI to you…</description>
     </item>
   </channel>
 </rss>
