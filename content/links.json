@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T14:59:22.393Z",
+  "fetchedAt": "2026-10-13T16:29:22.416Z",
   "links": [
+    {
+      "id": "nzqgo0nl5j01r56ak5immrc6",
+      "url": "https://anoma.ly/notes/opencode-2-0/?via=dailydev",
+      "title": "OpenCode 2.0",
+      "ts": "2026-10-13T12:15:47-04:00",
+      "description": "OpenCode 2.0."
+    },
     {
       "id": "monbfcj6c2df6q1j6yaj9e0l",
       "url": "https://slimsnap.ai/",
@@ -273,13 +280,6 @@
       "title": "GitHub - Albert-Weasker/niubigeo: Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
       "ts": "2026-10-10T08:03:26-04:00",
       "description": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing…"
-    },
-    {
-      "id": "lkumukjqyifmjlu0h3o4dwdw",
-      "url": "https://machinelearningmastery.com/evaluating-graph-rag-vs-standard-rag-a-hallucination-benchmark-on-fact-dense-queries/",
-      "title": "Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com",
-      "ts": "2026-10-09T21:31:50-04:00",
-      "description": "In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity."
     }
   ]
 }
