@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 16:15:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 23:41:09 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.</title>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid isPermaLink="false">uwfmkkl813p8uk8p6q3s01q4</guid>
+      <pubDate>Tue, 13 Oct 2026 23:41:09 GMT</pubDate>
+      <description>Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills</description>
+    </item>
     <item>
       <title>OpenCode 2.0</title>
       <link>https://anoma.ly/notes/opencode-2-0/?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">s3o4w90cfpkwdikycinnitix</guid>
       <pubDate>Wed, 07 Oct 2026 17:17:39 GMT</pubDate>
       <description>SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…</description>
-    </item>
-    <item>
-      <title>Client Challenge</title>
-      <link>https://www.nature.com/articles/s42256-026-01303-y</link>
-      <guid isPermaLink="false">p9nxxwh1psxagvwdn2acgm5z</guid>
-      <pubDate>Wed, 07 Oct 2026 17:06:11 GMT</pubDate>
-      <description>When large language models ‘reason’ about a problem, they might still solve it differently from what their reasoning transcript suggest. In this Perspective, Levy et al. describe how one can start investigating the role of these reasoning tokens.</description>
     </item>
   </channel>
 </rss>

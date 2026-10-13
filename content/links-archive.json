@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T16:29:22.416Z",
+  "fetchedAt": "2026-10-13T23:59:32.795Z",
   "links": [
+    {
+      "id": "uwfmkkl813p8uk8p6q3s01q4",
+      "url": "https://github.com/mattpocock/skills",
+      "title": "mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.",
+      "ts": "2026-10-13T19:41:09-04:00",
+      "description": "Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills"
+    },
     {
       "id": "nzqgo0nl5j01r56ak5immrc6",
       "url": "https://anoma.ly/notes/opencode-2-0/?via=dailydev",

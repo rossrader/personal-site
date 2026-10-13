@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-13T16:29:22.168Z",
+  "fetchedAt": "2026-10-13T23:59:32.566Z",
   "albums": [
+    {
+      "id": "066xSlSaMtQwLWbVndDnek",
+      "title": "Give Up",
+      "artist": "The Postal Service",
+      "year": 2003,
+      "plays": 5,
+      "cover": "content/music/al-066xSlSaMtQwLWbVndDnek_3ab39f9079a33b3e.jpg"
+    },
     {
       "id": "2c4XC1WMsu6agyUc9pQ9AC",
       "title": "Neck and Neck",
@@ -32,14 +40,6 @@
       "year": 1983,
       "plays": 12,
       "cover": "content/music/al-0wnFMpTOI9AieOGm2TcBOr_caf2113dc79f8a3e.jpg"
-    },
-    {
-      "id": "6JawXmoIvhyt08OaxGSYyI",
-      "title": "Rust Never Sleeps",
-      "artist": "Neil Young & Crazy Horse",
-      "year": 1979,
-      "plays": 4,
-      "cover": "content/music/al-6JawXmoIvhyt08OaxGSYyI_1b280822d135e89b.jpg"
     }
   ]
 }
