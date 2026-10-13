@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T04:59:22.136Z",
+  "fetchedAt": "2026-10-13T12:29:22.395Z",
   "links": [
+    {
+      "id": "pilowin87ps8a7lfeab2j70c",
+      "url": "https://github.com/skalesapp/skales",
+      "title": "GitHub - skalesapp/skales: Personal AI agent for macOS, Windows, Linux, Android & iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.",
+      "ts": "2026-10-13T08:17:35-04:00",
+      "description": "Personal AI agent for macOS, Windows, Linux, Android &amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…"
+    },
     {
       "id": "aw95sx0gshtyx327bgt58cy1",
       "url": "https://x.com/hayatomaruu/status/2109373280041816140?s=12",
@@ -273,13 +280,6 @@
       "title": "Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities",
       "ts": "2026-10-09T21:30:42-04:00",
       "description": null
-    },
-    {
-      "id": "d2u2hty32sm7pf0d85voijba",
-      "url": "https://au.pcmag.com/wireless-carriers/120364/t-mobile-cto-gives-spacex-a-reality-check-on-its-starlink-mobile-ambitions",
-      "title": "T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions",
-      "ts": "2026-10-09T21:28:11-04:00",
-      "description": "John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical."
     }
   ]
 }

@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 15:55:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:17:35 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - skalesapp/skales: Personal AI agent for macOS, Windows, Linux, Android &amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.</title>
+      <link>https://github.com/skalesapp/skales</link>
+      <guid isPermaLink="false">pilowin87ps8a7lfeab2j70c</guid>
+      <pubDate>Tue, 13 Oct 2026 12:17:35 GMT</pubDate>
+      <description>Personal AI agent for macOS, Windows, Linux, Android &amp;amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…</description>
+    </item>
     <item>
       <title>hayato (@hayatomaruu) on X</title>
       <link>https://x.com/hayatomaruu/status/2109373280041816140?s=12</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">cccyv955c1tzwxszqungvupl</guid>
       <pubDate>Tue, 06 Oct 2026 10:47:42 GMT</pubDate>
       <description>Agents pushed CI job volume up 25x at Anthropic. Faster pipelines help, but they still check a repo, not the distributed system it has to work with.</description>
-    </item>
-    <item>
-      <title>Mods in Claude Code: change how Claude Code works</title>
-      <link>https://www.youtube.com/watch?v=yUuFvL1lK4k</link>
-      <guid isPermaLink="false">ydfu82ypipeozwhzny2s4obx</guid>
-      <pubDate>Tue, 06 Oct 2026 10:37:11 GMT</pubDate>
-      <description>Claude Code now supports mods: functions you write that change what Claude Code renders, what goes into a prompt, and what tool calls it makes.Lydia from Ant…</description>
     </item>
   </channel>
 </rss>
