@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T12:29:22.395Z",
+  "fetchedAt": "2026-10-13T14:59:22.393Z",
   "links": [
+    {
+      "id": "monbfcj6c2df6q1j6yaj9e0l",
+      "url": "https://slimsnap.ai/",
+      "title": "SlimSnap. Paste a screenshot into your terminal",
+      "ts": "2026-10-13T10:32:24-04:00",
+      "description": "Turn any screenshot into JSON your CLI agent can read."
+    },
     {
       "id": "pilowin87ps8a7lfeab2j70c",
       "url": "https://github.com/skalesapp/skales",
@@ -273,13 +280,6 @@
       "title": "Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries - MachineLearningMastery.com",
       "ts": "2026-10-09T21:31:50-04:00",
       "description": "In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity."
-    },
-    {
-      "id": "x9smno9kk9na9h6yvzw5qknm",
-      "url": "https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html?m=1",
-      "title": "Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities",
-      "ts": "2026-10-09T21:30:42-04:00",
-      "description": null
     }
   ]
 }

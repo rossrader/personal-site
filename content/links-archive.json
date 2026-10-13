@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T12:29:22.395Z",
+  "fetchedAt": "2026-10-13T14:59:22.393Z",
   "links": [
+    {
+      "id": "monbfcj6c2df6q1j6yaj9e0l",
+      "url": "https://slimsnap.ai/",
+      "title": "SlimSnap. Paste a screenshot into your terminal",
+      "ts": "2026-10-13T10:32:24-04:00",
+      "description": "Turn any screenshot into JSON your CLI agent can read."
+    },
     {
       "id": "pilowin87ps8a7lfeab2j70c",
       "url": "https://github.com/skalesapp/skales",
