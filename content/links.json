@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T23:59:32.795Z",
+  "fetchedAt": "2026-10-14T03:59:22.438Z",
   "links": [
+    {
+      "id": "vy326754bkkx51ew4jrwahct",
+      "url": "https://github.com/seyedehsanhadi/sloptrim",
+      "title": "GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
+      "ts": "2026-10-13T23:56:18-04:00",
+      "description": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim"
+    },
     {
       "id": "uwfmkkl813p8uk8p6q3s01q4",
       "url": "https://github.com/mattpocock/skills",
@@ -273,13 +280,6 @@
       "title": "Introducing OpenDots: the Open-Source Alternative to OpenAI Dots | Blog | CopilotKit",
       "ts": "2026-10-10T08:23:17-04:00",
       "description": "Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…"
-    },
-    {
-      "id": "f4stocty1i2bqheh2br8aqpx",
-      "url": "https://dly.to/YlqkEyDuOFS",
-      "title": "I’m Starting to Think Every Developer Should Build Their Own Internal Tools | daily.dev",
-      "ts": "2026-10-10T08:18:33-04:00",
-      "description": "Building internal tools for your own real problems teaches software development more effectively than generic practice projects. When you build something you…"
     }
   ]
 }

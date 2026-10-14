@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 23:41:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 03:56:18 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.</title>
+      <link>https://github.com/seyedehsanhadi/sloptrim</link>
+      <guid isPermaLink="false">vy326754bkkx51ew4jrwahct</guid>
+      <pubDate>Wed, 14 Oct 2026 03:56:18 GMT</pubDate>
+      <description>A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim</description>
+    </item>
     <item>
       <title>mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.</title>
       <link>https://github.com/mattpocock/skills</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">i8pfwup820yk75yz35ruebrc</guid>
       <pubDate>Fri, 09 Oct 2026 04:01:58 GMT</pubDate>
       <description>Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…</description>
-    </item>
-    <item>
-      <title>Grok Bot just got a lot smarter thanks to Anthropic’s Claude - 9to5Mac</title>
-      <link>https://9to5mac.com/2026/10/07/grok-bot-just-got-a-lot-smarter-thanks-to-anthropics-claude/</link>
-      <guid isPermaLink="false">s3o4w90cfpkwdikycinnitix</guid>
-      <pubDate>Wed, 07 Oct 2026 17:17:39 GMT</pubDate>
-      <description>SpaceXAI’s Grok Bot kicked off the consumer-friendly AI agent app wave this summer. Facing competition from Meta’s Muse and OpenAI’s…</description>
     </item>
   </channel>
 </rss>

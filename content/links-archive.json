@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-13T23:59:32.795Z",
+  "fetchedAt": "2026-10-14T03:59:22.438Z",
   "links": [
+    {
+      "id": "vy326754bkkx51ew4jrwahct",
+      "url": "https://github.com/seyedehsanhadi/sloptrim",
+      "title": "GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
+      "ts": "2026-10-13T23:56:18-04:00",
+      "description": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim"
+    },
     {
       "id": "uwfmkkl813p8uk8p6q3s01q4",
       "url": "https://github.com/mattpocock/skills",
