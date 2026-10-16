@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 03:56:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 12:41:13 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - Pouzor/homelable: Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring</title>
+      <link>https://github.com/Pouzor/homelable</link>
+      <guid isPermaLink="false">mi63ucdmulagsscp2kh9kwb0</guid>
+      <pubDate>Fri, 16 Oct 2026 12:41:13 GMT</pubDate>
+      <description>Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring - Pouzor/homelable</description>
+    </item>
     <item>
       <title>GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.</title>
       <link>https://github.com/seyedehsanhadi/sloptrim</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ke8uihzs00lkpuk97viu56s2</guid>
       <pubDate>Fri, 09 Oct 2026 19:34:06 GMT</pubDate>
       <description>Glamourous agentic coding for all 💘. Contribute to charmbracelet/crush development by creating an account on GitHub.</description>
-    </item>
-    <item>
-      <title>9 NEW Claude Mods that can truly change how you work</title>
-      <link>https://youtube.com/watch?v=lDrAZ1wAyVs</link>
-      <guid isPermaLink="false">i8pfwup820yk75yz35ruebrc</guid>
-      <pubDate>Fri, 09 Oct 2026 04:01:58 GMT</pubDate>
-      <description>Get the 9 Claude Mods PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=a2e607329db2457f83744f817b9d8610 search for n81Learn…</description>
     </item>
   </channel>
 </rss>

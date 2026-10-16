@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-14T03:59:22.438Z",
+  "fetchedAt": "2026-10-16T12:59:23.561Z",
   "links": [
+    {
+      "id": "mi63ucdmulagsscp2kh9kwb0",
+      "url": "https://github.com/Pouzor/homelable",
+      "title": "GitHub - Pouzor/homelable: Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring",
+      "ts": "2026-10-16T08:41:13-04:00",
+      "description": "Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring - Pouzor/homelable"
+    },
     {
       "id": "vy326754bkkx51ew4jrwahct",
       "url": "https://github.com/seyedehsanhadi/sloptrim",
@@ -273,13 +280,6 @@
       "title": "Nikki CLI - Think it. Type it. Nikki remembers it.",
       "ts": "2026-10-10T08:26:29-04:00",
       "description": "A terminal-first personal notes and reminder app with natural language dates, local SQLite storage, and background notifications."
-    },
-    {
-      "id": "txgboyrhm2g7vbb8j7njf2vk",
-      "url": "https://www.copilotkit.ai/blog/introducing-opendots?via=dailydev",
-      "title": "Introducing OpenDots: the Open-Source Alternative to OpenAI Dots | Blog | CopilotKit",
-      "ts": "2026-10-10T08:23:17-04:00",
-      "description": "Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…"
     }
   ]
 }
