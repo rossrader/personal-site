@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-10-16T12:59:23.561Z",
+  "fetchedAt": "2026-10-17T00:29:23.697Z",
   "links": [
+    {
+      "id": "jxcauolpidhglmu0kz1nyxlh",
+      "url": "https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev",
+      "title": "plMail: A Self-Hosted Gmail Alternative",
+      "ts": "2026-10-16T20:08:02-04:00",
+      "description": "plMail brings multiple email accounts into one self-hosted inbox, with Docker support and optional local AI through Ollama."
+    },
+    {
+      "id": "zcaxn9gxk52fgauavlrur2y7",
+      "url": "https://blog.dailydoseofds.com/p/rag-vs-jev-rag-clearly-explained?utm_campaign=post&utm_medium=web",
+      "title": "RAG vs. Jev + RAG, clearly explained!",
+      "ts": "2026-10-16T20:06:28-04:00",
+      "description": "...with visuals."
+    },
+    {
+      "id": "cs9d1d4l2umh7ks0sotwe6rh",
+      "url": "https://dly.to/kfFHdo4Fqkv",
+      "title": "What Does a Well-Designed AI Software Factory Look Like? | daily.dev",
+      "ts": "2026-10-16T20:05:37-04:00",
+      "description": "An exploration of ‘AI software factories’ - automated engineering systems where multiple specialized AI agents collaborate with humans through a repeating…"
+    },
     {
       "id": "mi63ucdmulagsscp2kh9kwb0",
       "url": "https://github.com/Pouzor/homelable",
