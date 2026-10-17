@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 01:14:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 02:27:21 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - makerspet/oomwoo: Open-source vacuum robot cleaner</title>
+      <link>https://github.com/makerspet/oomwoo</link>
+      <guid isPermaLink="false">jksia10hcxag03d7y5xz35x0</guid>
+      <pubDate>Sat, 17 Oct 2026 02:27:21 GMT</pubDate>
+      <description>Open-source vacuum robot cleaner. Contribute to makerspet/oomwoo development by creating an account on GitHub.</description>
+    </item>
+    <item>
+      <title>Forgejo v17.0 is available</title>
+      <link>https://forgejo.org/2026-10-release-v17-0/?via=dailydev</link>
+      <guid isPermaLink="false">lfiv1kolxhbih1wflotjbj68</guid>
+      <pubDate>Sat, 17 Oct 2026 02:06:20 GMT</pubDate>
+      <description>forgejo.org</description>
+    </item>
     <item>
       <title>GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.</title>
       <link>https://github.com/faucetdb/faucet</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">lkumukjqyifmjlu0h3o4dwdw</guid>
       <pubDate>Sat, 10 Oct 2026 01:31:50 GMT</pubDate>
       <description>In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what the results reveal about matching prompt complexity to model capacity.</description>
-    </item>
-    <item>
-      <title>Google Workspace Updates: New logic and search steps in Workspace Studio help expand automation capabilities</title>
-      <link>https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html?m=1</link>
-      <guid isPermaLink="false">x9smno9kk9na9h6yvzw5qknm</guid>
-      <pubDate>Sat, 10 Oct 2026 01:30:42 GMT</pubDate>
-      <description>workspaceupdates.googleblog.com</description>
-    </item>
-    <item>
-      <title>T-Mobile CTO Gives SpaceX a Reality Check on Its Starlink Mobile Ambitions</title>
-      <link>https://au.pcmag.com/wireless-carriers/120364/t-mobile-cto-gives-spacex-a-reality-check-on-its-starlink-mobile-ambitions</link>
-      <guid isPermaLink="false">d2u2hty32sm7pf0d85voijba</guid>
-      <pubDate>Sat, 10 Oct 2026 01:28:11 GMT</pubDate>
-      <description>John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical.</description>
     </item>
   </channel>
 </rss>

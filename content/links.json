@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-17T01:29:24.201Z",
+  "fetchedAt": "2026-10-17T02:29:23.704Z",
   "links": [
+    {
+      "id": "jksia10hcxag03d7y5xz35x0",
+      "url": "https://github.com/makerspet/oomwoo",
+      "title": "GitHub - makerspet/oomwoo: Open-source vacuum robot cleaner",
+      "ts": "2026-10-16T22:27:21-04:00",
+      "description": "Open-source vacuum robot cleaner. Contribute to makerspet/oomwoo development by creating an account on GitHub."
+    },
+    {
+      "id": "lfiv1kolxhbih1wflotjbj68",
+      "url": "https://forgejo.org/2026-10-release-v17-0/?via=dailydev",
+      "title": "Forgejo v17.0 is available",
+      "ts": "2026-10-16T22:06:20-04:00",
+      "description": null
+    },
     {
       "id": "w3aawdhrmr5wgzk2tqj1bupt",
       "url": "https://github.com/faucetdb/faucet",
@@ -266,20 +280,6 @@
       "title": "OpenStore — The best of open source all in one place.",
       "ts": "2026-10-10T18:09:13-04:00",
       "description": "Discover thoughtfully curated open-source alternatives to the apps you use every day."
-    },
-    {
-      "id": "k7zyr2ccjh8p57oydyztq9wd",
-      "url": "https://thetshaped.dev/p/outbox-pattern-why-you-need-typescript-postgresql-nodejs?via=dailydev",
-      "title": "Saved the Order, Lost the Event: Why You Need the Outbox Pattern",
-      "ts": "2026-10-10T08:41:32-04:00",
-      "description": "Save-then-publish drops messages without a single error in your logs. Here’s the outbox + inbox pair that stops it, in plain Postgres and Node.js."
-    },
-    {
-      "id": "u0to1x0kkqc13d9jw138oqd1",
-      "url": "https://www.ssp.sh/brain/claude-dashboards/?via=dailydev",
-      "title": "Claude Dashboards: The Jupyter Notebooks of Agent Age",
-      "ts": "2026-10-10T08:38:43-04:00",
-      "description": "Claude Dashboards were recently announced, and it goes to show that Dashboard are indeed not dead when Claude has now built their own services."
     }
   ]
 }
