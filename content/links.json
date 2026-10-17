@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T04:59:23.840Z",
+  "fetchedAt": "2026-10-17T12:59:23.920Z",
   "links": [
+    {
+      "id": "gljn4wq4mdhzf31qtw8mcteb",
+      "url": "https://www.news.aakashg.com/p/harness-engineering?utm_campaign=post&utm_medium=web",
+      "title": "Harness Engineering: Your Complete Guide",
+      "ts": "2026-10-17T08:43:32-04:00",
+      "description": "Alongside prompt and context engineering, harness engineering has emerged as the most important skill for building AI products."
+    },
     {
       "id": "jksia10hcxag03d7y5xz35x0",
       "url": "https://github.com/makerspet/oomwoo",
@@ -273,13 +280,6 @@
       "title": "GitHub - rcourtman/Pulse: Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures.",
       "ts": "2026-10-10T19:55:43-04:00",
       "description": "Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures. - rcourtman/Pulse"
-    },
-    {
-      "id": "p2mpajytn9ngg0wdgyaxqb6r",
-      "url": "https://www.openstore.site/?via=dailydev",
-      "title": "OpenStore — The best of open source all in one place.",
-      "ts": "2026-10-10T18:09:13-04:00",
-      "description": "Discover thoughtfully curated open-source alternatives to the apps you use every day."
     }
   ]
 }
