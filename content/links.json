@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T00:29:23.697Z",
+  "fetchedAt": "2026-10-17T01:29:24.201Z",
   "links": [
+    {
+      "id": "w3aawdhrmr5wgzk2tqj1bupt",
+      "url": "https://github.com/faucetdb/faucet",
+      "title": "GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.",
+      "ts": "2026-10-16T21:14:51-04:00",
+      "description": "Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents. - f…"
+    },
     {
       "id": "jxcauolpidhglmu0kz1nyxlh",
       "url": "https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev",
@@ -273,13 +280,6 @@
       "title": "Claude Dashboards: The Jupyter Notebooks of Agent Age",
       "ts": "2026-10-10T08:38:43-04:00",
       "description": "Claude Dashboards were recently announced, and it goes to show that Dashboard are indeed not dead when Claude has now built their own services."
-    },
-    {
-      "id": "kexmspinwgspd9xwb5nmuzgb",
-      "url": "https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget?via=dailydev",
-      "title": "The LLM Blindspot: Why Models Forget What’s in the Middle of Your Prompt",
-      "ts": "2026-10-10T08:37:22-04:00",
-      "description": "In this article, we’ll look at why LLMs have this bias against middle information."
     }
   ]
 }

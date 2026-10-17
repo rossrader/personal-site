@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:08:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 01:14:51 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.</title>
+      <link>https://github.com/faucetdb/faucet</link>
+      <guid isPermaLink="false">w3aawdhrmr5wgzk2tqj1bupt</guid>
+      <pubDate>Sat, 17 Oct 2026 01:14:51 GMT</pubDate>
+      <description>Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents. - f…</description>
+    </item>
     <item>
       <title>plMail: A Self-Hosted Gmail Alternative</title>
       <link>https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">d2u2hty32sm7pf0d85voijba</guid>
       <pubDate>Sat, 10 Oct 2026 01:28:11 GMT</pubDate>
       <description>John Saw pours cold water on SpaceX’s plan to become a major US wireless carrier using recently acquired spectrum. It might sound like sour grapes, but financial analysts are similarly skeptical.</description>
-    </item>
-    <item>
-      <title>Client Challenge</title>
-      <link>https://www.nature.com/articles/s41586-026-11111-4</link>
-      <guid isPermaLink="false">usv5262jritqh3yfcsepgfx9</guid>
-      <pubDate>Sat, 10 Oct 2026 01:23:31 GMT</pubDate>
-      <description>Byteification is a general method for retrofitting large language models to operate over bytes such that they approach the capabilities of subword-based systems and may be better for scientific data.</description>
     </item>
   </channel>
 </rss>

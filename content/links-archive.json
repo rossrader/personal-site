@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T00:29:23.697Z",
+  "fetchedAt": "2026-10-17T01:29:24.201Z",
   "links": [
+    {
+      "id": "w3aawdhrmr5wgzk2tqj1bupt",
+      "url": "https://github.com/faucetdb/faucet",
+      "title": "GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.",
+      "ts": "2026-10-16T21:14:51-04:00",
+      "description": "Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents. - f…"
+    },
     {
       "id": "jxcauolpidhglmu0kz1nyxlh",
       "url": "https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev",
