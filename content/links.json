@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-18T12:59:24.315Z",
+  "fetchedAt": "2026-10-18T13:59:24.208Z",
   "links": [
+    {
+      "id": "yl28bf9xd2esf9x92emei49k",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "title": "GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+      "ts": "2026-10-18T09:47:20-04:00",
+      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. - amitshekhariitbhu/ai-system-design"
+    },
+    {
+      "id": "sh2f5fdqdk3guuf0u7gg86x2",
+      "url": "https://dsifry.github.io/harnesseval/",
+      "title": "Vibes vs. Evidence: What Works in AI Code Review",
+      "ts": "2026-10-18T09:41:21-04:00",
+      "description": "AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs."
+    },
     {
       "id": "zqebh79ko7byj62oauqn7sdd",
       "url": "https://github.com/ScottRBK/forgetful",
@@ -266,20 +280,6 @@
       "title": "GitHub - pinkpixel-dev/quota: Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go.",
       "ts": "2026-10-11T09:18:52-04:00",
       "description": "Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota"
-    },
-    {
-      "id": "dgr7sz570wj0fdpazin5pfs6",
-      "url": "https://medium.com/@matthew.r.brown29/your-teammate-cant-explain-their-ai-written-pr-here-s-the-review-system-that-fixes-it-77c9d3814d25",
-      "title": "Your Teammate Can’t Explain Their AI-Written PR. Here’s the Review System That Fixes It.",
-      "ts": "2026-10-11T09:18:09-04:00",
-      "description": "Five local checks (a size gate, an intent template, an explain-back, a red-before-green test and a risk-first reading order) that make AI…"
-    },
-    {
-      "id": "xgd4oss7qwfpkh327acwmlch",
-      "url": "https://github.com/morluto/rea",
-      "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "ts": "2026-10-10T22:10:34-04:00",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries. - morluto/rea"
     }
   ]
 }

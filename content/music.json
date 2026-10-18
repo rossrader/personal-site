@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-18T12:59:24.075Z",
+  "fetchedAt": "2026-10-18T13:59:23.957Z",
   "albums": [
+    {
+      "id": "36aO0dVCfKgQehoTNjZfQM",
+      "title": "Left My Blues in San Francisco",
+      "artist": "Buddy Guy",
+      "year": 1969,
+      "plays": 22,
+      "cover": "content/music/al-36aO0dVCfKgQehoTNjZfQM_8a83ab45d209d429.jpg"
+    },
     {
       "id": "75VWRTEiBtx5grP4nelu0w",
       "title": "Hotel : Ambient",
@@ -32,14 +40,6 @@
       "year": 1978,
       "plays": 4,
       "cover": "content/music/al-1dFKOuqu2t5CI534vZx0QP_794eef3401b533dd.jpg"
-    },
-    {
-      "id": "7oUscUiDlfXXwQD6VADZ3M",
-      "title": "Mellow Gold",
-      "artist": "Beck",
-      "year": 1994,
-      "plays": 5,
-      "cover": "content/music/al-7oUscUiDlfXXwQD6VADZ3M_a9e5fb97264c8016.jpg"
     }
   ]
 }

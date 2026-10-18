@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:32:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 13:47:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.</title>
+      <link>https://github.com/amitshekhariitbhu/ai-system-design</link>
+      <guid isPermaLink="false">yl28bf9xd2esf9x92emei49k</guid>
+      <pubDate>Sun, 18 Oct 2026 13:47:20 GMT</pubDate>
+      <description>AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. - amitshekhariitbhu/ai-system-design</description>
+    </item>
+    <item>
+      <title>Vibes vs. Evidence: What Works in AI Code Review</title>
+      <link>https://dsifry.github.io/harnesseval/</link>
+      <guid isPermaLink="false">sh2f5fdqdk3guuf0u7gg86x2</guid>
+      <pubDate>Sun, 18 Oct 2026 13:41:21 GMT</pubDate>
+      <description>AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs.</description>
+    </item>
     <item>
       <title>GitHub - ScottRBK/forgetful: Opensource Memory for Agents</title>
       <link>https://github.com/ScottRBK/forgetful</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">bcut9n454gs02o06oo68kgrj</guid>
       <pubDate>Sat, 10 Oct 2026 12:31:36 GMT</pubDate>
       <description>The traditional advice is REST for public APIs and gRPC for microservices. But is this a false dichotomy? (hint: yes)</description>
-    </item>
-    <item>
-      <title>Nikki CLI - Think it. Type it. Nikki remembers it.</title>
-      <link>https://nikhilgautam.me/nikki/</link>
-      <guid isPermaLink="false">c0mv8k8xyybl36ixd27jjju8</guid>
-      <pubDate>Sat, 10 Oct 2026 12:26:29 GMT</pubDate>
-      <description>A terminal-first personal notes and reminder app with natural language dates, local SQLite storage, and background notifications.</description>
-    </item>
-    <item>
-      <title>Introducing OpenDots: the Open-Source Alternative to OpenAI Dots | Blog | CopilotKit</title>
-      <link>https://www.copilotkit.ai/blog/introducing-opendots?via=dailydev</link>
-      <guid isPermaLink="false">txgboyrhm2g7vbb8j7njf2vk</guid>
-      <pubDate>Sat, 10 Oct 2026 12:23:17 GMT</pubDate>
-      <description>Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…</description>
     </item>
   </channel>
 </rss>

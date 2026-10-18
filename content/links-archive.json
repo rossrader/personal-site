@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-18T12:59:24.315Z",
+  "fetchedAt": "2026-10-18T13:59:24.208Z",
   "links": [
+    {
+      "id": "yl28bf9xd2esf9x92emei49k",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "title": "GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+      "ts": "2026-10-18T09:47:20-04:00",
+      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. - amitshekhariitbhu/ai-system-design"
+    },
+    {
+      "id": "sh2f5fdqdk3guuf0u7gg86x2",
+      "url": "https://dsifry.github.io/harnesseval/",
+      "title": "Vibes vs. Evidence: What Works in AI Code Review",
+      "ts": "2026-10-18T09:41:21-04:00",
+      "description": "AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs."
+    },
     {
       "id": "zqebh79ko7byj62oauqn7sdd",
       "url": "https://github.com/ScottRBK/forgetful",
