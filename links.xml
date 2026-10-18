@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2026 12:43:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 04:21:45 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.</title>
+      <link>https://github.com/chrisgreg/boop</link>
+      <guid isPermaLink="false">s49zah7hmadhvxd03fk6f8vt</guid>
+      <pubDate>Sun, 18 Oct 2026 04:21:45 GMT</pubDate>
+      <description>A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. - chrisgreg/boop</description>
+    </item>
     <item>
       <title>Harness Engineering: Your Complete Guide</title>
       <link>https://www.news.aakashg.com/p/harness-engineering?utm_campaign=post&amp;utm_medium=web</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">f4stocty1i2bqheh2br8aqpx</guid>
       <pubDate>Sat, 10 Oct 2026 12:18:33 GMT</pubDate>
       <description>Building internal tools for your own real problems teaches software development more effectively than generic practice projects. When you build something you…</description>
-    </item>
-    <item>
-      <title>GitHub - Albert-Weasker/niubigeo: Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing</title>
-      <link>https://github.com/Albert-Weasker/niubigeo</link>
-      <guid isPermaLink="false">x2gbx4k4y6ub8h45uywo7ko0</guid>
-      <pubDate>Sat, 10 Oct 2026 12:03:26 GMT</pubDate>
-      <description>Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing…</description>
     </item>
   </channel>
 </rss>

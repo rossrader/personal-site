@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-17T12:59:23.920Z",
+  "fetchedAt": "2026-10-18T04:29:24.216Z",
   "links": [
+    {
+      "id": "s49zah7hmadhvxd03fk6f8vt",
+      "url": "https://github.com/chrisgreg/boop",
+      "title": "GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
+      "ts": "2026-10-18T00:21:45-04:00",
+      "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. - chrisgreg/boop"
+    },
     {
       "id": "gljn4wq4mdhzf31qtw8mcteb",
       "url": "https://www.news.aakashg.com/p/harness-engineering?utm_campaign=post&utm_medium=web",
@@ -273,13 +280,6 @@
       "title": "GitHub - siddsachar/row-bot: Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.",
       "ts": "2026-10-10T21:29:16-04:00",
       "description": "Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and mess…"
-    },
-    {
-      "id": "o0eiimi1wvfb26w7m1dtuax8",
-      "url": "https://github.com/rcourtman/Pulse",
-      "title": "GitHub - rcourtman/Pulse: Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures.",
-      "ts": "2026-10-10T19:55:43-04:00",
-      "description": "Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures. - rcourtman/Pulse"
     }
   ]
 }

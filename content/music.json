@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-10-17T12:59:23.612Z",
+  "fetchedAt": "2026-10-18T04:29:23.976Z",
   "albums": [
+    {
+      "id": "75VWRTEiBtx5grP4nelu0w",
+      "title": "Hotel : Ambient",
+      "artist": "Moby",
+      "year": 2014,
+      "plays": 5,
+      "cover": "content/music/al-75VWRTEiBtx5grP4nelu0w_880406e3b539c7ba.jpg"
+    },
     {
       "id": "066xSlSaMtQwLWbVndDnek",
       "title": "Give Up",
@@ -32,14 +40,6 @@
       "year": 1994,
       "plays": 5,
       "cover": "content/music/al-7oUscUiDlfXXwQD6VADZ3M_a9e5fb97264c8016.jpg"
-    },
-    {
-      "id": "0wnFMpTOI9AieOGm2TcBOr",
-      "title": "Murmur",
-      "artist": "R.E.M.",
-      "year": 1983,
-      "plays": 12,
-      "cover": "content/music/al-0wnFMpTOI9AieOGm2TcBOr_caf2113dc79f8a3e.jpg"
     }
   ]
 }
