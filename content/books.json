@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-10-18T04:59:24.071Z",
+  "fetchedAt": "2026-10-18T12:59:24.017Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
-    {
-      "title": "21 Things You May Not Know About the Indian Act: Helping Canadians Make Reconciliation with Indigenous Peoples a Reality",
-      "slug": "21-things-you-may-not-know-about-the-indian-act",
-      "authors": [
-        "Bob Joseph"
-      ],
-      "cover": "https://assets.hardcover.app/edition/9654156/d9e7bba20ebc15f6b69a46693ab174c847744d6b.jpeg",
-      "finished": null
-    },
     {
       "title": "Man's Search for Meaning",
       "slug": "mans-search-for-meaning",
@@ -24,6 +15,15 @@
     }
   ],
   "read": [
+    {
+      "title": "21 Things You May Not Know About the Indian Act: Helping Canadians Make Reconciliation with Indigenous Peoples a Reality",
+      "slug": "21-things-you-may-not-know-about-the-indian-act",
+      "authors": [
+        "Bob Joseph"
+      ],
+      "cover": "https://assets.hardcover.app/edition/9654156/d9e7bba20ebc15f6b69a46693ab174c847744d6b.jpeg",
+      "finished": "2026-10-18"
+    },
     {
       "title": "The Inconvenient Indian: A Curious Account of Native People in North America",
       "slug": "the-inconvenient-indian",
@@ -50,16 +50,6 @@
       ],
       "cover": "https://assets.hardcover.app/book_mappings/7332674/0acf6282b03c56c91ee95d99cdbc7075e595786f.jpeg",
       "finished": "2026-09-26"
-    },
-    {
-      "title": "Rage",
-      "slug": "rage-1977",
-      "authors": [
-        "Richard Bachman",
-        "Stephen King"
-      ],
-      "cover": "https://assets.hardcover.app/edition/30370506/d6e2fb3fe136b130c56449dc221343d3025e7420.jpeg",
-      "finished": "2026-09-05"
     }
   ]
 }

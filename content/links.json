@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T04:59:24.378Z",
+  "fetchedAt": "2026-10-18T12:59:24.315Z",
   "links": [
+    {
+      "id": "zqebh79ko7byj62oauqn7sdd",
+      "url": "https://github.com/ScottRBK/forgetful",
+      "title": "GitHub - ScottRBK/forgetful: Opensource Memory for Agents",
+      "ts": "2026-10-18T08:32:38-04:00",
+      "description": "Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub."
+    },
     {
       "id": "s49zah7hmadhvxd03fk6f8vt",
       "url": "https://github.com/chrisgreg/boop",
@@ -273,13 +280,6 @@
       "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
       "ts": "2026-10-10T22:10:34-04:00",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries. - morluto/rea"
-    },
-    {
-      "id": "fkrk3zuoihn2awnn62e8cp9q",
-      "url": "https://github.com/siddsachar/row-bot",
-      "title": "GitHub - siddsachar/row-bot: Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.",
-      "ts": "2026-10-10T21:29:16-04:00",
-      "description": "Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and mess…"
     }
   ]
 }

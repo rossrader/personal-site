@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 04:21:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 12:32:38 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - ScottRBK/forgetful: Opensource Memory for Agents</title>
+      <link>https://github.com/ScottRBK/forgetful</link>
+      <guid isPermaLink="false">zqebh79ko7byj62oauqn7sdd</guid>
+      <pubDate>Sun, 18 Oct 2026 12:32:38 GMT</pubDate>
+      <description>Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub.</description>
+    </item>
     <item>
       <title>GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.</title>
       <link>https://github.com/chrisgreg/boop</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">txgboyrhm2g7vbb8j7njf2vk</guid>
       <pubDate>Sat, 10 Oct 2026 12:23:17 GMT</pubDate>
       <description>Today we’re releasing OpenDots, the open-source alternative to OpenAI Dots. Every Dot is an always-on AI coworker with its own computer. Work with your Dots in Spaces and Pages, call them, or mention them in Slack. Host it yourself, bring any agent through AG-UI and use any OpenAI-compatible model.…</description>
-    </item>
-    <item>
-      <title>I’m Starting to Think Every Developer Should Build Their Own Internal Tools | daily.dev</title>
-      <link>https://dly.to/YlqkEyDuOFS</link>
-      <guid isPermaLink="false">f4stocty1i2bqheh2br8aqpx</guid>
-      <pubDate>Sat, 10 Oct 2026 12:18:33 GMT</pubDate>
-      <description>Building internal tools for your own real problems teaches software development more effectively than generic practice projects. When you build something you…</description>
     </item>
   </channel>
 </rss>

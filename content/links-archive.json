@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T04:59:24.378Z",
+  "fetchedAt": "2026-10-18T12:59:24.315Z",
   "links": [
+    {
+      "id": "zqebh79ko7byj62oauqn7sdd",
+      "url": "https://github.com/ScottRBK/forgetful",
+      "title": "GitHub - ScottRBK/forgetful: Opensource Memory for Agents",
+      "ts": "2026-10-18T08:32:38-04:00",
+      "description": "Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub."
+    },
     {
       "id": "s49zah7hmadhvxd03fk6f8vt",
       "url": "https://github.com/chrisgreg/boop",
