@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T13:59:24.208Z",
+  "fetchedAt": "2026-10-18T14:59:24.207Z",
   "links": [
+    {
+      "id": "rjxqmmtllzbl2pyzgc87fi6b",
+      "url": "https://github.com/croffasia/itsaplan",
+      "title": "GitHub - croffasia/itsaplan: Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
+      "ts": "2026-10-18T10:31:50-04:00",
+      "description": "Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products. - croffasia/itsaplan"
+    },
     {
       "id": "yl28bf9xd2esf9x92emei49k",
       "url": "https://github.com/amitshekhariitbhu/ai-system-design",
@@ -273,13 +280,6 @@
       "title": "I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions",
       "ts": "2026-10-11T09:21:22-04:00",
       "description": "The model got better. My prompts didn’t."
-    },
-    {
-      "id": "sjeotq8443ozdrajhr9xx09p",
-      "url": "https://github.com/pinkpixel-dev/quota",
-      "title": "GitHub - pinkpixel-dev/quota: Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go.",
-      "ts": "2026-10-11T09:18:52-04:00",
-      "description": "Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota"
     }
   ]
 }

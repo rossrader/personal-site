@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 13:47:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:31:50 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - croffasia/itsaplan: Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.</title>
+      <link>https://github.com/croffasia/itsaplan</link>
+      <guid isPermaLink="false">rjxqmmtllzbl2pyzgc87fi6b</guid>
+      <pubDate>Sun, 18 Oct 2026 14:31:50 GMT</pubDate>
+      <description>Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products. - croffasia/itsaplan</description>
+    </item>
     <item>
       <title>GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.</title>
       <link>https://github.com/amitshekhariitbhu/ai-system-design</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ltiv26t71fow61w65dlpcmjy</guid>
       <pubDate>Sat, 10 Oct 2026 12:32:54 GMT</pubDate>
       <description>We are thrilled to announce the availability of OpenBao v2.7, adding PostgreSQL horizontal scalability, External HSM and KMS-Backed Keys support, and Post-Quantum Cryptography!</description>
-    </item>
-    <item>
-      <title>gRPC vs REST Is the Wrong Question · Buf Blog</title>
-      <link>https://buf.build/blog/grpc-vs-rest-is-the-wrong-question?via=dailydev</link>
-      <guid isPermaLink="false">bcut9n454gs02o06oo68kgrj</guid>
-      <pubDate>Sat, 10 Oct 2026 12:31:36 GMT</pubDate>
-      <description>The traditional advice is REST for public APIs and gRPC for microservices. But is this a false dichotomy? (hint: yes)</description>
     </item>
   </channel>
 </rss>
