@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T15:10:14.356Z",
+  "fetchedAt": "2026-10-19T03:29:24.705Z",
   "links": [
+    {
+      "id": "npig5x022oognzpxuaz7gx3a",
+      "url": "https://share.google/aCOdpvKkhWtmGksKH",
+      "title": "I made Claude Code build a map of my files, and it cut search times by 96%",
+      "ts": "2026-10-18T23:20:30-04:00",
+      "description": "My files are still a mess, but at least Claude knows where they are"
+    },
     {
       "id": "rjxqmmtllzbl2pyzgc87fi6b",
       "url": "https://github.com/croffasia/itsaplan",

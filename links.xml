@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:31:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 03:20:30 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>I made Claude Code build a map of my files, and it cut search times by 96%</title>
+      <link>https://share.google/aCOdpvKkhWtmGksKH</link>
+      <guid isPermaLink="false">npig5x022oognzpxuaz7gx3a</guid>
+      <pubDate>Mon, 19 Oct 2026 03:20:30 GMT</pubDate>
+      <description>My files are still a mess, but at least Claude knows where they are</description>
+    </item>
     <item>
       <title>GitHub - croffasia/itsaplan: Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.</title>
       <link>https://github.com/croffasia/itsaplan</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">kexmspinwgspd9xwb5nmuzgb</guid>
       <pubDate>Sat, 10 Oct 2026 12:37:22 GMT</pubDate>
       <description>In this article, we’ll look at why LLMs have this bias against middle information.</description>
-    </item>
-    <item>
-      <title>Announcing OpenBao v2.7! | OpenBao</title>
-      <link>https://openbao.org/blog/release-v2-7-0/?via=dailydev</link>
-      <guid isPermaLink="false">ltiv26t71fow61w65dlpcmjy</guid>
-      <pubDate>Sat, 10 Oct 2026 12:32:54 GMT</pubDate>
-      <description>We are thrilled to announce the availability of OpenBao v2.7, adding PostgreSQL horizontal scalability, External HSM and KMS-Backed Keys support, and Post-Quantum Cryptography!</description>
     </item>
   </channel>
 </rss>

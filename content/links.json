@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-18T15:10:14.356Z",
+  "fetchedAt": "2026-10-19T03:29:24.705Z",
   "links": [
+    {
+      "id": "npig5x022oognzpxuaz7gx3a",
+      "url": "https://share.google/aCOdpvKkhWtmGksKH",
+      "title": "I made Claude Code build a map of my files, and it cut search times by 96%",
+      "ts": "2026-10-18T23:20:30-04:00",
+      "description": "My files are still a mess, but at least Claude knows where they are"
+    },
     {
       "id": "rjxqmmtllzbl2pyzgc87fi6b",
       "url": "https://github.com/croffasia/itsaplan",
@@ -273,13 +280,6 @@
       "title": "GitHub - simplifaisoul/osiris: Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump",
       "ts": "2026-10-11T11:40:00-04:00",
       "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump - simplifaisoul/osiris"
-    },
-    {
-      "id": "ji8v26n81t7dilgz32mlku37",
-      "url": "https://www.xda-developers.com/ran-this-hidden-claude-code-command-on-my-setup/?via=dailydev",
-      "title": "I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions",
-      "ts": "2026-10-11T09:21:22-04:00",
-      "description": "The model got better. My prompts didn’t."
     }
   ]
 }
