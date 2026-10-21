@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-20T01:57:15.314Z",
+  "fetchedAt": "2026-10-21T22:29:25.524Z",
   "links": [
+    {
+      "id": "ql2fgm6km35kwtd7vuwxvwtl",
+      "url": "https://github.com/flectar/mail",
+      "title": "GitHub - flectar/mail: Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.",
+      "ts": "2026-10-21T18:21:05-04:00",
+      "description": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM. - flectar/mail"
+    },
     {
       "id": "npig5x022oognzpxuaz7gx3a",
       "url": "https://www.xda-developers.com/made-claude-code-build-map-of-my-files/",
@@ -273,13 +280,6 @@
       "title": "This Claude OS combines Jev, Opus, Obsidian, + a local voice system",
       "ts": "2026-10-11T18:56:01-04:00",
       "description": "check the related video for a deeper dive"
-    },
-    {
-      "id": "izbv5x13227n9sr3r6abftih",
-      "url": "https://github.com/simplifaisoul/osiris",
-      "title": "GitHub - simplifaisoul/osiris: Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump",
-      "ts": "2026-10-11T11:40:00-04:00",
-      "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump - simplifaisoul/osiris"
     }
   ]
 }

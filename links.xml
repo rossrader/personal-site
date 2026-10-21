@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 03:20:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 22:21:05 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - flectar/mail: Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.</title>
+      <link>https://github.com/flectar/mail</link>
+      <guid isPermaLink="false">ql2fgm6km35kwtd7vuwxvwtl</guid>
+      <pubDate>Wed, 21 Oct 2026 22:21:05 GMT</pubDate>
+      <description>Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM. - flectar/mail</description>
+    </item>
     <item>
       <title>I made Claude Code build a map of my files, and it cut search times by 96%</title>
       <link>https://www.xda-developers.com/made-claude-code-build-map-of-my-files/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">u0to1x0kkqc13d9jw138oqd1</guid>
       <pubDate>Sat, 10 Oct 2026 12:38:43 GMT</pubDate>
       <description>Claude Dashboards were recently announced, and it goes to show that Dashboard are indeed not dead when Claude has now built their own services.</description>
-    </item>
-    <item>
-      <title>The LLM Blindspot: Why Models Forget What’s in the Middle of Your Prompt</title>
-      <link>https://blog.bytebytego.com/p/the-llm-blindspot-why-models-forget?via=dailydev</link>
-      <guid isPermaLink="false">kexmspinwgspd9xwb5nmuzgb</guid>
-      <pubDate>Sat, 10 Oct 2026 12:37:22 GMT</pubDate>
-      <description>In this article, we’ll look at why LLMs have this bias against middle information.</description>
     </item>
   </channel>
 </rss>

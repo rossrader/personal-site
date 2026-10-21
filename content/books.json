@@ -1,8 +1,19 @@
 {
-  "fetchedAt": "2026-10-20T01:57:14.987Z",
+  "fetchedAt": "2026-10-21T22:29:25.251Z",
   "username": "rossrader",
   "profileUrl": "https://hardcover.app/@rossrader",
   "reading": [
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "slug": "sapiens",
+      "authors": [
+        "Yuval Noah Harari"
+      ],
+      "cover": "https://assets.hardcover.app/edition/1014761/175a425a-fb6c-4cb6-afdc-6e1818246f9d.jpg",
+      "finished": null
+    }
+  ],
+  "read": [
     {
       "title": "Man's Search for Meaning",
       "slug": "mans-search-for-meaning",
@@ -11,10 +22,8 @@
         "Gordon W. Allport"
       ],
       "cover": "https://assets.hardcover.app/edition/30443934/9e06b9cfae5eb17e4d071c9caaeda029fcf353df.jpeg",
-      "finished": null
-    }
-  ],
-  "read": [
+      "finished": "2026-10-20"
+    },
     {
       "title": "21 Things You May Not Know About the Indian Act: Helping Canadians Make Reconciliation with Indigenous Peoples a Reality",
       "slug": "21-things-you-may-not-know-about-the-indian-act",
@@ -41,15 +50,6 @@
       ],
       "cover": "https://assets.hardcover.app/editions/24366858/2403087114756371-912qCxdgTRL._SL1500_.jpg",
       "finished": "2026-10-06"
-    },
-    {
-      "title": "The Martian Chronicles",
-      "slug": "the-martian-chronicles",
-      "authors": [
-        "Ray Bradbury"
-      ],
-      "cover": "https://assets.hardcover.app/book_mappings/7332674/0acf6282b03c56c91ee95d99cdbc7075e595786f.jpeg",
-      "finished": "2026-09-26"
     }
   ]
 }
