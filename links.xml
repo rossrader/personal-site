@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:17:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:23:49 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Owlity - Test Automation Platform</title>
+      <link>https://owlity.ai/?via=dailydev</link>
+      <guid isPermaLink="false">cg9tr7kp0rzgnhxztbx9ymzk</guid>
+      <pubDate>Thu, 22 Oct 2026 01:23:49 GMT</pubDate>
+      <description>Owlity is the test automation platform that gets your product to 95% coverage without slowing the team down. Record, run in the cloud, ship clean.</description>
+    </item>
     <item>
       <title>GitHub - ktreharrison/tkmd: Markdown Task &amp; Project Manager for Developers and AI Agents</title>
       <link>https://github.com/ktreharrison/tkmd</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">p2mpajytn9ngg0wdgyaxqb6r</guid>
       <pubDate>Sat, 10 Oct 2026 22:09:13 GMT</pubDate>
       <description>Discover thoughtfully curated open-source alternatives to the apps you use every day.</description>
-    </item>
-    <item>
-      <title>Saved the Order, Lost the Event: Why You Need the Outbox Pattern</title>
-      <link>https://thetshaped.dev/p/outbox-pattern-why-you-need-typescript-postgresql-nodejs?via=dailydev</link>
-      <guid isPermaLink="false">k7zyr2ccjh8p57oydyztq9wd</guid>
-      <pubDate>Sat, 10 Oct 2026 12:41:32 GMT</pubDate>
-      <description>Save-then-publish drops messages without a single error in your logs. Here’s the outbox + inbox pair that stops it, in plain Postgres and Node.js.</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T00:29:25.509Z",
+  "fetchedAt": "2026-10-22T01:29:25.462Z",
   "links": [
+    {
+      "id": "cg9tr7kp0rzgnhxztbx9ymzk",
+      "url": "https://owlity.ai/?via=dailydev",
+      "title": "Owlity - Test Automation Platform",
+      "ts": "2026-10-21T21:23:49-04:00",
+      "description": "Owlity is the test automation platform that gets your product to 95% coverage without slowing the team down. Record, run in the cloud, ship clean."
+    },
     {
       "id": "xkzx0u0vgkjwxecekhl5qlwt",
       "url": "https://github.com/ktreharrison/tkmd",

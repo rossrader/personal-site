@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T00:29:25.509Z",
+  "fetchedAt": "2026-10-22T01:29:25.462Z",
   "links": [
+    {
+      "id": "cg9tr7kp0rzgnhxztbx9ymzk",
+      "url": "https://owlity.ai/?via=dailydev",
+      "title": "Owlity - Test Automation Platform",
+      "ts": "2026-10-21T21:23:49-04:00",
+      "description": "Owlity is the test automation platform that gets your product to 95% coverage without slowing the team down. Record, run in the cloud, ship clean."
+    },
     {
       "id": "xkzx0u0vgkjwxecekhl5qlwt",
       "url": "https://github.com/ktreharrison/tkmd",
@@ -273,13 +280,6 @@
       "title": "GitHub - prasadpatil25/MindSpark: MindSpark - Mind Map for Everyone",
       "ts": "2026-10-11T21:14:56-04:00",
       "description": "MindSpark - Mind Map for Everyone. Contribute to prasadpatil25/MindSpark development by creating an account on GitHub."
-    },
-    {
-      "id": "as3g3emjrzn88de81aemprrt",
-      "url": "https://youtube.com/watch?v=3iDiWTt8lok",
-      "title": "These 19 Jev-Claude use cases are blowing people’s minds (with prompts)",
-      "ts": "2026-10-11T21:08:19-04:00",
-      "description": "Get the Jev use cases PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=dbe30d333e8f4abbb9af42be271933f2 search for n79Learn…"
     }
   ]
 }
