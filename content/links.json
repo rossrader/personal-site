@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T02:59:25.466Z",
+  "fetchedAt": "2026-10-22T04:29:25.532Z",
   "links": [
+    {
+      "id": "dm8sxrw5ak8wxlrm6dzlcju8",
+      "url": "https://share.google/nYdipBihtC4mdSXYM",
+      "title": "Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC - CNX Software",
+      "ts": "2026-10-22T00:23:08-04:00",
+      "description": "Following our coverage of a 4.3-inch ESP32-S31 display development board, a Facebook reader pointed out the GUITION JC3636F118C-I-YR1 rotary encoder with"
+    },
     {
       "id": "vkpfzeyp4308xitafvtw84hn",
       "url": "https://youtube.com/watch?v=3mx84MRj8lY&si=cLMWkV1RK1Z37RLF",
@@ -196,90 +203,6 @@
       "title": "Software Factories for Real Engineers",
       "ts": "2026-10-12T00:00:20-04:00",
       "description": "Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase"
-    },
-    {
-      "id": "sobpcyala5r818xnh9aur9a6",
-      "url": "https://www.xda-developers.com/ditched-claude-for-free-open-source-alternative-getting-more-done/",
-      "title": "I ditched Claude Cowork for a free open-source alternative, and I’m getting more done",
-      "ts": "2026-10-11T23:17:08-04:00",
-      "description": "Cowork set the bar, but it doesn’t own the idea"
-    },
-    {
-      "id": "y5n0d66snhfoqjjbcefspbfo",
-      "url": "https://github.com/Maneek21/Deft",
-      "title": "GitHub - Maneek21/Deft: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.",
-      "ts": "2026-10-11T21:36:50-04:00",
-      "description": "Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context. - Maneek21/Deft"
-    },
-    {
-      "id": "u18p4rfe5nx852mnoap92kes",
-      "url": "https://github.com/olalie/tapmap",
-      "title": "GitHub - olalie/tapmap: Watch your computer connect across the internet in real time. Discover the world behind your apps.",
-      "ts": "2026-10-11T21:34:17-04:00",
-      "description": "Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap"
-    },
-    {
-      "id": "sd2rydom7esqlrds73f1jhtz",
-      "url": "https://github.com/soulis-1256/assemblrr",
-      "title": "GitHub - soulis-1256/assemblrr: Your media stack, automated",
-      "ts": "2026-10-11T21:30:35-04:00",
-      "description": "Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub."
-    },
-    {
-      "id": "qedw8in97vsimajhyjuvat8r",
-      "url": "https://github.com/lithos-ai/lithos-metal",
-      "title": "GitHub - lithos-ai/lithos-metal: lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.",
-      "ts": "2026-10-11T21:27:12-04:00",
-      "description": "lithos-metal: high-performance LLM inference kernels and serving for Apple silicon. - lithos-ai/lithos-metal"
-    },
-    {
-      "id": "y3caejif4bd8xydv8wsw582p",
-      "url": "https://github.com/Glass-HQ/liquid-glass",
-      "title": "GitHub - Glass-HQ/liquid-glass: Liquid Glass materials for web and Electron, built with vgpu.",
-      "ts": "2026-10-11T21:26:11-04:00",
-      "description": "Liquid Glass materials for web and Electron, built with vgpu. - Glass-HQ/liquid-glass"
-    },
-    {
-      "id": "ejy3pmsdx9iin7sq435e21zf",
-      "url": "https://github.com/MrBongoC/ai-iso-skill",
-      "title": "GitHub - MrBongoC/ai-iso-skill: Claude skill that draws interactive isometric figures in a single HTML file",
-      "ts": "2026-10-11T21:25:21-04:00",
-      "description": "Claude skill that draws interactive isometric figures in a single HTML file - MrBongoC/ai-iso-skill"
-    },
-    {
-      "id": "dhvdg04yb9tz8qj8rptlbzt8",
-      "url": "https://github.com/HelixDB/helix-foundry",
-      "title": "GitHub - HelixDB/helix-foundry: Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
-      "ts": "2026-10-11T21:22:33-04:00",
-      "description": "Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB. - HelixDB/helix-foundry"
-    },
-    {
-      "id": "x6z57g5ix1n16ymgc8zvlku4",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "title": "GitHub - franzenzenhofer/big-arrow-on-the-screen: Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
-      "ts": "2026-10-11T21:21:11-04:00",
-      "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen"
-    },
-    {
-      "id": "tk66kr86rlt7p4zjakoybumt",
-      "url": "https://github.com/man15h/holm",
-      "title": "GitHub - man15h/holm: A self-hosted dashboard for your team, family, or org — not just the admin.",
-      "ts": "2026-10-11T21:19:29-04:00",
-      "description": "A self-hosted dashboard for your team, family, or org — not just the admin. - man15h/holm"
-    },
-    {
-      "id": "c7xxz6utdlgndvdg8fwpfaum",
-      "url": "https://github.com/Systaro/DocuVault",
-      "title": "GitHub - Systaro/DocuVault: Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available.",
-      "ts": "2026-10-11T21:18:42-04:00",
-      "description": "Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available. - Systaro/DocuVault"
-    },
-    {
-      "id": "evu3e14s331u62jafz3jgs2r",
-      "url": "https://github.com/crivion/laranode",
-      "title": "GitHub - crivion/laranode: Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative)",
-      "ts": "2026-10-11T21:17:45-04:00",
-      "description": "Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative) - crivion/laranode"
     }
   ]
 }
