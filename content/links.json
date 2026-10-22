@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T01:29:25.462Z",
+  "fetchedAt": "2026-10-22T01:59:25.526Z",
   "links": [
+    {
+      "id": "pm6yofpk60tsqth6tru8kjtm",
+      "url": "https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev",
+      "title": "5 Best AI Gateways",
+      "ts": "2026-10-21T21:32:06-04:00",
+      "description": "Choosing between the best AI gateways is not just about getting a way to call an LLM. In real…"
+    },
     {
       "id": "cg9tr7kp0rzgnhxztbx9ymzk",
       "url": "https://owlity.ai/?via=dailydev",
@@ -273,13 +280,6 @@
       "title": "GitHub - oleost/VisionState: Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU.",
       "ts": "2026-10-11T21:16:31-04:00",
       "description": "Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState"
-    },
-    {
-      "id": "mt1tf3at7g2kgqxalbm1xu9k",
-      "url": "https://github.com/prasadpatil25/MindSpark",
-      "title": "GitHub - prasadpatil25/MindSpark: MindSpark - Mind Map for Everyone",
-      "ts": "2026-10-11T21:14:56-04:00",
-      "description": "MindSpark - Mind Map for Everyone. Contribute to prasadpatil25/MindSpark development by creating an account on GitHub."
     }
   ]
 }

@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:23:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:32:06 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>5 Best AI Gateways</title>
+      <link>https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev</link>
+      <guid isPermaLink="false">pm6yofpk60tsqth6tru8kjtm</guid>
+      <pubDate>Thu, 22 Oct 2026 01:32:06 GMT</pubDate>
+      <description>Choosing between the best AI gateways is not just about getting a way to call an LLM. In real…</description>
+    </item>
     <item>
       <title>Owlity - Test Automation Platform</title>
       <link>https://owlity.ai/?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">o0eiimi1wvfb26w7m1dtuax8</guid>
       <pubDate>Sat, 10 Oct 2026 23:55:43 GMT</pubDate>
       <description>Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures. - rcourtman/Pulse</description>
-    </item>
-    <item>
-      <title>OpenStore — The best of open source all in one place.</title>
-      <link>https://www.openstore.site/?via=dailydev</link>
-      <guid isPermaLink="false">p2mpajytn9ngg0wdgyaxqb6r</guid>
-      <pubDate>Sat, 10 Oct 2026 22:09:13 GMT</pubDate>
-      <description>Discover thoughtfully curated open-source alternatives to the apps you use every day.</description>
     </item>
   </channel>
 </rss>
