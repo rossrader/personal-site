@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-22T01:59:25.526Z",
+  "fetchedAt": "2026-10-22T02:59:25.466Z",
   "links": [
+    {
+      "id": "vkpfzeyp4308xitafvtw84hn",
+      "url": "https://youtube.com/watch?v=3mx84MRj8lY&si=cLMWkV1RK1Z37RLF",
+      "title": "Your Local AI Is Not as Private as You Think",
+      "ts": "2026-10-21T22:41:04-04:00",
+      "description": "Running local AI is not as private as you think, and the reason isn’t your prompts. A backdoored Qwen 2.5 7B passed 50 of 50 clean tests in OpenAI’s Codex CL…"
+    },
     {
       "id": "pm6yofpk60tsqth6tru8kjtm",
       "url": "https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev",
@@ -273,13 +280,6 @@
       "title": "GitHub - crivion/laranode: Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative)",
       "ts": "2026-10-11T21:17:45-04:00",
       "description": "Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative) - crivion/laranode"
-    },
-    {
-      "id": "i28xgclq9hc84i3l2zsi62i7",
-      "url": "https://github.com/oleost/VisionState",
-      "title": "GitHub - oleost/VisionState: Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU.",
-      "ts": "2026-10-11T21:16:31-04:00",
-      "description": "Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState"
     }
   ]
 }

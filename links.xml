@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:32:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 02:41:04 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Your Local AI Is Not as Private as You Think</title>
+      <link>https://youtube.com/watch?v=3mx84MRj8lY&amp;si=cLMWkV1RK1Z37RLF</link>
+      <guid isPermaLink="false">vkpfzeyp4308xitafvtw84hn</guid>
+      <pubDate>Thu, 22 Oct 2026 02:41:04 GMT</pubDate>
+      <description>Running local AI is not as private as you think, and the reason isn’t your prompts. A backdoored Qwen 2.5 7B passed 50 of 50 clean tests in OpenAI’s Codex CL…</description>
+    </item>
     <item>
       <title>5 Best AI Gateways</title>
       <link>https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">fkrk3zuoihn2awnn62e8cp9q</guid>
       <pubDate>Sun, 11 Oct 2026 01:29:16 GMT</pubDate>
       <description>Row-Bot - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and mess…</description>
-    </item>
-    <item>
-      <title>GitHub - rcourtman/Pulse: Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures.</title>
-      <link>https://github.com/rcourtman/Pulse</link>
-      <guid isPermaLink="false">o0eiimi1wvfb26w7m1dtuax8</guid>
-      <pubDate>Sat, 10 Oct 2026 23:55:43 GMT</pubDate>
-      <description>Real-time monitoring dashboard for Proxmox VE, PBS, Docker, Kubernetes, TrueNAS and vSphere. Self-hosted, with smart alerts and AI patrols that catch silent failures. - rcourtman/Pulse</description>
     </item>
   </channel>
 </rss>
