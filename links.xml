@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 04:23:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 13:39:43 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>I replaced my ISP router with OPNsense for under $200 and got enterprise features for home prices</title>
+      <link>https://www.xda-developers.com/i-replaced-my-isp-router-with-opnsense-for-under-200-and-got-enterprise-features-for-home-prices/</link>
+      <guid isPermaLink="false">i9xoluqyl17b5xh01i8j7avu</guid>
+      <pubDate>Thu, 22 Oct 2026 13:39:43 GMT</pubDate>
+      <description>Get more for less.</description>
+    </item>
     <item>
       <title>Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC - CNX Software</title>
       <link>https://www.cnx-software.com/2026/10/22/rotary-encoder-with-1-8-inch-touch-display-gets-upgrade-to-esp32-s31-soc/?amp=1</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">dgr7sz570wj0fdpazin5pfs6</guid>
       <pubDate>Sun, 11 Oct 2026 13:18:09 GMT</pubDate>
       <description>Five local checks (a size gate, an intent template, an explain-back, a red-before-green test and a risk-first reading order) that make AI…</description>
-    </item>
-    <item>
-      <title>GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.</title>
-      <link>https://github.com/morluto/rea</link>
-      <guid isPermaLink="false">xgd4oss7qwfpkh327acwmlch</guid>
-      <pubDate>Sun, 11 Oct 2026 02:10:34 GMT</pubDate>
-      <description>Reverse engineer anything with agents, from app behavior down to native binaries. - morluto/rea</description>
     </item>
   </channel>
 </rss>
