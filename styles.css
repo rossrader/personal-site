@@ -100,6 +100,55 @@ a {
   color: var(--muted);
 }
 
+/* ===== Shell prompt (page eyebrows + post sign-off) =====
+   Every page opens as one line of a shell session in ~/rossrader: the hubs
+   `ls` their directory, the log tails it, a post `cat`s its own markdown
+   file. Deliberately NOT .eyebrow — that uppercases, and filenames are
+   case-sensitive. The command types in on load; set --n to its character
+   count for a per-glyph reveal (posts fall back to a slug-ish 28). */
+.shell-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.6ch;
+  row-gap: 0.15rem;
+  max-width: 100%;
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.shell-ps1 {
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.shell-sigil {
+  margin-left: 0.6ch;
+  color: var(--amber);
+}
+
+.shell-cmd {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  animation: shell-type 0.5s steps(var(--n, 28), end) 0.25s both;
+}
+
+@keyframes shell-type {
+  from { clip-path: inset(0 100% 0 -0.5ch); }
+  to   { clip-path: inset(0 -0.5ch 0 -0.5ch); }
+}
+
+.hero .shell-line,
+.post-header .shell-line {
+  margin-bottom: 1rem;
+}
+
 /* ===== Reading progress (post pages) ===== */
 #reading-progress {
   position: fixed;
@@ -1154,6 +1203,41 @@ article {
   text-underline-offset: 3px;
 }
 
+/* Post sign-off: end of file, back at the prompt with the next command
+   pre-typed and the cursor waiting. Clicking is pressing Enter. Bookends
+   .post-header's bottom rule. */
+.shell-signoff {
+  display: block; /* inline flow, so the cursor stays glued to the last word when the line wraps */
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.shell-signoff a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.shell-signoff a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.shell-comment {
+  margin-left: 0.6ch;
+  color: var(--muted);
+}
+
+.shell-cursor {
+  display: inline-block;
+  width: 0.6ch;
+  height: 1.05em;
+  margin-left: 0.2ch;
+  background: var(--amber);
+  transform: translateY(0.18em);
+  animation: cursor-blink 1.2s steps(1) infinite;
+}
+
 /* ===== Footer ===== */
 footer {
   border-top: 1px solid var(--border);
@@ -1493,7 +1577,13 @@ footer {
     transition-duration: 0.01ms !important;
   }
 
-  .site-title .cursor {
+  .site-title .cursor,
+  .shell-cursor {
     animation: none;
+  }
+
+  .shell-cmd {
+    animation: none;
+    clip-path: none;
   }
 }
