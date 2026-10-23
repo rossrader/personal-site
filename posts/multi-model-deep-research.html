@@ -22,7 +22,7 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="../styles.css?v=53a46ad7">
+  <link rel="stylesheet" href="../styles.css?v=e8a96b6a">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader — Link Dump" href="https://rossrader.ca/links.xml">
 </head>
@@ -51,6 +51,7 @@
         <header class="post-header">
           <p class="shell-line" aria-hidden="true"><span class="shell-ps1">~/rossrader/writing<span class="shell-sigil">$</span></span><span class="shell-cmd">cat multi-model-deep-research.md</span></p>
           <h1>Multi Model Deep Research: Not Quite What I Expected</h1>
+          
           <div class="post-meta">
             <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2025-11-27</span>
             <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 min read</span>
@@ -63,8 +64,7 @@
         </header>
 
         <div class="post-content">
-          <h1>Multi-model Deep Research</h1>
-<p>I ran a small experiment today that I thought was worth sharing. I needed to run some deep research, accounting for operations data from the business. That gave me an opportunity to test how different models handle a detailed, context rich prompt informed by a fixed dataset and I was especially interested in messing around with Gemini 3 Pro &quot;for real&quot;.</p>
+          <p>I ran a small experiment today that I thought was worth sharing. I needed to run some deep research, accounting for operations data from the business. That gave me an opportunity to test how different models handle a detailed, context rich prompt informed by a fixed dataset and I was especially interested in messing around with Gemini 3 Pro &quot;for real&quot;.</p>
 <p>My first pass was simple. I handed the same prompt and dataset to three models requested a deep research-style analysis of the data and market. ChatGPT 5.1 stalled after several attempts. Claude delivered a strong outline but missed some basic facts. Gemini produced sharp analysis but lost important operational detail that Claude had caught. Each of them produced helpful parts, but none of them produced a complete or consistent answer.</p>
 <p>So the challenge shifted from producing a meaningful analysis to how to extract the best material from each run and merge it into a single view, and to do so carefully without losing context, which gave me the idea to layer in a second stage. I gave a fresh instance two things. First, the full set of inputs used in the original prompts and second, the full set of reports that Claude and Gemini produced in the first go round. I intentionally presented the reports as written by someone else which made for a meaingful difference. Earlier runs had treated the reports as my own work, which muted the critique as the chatbot skewed toward agreeability. Once I made it clear that the reports came from an external source, the review became sharper and more useful.</p>
 <p>Here is the core prompt I used with Gemini 3 Pro:</p>

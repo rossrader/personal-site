@@ -175,7 +175,8 @@ a {
 }
 
 /* ===== Header ===== */
-header {
+/* The masthead only: the post page also has a <header> inside <article> */
+body > header {
   border-bottom: 1px solid var(--border);
   background: rgba(11, 14, 20, 0.85);
   backdrop-filter: blur(10px);
@@ -1141,6 +1142,21 @@ main section + section {
   letter-spacing: -0.025em;
   line-height: 1.12;
   max-width: 22ch;
+}
+
+/* Deck: the one-line subtitle under the title, set like a standfirst */
+.post-deck {
+  margin-top: 0.9rem;
+  max-width: 44ch;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--text-tertiary);
+}
+
+.post-deck a {
+  color: var(--cyan);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cyan-dim);
 }
 
 .post-header .post-meta {

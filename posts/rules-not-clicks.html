@@ -22,7 +22,7 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="../styles.css?v=53a46ad7">
+  <link rel="stylesheet" href="../styles.css?v=e8a96b6a">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader — Link Dump" href="https://rossrader.ca/links.xml">
 </head>
@@ -51,6 +51,7 @@
         <header class="post-header">
           <p class="shell-line" aria-hidden="true"><span class="shell-ps1">~/rossrader/writing<span class="shell-sigil">$</span></span><span class="shell-cmd">cat rules-not-clicks.md</span></p>
           <h1>Rules, not clicks</h1>
+          <p class="post-deck">Why approving every agent action isn&#39;t the control it looks like</p>
           <div class="post-meta">
             <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2026-09-24</span>
             <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 min read</span>
@@ -66,9 +67,7 @@
         </header>
 
         <div class="post-content">
-          <h1>Rules, not clicks</h1>
-<p><em>Why approving every agent action isn&#39;t the control it looks like</em></p>
-<p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
+          <p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
 <p>I agree with most of it. An agent that reads the data but leaves someone to go do the work in three systems isn&#39;t saving much. Getting that person to just approve is a real step up.</p>
 <p>Where I disagree is the idea that anything touching billing, identity or policy should always need a person to sign off. <a href="https://lnkd.in/p/dAhPMzT7">In the comments, Glenn said</a> he was mostly thinking about large enterprise accounts, and there I agree with him - a major decision on a big B2B account is a good place for a person. But most billing decisions aren&#39;t that, and treating them all the same way is where the cost comes from.</p>
 <p>I think a lot of that comes from the systems we run. Most older billing systems can&#39;t undo an action cleanly, can&#39;t limit how much gets done and can&#39;t tell you when something looks wrong. A person in the loop covers for all of that. It works, but it&#39;s a workaround for modern design.</p>

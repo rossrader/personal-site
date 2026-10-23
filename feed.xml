@@ -7,7 +7,7 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 02:08:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 02:16:40 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
@@ -16,9 +16,7 @@
       <guid isPermaLink="true">https://rossrader.ca/posts/rules-not-clicks.html</guid>
       <pubDate>Thu, 24 Sep 2026 04:00:00 GMT</pubDate>
       <description>Most &quot;human must approve&quot; rules for AI agents in billing stand in for policy nobody ever wrote down. People already work inside rules the system enforces, and agents can too. Here&apos;s how I&apos;d let an agent act on its own, one action at a time, and what I&apos;d want in place first.</description>
-      <content:encoded><![CDATA[<h1>Rules, not clicks</h1>
-<p><em>Why approving every agent action isn&#39;t the control it looks like</em></p>
-<p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
+      <content:encoded><![CDATA[<p>Glenn Stetson wrote a good <a href="https://lnkd.in/p/dsc2Prcq">post</a> about AI agents in telecom billing. His argument, roughly, is that the agent should find the problem, pull the context together and recommend a fix, then a person approves it and the system does the rest. In his words, &quot;Approval is a control. Execution is a cost.&quot;</p>
 <p>I agree with most of it. An agent that reads the data but leaves someone to go do the work in three systems isn&#39;t saving much. Getting that person to just approve is a real step up.</p>
 <p>Where I disagree is the idea that anything touching billing, identity or policy should always need a person to sign off. <a href="https://lnkd.in/p/dAhPMzT7">In the comments, Glenn said</a> he was mostly thinking about large enterprise accounts, and there I agree with him - a major decision on a big B2B account is a good place for a person. But most billing decisions aren&#39;t that, and treating them all the same way is where the cost comes from.</p>
 <p>I think a lot of that comes from the systems we run. Most older billing systems can&#39;t undo an action cleanly, can&#39;t limit how much gets done and can&#39;t tell you when something looks wrong. A person in the loop covers for all of that. It works, but it&#39;s a workaround for modern design.</p>
@@ -52,8 +50,7 @@
       <guid isPermaLink="true">https://rossrader.ca/posts/dumb-won.html</guid>
       <pubDate>Thu, 03 Sep 2026 04:00:00 GMT</pubDate>
       <description>AI is moving to the edges, so the middle needs to get smarter and cost more. Not really.</description>
-      <content:encoded><![CDATA[<h1>Dumb won</h1>
-<p>The internet was built on an important idea: the network moves bits and stays out of the way, and everything interesting happens at the ends. It works. That architecture beat every smart network the phone companies built to compete with it. But every few years someone argues the deal has run its course and the network needs to get clever again. </p>
+      <content:encoded><![CDATA[<p>The internet was built on an important idea: the network moves bits and stays out of the way, and everything interesting happens at the ends. It works. That architecture beat every smart network the phone companies built to compete with it. But every few years someone argues the deal has run its course and the network needs to get clever again. </p>
 <p>This week, AI is the pretext.</p>
 <p>Two industry reports make the case. <a href="https://www.ctia.org/news/wireless-ai">CTIA&#39;s &quot;Wireless &amp; AI&quot;</a> says AI is leaving the data centre for phones, sensors, drones and factory floors, that AI traffic will grow three times faster than everything else and reach a third of all broadband use by 2034, and that the fix is a 6G network with intelligence in the radio layer to allocate spectrum, predict congestion and authenticate devices on its own. The <a href="https://canadatelecoms.ca/canadas-connectivity-future-depends-on-sustaining-investment/">Canadian Telecommunications Association</a> supplies the other half: wireless prices fell 45% since 2020, investors have noticed, and regulators should ease up on pricing and wholesale access so carriers can afford to build it.</p>
 <p>In other words, intelligence is moving to the edges, so the middle needs to get smarter and cost more. Only the first part is true, and not in the way the reports think.</p>
@@ -208,8 +205,7 @@
       <guid isPermaLink="true">https://rossrader.ca/posts/semantic-mcp.html</guid>
       <pubDate>Wed, 04 Mar 2026 05:00:00 GMT</pubDate>
       <description>I built an MCP server with zero API keys, zero databases, and zero state. A static file and five functions. It works better than it should.</description>
-      <content:encoded><![CDATA[<h1>MCP as a semantic layer</h1>
-<p>Most MCP servers connect AI to things it can&#39;t reach on its own. Send a Slack message. Create a GitHub issue. Query a database. The tools add capability.</p>
+      <content:encoded><![CDATA[<p>Most MCP servers connect AI to things it can&#39;t reach on its own. Send a Slack message. Create a GitHub issue. Query a database. The tools add capability.</p>
 <p>There&#39;s a second kind of MCP server that nobody&#39;s really building yet. One where the AI <em>could</em> do the work itself, but the tools make it reason correctly instead 
 of probably.</p>
 <h2>Capability vs. meaning</h2>
@@ -281,8 +277,7 @@ descriptions.</p>
       <guid isPermaLink="true">https://rossrader.ca/posts/agile-slower-machine.html</guid>
       <pubDate>Sun, 01 Mar 2026 05:00:00 GMT</pubDate>
       <description>AI tooling is making software teams faster than ever - but the processes they&apos;re running were designed for when speed was the problem. What happens when building is cheap and the bottleneck moves somewhere else?</description>
-      <content:encoded><![CDATA[<h1>Agile was built for a slower machine</h1>
-<p>I&#39;ve seen a growing conversation on LinkedIn and Reddit about what AI tooling is doing to 
+      <content:encoded><![CDATA[<p>I&#39;ve seen a growing conversation on LinkedIn and Reddit about what AI tooling is doing to 
 software teams - Cursor, Claude, Copilot, the whole wave. Velocity is up, backlogs are 
 shrinking - by every measure teams track, things look great. But what&#39;s catching my attention 
 is the feeling that teams are losing context - code review burdens have exploded as weeks are 
@@ -446,8 +441,7 @@ Before someone builds a “super-bad robot,” someone has to build a “mildly 
       <guid isPermaLink="true">https://rossrader.ca/posts/multi-model-deep-research.html</guid>
       <pubDate>Thu, 27 Nov 2025 05:00:00 GMT</pubDate>
       <description>I tried to see if I could get better results from combining the effort of three AI assistants, but the results weren&apos;t all that satisfying. But I learned a few things.</description>
-      <content:encoded><![CDATA[<h1>Multi-model Deep Research</h1>
-<p>I ran a small experiment today that I thought was worth sharing. I needed to run some deep research, accounting for operations data from the business. That gave me an opportunity to test how different models handle a detailed, context rich prompt informed by a fixed dataset and I was especially interested in messing around with Gemini 3 Pro &quot;for real&quot;.</p>
+      <content:encoded><![CDATA[<p>I ran a small experiment today that I thought was worth sharing. I needed to run some deep research, accounting for operations data from the business. That gave me an opportunity to test how different models handle a detailed, context rich prompt informed by a fixed dataset and I was especially interested in messing around with Gemini 3 Pro &quot;for real&quot;.</p>
 <p>My first pass was simple. I handed the same prompt and dataset to three models requested a deep research-style analysis of the data and market. ChatGPT 5.1 stalled after several attempts. Claude delivered a strong outline but missed some basic facts. Gemini produced sharp analysis but lost important operational detail that Claude had caught. Each of them produced helpful parts, but none of them produced a complete or consistent answer.</p>
 <p>So the challenge shifted from producing a meaningful analysis to how to extract the best material from each run and merge it into a single view, and to do so carefully without losing context, which gave me the idea to layer in a second stage. I gave a fresh instance two things. First, the full set of inputs used in the original prompts and second, the full set of reports that Claude and Gemini produced in the first go round. I intentionally presented the reports as written by someone else which made for a meaingful difference. Earlier runs had treated the reports as my own work, which muted the critique as the chatbot skewed toward agreeability. Once I made it clear that the reports came from an external source, the review became sharper and more useful.</p>
 <p>Here is the core prompt I used with Gemini 3 Pro:</p>
