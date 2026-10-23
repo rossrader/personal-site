@@ -435,35 +435,163 @@ main section + section {
   gap: 0.35rem;
 }
 
-/* ===== Tag filter bar (blog page) ===== */
+/* ===== Blog page: timeline + browse rail =====
+   Same two-column shape as the homepage. The rail holds the tag filter and
+   a year index and sticks on desktop; on narrow screens it sits above the
+   timeline as a compact pill row. */
+.blog-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.rail-block + .rail-block {
+  margin-top: 2rem;
+}
+
+.rail-title {
+  margin-bottom: 0.8rem;
+}
+
+@media (min-width: 900px) {
+  .blog-grid {
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 3.5rem;
+  }
+
+  .blog-main {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .blog-rail {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    max-height: calc(100vh - 4rem); /* an expanded tag list scrolls inside the rail */
+    overflow-y: auto;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--border);
+  }
+}
+
+/* ===== Tag filter (blog rail) ===== */
 .tag-bar {
   display: flex;
   gap: 0.45rem;
   flex-wrap: wrap;
-  margin-bottom: 2.5rem;
 }
 
-.tag-pill {
+/* Long-tail tags stay folded until the "+N more" toggle */
+.tag-bar .is-minor {
+  display: none;
+}
+
+.tag-bar.is-expanded .is-minor {
+  display: inline-flex;
+}
+
+.tag-count {
+  margin-left: 0.5ch;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.tag-pill.is-active .tag-count {
+  color: var(--amber);
+}
+
+.tag-more {
   font-family: var(--font-mono);
   font-size: var(--text-mono);
   padding: 0.4rem 0.85rem;
   border-radius: 999px;
-  border: 1px solid var(--border-bright);
+  border: 1px dashed var(--border-bright);
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  transition: color var(--transition), border-color var(--transition), background var(--transition);
+  transition: color var(--transition), border-color var(--transition);
 }
 
-.tag-pill:hover {
+.tag-more:hover {
   color: var(--text);
   border-color: var(--muted);
 }
 
-.tag-pill.is-active {
-  color: var(--amber);
-  border-color: var(--amber-dim);
-  background: var(--amber-faint);
+/* Year index: a short list of jump links, rows on desktop */
+.year-index {
+  display: flex;
+  gap: 0.45rem 1.1rem;
+  flex-wrap: wrap;
+}
+
+.year-link {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.year-link:hover {
+  color: var(--cyan);
+}
+
+.year-marker {
+  scroll-margin-top: 2rem;
+}
+
+/* On desktop the rail is a directory listing: one row per tag, count on the
+   right, the active tag picked out by an amber rule on the left. Scoped to
+   .blog-rail so these win over the base pill rules below. */
+@media (min-width: 900px) {
+  .blog-rail .tag-bar,
+  .blog-rail .year-index {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+  }
+
+  .blog-rail .tag-pill,
+  .blog-rail .tag-more,
+  .blog-rail .year-link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.3rem 0.6rem;
+    border: 0;
+    border-left: 2px solid transparent;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    background: transparent;
+    text-align: left;
+  }
+
+  .blog-rail .tag-bar .is-minor {
+    display: none;
+  }
+
+  .blog-rail .tag-bar.is-expanded .is-minor {
+    display: flex;
+  }
+
+  .blog-rail .tag-pill:hover,
+  .blog-rail .tag-more:hover,
+  .blog-rail .year-link:hover {
+    background: var(--surface);
+  }
+
+  .blog-rail .tag-pill.is-active {
+    border-left-color: var(--amber);
+    background: var(--amber-faint);
+  }
+
+  .blog-rail .tag-more {
+    justify-content: flex-start;
+    color: var(--cyan);
+  }
 }
 
 /* ===== Timeline (blog index — the signature) ===== */

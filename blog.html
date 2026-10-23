@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=db218177">
+  <link rel="stylesheet" href="styles.css?v=759c2167">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader" href="https://rossrader.ca/feed.xml">
   <link rel="alternate" type="application/rss+xml" title="Ross Rader — Link Dump" href="https://rossrader.ca/links.xml">
 </head>
@@ -41,49 +41,65 @@
         </p>
       </section>
 
-      <section>
+      <div class="blog-grid">
+        <aside class="blog-rail" aria-label="Browse the writing">
+          <div class="rail-block">
+            <p class="eyebrow rail-title">filter by tag</p>
         <!-- TAG-BAR-START -->
         <div class="tag-bar" role="group" aria-label="Filter posts by tag">
-          <button class="tag-pill is-active" data-tag="all" aria-pressed="true">all</button>
-          <button class="tag-pill" data-tag="ai" aria-pressed="false">ai</button>
-          <button class="tag-pill" data-tag="ideas" aria-pressed="false">ideas</button>
-          <button class="tag-pill" data-tag="dinosaurs" aria-pressed="false">dinosaurs</button>
-          <button class="tag-pill" data-tag="e2e" aria-pressed="false">e2e</button>
-          <button class="tag-pill" data-tag="ip" aria-pressed="false">ip</button>
-          <button class="tag-pill" data-tag="learning" aria-pressed="false">learning</button>
-          <button class="tag-pill" data-tag="telecom" aria-pressed="false">telecom</button>
-          <button class="tag-pill" data-tag="agents" aria-pressed="false">agents</button>
-          <button class="tag-pill" data-tag="agile" aria-pressed="false">agile</button>
-          <button class="tag-pill" data-tag="asteroids" aria-pressed="false">asteroids</button>
-          <button class="tag-pill" data-tag="automation" aria-pressed="false">automation</button>
-          <button class="tag-pill" data-tag="bss" aria-pressed="false">bss</button>
-          <button class="tag-pill" data-tag="claude" aria-pressed="false">claude</button>
-          <button class="tag-pill" data-tag="claude-code" aria-pressed="false">claude code</button>
-          <button class="tag-pill" data-tag="design" aria-pressed="false">design</button>
-          <button class="tag-pill" data-tag="dns" aria-pressed="false">dns</button>
-          <button class="tag-pill" data-tag="experiments" aria-pressed="false">experiments</button>
-          <button class="tag-pill" data-tag="governance" aria-pressed="false">governance</button>
-          <button class="tag-pill" data-tag="history" aria-pressed="false">history</button>
-          <button class="tag-pill" data-tag="innovation" aria-pressed="false">innovation</button>
-          <button class="tag-pill" data-tag="internet" aria-pressed="false">internet</button>
-          <button class="tag-pill" data-tag="literature" aria-pressed="false">literature</button>
-          <button class="tag-pill" data-tag="mcp" aria-pressed="false">mcp</button>
-          <button class="tag-pill" data-tag="meta" aria-pressed="false">meta</button>
-          <button class="tag-pill" data-tag="method" aria-pressed="false">method</button>
-          <button class="tag-pill" data-tag="models" aria-pressed="false">models</button>
-          <button class="tag-pill" data-tag="product" aria-pressed="false">product</button>
-          <button class="tag-pill" data-tag="prompt-design" aria-pressed="false">prompt design</button>
-          <button class="tag-pill" data-tag="reading" aria-pressed="false">reading</button>
-          <button class="tag-pill" data-tag="software" aria-pressed="false">software</button>
-          <button class="tag-pill" data-tag="thoughts" aria-pressed="false">thoughts</button>
-          <button class="tag-pill" data-tag="vibes" aria-pressed="false">vibes</button>
+          <button class="tag-pill is-active" data-tag="all" aria-pressed="true">all<span class="tag-count">13</span></button>
+          <button class="tag-pill" data-tag="ai" aria-pressed="false">ai<span class="tag-count">8</span></button>
+          <button class="tag-pill" data-tag="ideas" aria-pressed="false">ideas<span class="tag-count">4</span></button>
+          <button class="tag-pill" data-tag="dinosaurs" aria-pressed="false">dinosaurs<span class="tag-count">2</span></button>
+          <button class="tag-pill" data-tag="e2e" aria-pressed="false">e2e<span class="tag-count">2</span></button>
+          <button class="tag-pill" data-tag="ip" aria-pressed="false">ip<span class="tag-count">2</span></button>
+          <button class="tag-pill" data-tag="learning" aria-pressed="false">learning<span class="tag-count">2</span></button>
+          <button class="tag-pill" data-tag="telecom" aria-pressed="false">telecom<span class="tag-count">2</span></button>
+          <button class="tag-pill is-minor" data-tag="agents" aria-pressed="false">agents<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="agile" aria-pressed="false">agile<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="asteroids" aria-pressed="false">asteroids<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="automation" aria-pressed="false">automation<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="bss" aria-pressed="false">bss<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="claude" aria-pressed="false">claude<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="claude-code" aria-pressed="false">claude code<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="design" aria-pressed="false">design<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="dns" aria-pressed="false">dns<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="experiments" aria-pressed="false">experiments<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="governance" aria-pressed="false">governance<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="history" aria-pressed="false">history<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="innovation" aria-pressed="false">innovation<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="internet" aria-pressed="false">internet<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="literature" aria-pressed="false">literature<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="mcp" aria-pressed="false">mcp<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="meta" aria-pressed="false">meta<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="method" aria-pressed="false">method<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="models" aria-pressed="false">models<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="product" aria-pressed="false">product<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="prompt-design" aria-pressed="false">prompt design<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="reading" aria-pressed="false">reading<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="software" aria-pressed="false">software<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="thoughts" aria-pressed="false">thoughts<span class="tag-count">1</span></button>
+          <button class="tag-pill is-minor" data-tag="vibes" aria-pressed="false">vibes<span class="tag-count">1</span></button>
+          <button class="tag-more" type="button" aria-expanded="false">+25 more</button>
         </div>
         <!-- TAG-BAR-END -->
+          </div>
+          <div class="rail-block">
+            <p class="eyebrow rail-title">jump to year</p>
+        <!-- YEAR-INDEX-START -->
+        <nav class="year-index" aria-label="Jump to year">
+          <a class="year-link" href="#y2026">2026<span class="tag-count">10</span></a>
+          <a class="year-link" href="#y2025">2025<span class="tag-count">3</span></a>
+        </nav>
+        <!-- YEAR-INDEX-END -->
+          </div>
+        </aside>
 
+        <section class="blog-main">
         <!-- TIMELINE-START -->
         <div class="timeline">
           <section class="year-group" data-year="2026">
-            <div class="year-marker">2026</div>
+            <div class="year-marker" id="y2026">2026</div>
             <a href="posts/rules-not-clicks.html" class="timeline-entry" data-tags="ai ideas bss governance software design">
               <div class="entry-date">Sep 24</div>
               <h3 class="entry-title">Rules, not clicks</h3>
@@ -186,7 +202,7 @@
           </section>
 
           <section class="year-group" data-year="2025">
-            <div class="year-marker">2025</div>
+            <div class="year-marker" id="y2025">2025</div>
             <a href="posts/aisucks.html" class="timeline-entry" data-tags="ai thoughts innovation learning">
               <div class="entry-date">Dec 18</div>
               <h3 class="entry-title">Yes, AI Sucks. That Makes It The Best Time to Learn</h3>
@@ -219,7 +235,8 @@
           </section>
         </div>
         <!-- TIMELINE-END -->
-      </section>
+        </section>
+      </div>
     </div>
   </main>
 
@@ -277,9 +294,33 @@
       pill.addEventListener('click', () => applyFilter(pill.dataset.tag));
     });
 
-    // Support arriving with #tag in the URL
+    // Long-tail tags are folded behind "+N more"
+    const tagBar = document.querySelector('.tag-bar');
+    const more = document.querySelector('.tag-more');
+    function expandTags() {
+      if (!tagBar || !more) return;
+      tagBar.classList.add('is-expanded');
+      more.setAttribute('aria-expanded', 'true');
+      more.textContent = 'fewer';
+    }
+    if (more) {
+      more.addEventListener('click', () => {
+        if (tagBar.classList.contains('is-expanded')) {
+          tagBar.classList.remove('is-expanded');
+          more.setAttribute('aria-expanded', 'false');
+          more.textContent = more.dataset.label;
+        } else {
+          expandTags();
+        }
+      });
+      more.dataset.label = more.textContent;
+    }
+
+    // Support arriving with #tag in the URL (unfolding it if it is a minor tag)
     const fromHash = decodeURIComponent(location.hash.slice(1));
-    if (fromHash && pills.some(p => p.dataset.tag === fromHash)) {
+    const fromPill = pills.find(p => p.dataset.tag === fromHash);
+    if (fromPill) {
+      if (fromPill.classList.contains('is-minor')) expandTags();
       applyFilter(fromHash);
     }
   })();
