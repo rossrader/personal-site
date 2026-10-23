@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-23T02:16:40.080Z",
+  "fetchedAt": "2026-10-23T09:16:34.808Z",
   "links": [
+    {
+      "id": "u5vhn01rm7tk6lrfim9n72ni",
+      "url": "https://share.google/j77urc3dB2tJauffW",
+      "title": "share.google",
+      "ts": "2026-10-23T05:16:32-04:00",
+      "description": null
+    },
     {
       "id": "i9xoluqyl17b5xh01i8j7avu",
       "url": "https://www.xda-developers.com/i-replaced-my-isp-router-with-opnsense-for-under-200-and-got-enterprise-features-for-home-prices/",
@@ -182,34 +189,6 @@
       "title": "GitHub - skalesapp/skales: Personal AI agent for macOS, Windows, Linux, Android & iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.",
       "ts": "2026-10-13T08:17:35-04:00",
       "description": "Personal AI agent for macOS, Windows, Linux, Android &amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…"
-    },
-    {
-      "id": "aw95sx0gshtyx327bgt58cy1",
-      "url": "https://x.com/hayatomaruu/status/2109373280041816140?s=12",
-      "title": "hayato (@hayatomaruu) on X",
-      "ts": "2026-10-12T11:55:15-04:00",
-      "description": "Andrej Karpathy spent 8 years at OpenAI and Tesla Last week he compressed everything he knows into one free 2-hour lecture Prompts → Agents → Harness → Graphs → Loops People spend $15k on bootcamps that teach less than this You probably don’t have 2 hours right now Don’t let it vanish from yo…"
-    },
-    {
-      "id": "b6gowry0vcz2m58gtnu5zffy",
-      "url": "https://x.com/thedelost/status/2109369295860035641?s=12",
-      "title": "delost (@thedelost) on X - “Sonnet builds. Haiku explores. Opus reviews.”",
-      "ts": "2026-10-12T09:54:14-04:00",
-      "description": "THIS IS PURE F*CKING GOLD Anthropic just shared one of the best tricks for Claude Code. The idea: run Sonnet, Haiku and Opus 5.5 at the same time, each one doing only what it’s best at. Better results and way fewer tokens, because every task lands on the right model. You just start Claude Code …"
-    },
-    {
-      "id": "pr9orwihyo11lvx4kubqg6ei",
-      "url": "https://docs.rsshub.app/",
-      "title": "RSSHub",
-      "ts": "2026-10-12T09:12:54-04:00",
-      "description": "Everything is RSSible 🧡"
-    },
-    {
-      "id": "fsh7ewb15yozwjtivie70vnf",
-      "url": "https://www.aihero.dev/cohorts/software-factories-for-real-engineers-xdy1m",
-      "title": "Software Factories for Real Engineers",
-      "ts": "2026-10-12T00:00:20-04:00",
-      "description": "Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase"
     }
   ]
 }

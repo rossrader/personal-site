@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 13:39:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:16:32 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>share.google</title>
+      <link>https://share.google/j77urc3dB2tJauffW</link>
+      <guid isPermaLink="false">u5vhn01rm7tk6lrfim9n72ni</guid>
+      <pubDate>Fri, 23 Oct 2026 09:16:32 GMT</pubDate>
+      <description>share.google</description>
+    </item>
     <item>
       <title>I replaced my ISP router with OPNsense for under $200 and got enterprise features for home prices</title>
       <link>https://www.xda-developers.com/i-replaced-my-isp-router-with-opnsense-for-under-200-and-got-enterprise-features-for-home-prices/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">sjeotq8443ozdrajhr9xx09p</guid>
       <pubDate>Sun, 11 Oct 2026 13:18:52 GMT</pubDate>
       <description>Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota</description>
-    </item>
-    <item>
-      <title>Your Teammate Can’t Explain Their AI-Written PR. Here’s the Review System That Fixes It.</title>
-      <link>https://medium.com/@matthew.r.brown29/your-teammate-cant-explain-their-ai-written-pr-here-s-the-review-system-that-fixes-it-77c9d3814d25</link>
-      <guid isPermaLink="false">dgr7sz570wj0fdpazin5pfs6</guid>
-      <pubDate>Sun, 11 Oct 2026 13:18:09 GMT</pubDate>
-      <description>Five local checks (a size gate, an intent template, an explain-back, a red-before-green test and a risk-first reading order) that make AI…</description>
     </item>
   </channel>
 </rss>
