@@ -114,14 +114,14 @@ a {
   row-gap: 0.15rem;
   max-width: 100%;
   font-family: var(--font-mono);
-  font-size: var(--text-mono);
+  font-size: 0.84rem;
   line-height: 1.5;
-  color: var(--text-secondary);
+  color: var(--text); /* the typed command is the brightest thing on the line */
 }
 
 .shell-ps1 {
   white-space: nowrap;
-  color: var(--muted);
+  color: var(--cyan); /* the prompt carries colour, like a real PS1 */
 }
 
 .shell-sigil {
@@ -1341,19 +1341,21 @@ article {
   border-top: 1px solid var(--border);
 }
 
+/* The path is cyan too, so the link marks itself with an underline */
 .shell-signoff a {
   color: var(--cyan);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--cyan-dim);
+  text-underline-offset: 3px;
 }
 
 .shell-signoff a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration-color: var(--cyan);
 }
 
 .shell-comment {
   margin-left: 0.6ch;
-  color: var(--muted);
+  color: var(--text-tertiary);
 }
 
 .shell-cursor {
