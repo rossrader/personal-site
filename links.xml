@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:16:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:12:39 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Securing AI Agents: Prompt Injection, MicroVMs, Zero Trust</title>
+      <link>https://xsypher.com/article/securing-ai-agents-prompt-injection-microvms-zero-trust</link>
+      <guid isPermaLink="false">y0a5nbjs8pbxulcq1bs75sbd</guid>
+      <pubDate>Sat, 24 Oct 2026 01:12:39 GMT</pubDate>
+      <description>How to stop indirect prompt injection and MCP tool poisoning using Firecracker microVMs, gVisor, CaMeL data-flow policies, Ed25519 HITL, and egress proxies.</description>
+    </item>
+    <item>
+      <title>GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</title>
+      <link>https://github.com/SoMarkAI/OXR</link>
+      <guid isPermaLink="false">dl67wp48af25s99j0usquhgx</guid>
+      <pubDate>Sat, 24 Oct 2026 00:50:09 GMT</pubDate>
+      <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR</description>
+    </item>
     <item>
       <title>Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift</title>
       <link>https://share.google/j77urc3dB2tJauffW</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">izbv5x13227n9sr3r6abftih</guid>
       <pubDate>Sun, 11 Oct 2026 15:40:00 GMT</pubDate>
       <description>Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump - simplifaisoul/osiris</description>
-    </item>
-    <item>
-      <title>I ran this hidden Claude Code command on my setup, and apparently I’ve been giving it terrible instructions</title>
-      <link>https://www.xda-developers.com/ran-this-hidden-claude-code-command-on-my-setup/?via=dailydev</link>
-      <guid isPermaLink="false">ji8v26n81t7dilgz32mlku37</guid>
-      <pubDate>Sun, 11 Oct 2026 13:21:22 GMT</pubDate>
-      <description>The model got better. My prompts didn’t.</description>
-    </item>
-    <item>
-      <title>GitHub - pinkpixel-dev/quota: Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go.</title>
-      <link>https://github.com/pinkpixel-dev/quota</link>
-      <guid isPermaLink="false">sjeotq8443ozdrajhr9xx09p</guid>
-      <pubDate>Sun, 11 Oct 2026 13:18:52 GMT</pubDate>
-      <description>Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenCode Go. - pinkpixel-dev/quota</description>
     </item>
   </channel>
 </rss>
