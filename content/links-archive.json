@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T01:16:35.019Z",
+  "fetchedAt": "2026-10-24T05:16:35.041Z",
   "links": [
     {
       "id": "y0a5nbjs8pbxulcq1bs75sbd",
@@ -17,7 +17,7 @@
     },
     {
       "id": "u5vhn01rm7tk6lrfim9n72ni",
-      "url": "https://share.google/j77urc3dB2tJauffW",
+      "url": "https://thenewstack.io/ramp-laminar-agent-harness/",
       "title": "Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift",
       "ts": "2026-10-23T05:16:32-04:00",
       "description": "Ramp built its own AI agent harness, Laminar, instead of buying one. LangChain’s Harrison Chase sees a bigger shift in how agents get built."
