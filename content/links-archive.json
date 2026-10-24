@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-10-24T05:16:35.041Z",
+  "fetchedAt": "2026-10-24T16:16:35.212Z",
   "links": [
+    {
+      "id": "dl67wp48af25s99j0usquhgx",
+      "url": "https://github.com/SoMarkAI/OXR",
+      "title": "GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
+      "ts": "2026-10-24T11:59:20-04:00",
+      "description": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR"
+    },
     {
       "id": "y0a5nbjs8pbxulcq1bs75sbd",
       "url": "https://xsypher.com/article/securing-ai-agents-prompt-injection-microvms-zero-trust",
       "title": "Securing AI Agents: Prompt Injection, MicroVMs, Zero Trust",
       "ts": "2026-10-23T21:12:39-04:00",
       "description": "How to stop indirect prompt injection and MCP tool poisoning using Firecracker microVMs, gVisor, CaMeL data-flow policies, Ed25519 HITL, and egress proxies."
-    },
-    {
-      "id": "dl67wp48af25s99j0usquhgx",
-      "url": "https://github.com/SoMarkAI/OXR",
-      "title": "GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
-      "ts": "2026-10-23T20:50:09-04:00",
-      "description": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR"
     },
     {
       "id": "u5vhn01rm7tk6lrfim9n72ni",

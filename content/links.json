@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-10-24T05:16:35.041Z",
+  "fetchedAt": "2026-10-24T16:16:35.212Z",
   "links": [
+    {
+      "id": "dl67wp48af25s99j0usquhgx",
+      "url": "https://github.com/SoMarkAI/OXR",
+      "title": "GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
+      "ts": "2026-10-24T11:59:20-04:00",
+      "description": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR"
+    },
     {
       "id": "y0a5nbjs8pbxulcq1bs75sbd",
       "url": "https://xsypher.com/article/securing-ai-agents-prompt-injection-microvms-zero-trust",
       "title": "Securing AI Agents: Prompt Injection, MicroVMs, Zero Trust",
       "ts": "2026-10-23T21:12:39-04:00",
       "description": "How to stop indirect prompt injection and MCP tool poisoning using Firecracker microVMs, gVisor, CaMeL data-flow policies, Ed25519 HITL, and egress proxies."
-    },
-    {
-      "id": "dl67wp48af25s99j0usquhgx",
-      "url": "https://github.com/SoMarkAI/OXR",
-      "title": "GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
-      "ts": "2026-10-23T20:50:09-04:00",
-      "description": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR"
     },
     {
       "id": "u5vhn01rm7tk6lrfim9n72ni",
@@ -168,41 +168,6 @@
       "title": "GitHub - Pouzor/homelable: Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring",
       "ts": "2026-10-16T08:41:13-04:00",
       "description": "Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring - Pouzor/homelable"
-    },
-    {
-      "id": "vy326754bkkx51ew4jrwahct",
-      "url": "https://github.com/seyedehsanhadi/sloptrim",
-      "title": "GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
-      "ts": "2026-10-13T23:56:18-04:00",
-      "description": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim"
-    },
-    {
-      "id": "uwfmkkl813p8uk8p6q3s01q4",
-      "url": "https://github.com/mattpocock/skills",
-      "title": "mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.",
-      "ts": "2026-10-13T19:41:09-04:00",
-      "description": "Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills"
-    },
-    {
-      "id": "nzqgo0nl5j01r56ak5immrc6",
-      "url": "https://anoma.ly/notes/opencode-2-0/?via=dailydev",
-      "title": "OpenCode 2.0",
-      "ts": "2026-10-13T12:15:47-04:00",
-      "description": "OpenCode 2.0."
-    },
-    {
-      "id": "monbfcj6c2df6q1j6yaj9e0l",
-      "url": "https://slimsnap.ai/",
-      "title": "SlimSnap. Paste a screenshot into your terminal",
-      "ts": "2026-10-13T10:32:24-04:00",
-      "description": "Turn any screenshot into JSON your CLI agent can read."
-    },
-    {
-      "id": "pilowin87ps8a7lfeab2j70c",
-      "url": "https://github.com/skalesapp/skales",
-      "title": "GitHub - skalesapp/skales: Personal AI agent for macOS, Windows, Linux, Android & iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.",
-      "ts": "2026-10-13T08:17:35-04:00",
-      "description": "Personal AI agent for macOS, Windows, Linux, Android &amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…"
     }
   ]
 }

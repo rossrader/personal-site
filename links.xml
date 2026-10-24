@@ -5,22 +5,22 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:12:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:59:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</title>
+      <link>https://github.com/SoMarkAI/OXR</link>
+      <guid isPermaLink="false">dl67wp48af25s99j0usquhgx</guid>
+      <pubDate>Sat, 24 Oct 2026 15:59:20 GMT</pubDate>
+      <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR</description>
+    </item>
     <item>
       <title>Securing AI Agents: Prompt Injection, MicroVMs, Zero Trust</title>
       <link>https://xsypher.com/article/securing-ai-agents-prompt-injection-microvms-zero-trust</link>
       <guid isPermaLink="false">y0a5nbjs8pbxulcq1bs75sbd</guid>
       <pubDate>Sat, 24 Oct 2026 01:12:39 GMT</pubDate>
       <description>How to stop indirect prompt injection and MCP tool poisoning using Firecracker microVMs, gVisor, CaMeL data-flow policies, Ed25519 HITL, and egress proxies.</description>
-    </item>
-    <item>
-      <title>GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</title>
-      <link>https://github.com/SoMarkAI/OXR</link>
-      <guid isPermaLink="false">dl67wp48af25s99j0usquhgx</guid>
-      <pubDate>Sat, 24 Oct 2026 00:50:09 GMT</pubDate>
-      <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR</description>
     </item>
     <item>
       <title>Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift</title>
