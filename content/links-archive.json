@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T16:16:35.212Z",
+  "fetchedAt": "2026-10-24T20:46:35.363Z",
   "links": [
+    {
+      "id": "r8sg11m7c67h4hhouldgvi11",
+      "url": "https://github.com/PerryLink/dsh-permission-rules",
+      "title": "GitHub - PerryLink/dsh-permission-rules: Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfall, session-log audit, and HMR reload.",
+      "ts": "2026-10-24T16:26:21-04:00",
+      "description": "Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfa…"
+    },
     {
       "id": "dl67wp48af25s99j0usquhgx",
       "url": "https://github.com/SoMarkAI/OXR",

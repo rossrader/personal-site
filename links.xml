@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 15:59:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 20:26:21 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - PerryLink/dsh-permission-rules: Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfall, session-log audit, and HMR reload.</title>
+      <link>https://github.com/PerryLink/dsh-permission-rules</link>
+      <guid isPermaLink="false">r8sg11m7c67h4hhouldgvi11</guid>
+      <pubDate>Sat, 24 Oct 2026 20:26:21 GMT</pubDate>
+      <description>Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfa…</description>
+    </item>
     <item>
       <title>GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</title>
       <link>https://github.com/SoMarkAI/OXR</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">yw599ojisdghbpr415cr538k</guid>
       <pubDate>Sun, 11 Oct 2026 22:56:01 GMT</pubDate>
       <description>check the related video for a deeper dive</description>
-    </item>
-    <item>
-      <title>GitHub - simplifaisoul/osiris: Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump</title>
-      <link>https://github.com/simplifaisoul/osiris</link>
-      <guid isPermaLink="false">izbv5x13227n9sr3r6abftih</guid>
-      <pubDate>Sun, 11 Oct 2026 15:40:00 GMT</pubDate>
-      <description>Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative - 2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump - simplifaisoul/osiris</description>
     </item>
   </channel>
 </rss>
