@@ -1,45 +1,45 @@
 {
-  "fetchedAt": "2026-10-24T20:46:35.095Z",
+  "fetchedAt": "2026-10-27T00:46:36.397Z",
   "albums": [
     {
-      "id": "36aO0dVCfKgQehoTNjZfQM",
-      "title": "Left My Blues in San Francisco",
-      "artist": "Buddy Guy",
-      "year": 1969,
-      "plays": 22,
-      "cover": "content/music/al-36aO0dVCfKgQehoTNjZfQM_8a83ab45d209d429.jpg"
+      "id": "1G94hYkQM2qnWd2Ct1LS8p",
+      "title": "Pretty Monster",
+      "artist": "The Blue Stones",
+      "year": 2022,
+      "plays": 7,
+      "cover": "content/music/al-1G94hYkQM2qnWd2Ct1LS8p_c1709ad8299de869.jpg"
     },
     {
-      "id": "75VWRTEiBtx5grP4nelu0w",
-      "title": "Hotel : Ambient",
-      "artist": "Moby",
-      "year": 2014,
-      "plays": 5,
-      "cover": "content/music/al-75VWRTEiBtx5grP4nelu0w_880406e3b539c7ba.jpg"
+      "id": "4CG8NpfZGhha8J1YyfxAt8",
+      "title": "Last Splash",
+      "artist": "The Breeders",
+      "year": 1993,
+      "plays": 18,
+      "cover": "content/music/al-4CG8NpfZGhha8J1YyfxAt8_520482558fe432b9.jpg"
     },
     {
-      "id": "066xSlSaMtQwLWbVndDnek",
-      "title": "Give Up",
-      "artist": "The Postal Service",
-      "year": 2003,
-      "plays": 5,
-      "cover": "content/music/al-066xSlSaMtQwLWbVndDnek_3ab39f9079a33b3e.jpg"
+      "id": "2JXRkqP8IFCUd51zIo6vX4",
+      "title": "Zenyattà Mondatta",
+      "artist": "The Police",
+      "year": 1980,
+      "plays": 11,
+      "cover": "content/music/al-2JXRkqP8IFCUd51zIo6vX4_d533f8f33d3e5a12.jpg"
     },
     {
-      "id": "2c4XC1WMsu6agyUc9pQ9AC",
-      "title": "Neck and Neck",
-      "artist": "Chet Atkins",
-      "year": 1990,
-      "plays": 10,
-      "cover": "content/music/al-2c4XC1WMsu6agyUc9pQ9AC_0c1f7118dcf30ec4.jpg"
+      "id": "5HPN6GuwgOW9gQztRdWZOM",
+      "title": "We Are the Royal",
+      "artist": "Royal Republic",
+      "year": 2010,
+      "plays": 13,
+      "cover": "content/music/al-5HPN6GuwgOW9gQztRdWZOM_9c02cdb2ca42cfa8.jpg"
     },
     {
-      "id": "1dFKOuqu2t5CI534vZx0QP",
-      "title": "This Year’s Model",
-      "artist": "Elvis Costello",
-      "year": 1978,
-      "plays": 4,
-      "cover": "content/music/al-1dFKOuqu2t5CI534vZx0QP_794eef3401b533dd.jpg"
+      "id": "1oPO8uHahUQab9gpsQ44k7",
+      "title": "Consolers of the Lonely",
+      "artist": "The Raconteurs",
+      "year": 2008,
+      "plays": 14,
+      "cover": "content/music/al-1oPO8uHahUQab9gpsQ44k7_aa1db6e1adaf1b45.jpg"
     }
   ]
 }

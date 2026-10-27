@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 20:26:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:33:23 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Speech models in Ollama · Ollama Blog</title>
+      <link>https://share.google/Z9ctsuRQlPbUPx8vp</link>
+      <guid isPermaLink="false">dfclcmxuagb5dh2tps4js6y7</guid>
+      <pubDate>Tue, 27 Oct 2026 00:33:23 GMT</pubDate>
+      <description>Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.</description>
+    </item>
     <item>
       <title>GitHub - PerryLink/dsh-permission-rules: Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfall, session-log audit, and HMR reload.</title>
       <link>https://github.com/PerryLink/dsh-permission-rules</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">as3g3emjrzn88de81aemprrt</guid>
       <pubDate>Mon, 12 Oct 2026 01:08:19 GMT</pubDate>
       <description>Get the Jev use cases PDF guide for free ➡ https://www.skool.com/robonuggets-free/classroom/750914f0?md=dbe30d333e8f4abbb9af42be271933f2 search for n79Learn…</description>
-    </item>
-    <item>
-      <title>This Claude OS combines Jev, Opus, Obsidian, + a local voice system</title>
-      <link>https://youtu.be/WVfAFTSS1lk</link>
-      <guid isPermaLink="false">yw599ojisdghbpr415cr538k</guid>
-      <pubDate>Sun, 11 Oct 2026 22:56:01 GMT</pubDate>
-      <description>check the related video for a deeper dive</description>
     </item>
   </channel>
 </rss>

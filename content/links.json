@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T20:46:35.363Z",
+  "fetchedAt": "2026-10-27T00:46:36.661Z",
   "links": [
+    {
+      "id": "dfclcmxuagb5dh2tps4js6y7",
+      "url": "https://share.google/Z9ctsuRQlPbUPx8vp",
+      "title": "Speech models in Ollama · Ollama Blog",
+      "ts": "2026-10-26T20:33:23-04:00",
+      "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
+    },
     {
       "id": "r8sg11m7c67h4hhouldgvi11",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
@@ -126,55 +133,6 @@
       "title": "Harness Engineering: Your Complete Guide",
       "ts": "2026-10-17T08:43:32-04:00",
       "description": "Alongside prompt and context engineering, harness engineering has emerged as the most important skill for building AI products."
-    },
-    {
-      "id": "jksia10hcxag03d7y5xz35x0",
-      "url": "https://github.com/makerspet/oomwoo",
-      "title": "GitHub - makerspet/oomwoo: Open-source vacuum robot cleaner",
-      "ts": "2026-10-16T22:27:21-04:00",
-      "description": "Open-source vacuum robot cleaner. Contribute to makerspet/oomwoo development by creating an account on GitHub."
-    },
-    {
-      "id": "lfiv1kolxhbih1wflotjbj68",
-      "url": "https://forgejo.org/2026-10-release-v17-0/?via=dailydev",
-      "title": "Forgejo v17.0 is available",
-      "ts": "2026-10-16T22:06:20-04:00",
-      "description": null
-    },
-    {
-      "id": "w3aawdhrmr5wgzk2tqj1bupt",
-      "url": "https://github.com/faucetdb/faucet",
-      "title": "GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.",
-      "ts": "2026-10-16T21:14:51-04:00",
-      "description": "Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents. - f…"
-    },
-    {
-      "id": "jxcauolpidhglmu0kz1nyxlh",
-      "url": "https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev",
-      "title": "plMail: A Self-Hosted Gmail Alternative",
-      "ts": "2026-10-16T20:08:02-04:00",
-      "description": "plMail brings multiple email accounts into one self-hosted inbox, with Docker support and optional local AI through Ollama."
-    },
-    {
-      "id": "zcaxn9gxk52fgauavlrur2y7",
-      "url": "https://blog.dailydoseofds.com/p/rag-vs-jev-rag-clearly-explained",
-      "title": "RAG vs. Jev + RAG, clearly explained!",
-      "ts": "2026-10-16T20:06:28-04:00",
-      "description": "...with visuals."
-    },
-    {
-      "id": "cs9d1d4l2umh7ks0sotwe6rh",
-      "url": "https://dly.to/kfFHdo4Fqkv",
-      "title": "What Does a Well-Designed AI Software Factory Look Like? | daily.dev",
-      "ts": "2026-10-16T20:05:37-04:00",
-      "description": "An exploration of ‘AI software factories’ - automated engineering systems where multiple specialized AI agents collaborate with humans through a repeating…"
-    },
-    {
-      "id": "mi63ucdmulagsscp2kh9kwb0",
-      "url": "https://github.com/Pouzor/homelable",
-      "title": "GitHub - Pouzor/homelable: Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring",
-      "ts": "2026-10-16T08:41:13-04:00",
-      "description": "Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring - Pouzor/homelable"
     }
   ]
 }

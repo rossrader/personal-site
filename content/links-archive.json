@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T20:46:35.363Z",
+  "fetchedAt": "2026-10-27T00:46:36.661Z",
   "links": [
+    {
+      "id": "dfclcmxuagb5dh2tps4js6y7",
+      "url": "https://share.google/Z9ctsuRQlPbUPx8vp",
+      "title": "Speech models in Ollama · Ollama Blog",
+      "ts": "2026-10-26T20:33:23-04:00",
+      "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
+    },
     {
       "id": "r8sg11m7c67h4hhouldgvi11",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
