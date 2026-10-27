@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-27T00:46:36.661Z",
+  "fetchedAt": "2026-10-27T05:16:36.142Z",
   "links": [
     {
       "id": "dfclcmxuagb5dh2tps4js6y7",
-      "url": "https://share.google/Z9ctsuRQlPbUPx8vp",
+      "url": "https://ollama.com/blog/speech-models",
       "title": "Speech models in Ollama · Ollama Blog",
       "ts": "2026-10-26T20:33:23-04:00",
       "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
