@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-27T05:16:36.142Z",
+  "fetchedAt": "2026-10-27T15:46:37.817Z",
   "links": [
+    {
+      "id": "x2pyan6ni1lnbjivvaivptqw",
+      "url": "https://github.com/Agent-Field/SWE-AF",
+      "title": "GitHub - Agent-Field/SWE-AF: Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.",
+      "ts": "2026-10-27T11:18:41-04:00",
+      "description": "Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship. - Agent-Field/SWE-AF"
+    },
     {
       "id": "dfclcmxuagb5dh2tps4js6y7",
       "url": "https://ollama.com/blog/speech-models",
@@ -126,13 +133,6 @@
       "title": "GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
       "ts": "2026-10-18T00:21:45-04:00",
       "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. - chrisgreg/boop"
-    },
-    {
-      "id": "gljn4wq4mdhzf31qtw8mcteb",
-      "url": "https://www.news.aakashg.com/p/harness-engineering",
-      "title": "Harness Engineering: Your Complete Guide",
-      "ts": "2026-10-17T08:43:32-04:00",
-      "description": "Alongside prompt and context engineering, harness engineering has emerged as the most important skill for building AI products."
     }
   ]
 }
