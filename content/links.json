@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-27T15:46:37.817Z",
+  "fetchedAt": "2026-10-29T10:16:37.025Z",
   "links": [
+    {
+      "id": "zrva5ndnxu4qswl4557nro1s",
+      "url": "https://share.google/31pMbMUUyhtzRrBrW",
+      "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
+      "ts": "2026-10-29T05:56:11-04:00",
+      "description": "Infini-AI-Lab’s Hermit harness adapter framework trains external agent adapters, lifting CL-Bench database accuracy to 0.795"
+    },
     {
       "id": "x2pyan6ni1lnbjivvaivptqw",
       "url": "https://github.com/Agent-Field/SWE-AF",
@@ -91,48 +98,6 @@
       "title": "GitHub - flectar/mail: Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.",
       "ts": "2026-10-21T18:21:05-04:00",
       "description": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM. - flectar/mail"
-    },
-    {
-      "id": "npig5x022oognzpxuaz7gx3a",
-      "url": "https://www.xda-developers.com/made-claude-code-build-map-of-my-files/",
-      "title": "I made Claude Code build a map of my files, and it cut search times by 96%",
-      "ts": "2026-10-18T23:20:30-04:00",
-      "description": "My files are still a mess, but at least Claude knows where they are"
-    },
-    {
-      "id": "rjxqmmtllzbl2pyzgc87fi6b",
-      "url": "https://github.com/croffasia/itsaplan",
-      "title": "GitHub - croffasia/itsaplan: Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
-      "ts": "2026-10-18T10:31:50-04:00",
-      "description": "Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products. - croffasia/itsaplan"
-    },
-    {
-      "id": "yl28bf9xd2esf9x92emei49k",
-      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
-      "title": "GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-      "ts": "2026-10-18T09:47:20-04:00",
-      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. - amitshekhariitbhu/ai-system-design"
-    },
-    {
-      "id": "sh2f5fdqdk3guuf0u7gg86x2",
-      "url": "https://dsifry.github.io/harnesseval/",
-      "title": "Vibes vs. Evidence: What Works in AI Code Review",
-      "ts": "2026-10-18T09:41:21-04:00",
-      "description": "AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs."
-    },
-    {
-      "id": "zqebh79ko7byj62oauqn7sdd",
-      "url": "https://github.com/ScottRBK/forgetful",
-      "title": "GitHub - ScottRBK/forgetful: Opensource Memory for Agents",
-      "ts": "2026-10-18T08:32:38-04:00",
-      "description": "Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub."
-    },
-    {
-      "id": "s49zah7hmadhvxd03fk6f8vt",
-      "url": "https://github.com/chrisgreg/boop",
-      "title": "GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
-      "ts": "2026-10-18T00:21:45-04:00",
-      "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. - chrisgreg/boop"
     }
   ]
 }

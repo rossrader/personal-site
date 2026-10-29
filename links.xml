@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 15:18:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:56:11 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents</title>
+      <link>https://share.google/31pMbMUUyhtzRrBrW</link>
+      <guid isPermaLink="false">zrva5ndnxu4qswl4557nro1s</guid>
+      <pubDate>Thu, 29 Oct 2026 09:56:11 GMT</pubDate>
+      <description>Infini-AI-Lab’s Hermit harness adapter framework trains external agent adapters, lifting CL-Bench database accuracy to 0.795</description>
+    </item>
     <item>
       <title>GitHub - Agent-Field/SWE-AF: Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.</title>
       <link>https://github.com/Agent-Field/SWE-AF</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">i28xgclq9hc84i3l2zsi62i7</guid>
       <pubDate>Mon, 12 Oct 2026 01:16:31 GMT</pubDate>
       <description>Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState</description>
-    </item>
-    <item>
-      <title>GitHub - prasadpatil25/MindSpark: MindSpark - Mind Map for Everyone</title>
-      <link>https://github.com/prasadpatil25/MindSpark</link>
-      <guid isPermaLink="false">mt1tf3at7g2kgqxalbm1xu9k</guid>
-      <pubDate>Mon, 12 Oct 2026 01:14:56 GMT</pubDate>
-      <description>MindSpark - Mind Map for Everyone. Contribute to prasadpatil25/MindSpark development by creating an account on GitHub.</description>
     </item>
   </channel>
 </rss>
