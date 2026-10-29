@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-29T10:16:37.025Z",
+  "fetchedAt": "2026-10-29T10:46:36.906Z",
   "links": [
+    {
+      "id": "xa8evatfzqxvum71m2157902",
+      "url": "https://github.com/MiniMax-AI/mcode-stack",
+      "title": "GitHub - MiniMax-AI/mcode-stack: The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
+      "ts": "2026-10-29T06:32:00-04:00",
+      "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use. - MiniMax-AI/mcode-stack"
+    },
+    {
+      "id": "itrjqgc9q24cwafmgmlwgtwq",
+      "url": "https://github.com/MiniMax-AI/minimax-code",
+      "title": "GitHub - MiniMax-AI/minimax-code: An open-source coding agent for your terminal, powered by MiniMax.",
+      "ts": "2026-10-29T06:31:29-04:00",
+      "description": "An open-source coding agent for your terminal, powered by MiniMax. - MiniMax-AI/minimax-code"
+    },
     {
       "id": "zrva5ndnxu4qswl4557nro1s",
       "url": "https://share.google/31pMbMUUyhtzRrBrW",

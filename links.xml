@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 09:56:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:32:00 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - MiniMax-AI/mcode-stack: The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.</title>
+      <link>https://github.com/MiniMax-AI/mcode-stack</link>
+      <guid isPermaLink="false">xa8evatfzqxvum71m2157902</guid>
+      <pubDate>Thu, 29 Oct 2026 10:32:00 GMT</pubDate>
+      <description>The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use. - MiniMax-AI/mcode-stack</description>
+    </item>
+    <item>
+      <title>GitHub - MiniMax-AI/minimax-code: An open-source coding agent for your terminal, powered by MiniMax.</title>
+      <link>https://github.com/MiniMax-AI/minimax-code</link>
+      <guid isPermaLink="false">itrjqgc9q24cwafmgmlwgtwq</guid>
+      <pubDate>Thu, 29 Oct 2026 10:31:29 GMT</pubDate>
+      <description>An open-source coding agent for your terminal, powered by MiniMax. - MiniMax-AI/minimax-code</description>
+    </item>
     <item>
       <title>Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents</title>
       <link>https://share.google/31pMbMUUyhtzRrBrW</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">c7xxz6utdlgndvdg8fwpfaum</guid>
       <pubDate>Mon, 12 Oct 2026 01:18:42 GMT</pubDate>
       <description>Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available. - Systaro/DocuVault</description>
-    </item>
-    <item>
-      <title>GitHub - crivion/laranode: Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative)</title>
-      <link>https://github.com/crivion/laranode</link>
-      <guid isPermaLink="false">evu3e14s331u62jafz3jgs2r</guid>
-      <pubDate>Mon, 12 Oct 2026 01:17:45 GMT</pubDate>
-      <description>Free Hosting Panel - Easily manage your VPS/dedicated machine with Laranode (a cPanel/Plesk alternative) - crivion/laranode</description>
-    </item>
-    <item>
-      <title>GitHub - oleost/VisionState: Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU.</title>
-      <link>https://github.com/oleost/VisionState</link>
-      <guid isPermaLink="false">i28xgclq9hc84i3l2zsi62i7</guid>
-      <pubDate>Mon, 12 Oct 2026 01:16:31 GMT</pubDate>
-      <description>Teach a local AI what your camera sees and turn it into Home Assistant sensors — garage door open/closed, gate shut, car parked. 100% local, any CPU. - oleost/VisionState</description>
     </item>
   </channel>
 </rss>
