@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 10:32:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 01:12:14 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Cloudflare services for private origins is now generally available</title>
+      <link>https://share.google/DFJ1tTo4GnQX53WhI</link>
+      <guid isPermaLink="false">ssvfxqku1n47s7v3axig9y9y</guid>
+      <pubDate>Sat, 31 Oct 2026 01:12:14 GMT</pubDate>
+      <description>Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.</description>
+    </item>
     <item>
       <title>GitHub - MiniMax-AI/mcode-stack: The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.</title>
       <link>https://github.com/MiniMax-AI/mcode-stack</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">tk66kr86rlt7p4zjakoybumt</guid>
       <pubDate>Mon, 12 Oct 2026 01:19:29 GMT</pubDate>
       <description>A self-hosted dashboard for your team, family, or org — not just the admin. - man15h/holm</description>
-    </item>
-    <item>
-      <title>GitHub - Systaro/DocuVault: Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available.</title>
-      <link>https://github.com/Systaro/DocuVault</link>
-      <guid isPermaLink="false">c7xxz6utdlgndvdg8fwpfaum</guid>
-      <pubDate>Mon, 12 Oct 2026 01:18:42 GMT</pubDate>
-      <description>Self-hosted team docs where every save is a Git commit: WYSIWYG editor, built-in MCP server for AI agents, whitelabel branding. Source-available. - Systaro/DocuVault</description>
     </item>
   </channel>
 </rss>

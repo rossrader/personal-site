@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-10-30T05:16:37.112Z",
+  "fetchedAt": "2026-10-31T01:16:37.372Z",
   "albums": [
+    {
+      "id": "01YLpxfyEAuR58smwk1rJ1",
+      "title": "Aerosmith",
+      "artist": "Aerosmith",
+      "year": 1973,
+      "plays": 6,
+      "cover": "content/music/al-01YLpxfyEAuR58smwk1rJ1_5de1f78beef0dd1e.jpg"
+    },
+    {
+      "id": "7GnLVLYRNYx8ke7kvOe1io",
+      "title": "Perfect Strangers",
+      "artist": "Deep Purple",
+      "year": 1984,
+      "plays": 9,
+      "cover": "content/music/al-7GnLVLYRNYx8ke7kvOe1io_4c863b867e62fbb5.jpg"
+    },
     {
       "id": "1G94hYkQM2qnWd2Ct1LS8p",
       "title": "Pretty Monster",
@@ -24,22 +40,6 @@
       "year": 1980,
       "plays": 11,
       "cover": "content/music/al-2JXRkqP8IFCUd51zIo6vX4_d533f8f33d3e5a12.jpg"
-    },
-    {
-      "id": "5HPN6GuwgOW9gQztRdWZOM",
-      "title": "We Are the Royal",
-      "artist": "Royal Republic",
-      "year": 2010,
-      "plays": 13,
-      "cover": "content/music/al-5HPN6GuwgOW9gQztRdWZOM_9c02cdb2ca42cfa8.jpg"
-    },
-    {
-      "id": "1oPO8uHahUQab9gpsQ44k7",
-      "title": "Consolers of the Lonely",
-      "artist": "The Raconteurs",
-      "year": 2008,
-      "plays": 14,
-      "cover": "content/music/al-1oPO8uHahUQab9gpsQ44k7_aa1db6e1adaf1b45.jpg"
     }
   ]
 }

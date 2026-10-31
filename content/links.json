@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T05:16:37.361Z",
+  "fetchedAt": "2026-10-31T01:16:37.606Z",
   "links": [
+    {
+      "id": "ssvfxqku1n47s7v3axig9y9y",
+      "url": "https://share.google/DFJ1tTo4GnQX53WhI",
+      "title": "Cloudflare services for private origins is now generally available",
+      "ts": "2026-10-30T21:12:14-04:00",
+      "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity."
+    },
     {
       "id": "xa8evatfzqxvum71m2157902",
       "url": "https://github.com/MiniMax-AI/mcode-stack",
@@ -77,41 +84,6 @@
       "title": "Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC - CNX Software",
       "ts": "2026-10-22T00:23:08-04:00",
       "description": "Following our coverage of a 4.3-inch ESP32-S31 display development board, a Facebook reader pointed out the GUITION JC3636F118C-I-YR1 rotary encoder with"
-    },
-    {
-      "id": "vkpfzeyp4308xitafvtw84hn",
-      "url": "https://youtube.com/watch?v=3mx84MRj8lY",
-      "title": "Your Local AI Is Not as Private as You Think",
-      "ts": "2026-10-21T22:41:04-04:00",
-      "description": "Running local AI is not as private as you think, and the reason isn’t your prompts. A backdoored Qwen 2.5 7B passed 50 of 50 clean tests in OpenAI’s Codex CL…"
-    },
-    {
-      "id": "pm6yofpk60tsqth6tru8kjtm",
-      "url": "https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev",
-      "title": "5 Best AI Gateways",
-      "ts": "2026-10-21T21:32:06-04:00",
-      "description": "Choosing between the best AI gateways is not just about getting a way to call an LLM. In real…"
-    },
-    {
-      "id": "cg9tr7kp0rzgnhxztbx9ymzk",
-      "url": "https://owlity.ai/?via=dailydev",
-      "title": "Owlity - Test Automation Platform",
-      "ts": "2026-10-21T21:23:49-04:00",
-      "description": "Owlity is the test automation platform that gets your product to 95% coverage without slowing the team down. Record, run in the cloud, ship clean."
-    },
-    {
-      "id": "xkzx0u0vgkjwxecekhl5qlwt",
-      "url": "https://github.com/ktreharrison/tkmd",
-      "title": "GitHub - ktreharrison/tkmd: Markdown Task & Project Manager for Developers and AI Agents",
-      "ts": "2026-10-21T20:17:52-04:00",
-      "description": "Markdown Task & Project Manager for Developers and AI Agents - ktreharrison/tkmd"
-    },
-    {
-      "id": "ql2fgm6km35kwtd7vuwxvwtl",
-      "url": "https://github.com/flectar/mail",
-      "title": "GitHub - flectar/mail: Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM.",
-      "ts": "2026-10-21T18:21:05-04:00",
-      "description": "Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM. - flectar/mail"
     }
   ]
 }

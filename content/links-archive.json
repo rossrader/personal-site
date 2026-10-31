@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T05:16:37.361Z",
+  "fetchedAt": "2026-10-31T01:16:37.606Z",
   "links": [
+    {
+      "id": "ssvfxqku1n47s7v3axig9y9y",
+      "url": "https://share.google/DFJ1tTo4GnQX53WhI",
+      "title": "Cloudflare services for private origins is now generally available",
+      "ts": "2026-10-30T21:12:14-04:00",
+      "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity."
+    },
     {
       "id": "xa8evatfzqxvum71m2157902",
       "url": "https://github.com/MiniMax-AI/mcode-stack",
