@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 01:12:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 21:53:57 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves</title>
+      <link>https://github.com/yuruotong1/autoMate</link>
+      <guid isPermaLink="false">bk0clrhx7a25zgg1b02xkbgc</guid>
+      <pubDate>Sat, 31 Oct 2026 21:53:57 GMT</pubDate>
+      <description>Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…</description>
+    </item>
     <item>
       <title>Cloudflare services for private origins is now generally available</title>
       <link>https://blog.cloudflare.com/private-origins-public-to-private/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">x6z57g5ix1n16ymgc8zvlku4</guid>
       <pubDate>Mon, 12 Oct 2026 01:21:11 GMT</pubDate>
       <description>Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT. - franzenzenhofer/big-arrow-on-the-screen</description>
-    </item>
-    <item>
-      <title>GitHub - man15h/holm: A self-hosted dashboard for your team, family, or org — not just the admin.</title>
-      <link>https://github.com/man15h/holm</link>
-      <guid isPermaLink="false">tk66kr86rlt7p4zjakoybumt</guid>
-      <pubDate>Mon, 12 Oct 2026 01:19:29 GMT</pubDate>
-      <description>A self-hosted dashboard for your team, family, or org — not just the admin. - man15h/holm</description>
     </item>
   </channel>
 </rss>

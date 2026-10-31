@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T05:16:37.663Z",
+  "fetchedAt": "2026-10-31T22:16:37.913Z",
   "links": [
+    {
+      "id": "bk0clrhx7a25zgg1b02xkbgc",
+      "url": "https://github.com/yuruotong1/autoMate",
+      "title": "GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
+      "ts": "2026-10-31T17:53:57-04:00",
+      "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…"
+    },
     {
       "id": "ssvfxqku1n47s7v3axig9y9y",
       "url": "https://blog.cloudflare.com/private-origins-public-to-private/",

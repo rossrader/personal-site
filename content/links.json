@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T05:16:37.663Z",
+  "fetchedAt": "2026-10-31T22:16:37.913Z",
   "links": [
+    {
+      "id": "bk0clrhx7a25zgg1b02xkbgc",
+      "url": "https://github.com/yuruotong1/autoMate",
+      "title": "GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
+      "ts": "2026-10-31T17:53:57-04:00",
+      "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…"
+    },
     {
       "id": "ssvfxqku1n47s7v3axig9y9y",
       "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
@@ -70,20 +77,6 @@
       "title": "Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift",
       "ts": "2026-10-23T05:16:32-04:00",
       "description": "Ramp built its own AI agent harness, Laminar, instead of buying one. LangChain’s Harrison Chase sees a bigger shift in how agents get built."
-    },
-    {
-      "id": "i9xoluqyl17b5xh01i8j7avu",
-      "url": "https://www.xda-developers.com/i-replaced-my-isp-router-with-opnsense-for-under-200-and-got-enterprise-features-for-home-prices/",
-      "title": "I replaced my ISP router with OPNsense for under $200 and got enterprise features for home prices",
-      "ts": "2026-10-22T09:39:43-04:00",
-      "description": "Get more for less."
-    },
-    {
-      "id": "dm8sxrw5ak8wxlrm6dzlcju8",
-      "url": "https://www.cnx-software.com/2026/10/22/rotary-encoder-with-1-8-inch-touch-display-gets-upgrade-to-esp32-s31-soc/?amp=1",
-      "title": "Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC - CNX Software",
-      "ts": "2026-10-22T00:23:08-04:00",
-      "description": "Following our coverage of a 4.3-inch ESP32-S31 display development board, a Facebook reader pointed out the GUITION JC3636F118C-I-YR1 rotary encoder with"
     }
   ]
 }
