@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-31T22:16:37.913Z",
+  "fetchedAt": "2026-11-01T17:16:38.253Z",
   "links": [
+    {
+      "id": "sj1qiv5i1bcspmbc8d1v14pc",
+      "url": "https://share.google/X7lxWGrm00WnTeCi6",
+      "title": "Claude can run my Home Assistant setup now, and it only took one click to set up",
+      "ts": "2026-11-01T12:09:38-05:00",
+      "description": "It can only touch what I expose which is a good safety feature"
+    },
     {
       "id": "bk0clrhx7a25zgg1b02xkbgc",
       "url": "https://github.com/yuruotong1/autoMate",
