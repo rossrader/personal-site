@@ -5,9 +5,37 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 17:09:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 03:11:07 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - ninjahawk/livenerf: Benchmark for tracking model capability after release.</title>
+      <link>https://github.com/ninjahawk/livenerf</link>
+      <guid isPermaLink="false">c46xx1dtbkg29c856z9l9msi</guid>
+      <pubDate>Mon, 02 Nov 2026 03:11:07 GMT</pubDate>
+      <description>Benchmark for tracking model capability after release. - ninjahawk/livenerf</description>
+    </item>
+    <item>
+      <title>GitHub - aliasvault/aliasvault: Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable.</title>
+      <link>https://github.com/aliasvault/aliasvault</link>
+      <guid isPermaLink="false">z8cfsc64qpzsku4u9ifqmqaa</guid>
+      <pubDate>Mon, 02 Nov 2026 03:04:30 GMT</pubDate>
+      <description>Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable. - aliasvault/aliasvault</description>
+    </item>
+    <item>
+      <title>GitHub - robonuggets/be-ambitious: A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps.</title>
+      <link>https://github.com/robonuggets/be-ambitious</link>
+      <guid isPermaLink="false">uhfnwlijtbq2biwb4hah4sq1</guid>
+      <pubDate>Mon, 02 Nov 2026 03:02:47 GMT</pubDate>
+      <description>A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps. - robonuggets/be-ambitious</description>
+    </item>
+    <item>
+      <title>GitHub - mcpjungle/MCPJungle: One place to manage &amp; connect to all your MCP servers</title>
+      <link>https://github.com/mcpjungle/MCPJungle</link>
+      <guid isPermaLink="false">q0qhh3q9lyp0ufp6e3yw1b2x</guid>
+      <pubDate>Mon, 02 Nov 2026 02:52:15 GMT</pubDate>
+      <description>One place to manage &amp; connect to all your MCP servers - mcpjungle/MCPJungle</description>
+    </item>
     <item>
       <title>Claude can run my Home Assistant setup now, and it only took one click to set up</title>
       <link>https://share.google/X7lxWGrm00WnTeCi6</link>
@@ -329,34 +357,6 @@
       <guid isPermaLink="false">sd2rydom7esqlrds73f1jhtz</guid>
       <pubDate>Mon, 12 Oct 2026 01:30:35 GMT</pubDate>
       <description>Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub.</description>
-    </item>
-    <item>
-      <title>GitHub - lithos-ai/lithos-metal: lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.</title>
-      <link>https://github.com/lithos-ai/lithos-metal</link>
-      <guid isPermaLink="false">qedw8in97vsimajhyjuvat8r</guid>
-      <pubDate>Mon, 12 Oct 2026 01:27:12 GMT</pubDate>
-      <description>lithos-metal: high-performance LLM inference kernels and serving for Apple silicon. - lithos-ai/lithos-metal</description>
-    </item>
-    <item>
-      <title>GitHub - Glass-HQ/liquid-glass: Liquid Glass materials for web and Electron, built with vgpu.</title>
-      <link>https://github.com/Glass-HQ/liquid-glass</link>
-      <guid isPermaLink="false">y3caejif4bd8xydv8wsw582p</guid>
-      <pubDate>Mon, 12 Oct 2026 01:26:11 GMT</pubDate>
-      <description>Liquid Glass materials for web and Electron, built with vgpu. - Glass-HQ/liquid-glass</description>
-    </item>
-    <item>
-      <title>GitHub - MrBongoC/ai-iso-skill: Claude skill that draws interactive isometric figures in a single HTML file</title>
-      <link>https://github.com/MrBongoC/ai-iso-skill</link>
-      <guid isPermaLink="false">ejy3pmsdx9iin7sq435e21zf</guid>
-      <pubDate>Mon, 12 Oct 2026 01:25:21 GMT</pubDate>
-      <description>Claude skill that draws interactive isometric figures in a single HTML file - MrBongoC/ai-iso-skill</description>
-    </item>
-    <item>
-      <title>GitHub - HelixDB/helix-foundry: Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.</title>
-      <link>https://github.com/HelixDB/helix-foundry</link>
-      <guid isPermaLink="false">dhvdg04yb9tz8qj8rptlbzt8</guid>
-      <pubDate>Mon, 12 Oct 2026 01:22:33 GMT</pubDate>
-      <description>Your company’s data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB. - HelixDB/helix-foundry</description>
     </item>
   </channel>
 </rss>
