@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-02T05:16:38.448Z",
+  "fetchedAt": "2026-11-02T11:46:38.513Z",
   "links": [
+    {
+      "id": "nmilscwzvasksb56mh57o4wf",
+      "url": "https://share.google/erB6uzdScDYdmUWfB",
+      "title": "Miles Deutscher (@milesdeutscher) on X",
+      "ts": "2026-11-02T06:18:48-05:00",
+      "description": "Boris Cherny, the creator of Claude Code, revealed his entire setup. The 6-step framework you can use to actually use Claude Code properly:"
+    },
     {
       "id": "c46xx1dtbkg29c856z9l9msi",
       "url": "https://github.com/ninjahawk/livenerf",
@@ -84,20 +91,6 @@
       "title": "Speech models in Ollama · Ollama Blog",
       "ts": "2026-10-26T20:33:23-04:00",
       "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
-    },
-    {
-      "id": "r8sg11m7c67h4hhouldgvi11",
-      "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "title": "GitHub - PerryLink/dsh-permission-rules: Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfall, session-log audit, and HMR reload.",
-      "ts": "2026-10-24T16:26:21-04:00",
-      "description": "Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfa…"
-    },
-    {
-      "id": "dl67wp48af25s99j0usquhgx",
-      "url": "https://github.com/SoMarkAI/OXR",
-      "title": "GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.",
-      "ts": "2026-10-24T11:59:20-04:00",
-      "description": "An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR"
     }
   ]
 }

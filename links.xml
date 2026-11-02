@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 03:11:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 11:18:48 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Miles Deutscher (@milesdeutscher) on X</title>
+      <link>https://share.google/erB6uzdScDYdmUWfB</link>
+      <guid isPermaLink="false">nmilscwzvasksb56mh57o4wf</guid>
+      <pubDate>Mon, 02 Nov 2026 11:18:48 GMT</pubDate>
+      <description>Boris Cherny, the creator of Claude Code, revealed his entire setup. The 6-step framework you can use to actually use Claude Code properly:</description>
+    </item>
     <item>
       <title>GitHub - ninjahawk/livenerf: Benchmark for tracking model capability after release.</title>
       <link>https://github.com/ninjahawk/livenerf</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">u18p4rfe5nx852mnoap92kes</guid>
       <pubDate>Mon, 12 Oct 2026 01:34:17 GMT</pubDate>
       <description>Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap</description>
-    </item>
-    <item>
-      <title>GitHub - soulis-1256/assemblrr: Your media stack, automated</title>
-      <link>https://github.com/soulis-1256/assemblrr</link>
-      <guid isPermaLink="false">sd2rydom7esqlrds73f1jhtz</guid>
-      <pubDate>Mon, 12 Oct 2026 01:30:35 GMT</pubDate>
-      <description>Your media stack, automated. Contribute to soulis-1256/assemblrr development by creating an account on GitHub.</description>
     </item>
   </channel>
 </rss>
