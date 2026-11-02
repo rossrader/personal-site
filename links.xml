@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 11:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 20:26:37 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>LLMs can natively read &amp; write neural network weights</title>
+      <link>https://rikiyat.github.io/blog/weight-space-programming/</link>
+      <guid isPermaLink="false">q5j0axe8vw68rqiwes99xttt</guid>
+      <pubDate>Mon, 02 Nov 2026 20:26:37 GMT</pubDate>
+      <description>We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.</description>
+    </item>
     <item>
       <title>Miles Deutscher (@milesdeutscher) on X</title>
       <link>https://share.google/erB6uzdScDYdmUWfB</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">y5n0d66snhfoqjjbcefspbfo</guid>
       <pubDate>Mon, 12 Oct 2026 01:36:50 GMT</pubDate>
       <description>Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context. - Maneek21/Deft</description>
-    </item>
-    <item>
-      <title>GitHub - olalie/tapmap: Watch your computer connect across the internet in real time. Discover the world behind your apps.</title>
-      <link>https://github.com/olalie/tapmap</link>
-      <guid isPermaLink="false">u18p4rfe5nx852mnoap92kes</guid>
-      <pubDate>Mon, 12 Oct 2026 01:34:17 GMT</pubDate>
-      <description>Watch your computer connect across the internet in real time. Discover the world behind your apps. - olalie/tapmap</description>
     </item>
   </channel>
 </rss>

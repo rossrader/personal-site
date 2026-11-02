@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-02T17:54:12.330Z",
+  "fetchedAt": "2026-11-02T20:46:38.611Z",
   "links": [
+    {
+      "id": "q5j0axe8vw68rqiwes99xttt",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "title": "LLMs can natively read & write neural network weights",
+      "ts": "2026-11-02T15:26:37-05:00",
+      "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
+    },
     {
       "id": "nmilscwzvasksb56mh57o4wf",
       "url": "https://share.google/erB6uzdScDYdmUWfB",
