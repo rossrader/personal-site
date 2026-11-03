@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-03T05:16:38.786Z",
+  "fetchedAt": "2026-11-03T14:16:39.029Z",
   "links": [
+    {
+      "id": "n91qdz00s92tc2ioyu9e8e2n",
+      "url": "https://github.com/karpathy/nanochat",
+      "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "ts": "2026-11-03T09:05:08-05:00",
+      "description": "The best ChatGPT that $100 can buy. Contribute to karpathy/nanochat development by creating an account on GitHub."
+    },
     {
       "id": "q5j0axe8vw68rqiwes99xttt",
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
@@ -91,13 +98,6 @@
       "title": "GitHub - Agent-Field/SWE-AF: Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.",
       "ts": "2026-10-27T11:18:41-04:00",
       "description": "Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship. - Agent-Field/SWE-AF"
-    },
-    {
-      "id": "dfclcmxuagb5dh2tps4js6y7",
-      "url": "https://ollama.com/blog/speech-models",
-      "title": "Speech models in Ollama · Ollama Blog",
-      "ts": "2026-10-26T20:33:23-04:00",
-      "description": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon."
     }
   ]
 }

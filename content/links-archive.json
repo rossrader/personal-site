@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-03T05:16:38.786Z",
+  "fetchedAt": "2026-11-03T14:16:39.029Z",
   "links": [
+    {
+      "id": "n91qdz00s92tc2ioyu9e8e2n",
+      "url": "https://github.com/karpathy/nanochat",
+      "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "ts": "2026-11-03T09:05:08-05:00",
+      "description": "The best ChatGPT that $100 can buy. Contribute to karpathy/nanochat development by creating an account on GitHub."
+    },
     {
       "id": "q5j0axe8vw68rqiwes99xttt",
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
