@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-04T01:46:39.007Z",
+  "fetchedAt": "2026-11-04T04:16:39.106Z",
   "links": [
+    {
+      "id": "rraexgojdy8ad6osceobc598",
+      "url": "https://github.com/miuuyy/Octopus-SI-OS",
+      "title": "GitHub - miuuyy/Octopus-SI-OS: A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.",
+      "ts": "2026-11-03T22:47:15-05:00",
+      "description": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence. - miuuyy/Octopus-SI-OS"
+    },
     {
       "id": "o1ekkxwrh14f2c4xz0js2pmv",
       "url": "https://github.com/generalaction/emdash",

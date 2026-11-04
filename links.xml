@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 01:42:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 03:47:15 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - miuuyy/Octopus-SI-OS: A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.</title>
+      <link>https://github.com/miuuyy/Octopus-SI-OS</link>
+      <guid isPermaLink="false">rraexgojdy8ad6osceobc598</guid>
+      <pubDate>Wed, 04 Nov 2026 03:47:15 GMT</pubDate>
+      <description>A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence. - miuuyy/Octopus-SI-OS</description>
+    </item>
     <item>
       <title>GitHub - generalaction/emdash: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.</title>
       <link>https://github.com/generalaction/emdash</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">pr9orwihyo11lvx4kubqg6ei</guid>
       <pubDate>Mon, 12 Oct 2026 13:12:54 GMT</pubDate>
       <description>Everything is RSSible 🧡</description>
-    </item>
-    <item>
-      <title>Software Factories for Real Engineers</title>
-      <link>https://www.aihero.dev/cohorts/software-factories-for-real-engineers-xdy1m</link>
-      <guid isPermaLink="false">fsh7ewb15yozwjtivie70vnf</guid>
-      <pubDate>Mon, 12 Oct 2026 04:00:20 GMT</pubDate>
-      <description>Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase</description>
     </item>
   </channel>
 </rss>
