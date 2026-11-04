@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2026 14:05:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 01:42:29 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - generalaction/emdash: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.</title>
+      <link>https://github.com/generalaction/emdash</link>
+      <guid isPermaLink="false">o1ekkxwrh14f2c4xz0js2pmv</guid>
+      <pubDate>Wed, 04 Nov 2026 01:42:29 GMT</pubDate>
+      <description>Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. - generalaction/emdash</description>
+    </item>
     <item>
       <title>GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.</title>
       <link>https://github.com/karpathy/nanochat</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">fsh7ewb15yozwjtivie70vnf</guid>
       <pubDate>Mon, 12 Oct 2026 04:00:20 GMT</pubDate>
       <description>Use your Real Engineering skills to ship code at scale and maintain a self-improving codebase</description>
-    </item>
-    <item>
-      <title>I ditched Claude Cowork for a free open-source alternative, and I’m getting more done</title>
-      <link>https://www.xda-developers.com/ditched-claude-for-free-open-source-alternative-getting-more-done/</link>
-      <guid isPermaLink="false">sobpcyala5r818xnh9aur9a6</guid>
-      <pubDate>Mon, 12 Oct 2026 03:17:08 GMT</pubDate>
-      <description>Cowork set the bar, but it doesn’t own the idea</description>
     </item>
   </channel>
 </rss>

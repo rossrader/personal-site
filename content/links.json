@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-03T16:19:51.496Z",
+  "fetchedAt": "2026-11-04T01:46:39.007Z",
   "links": [
+    {
+      "id": "o1ekkxwrh14f2c4xz0js2pmv",
+      "url": "https://github.com/generalaction/emdash",
+      "title": "GitHub - generalaction/emdash: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+      "ts": "2026-11-03T20:42:29-05:00",
+      "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. - generalaction/emdash"
+    },
     {
       "id": "n91qdz00s92tc2ioyu9e8e2n",
       "url": "https://github.com/karpathy/nanochat",
