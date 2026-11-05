@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 04:44:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:29:24 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Agent Framework vs. Agent Harness, clearly explained!</title>
+      <link>https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev</link>
+      <guid isPermaLink="false">dj5tjwjxmlrhwukx3im0yw5m</guid>
+      <pubDate>Thu, 05 Nov 2026 12:29:24 GMT</pubDate>
+      <description>+ a technique for 23x faster attention!</description>
+    </item>
+    <item>
+      <title>So my ISP was hijacking my DNS</title>
+      <link>https://www.karthihegde.dev/posts/dns_tampering</link>
+      <guid isPermaLink="false">b47j7kwxchcohvxlsnwhugos</guid>
+      <pubDate>Thu, 05 Nov 2026 12:26:28 GMT</pubDate>
+      <description>My ISP was tampering with my DNS queries and handing back bogus IP addresses. Here are the misconceptions about DoH, DoT and DNSSEC that followed, and the setup I actually run.</description>
+    </item>
     <item>
       <title>Harmony - chat that belongs to the people in it</title>
       <link>https://mony.lol/</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">pilowin87ps8a7lfeab2j70c</guid>
       <pubDate>Tue, 13 Oct 2026 12:17:35 GMT</pubDate>
       <description>Personal AI agent for macOS, Windows, Linux, Android &amp;amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…</description>
-    </item>
-    <item>
-      <title>hayato (@hayatomaruu) on X</title>
-      <link>https://x.com/hayatomaruu/status/2109373280041816140?s=12</link>
-      <guid isPermaLink="false">aw95sx0gshtyx327bgt58cy1</guid>
-      <pubDate>Mon, 12 Oct 2026 15:55:15 GMT</pubDate>
-      <description>Andrej Karpathy spent 8 years at OpenAI and Tesla Last week he compressed everything he knows into one free 2-hour lecture Prompts → Agents → Harness → Graphs → Loops People spend $15k on bootcamps that teach less than this You probably don’t have 2 hours right now Don’t let it vanish from yo…</description>
-    </item>
-    <item>
-      <title>delost (@thedelost) on X - “Sonnet builds. Haiku explores. Opus reviews.”</title>
-      <link>https://x.com/thedelost/status/2109369295860035641?s=12</link>
-      <guid isPermaLink="false">b6gowry0vcz2m58gtnu5zffy</guid>
-      <pubDate>Mon, 12 Oct 2026 13:54:14 GMT</pubDate>
-      <description>THIS IS PURE F*CKING GOLD Anthropic just shared one of the best tricks for Claude Code. The idea: run Sonnet, Haiku and Opus 5.5 at the same time, each one doing only what it’s best at. Better results and way fewer tokens, because every task lands on the right model. You just start Claude Code …</description>
     </item>
   </channel>
 </rss>

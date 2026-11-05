@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-05T04:46:39.455Z",
+  "fetchedAt": "2026-11-05T12:46:39.549Z",
   "links": [
+    {
+      "id": "dj5tjwjxmlrhwukx3im0yw5m",
+      "url": "https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev",
+      "title": "Agent Framework vs. Agent Harness, clearly explained!",
+      "ts": "2026-11-05T07:29:24-05:00",
+      "description": "+ a technique for 23x faster attention!"
+    },
+    {
+      "id": "b47j7kwxchcohvxlsnwhugos",
+      "url": "https://www.karthihegde.dev/posts/dns_tampering",
+      "title": "So my ISP was hijacking my DNS",
+      "ts": "2026-11-05T07:26:28-05:00",
+      "description": "My ISP was tampering with my DNS queries and handing back bogus IP addresses. Here are the misconceptions about DoH, DoT and DNSSEC that followed, and the setup I actually run."
+    },
     {
       "id": "hmfxzxsh4vn3eplygjfxbkt7",
       "url": "https://mony.lol/",
