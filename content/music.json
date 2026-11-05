@@ -1,6 +1,14 @@
 {
-  "fetchedAt": "2026-11-04T04:16:38.834Z",
+  "fetchedAt": "2026-11-05T04:46:39.182Z",
   "albums": [
+    {
+      "id": "4MJKD3O3ENasaVj3I5C8Rt",
+      "title": "The Return of Tomorrow",
+      "artist": "Fu Manchu",
+      "year": 2024,
+      "plays": 5,
+      "cover": "content/music/al-4MJKD3O3ENasaVj3I5C8Rt_2f677cda35ec71ce.jpg"
+    },
     {
       "id": "01YLpxfyEAuR58smwk1rJ1",
       "title": "Aerosmith",
@@ -32,14 +40,6 @@
       "year": 1993,
       "plays": 18,
       "cover": "content/music/al-4CG8NpfZGhha8J1YyfxAt8_520482558fe432b9.jpg"
-    },
-    {
-      "id": "2JXRkqP8IFCUd51zIo6vX4",
-      "title": "Zenyattà Mondatta",
-      "artist": "The Police",
-      "year": 1980,
-      "plays": 11,
-      "cover": "content/music/al-2JXRkqP8IFCUd51zIo6vX4_d533f8f33d3e5a12.jpg"
     }
   ]
 }

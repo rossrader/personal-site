@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-04T04:16:39.106Z",
+  "fetchedAt": "2026-11-05T04:46:39.455Z",
   "links": [
+    {
+      "id": "hmfxzxsh4vn3eplygjfxbkt7",
+      "url": "https://mony.lol/",
+      "title": "Harmony - chat that belongs to the people in it",
+      "ts": "2026-11-04T23:44:20-05:00",
+      "description": "Servers, voice, video, threads and bots. Open source, federated over ActivityPub, free in your browser, yours to self-host."
+    },
     {
       "id": "rraexgojdy8ad6osceobc598",
       "url": "https://github.com/miuuyy/Octopus-SI-OS",

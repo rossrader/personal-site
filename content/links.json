@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-04T04:16:39.106Z",
+  "fetchedAt": "2026-11-05T04:46:39.455Z",
   "links": [
+    {
+      "id": "hmfxzxsh4vn3eplygjfxbkt7",
+      "url": "https://mony.lol/",
+      "title": "Harmony - chat that belongs to the people in it",
+      "ts": "2026-11-04T23:44:20-05:00",
+      "description": "Servers, voice, video, threads and bots. Open source, federated over ActivityPub, free in your browser, yours to self-host."
+    },
     {
       "id": "rraexgojdy8ad6osceobc598",
       "url": "https://github.com/miuuyy/Octopus-SI-OS",
@@ -105,13 +112,6 @@
       "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
       "ts": "2026-10-29T05:56:11-04:00",
       "description": "Infini-AI-Lab’s Hermit harness adapter framework trains external agent adapters, lifting CL-Bench database accuracy to 0.795"
-    },
-    {
-      "id": "x2pyan6ni1lnbjivvaivptqw",
-      "url": "https://github.com/Agent-Field/SWE-AF",
-      "title": "GitHub - Agent-Field/SWE-AF: Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.",
-      "ts": "2026-10-27T11:18:41-04:00",
-      "description": "Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship. - Agent-Field/SWE-AF"
     }
   ]
 }

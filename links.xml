@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 03:47:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 04:44:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Harmony - chat that belongs to the people in it</title>
+      <link>https://mony.lol/</link>
+      <guid isPermaLink="false">hmfxzxsh4vn3eplygjfxbkt7</guid>
+      <pubDate>Thu, 05 Nov 2026 04:44:20 GMT</pubDate>
+      <description>Servers, voice, video, threads and bots. Open source, federated over ActivityPub, free in your browser, yours to self-host.</description>
+    </item>
     <item>
       <title>GitHub - miuuyy/Octopus-SI-OS: A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.</title>
       <link>https://github.com/miuuyy/Octopus-SI-OS</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">b6gowry0vcz2m58gtnu5zffy</guid>
       <pubDate>Mon, 12 Oct 2026 13:54:14 GMT</pubDate>
       <description>THIS IS PURE F*CKING GOLD Anthropic just shared one of the best tricks for Claude Code. The idea: run Sonnet, Haiku and Opus 5.5 at the same time, each one doing only what it’s best at. Better results and way fewer tokens, because every task lands on the right model. You just start Claude Code …</description>
-    </item>
-    <item>
-      <title>RSSHub</title>
-      <link>https://docs.rsshub.app/</link>
-      <guid isPermaLink="false">pr9orwihyo11lvx4kubqg6ei</guid>
-      <pubDate>Mon, 12 Oct 2026 13:12:54 GMT</pubDate>
-      <description>Everything is RSSible 🧡</description>
     </item>
   </channel>
 </rss>
