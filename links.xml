@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:29:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:03:45 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Telephony and SIP | OpenAI API</title>
+      <link>https://developers.openai.com/api/docs/guides/voice-sip</link>
+      <guid isPermaLink="false">fdmkjooig6d2fl2jsbxs4x4y</guid>
+      <pubDate>Sat, 07 Nov 2026 02:03:45 GMT</pubDate>
+      <description>Connect phone calls to OpenAI with SIP.</description>
+    </item>
     <item>
       <title>Agent Framework vs. Agent Harness, clearly explained!</title>
       <link>https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">monbfcj6c2df6q1j6yaj9e0l</guid>
       <pubDate>Tue, 13 Oct 2026 14:32:24 GMT</pubDate>
       <description>Turn any screenshot into JSON your CLI agent can read.</description>
-    </item>
-    <item>
-      <title>GitHub - skalesapp/skales: Personal AI agent for macOS, Windows, Linux, Android &amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and humans across paired desktops. Agent2Agent, MCP, computer use, voice, local LLMs (Ollama), Agent Skills (SKILL.md). 26 AI providers, BYOK. No Docker, no terminal.</title>
-      <link>https://github.com/skalesapp/skales</link>
-      <guid isPermaLink="false">pilowin87ps8a7lfeab2j70c</guid>
-      <pubDate>Tue, 13 Oct 2026 12:17:35 GMT</pubDate>
-      <description>Personal AI agent for macOS, Windows, Linux, Android &amp;amp; iOS. Set a goal, it works alone: coding (Skales Code), desktop + browser automation, autonomous scheduled Tasks. Teams of agents and human…</description>
     </item>
   </channel>
 </rss>

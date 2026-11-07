@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-05T12:46:39.549Z",
+  "fetchedAt": "2026-11-07T02:16:40.276Z",
   "links": [
+    {
+      "id": "fdmkjooig6d2fl2jsbxs4x4y",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+      "title": "Telephony and SIP | OpenAI API",
+      "ts": "2026-11-06T21:03:45-05:00",
+      "description": "Connect phone calls to OpenAI with SIP."
+    },
     {
       "id": "dj5tjwjxmlrhwukx3im0yw5m",
       "url": "https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev",
@@ -98,13 +105,6 @@
       "title": "GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
       "ts": "2026-10-31T17:53:57-04:00",
       "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…"
-    },
-    {
-      "id": "ssvfxqku1n47s7v3axig9y9y",
-      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-      "title": "Cloudflare services for private origins is now generally available",
-      "ts": "2026-10-30T21:12:14-04:00",
-      "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity."
     }
   ]
 }

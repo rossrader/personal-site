@@ -1,6 +1,22 @@
 {
-  "fetchedAt": "2026-11-05T12:46:39.304Z",
+  "fetchedAt": "2026-11-07T02:16:40.038Z",
   "albums": [
+    {
+      "id": "0jVeR0B3LrXs2jvRBQSrIa",
+      "title": "OK Computer (Instrumentals)",
+      "artist": "Radiohead",
+      "year": 1997,
+      "plays": 8,
+      "cover": "content/music/al-0jVeR0B3LrXs2jvRBQSrIa_0f152411ea5dd85d.jpg"
+    },
+    {
+      "id": "3F0VnV1ebf2Lbpzdy1xcrm",
+      "title": "Play",
+      "artist": "Moby",
+      "year": 1999,
+      "plays": 22,
+      "cover": "content/music/al-3F0VnV1ebf2Lbpzdy1xcrm_46dbfbd0f888e4ad.jpg"
+    },
     {
       "id": "4MJKD3O3ENasaVj3I5C8Rt",
       "title": "The Return of Tomorrow",
@@ -24,22 +40,6 @@
       "year": 1984,
       "plays": 9,
       "cover": "content/music/al-7GnLVLYRNYx8ke7kvOe1io_4c863b867e62fbb5.jpg"
-    },
-    {
-      "id": "1G94hYkQM2qnWd2Ct1LS8p",
-      "title": "Pretty Monster",
-      "artist": "The Blue Stones",
-      "year": 2022,
-      "plays": 7,
-      "cover": "content/music/al-1G94hYkQM2qnWd2Ct1LS8p_c1709ad8299de869.jpg"
-    },
-    {
-      "id": "4CG8NpfZGhha8J1YyfxAt8",
-      "title": "Last Splash",
-      "artist": "The Breeders",
-      "year": 1993,
-      "plays": 18,
-      "cover": "content/music/al-4CG8NpfZGhha8J1YyfxAt8_520482558fe432b9.jpg"
     }
   ]
 }

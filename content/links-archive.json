@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-05T12:46:39.549Z",
+  "fetchedAt": "2026-11-07T02:16:40.276Z",
   "links": [
+    {
+      "id": "fdmkjooig6d2fl2jsbxs4x4y",
+      "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+      "title": "Telephony and SIP | OpenAI API",
+      "ts": "2026-11-06T21:03:45-05:00",
+      "description": "Connect phone calls to OpenAI with SIP."
+    },
     {
       "id": "dj5tjwjxmlrhwukx3im0yw5m",
       "url": "https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev",
