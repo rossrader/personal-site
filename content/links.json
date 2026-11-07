@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-07T20:46:40.508Z",
+  "fetchedAt": "2026-11-07T22:16:40.450Z",
   "links": [
+    {
+      "id": "kaoqycbmk5urg7rgiehq130t",
+      "url": "https://share.google/Zn3q0OMGkOI4yBnzW",
+      "title": "Foundations of Large Language Models",
+      "ts": "2026-11-07T17:09:47-05:00",
+      "description": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models,…"
+    },
     {
       "id": "i4q9duwwjlhdyi100qvy7fwr",
       "url": "https://share.google/pg86ppI1bVZ8I4QCz",

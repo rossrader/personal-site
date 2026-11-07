@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 20:31:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:09:47 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Foundations of Large Language Models</title>
+      <link>https://share.google/Zn3q0OMGkOI4yBnzW</link>
+      <guid isPermaLink="false">kaoqycbmk5urg7rgiehq130t</guid>
+      <pubDate>Sat, 07 Nov 2026 22:09:47 GMT</pubDate>
+      <description>This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models,…</description>
+    </item>
     <item>
       <title>Agents Are Going Async</title>
       <link>https://share.google/pg86ppI1bVZ8I4QCz</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">uwfmkkl813p8uk8p6q3s01q4</guid>
       <pubDate>Tue, 13 Oct 2026 23:41:09 GMT</pubDate>
       <description>Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills</description>
-    </item>
-    <item>
-      <title>OpenCode 2.0</title>
-      <link>https://anoma.ly/notes/opencode-2-0/?via=dailydev</link>
-      <guid isPermaLink="false">nzqgo0nl5j01r56ak5immrc6</guid>
-      <pubDate>Tue, 13 Oct 2026 16:15:47 GMT</pubDate>
-      <description>OpenCode 2.0.</description>
     </item>
   </channel>
 </rss>
