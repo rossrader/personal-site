@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-07T02:16:40.276Z",
+  "fetchedAt": "2026-11-07T20:46:40.508Z",
   "links": [
+    {
+      "id": "i4q9duwwjlhdyi100qvy7fwr",
+      "url": "https://share.google/pg86ppI1bVZ8I4QCz",
+      "title": "Agents Are Going Async",
+      "ts": "2026-11-07T15:31:08-05:00",
+      "description": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents."
+    },
     {
       "id": "fdmkjooig6d2fl2jsbxs4x4y",
       "url": "https://developers.openai.com/api/docs/guides/voice-sip",

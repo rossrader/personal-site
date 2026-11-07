@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:03:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 20:31:08 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Agents Are Going Async</title>
+      <link>https://share.google/pg86ppI1bVZ8I4QCz</link>
+      <guid isPermaLink="false">i4q9duwwjlhdyi100qvy7fwr</guid>
+      <pubDate>Sat, 07 Nov 2026 20:31:08 GMT</pubDate>
+      <description>Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents.</description>
+    </item>
     <item>
       <title>Telephony and SIP | OpenAI API</title>
       <link>https://developers.openai.com/api/docs/guides/voice-sip</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">nzqgo0nl5j01r56ak5immrc6</guid>
       <pubDate>Tue, 13 Oct 2026 16:15:47 GMT</pubDate>
       <description>OpenCode 2.0.</description>
-    </item>
-    <item>
-      <title>SlimSnap. Paste a screenshot into your terminal</title>
-      <link>https://slimsnap.ai/</link>
-      <guid isPermaLink="false">monbfcj6c2df6q1j6yaj9e0l</guid>
-      <pubDate>Tue, 13 Oct 2026 14:32:24 GMT</pubDate>
-      <description>Turn any screenshot into JSON your CLI agent can read.</description>
     </item>
   </channel>
 </rss>

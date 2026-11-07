@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-07T02:16:40.276Z",
+  "fetchedAt": "2026-11-07T20:46:40.508Z",
   "links": [
+    {
+      "id": "i4q9duwwjlhdyi100qvy7fwr",
+      "url": "https://share.google/pg86ppI1bVZ8I4QCz",
+      "title": "Agents Are Going Async",
+      "ts": "2026-11-07T15:31:08-05:00",
+      "description": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents."
+    },
     {
       "id": "fdmkjooig6d2fl2jsbxs4x4y",
       "url": "https://developers.openai.com/api/docs/guides/voice-sip",
@@ -98,13 +105,6 @@
       "title": "Claude can run my Home Assistant setup now, and it only took one click to set up",
       "ts": "2026-11-01T12:09:38-05:00",
       "description": "It can only touch what I expose which is a good safety feature"
-    },
-    {
-      "id": "bk0clrhx7a25zgg1b02xkbgc",
-      "url": "https://github.com/yuruotong1/autoMate",
-      "title": "GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
-      "ts": "2026-10-31T17:53:57-04:00",
-      "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…"
     }
   ]
 }
