@@ -10,14 +10,14 @@
 
     <item>
       <title>Foundations of Large Language Models</title>
-      <link>https://share.google/Zn3q0OMGkOI4yBnzW</link>
+      <link>https://arxiv.org/abs/2501.09223</link>
       <guid isPermaLink="false">kaoqycbmk5urg7rgiehq130t</guid>
       <pubDate>Sat, 07 Nov 2026 22:09:47 GMT</pubDate>
       <description>This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models,…</description>
     </item>
     <item>
       <title>Agents Are Going Async</title>
-      <link>https://share.google/pg86ppI1bVZ8I4QCz</link>
+      <link>https://www.langchain.com/blog/agents-are-going-async</link>
       <guid isPermaLink="false">i4q9duwwjlhdyi100qvy7fwr</guid>
       <pubDate>Sat, 07 Nov 2026 20:31:08 GMT</pubDate>
       <description>Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents.</description>
