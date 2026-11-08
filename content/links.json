@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-08T05:16:40.579Z",
+  "fetchedAt": "2026-11-08T15:16:40.653Z",
   "links": [
+    {
+      "id": "aerk3gi7vx6hec975khj123h",
+      "url": "https://github.com/emdash-cms/emdash",
+      "title": "GitHub - emdash-cms/emdash: EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+      "ts": "2026-11-08T09:48:34-05:00",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress - emdash-cms/emdash"
+    },
     {
       "id": "kaoqycbmk5urg7rgiehq130t",
       "url": "https://arxiv.org/abs/2501.09223",
@@ -77,41 +84,6 @@
       "title": "Miles Deutscher (@milesdeutscher) on X",
       "ts": "2026-11-02T06:18:48-05:00",
       "description": "Boris Cherny, the creator of Claude Code, revealed his entire setup. The 6-step framework you can use to actually use Claude Code properly:"
-    },
-    {
-      "id": "c46xx1dtbkg29c856z9l9msi",
-      "url": "https://github.com/ninjahawk/livenerf",
-      "title": "GitHub - ninjahawk/livenerf: Benchmark for tracking model capability after release.",
-      "ts": "2026-11-01T22:11:07-05:00",
-      "description": "Benchmark for tracking model capability after release. - ninjahawk/livenerf"
-    },
-    {
-      "id": "z8cfsc64qpzsku4u9ifqmqaa",
-      "url": "https://github.com/aliasvault/aliasvault",
-      "title": "GitHub - aliasvault/aliasvault: Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable.",
-      "ts": "2026-11-01T22:04:30-05:00",
-      "description": "Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable. - aliasvault/aliasvault"
-    },
-    {
-      "id": "uhfnwlijtbq2biwb4hah4sq1",
-      "url": "https://github.com/robonuggets/be-ambitious",
-      "title": "GitHub - robonuggets/be-ambitious: A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps.",
-      "ts": "2026-11-01T22:02:47-05:00",
-      "description": "A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps. - robonuggets/be-ambitious"
-    },
-    {
-      "id": "q0qhh3q9lyp0ufp6e3yw1b2x",
-      "url": "https://github.com/mcpjungle/MCPJungle",
-      "title": "GitHub - mcpjungle/MCPJungle: One place to manage & connect to all your MCP servers",
-      "ts": "2026-11-01T21:52:15-05:00",
-      "description": "One place to manage & connect to all your MCP servers - mcpjungle/MCPJungle"
-    },
-    {
-      "id": "sj1qiv5i1bcspmbc8d1v14pc",
-      "url": "https://www.xda-developers.com/claude-can-run-my-home-assistant-setup-now-and-it-only-took-one-click-to-set-up/",
-      "title": "Claude can run my Home Assistant setup now, and it only took one click to set up",
-      "ts": "2026-11-01T12:09:38-05:00",
-      "description": "It can only touch what I expose which is a good safety feature"
     }
   ]
 }

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-08T05:16:40.579Z",
+  "fetchedAt": "2026-11-08T15:16:40.653Z",
   "links": [
+    {
+      "id": "aerk3gi7vx6hec975khj123h",
+      "url": "https://github.com/emdash-cms/emdash",
+      "title": "GitHub - emdash-cms/emdash: EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
+      "ts": "2026-11-08T09:48:34-05:00",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress - emdash-cms/emdash"
+    },
     {
       "id": "kaoqycbmk5urg7rgiehq130t",
       "url": "https://arxiv.org/abs/2501.09223",

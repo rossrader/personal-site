@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 22:09:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 14:48:34 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>GitHub - emdash-cms/emdash: EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress</title>
+      <link>https://github.com/emdash-cms/emdash</link>
+      <guid isPermaLink="false">aerk3gi7vx6hec975khj123h</guid>
+      <pubDate>Sun, 08 Nov 2026 14:48:34 GMT</pubDate>
+      <description>EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress - emdash-cms/emdash</description>
+    </item>
     <item>
       <title>Foundations of Large Language Models</title>
       <link>https://arxiv.org/abs/2501.09223</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">vy326754bkkx51ew4jrwahct</guid>
       <pubDate>Wed, 14 Oct 2026 03:56:18 GMT</pubDate>
       <description>A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim</description>
-    </item>
-    <item>
-      <title>mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.</title>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid isPermaLink="false">uwfmkkl813p8uk8p6q3s01q4</guid>
-      <pubDate>Tue, 13 Oct 2026 23:41:09 GMT</pubDate>
-      <description>Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills</description>
     </item>
   </channel>
 </rss>
