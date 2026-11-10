@@ -5,9 +5,30 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 14:48:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 01:24:28 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>USPS® ZIP Code Boundaries | PostalPro</title>
+      <link>https://postalpro.usps.com/zcb</link>
+      <guid isPermaLink="false">y6htnbwaq8lkqzriohy2fo79</guid>
+      <pubDate>Tue, 10 Nov 2026 01:24:28 GMT</pubDate>
+      <description>postalpro.usps.com</description>
+    </item>
+    <item>
+      <title>BenchUp — Free 3D Woodworking &amp; Furniture Design App</title>
+      <link>https://ketchup3d.github.io/app/</link>
+      <guid isPermaLink="false">ifwcpkuh1wftgb3tjs6awvuh</guid>
+      <pubDate>Tue, 10 Nov 2026 01:23:06 GMT</pubDate>
+      <description>Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser.</description>
+    </item>
+    <item>
+      <title>Foldable Flight: The Best Paper Airplanes in the World!</title>
+      <link>https://www.foldableflight.com/</link>
+      <guid isPermaLink="false">b1u2fmq2xkvagvggupodrrms</guid>
+      <pubDate>Tue, 10 Nov 2026 01:22:35 GMT</pubDate>
+      <description>The world’s largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!</description>
+    </item>
     <item>
       <title>GitHub - emdash-cms/emdash: EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress</title>
       <link>https://github.com/emdash-cms/emdash</link>
@@ -336,27 +357,6 @@
       <guid isPermaLink="false">zcaxn9gxk52fgauavlrur2y7</guid>
       <pubDate>Sat, 17 Oct 2026 00:06:28 GMT</pubDate>
       <description>...with visuals.</description>
-    </item>
-    <item>
-      <title>What Does a Well-Designed AI Software Factory Look Like? | daily.dev</title>
-      <link>https://dly.to/kfFHdo4Fqkv</link>
-      <guid isPermaLink="false">cs9d1d4l2umh7ks0sotwe6rh</guid>
-      <pubDate>Sat, 17 Oct 2026 00:05:37 GMT</pubDate>
-      <description>An exploration of ‘AI software factories’ - automated engineering systems where multiple specialized AI agents collaborate with humans through a repeating…</description>
-    </item>
-    <item>
-      <title>GitHub - Pouzor/homelable: Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring</title>
-      <link>https://github.com/Pouzor/homelable</link>
-      <guid isPermaLink="false">mi63ucdmulagsscp2kh9kwb0</guid>
-      <pubDate>Fri, 16 Oct 2026 12:41:13 GMT</pubDate>
-      <description>Self-hosted homelab infrastructure visualizer — interactive network diagram with live status monitoring - Pouzor/homelable</description>
-    </item>
-    <item>
-      <title>GitHub - seyedehsanhadi/sloptrim: A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.</title>
-      <link>https://github.com/seyedehsanhadi/sloptrim</link>
-      <guid isPermaLink="false">vy326754bkkx51ew4jrwahct</guid>
-      <pubDate>Wed, 14 Oct 2026 03:56:18 GMT</pubDate>
-      <description>A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model. - seyedehsanhadi/sloptrim</description>
     </item>
   </channel>
 </rss>

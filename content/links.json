@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-08T15:16:40.653Z",
+  "fetchedAt": "2026-11-10T01:46:41.206Z",
   "links": [
+    {
+      "id": "y6htnbwaq8lkqzriohy2fo79",
+      "url": "https://postalpro.usps.com/zcb",
+      "title": "USPS® ZIP Code Boundaries | PostalPro",
+      "ts": "2026-11-09T20:24:28-05:00",
+      "description": null
+    },
+    {
+      "id": "ifwcpkuh1wftgb3tjs6awvuh",
+      "url": "https://ketchup3d.github.io/app/",
+      "title": "BenchUp — Free 3D Woodworking & Furniture Design App",
+      "ts": "2026-11-09T20:23:06-05:00",
+      "description": "Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser."
+    },
+    {
+      "id": "b1u2fmq2xkvagvggupodrrms",
+      "url": "https://www.foldableflight.com/",
+      "title": "Foldable Flight: The Best Paper Airplanes in the World!",
+      "ts": "2026-11-09T20:22:35-05:00",
+      "description": "The world’s largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!"
+    },
     {
       "id": "aerk3gi7vx6hec975khj123h",
       "url": "https://github.com/emdash-cms/emdash",
@@ -70,20 +91,6 @@
       "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
       "ts": "2026-11-03T09:05:08-05:00",
       "description": "The best ChatGPT that $100 can buy. Contribute to karpathy/nanochat development by creating an account on GitHub."
-    },
-    {
-      "id": "q5j0axe8vw68rqiwes99xttt",
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "title": "LLMs can natively read & write neural network weights",
-      "ts": "2026-11-02T15:26:37-05:00",
-      "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms."
-    },
-    {
-      "id": "nmilscwzvasksb56mh57o4wf",
-      "url": "https://x.com/milesdeutscher/status/2116922973961789769",
-      "title": "Miles Deutscher (@milesdeutscher) on X",
-      "ts": "2026-11-02T06:18:48-05:00",
-      "description": "Boris Cherny, the creator of Claude Code, revealed his entire setup. The 6-step framework you can use to actually use Claude Code properly:"
     }
   ]
 }

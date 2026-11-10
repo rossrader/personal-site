@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-08T15:16:40.653Z",
+  "fetchedAt": "2026-11-10T01:46:41.206Z",
   "links": [
+    {
+      "id": "y6htnbwaq8lkqzriohy2fo79",
+      "url": "https://postalpro.usps.com/zcb",
+      "title": "USPS® ZIP Code Boundaries | PostalPro",
+      "ts": "2026-11-09T20:24:28-05:00",
+      "description": null
+    },
+    {
+      "id": "ifwcpkuh1wftgb3tjs6awvuh",
+      "url": "https://ketchup3d.github.io/app/",
+      "title": "BenchUp — Free 3D Woodworking & Furniture Design App",
+      "ts": "2026-11-09T20:23:06-05:00",
+      "description": "Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser."
+    },
+    {
+      "id": "b1u2fmq2xkvagvggupodrrms",
+      "url": "https://www.foldableflight.com/",
+      "title": "Foldable Flight: The Best Paper Airplanes in the World!",
+      "ts": "2026-11-09T20:22:35-05:00",
+      "description": "The world’s largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!"
+    },
     {
       "id": "aerk3gi7vx6hec975khj123h",
       "url": "https://github.com/emdash-cms/emdash",
