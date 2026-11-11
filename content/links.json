@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-10T01:46:41.206Z",
+  "fetchedAt": "2026-11-11T03:46:41.455Z",
   "links": [
+    {
+      "id": "ia9gex7ov15dbb0y9394x3cv",
+      "url": "https://hyperpwn.xyz/",
+      "title": "Rooting multiple ISPs with hyperglass",
+      "ts": "2026-11-10T22:25:49-05:00",
+      "description": "An unauthenticated command injection in hyperglass /api/query, and the 36 ISP and hosting footholds behind it."
+    },
     {
       "id": "y6htnbwaq8lkqzriohy2fo79",
       "url": "https://postalpro.usps.com/zcb",
@@ -70,27 +77,6 @@
       "title": "Harmony - chat that belongs to the people in it",
       "ts": "2026-11-04T23:44:20-05:00",
       "description": "Servers, voice, video, threads and bots. Open source, federated over ActivityPub, free in your browser, yours to self-host."
-    },
-    {
-      "id": "rraexgojdy8ad6osceobc598",
-      "url": "https://github.com/miuuyy/Octopus-SI-OS",
-      "title": "GitHub - miuuyy/Octopus-SI-OS: A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence.",
-      "ts": "2026-11-03T22:47:15-05:00",
-      "description": "A self-evolving agentic OS. A new architecture for agent execution, built on operating-system principles, with the harness as a path toward superintelligence. - miuuyy/Octopus-SI-OS"
-    },
-    {
-      "id": "o1ekkxwrh14f2c4xz0js2pmv",
-      "url": "https://github.com/generalaction/emdash",
-      "title": "GitHub - generalaction/emdash: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
-      "ts": "2026-11-03T20:42:29-05:00",
-      "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. - generalaction/emdash"
-    },
-    {
-      "id": "n91qdz00s92tc2ioyu9e8e2n",
-      "url": "https://github.com/karpathy/nanochat",
-      "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
-      "ts": "2026-11-03T09:05:08-05:00",
-      "description": "The best ChatGPT that $100 can buy. Contribute to karpathy/nanochat development by creating an account on GitHub."
     }
   ]
 }

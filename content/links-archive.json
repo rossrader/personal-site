@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-10T01:46:41.206Z",
+  "fetchedAt": "2026-11-11T03:46:41.455Z",
   "links": [
+    {
+      "id": "ia9gex7ov15dbb0y9394x3cv",
+      "url": "https://hyperpwn.xyz/",
+      "title": "Rooting multiple ISPs with hyperglass",
+      "ts": "2026-11-10T22:25:49-05:00",
+      "description": "An unauthenticated command injection in hyperglass /api/query, and the 36 ISP and hosting footholds behind it."
+    },
     {
       "id": "y6htnbwaq8lkqzriohy2fo79",
       "url": "https://postalpro.usps.com/zcb",

@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 01:24:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:25:49 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Rooting multiple ISPs with hyperglass</title>
+      <link>https://hyperpwn.xyz/</link>
+      <guid isPermaLink="false">ia9gex7ov15dbb0y9394x3cv</guid>
+      <pubDate>Wed, 11 Nov 2026 03:25:49 GMT</pubDate>
+      <description>An unauthenticated command injection in hyperglass /api/query, and the 36 ISP and hosting footholds behind it.</description>
+    </item>
     <item>
       <title>USPS® ZIP Code Boundaries | PostalPro</title>
       <link>https://postalpro.usps.com/zcb</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">jxcauolpidhglmu0kz1nyxlh</guid>
       <pubDate>Sat, 17 Oct 2026 00:08:02 GMT</pubDate>
       <description>plMail brings multiple email accounts into one self-hosted inbox, with Docker support and optional local AI through Ollama.</description>
-    </item>
-    <item>
-      <title>RAG vs. Jev + RAG, clearly explained!</title>
-      <link>https://blog.dailydoseofds.com/p/rag-vs-jev-rag-clearly-explained</link>
-      <guid isPermaLink="false">zcaxn9gxk52fgauavlrur2y7</guid>
-      <pubDate>Sat, 17 Oct 2026 00:06:28 GMT</pubDate>
-      <description>...with visuals.</description>
     </item>
   </channel>
 </rss>
