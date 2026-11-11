@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-11T03:46:41.455Z",
+  "fetchedAt": "2026-11-11T13:16:41.882Z",
   "links": [
+    {
+      "id": "c3cnz41hj4jhm3mo7od3oc24",
+      "url": "https://share.google/JTJVXvSbhUB7a3E0O",
+      "title": "share.google",
+      "ts": "2026-11-11T08:00:20-05:00",
+      "description": null
+    },
+    {
+      "id": "vksdz5nii8el9li7hgnv8t4v",
+      "url": "https://nathan.rs/posts/weight-space-lp/",
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "ts": "2026-11-11T07:55:04-05:00",
+      "description": "Last week, MIT CSAIL published Sparks of Weight-Space Programming. Given the raw weights of a small network, GPT-6 Astra could tell which game it had been …"
+    },
+    {
+      "id": "qmunudou2ize2fahl0zabo3h",
+      "url": "https://share.google/HC0rmJneCiM9BglrO",
+      "title": "Dimitris Papailiopoulos on X: “Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents” / X",
+      "ts": "2026-11-11T07:53:01-05:00",
+      "description": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents"
+    },
     {
       "id": "ia9gex7ov15dbb0y9394x3cv",
       "url": "https://hyperpwn.xyz/",
@@ -70,13 +91,6 @@
       "title": "So my ISP was hijacking my DNS",
       "ts": "2026-11-05T07:26:28-05:00",
       "description": "My ISP was tampering with my DNS queries and handing back bogus IP addresses. Here are the misconceptions about DoH, DoT and DNSSEC that followed, and the setup I actually run."
-    },
-    {
-      "id": "hmfxzxsh4vn3eplygjfxbkt7",
-      "url": "https://mony.lol/",
-      "title": "Harmony - chat that belongs to the people in it",
-      "ts": "2026-11-04T23:44:20-05:00",
-      "description": "Servers, voice, video, threads and bots. Open source, federated over ActivityPub, free in your browser, yours to self-host."
     }
   ]
 }

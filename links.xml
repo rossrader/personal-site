@@ -5,9 +5,30 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:25:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 13:00:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>share.google</title>
+      <link>https://share.google/JTJVXvSbhUB7a3E0O</link>
+      <guid isPermaLink="false">c3cnz41hj4jhm3mo7od3oc24</guid>
+      <pubDate>Wed, 11 Nov 2026 13:00:20 GMT</pubDate>
+      <description>share.google</description>
+    </item>
+    <item>
+      <title>Can a Linear Program Do Weight-Space Programming?</title>
+      <link>https://nathan.rs/posts/weight-space-lp/</link>
+      <guid isPermaLink="false">vksdz5nii8el9li7hgnv8t4v</guid>
+      <pubDate>Wed, 11 Nov 2026 12:55:04 GMT</pubDate>
+      <description>Last week, MIT CSAIL published Sparks of Weight-Space Programming. Given the raw weights of a small network, GPT-6 Astra could tell which game it had been …</description>
+    </item>
+    <item>
+      <title>Dimitris Papailiopoulos on X: “Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents” / X</title>
+      <link>https://share.google/HC0rmJneCiM9BglrO</link>
+      <guid isPermaLink="false">qmunudou2ize2fahl0zabo3h</guid>
+      <pubDate>Wed, 11 Nov 2026 12:53:01 GMT</pubDate>
+      <description>Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents</description>
+    </item>
     <item>
       <title>Rooting multiple ISPs with hyperglass</title>
       <link>https://hyperpwn.xyz/</link>
@@ -336,27 +357,6 @@
       <guid isPermaLink="false">jksia10hcxag03d7y5xz35x0</guid>
       <pubDate>Sat, 17 Oct 2026 02:27:21 GMT</pubDate>
       <description>Open-source vacuum robot cleaner. Contribute to makerspet/oomwoo development by creating an account on GitHub.</description>
-    </item>
-    <item>
-      <title>Forgejo v17.0 is available</title>
-      <link>https://forgejo.org/2026-10-release-v17-0/?via=dailydev</link>
-      <guid isPermaLink="false">lfiv1kolxhbih1wflotjbj68</guid>
-      <pubDate>Sat, 17 Oct 2026 02:06:20 GMT</pubDate>
-      <description>forgejo.org</description>
-    </item>
-    <item>
-      <title>GitHub - faucetdb/faucet: Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents.</title>
-      <link>https://github.com/faucetdb/faucet</link>
-      <guid isPermaLink="false">w3aawdhrmr5wgzk2tqj1bupt</guid>
-      <pubDate>Sat, 17 Oct 2026 01:14:51 GMT</pubDate>
-      <description>Faucet is an open-source, single-binary server that turns any SQL database into a secure, governed REST API with role-based access control and native MCP support for applications and AI agents. - f…</description>
-    </item>
-    <item>
-      <title>plMail: A Self-Hosted Gmail Alternative</title>
-      <link>https://noted.lol/plmail-self-hosted-gmail-alternative/?via=dailydev</link>
-      <guid isPermaLink="false">jxcauolpidhglmu0kz1nyxlh</guid>
-      <pubDate>Sat, 17 Oct 2026 00:08:02 GMT</pubDate>
-      <description>plMail brings multiple email accounts into one self-hosted inbox, with Docker support and optional local AI through Ollama.</description>
     </item>
   </channel>
 </rss>
