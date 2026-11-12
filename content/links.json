@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-12T03:46:41.951Z",
+  "fetchedAt": "2026-11-12T04:16:41.867Z",
   "links": [
+    {
+      "id": "kova65cc2m1hynva8ptg5pux",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "title": "GitHub - milind-soni/OpenMausBot: Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "ts": "2026-11-11T22:47:09-05:00",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use - milind-soni/OpenMausBot"
+    },
     {
       "id": "v45gyphpjngdf61ors8aldnl",
       "url": "https://share.google/Fc9AXebLyS0Qt3kV4",
