@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 13:00:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 03:42:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Netlify (@Netlify) on X</title>
+      <link>https://share.google/Fc9AXebLyS0Qt3kV4</link>
+      <guid isPermaLink="false">v45gyphpjngdf61ors8aldnl</guid>
+      <pubDate>Thu, 12 Nov 2026 03:42:20 GMT</pubDate>
+      <description>Introducing Netlify Server: a long-running server for your app’s backend, in Early Access today. Build AI agents, collaborative apps, multiplayer games, and chat apps, then deploy them like the rest of your Netlify project.</description>
+    </item>
     <item>
       <title>share.google</title>
       <link>https://share.google/JTJVXvSbhUB7a3E0O</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">gljn4wq4mdhzf31qtw8mcteb</guid>
       <pubDate>Sat, 17 Oct 2026 12:43:32 GMT</pubDate>
       <description>Alongside prompt and context engineering, harness engineering has emerged as the most important skill for building AI products.</description>
-    </item>
-    <item>
-      <title>GitHub - makerspet/oomwoo: Open-source vacuum robot cleaner</title>
-      <link>https://github.com/makerspet/oomwoo</link>
-      <guid isPermaLink="false">jksia10hcxag03d7y5xz35x0</guid>
-      <pubDate>Sat, 17 Oct 2026 02:27:21 GMT</pubDate>
-      <description>Open-source vacuum robot cleaner. Contribute to makerspet/oomwoo development by creating an account on GitHub.</description>
     </item>
   </channel>
 </rss>
