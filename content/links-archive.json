@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T02:03:04.628Z",
+  "fetchedAt": "2026-11-13T22:46:42.475Z",
   "links": [
+    {
+      "id": "cjdogi9cxqlwehz3dc3h428m",
+      "url": "https://idk-ide.com/",
+      "title": "idk · Keep up with your agent’s code",
+      "ts": "2026-11-13T17:19:59-05:00",
+      "description": "idk explains the code your AI agent writes, feature by feature, in plain steps, so you can keep up without reading it. Free for macOS, with Windows and Linux coming soon."
+    },
     {
       "id": "kova65cc2m1hynva8ptg5pux",
       "url": "https://github.com/milind-soni/OpenMausBot",

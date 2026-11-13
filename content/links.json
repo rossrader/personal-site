@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T02:03:04.628Z",
+  "fetchedAt": "2026-11-13T22:46:42.475Z",
   "links": [
+    {
+      "id": "cjdogi9cxqlwehz3dc3h428m",
+      "url": "https://idk-ide.com/",
+      "title": "idk · Keep up with your agent’s code",
+      "ts": "2026-11-13T17:19:59-05:00",
+      "description": "idk explains the code your AI agent writes, feature by feature, in plain steps, so you can keep up without reading it. Free for macOS, with Windows and Linux coming soon."
+    },
     {
       "id": "kova65cc2m1hynva8ptg5pux",
       "url": "https://github.com/milind-soni/OpenMausBot",
@@ -91,20 +98,6 @@
       "title": "Telephony and SIP | OpenAI API",
       "ts": "2026-11-06T21:03:45-05:00",
       "description": "Connect phone calls to OpenAI with SIP."
-    },
-    {
-      "id": "dj5tjwjxmlrhwukx3im0yw5m",
-      "url": "https://blog.dailydoseofds.com/p/agent-framework-vs-agent-harness?via=dailydev",
-      "title": "Agent Framework vs. Agent Harness, clearly explained!",
-      "ts": "2026-11-05T07:29:24-05:00",
-      "description": "+ a technique for 23x faster attention!"
-    },
-    {
-      "id": "b47j7kwxchcohvxlsnwhugos",
-      "url": "https://www.karthihegde.dev/posts/dns_tampering",
-      "title": "So my ISP was hijacking my DNS",
-      "ts": "2026-11-05T07:26:28-05:00",
-      "description": "My ISP was tampering with my DNS queries and handing back bogus IP addresses. Here are the misconceptions about DoH, DoT and DNSSEC that followed, and the setup I actually run."
     }
   ]
 }

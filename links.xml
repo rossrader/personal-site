@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 03:47:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 22:19:59 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>idk · Keep up with your agent’s code</title>
+      <link>https://idk-ide.com/</link>
+      <guid isPermaLink="false">cjdogi9cxqlwehz3dc3h428m</guid>
+      <pubDate>Fri, 13 Nov 2026 22:19:59 GMT</pubDate>
+      <description>idk explains the code your AI agent writes, feature by feature, in plain steps, so you can keep up without reading it. Free for macOS, with Windows and Linux coming soon.</description>
+    </item>
     <item>
       <title>GitHub - milind-soni/OpenMausBot: Open-source Grok Bot alternative with a virtual machine that bots can use</title>
       <link>https://github.com/milind-soni/OpenMausBot</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">zqebh79ko7byj62oauqn7sdd</guid>
       <pubDate>Sun, 18 Oct 2026 12:32:38 GMT</pubDate>
       <description>Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub.</description>
-    </item>
-    <item>
-      <title>GitHub - chrisgreg/boop: A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.</title>
-      <link>https://github.com/chrisgreg/boop</link>
-      <guid isPermaLink="false">s49zah7hmadhvxd03fk6f8vt</guid>
-      <pubDate>Sun, 18 Oct 2026 04:21:45 GMT</pubDate>
-      <description>A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone. - chrisgreg/boop</description>
     </item>
   </channel>
 </rss>
