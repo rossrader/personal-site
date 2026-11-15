@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:22:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 14:39:58 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Motivations and incentives around AGI — LessWrong</title>
+      <link>https://www.lesswrong.com/posts/DonAoEXiRGNFGKhio/motivations-and-incentives-around-agi</link>
+      <guid isPermaLink="false">dqk2do2i72b3f01s7qhhg03v</guid>
+      <pubDate>Sun, 15 Nov 2026 14:39:58 GMT</pubDate>
+      <description>AI use disclosure: I dictated this text to Claude in a mix of Russian and English, then edited it. …</description>
+    </item>
+    <item>
+      <title>Poisoned Training Artifacts Hijack Coding Agents</title>
+      <link>https://blog.neticslabs.com/post-training-supply-chain-coding-agent-backdoor/</link>
+      <guid isPermaLink="false">pcrka3toaxyvorsdqj354h8y</guid>
+      <pubDate>Sun, 15 Nov 2026 14:36:30 GMT</pubDate>
+      <description>Microsoft’s AI Red Team measured two paths that plant hidden behaviour in a coding agent, one through the fine-tuning dataset and one through the checkpoint itself.</description>
+    </item>
     <item>
       <title>Binary Logic Breaks AI Safety — and Is Analyzing Prompt Injections Pointless? “Yes, No, Probably!”</title>
       <link>https://medium.com/@kate8382/binary-logic-breaks-ai-safety-and-is-analyzing-prompt-injections-pointless-yes-no-probably-9244fd52e359</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">rjxqmmtllzbl2pyzgc87fi6b</guid>
       <pubDate>Sun, 18 Oct 2026 14:31:50 GMT</pubDate>
       <description>Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products. - croffasia/itsaplan</description>
-    </item>
-    <item>
-      <title>GitHub - amitshekhariitbhu/ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.</title>
-      <link>https://github.com/amitshekhariitbhu/ai-system-design</link>
-      <guid isPermaLink="false">yl28bf9xd2esf9x92emei49k</guid>
-      <pubDate>Sun, 18 Oct 2026 13:47:20 GMT</pubDate>
-      <description>AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step. - amitshekhariitbhu/ai-system-design</description>
-    </item>
-    <item>
-      <title>Vibes vs. Evidence: What Works in AI Code Review</title>
-      <link>https://dsifry.github.io/harnesseval/</link>
-      <guid isPermaLink="false">sh2f5fdqdk3guuf0u7gg86x2</guid>
-      <pubDate>Sun, 18 Oct 2026 13:41:21 GMT</pubDate>
-      <description>AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs.</description>
     </item>
   </channel>
 </rss>

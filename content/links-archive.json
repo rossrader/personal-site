@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-15T12:46:43.324Z",
+  "fetchedAt": "2026-11-15T14:46:43.068Z",
   "links": [
+    {
+      "id": "dqk2do2i72b3f01s7qhhg03v",
+      "url": "https://www.lesswrong.com/posts/DonAoEXiRGNFGKhio/motivations-and-incentives-around-agi",
+      "title": "Motivations and incentives around AGI — LessWrong",
+      "ts": "2026-11-15T09:39:58-05:00",
+      "description": "AI use disclosure: I dictated this text to Claude in a mix of Russian and English, then edited it. …"
+    },
+    {
+      "id": "pcrka3toaxyvorsdqj354h8y",
+      "url": "https://blog.neticslabs.com/post-training-supply-chain-coding-agent-backdoor/",
+      "title": "Poisoned Training Artifacts Hijack Coding Agents",
+      "ts": "2026-11-15T09:36:30-05:00",
+      "description": "Microsoft’s AI Red Team measured two paths that plant hidden behaviour in a coding agent, one through the fine-tuning dataset and one through the checkpoint itself."
+    },
     {
       "id": "cc754vlwvoemkvtvplvmuonh",
       "url": "https://medium.com/@kate8382/binary-logic-breaks-ai-safety-and-is-analyzing-prompt-injections-pointless-yes-no-probably-9244fd52e359",
