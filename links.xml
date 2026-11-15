@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 14:39:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 15:09:55 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>On the Brutality of Amdahl&apos;s Law — LessWrong</title>
+      <link>https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law</link>
+      <guid isPermaLink="false">r9rgy79vfdpoxtj0vmzahos2</guid>
+      <pubDate>Sun, 15 Nov 2026 15:09:55 GMT</pubDate>
+      <description>Following my 3-week visit to Berkeley as described here and featured by ACX here, I told various people I would write in detail why I didn’t stick ar…</description>
+    </item>
     <item>
       <title>Motivations and incentives around AGI — LessWrong</title>
       <link>https://www.lesswrong.com/posts/DonAoEXiRGNFGKhio/motivations-and-incentives-around-agi</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">npig5x022oognzpxuaz7gx3a</guid>
       <pubDate>Mon, 19 Oct 2026 03:20:30 GMT</pubDate>
       <description>My files are still a mess, but at least Claude knows where they are</description>
-    </item>
-    <item>
-      <title>GitHub - croffasia/itsaplan: Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.</title>
-      <link>https://github.com/croffasia/itsaplan</link>
-      <guid isPermaLink="false">rjxqmmtllzbl2pyzgc87fi6b</guid>
-      <pubDate>Sun, 18 Oct 2026 14:31:50 GMT</pubDate>
-      <description>Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products. - croffasia/itsaplan</description>
     </item>
   </channel>
 </rss>
