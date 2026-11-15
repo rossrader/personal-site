@@ -1,45 +1,45 @@
 {
-  "fetchedAt": "2026-11-13T22:46:42.199Z",
+  "fetchedAt": "2026-11-15T12:46:43.063Z",
   "albums": [
     {
-      "id": "0jVeR0B3LrXs2jvRBQSrIa",
-      "title": "OK Computer (Instrumentals)",
-      "artist": "Radiohead",
-      "year": 1997,
+      "id": "46fjig8sPgSE03vtkW8vAP",
+      "title": "Communiqué",
+      "artist": "Dire Straits",
+      "year": 1979,
       "plays": 9,
-      "cover": "content/music/al-0jVeR0B3LrXs2jvRBQSrIa_0f152411ea5dd85d.jpg"
+      "cover": "content/music/al-46fjig8sPgSE03vtkW8vAP_86fbc489830399c8.jpg"
     },
     {
-      "id": "3F0VnV1ebf2Lbpzdy1xcrm",
-      "title": "Play",
-      "artist": "Moby",
-      "year": 1999,
-      "plays": 22,
-      "cover": "content/music/al-3F0VnV1ebf2Lbpzdy1xcrm_46dbfbd0f888e4ad.jpg"
-    },
-    {
-      "id": "4MJKD3O3ENasaVj3I5C8Rt",
-      "title": "The Return of Tomorrow",
-      "artist": "Fu Manchu",
-      "year": 2024,
-      "plays": 5,
-      "cover": "content/music/al-4MJKD3O3ENasaVj3I5C8Rt_2f677cda35ec71ce.jpg"
-    },
-    {
-      "id": "01YLpxfyEAuR58smwk1rJ1",
-      "title": "Aerosmith",
-      "artist": "Aerosmith",
-      "year": 1973,
+      "id": "3lLdNlMtp2M2kgh2owzrPO",
+      "title": "Having a Rave Up",
+      "artist": "The Yardbirds",
+      "year": 1965,
       "plays": 6,
-      "cover": "content/music/al-01YLpxfyEAuR58smwk1rJ1_5de1f78beef0dd1e.jpg"
+      "cover": "content/music/al-3lLdNlMtp2M2kgh2owzrPO_2f2501500d694b3a.jpg"
     },
     {
       "id": "7GnLVLYRNYx8ke7kvOe1io",
       "title": "Perfect Strangers",
       "artist": "Deep Purple",
       "year": 1984,
-      "plays": 9,
+      "plays": 10,
       "cover": "content/music/al-7GnLVLYRNYx8ke7kvOe1io_4c863b867e62fbb5.jpg"
+    },
+    {
+      "id": "2Edvd3jEiKXV1AJX2voyPn",
+      "title": "El Camino",
+      "artist": "The Black Keys",
+      "year": 2011,
+      "plays": 6,
+      "cover": "content/music/al-2Edvd3jEiKXV1AJX2voyPn_acdaf5744e8adf04.jpg"
+    },
+    {
+      "id": "3NkYg7dAo5fgxDIUVHVylc",
+      "title": "Gigaton",
+      "artist": "Pearl Jam",
+      "year": 2020,
+      "plays": 13,
+      "cover": "content/music/al-3NkYg7dAo5fgxDIUVHVylc_2be0c5c0f2ceee4c.jpg"
     }
   ]
 }

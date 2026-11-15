@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 22:19:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:22:20 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Binary Logic Breaks AI Safety — and Is Analyzing Prompt Injections Pointless? “Yes, No, Probably!”</title>
+      <link>https://medium.com/@kate8382/binary-logic-breaks-ai-safety-and-is-analyzing-prompt-injections-pointless-yes-no-probably-9244fd52e359</link>
+      <guid isPermaLink="false">cc754vlwvoemkvtvplvmuonh</guid>
+      <pubDate>Sun, 15 Nov 2026 12:22:20 GMT</pubDate>
+      <description>Imagine a simple everyday situation. Someone asks you: “Want some coffee?” You reply: “Yes, no, probably” (“Да нет, наверное”).</description>
+    </item>
     <item>
       <title>idk · Keep up with your agent’s code</title>
       <link>https://idk-ide.com/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">sh2f5fdqdk3guuf0u7gg86x2</guid>
       <pubDate>Sun, 18 Oct 2026 13:41:21 GMT</pubDate>
       <description>AI code review without wasted time and money. Eight models. Prompts vs harnesses. Effort levels. Frontier vs non-frontier. Open vs closed weights. Practical advice backed by thousands of runs.</description>
-    </item>
-    <item>
-      <title>GitHub - ScottRBK/forgetful: Opensource Memory for Agents</title>
-      <link>https://github.com/ScottRBK/forgetful</link>
-      <guid isPermaLink="false">zqebh79ko7byj62oauqn7sdd</guid>
-      <pubDate>Sun, 18 Oct 2026 12:32:38 GMT</pubDate>
-      <description>Opensource Memory for Agents. Contribute to ScottRBK/forgetful development by creating an account on GitHub.</description>
     </item>
   </channel>
 </rss>

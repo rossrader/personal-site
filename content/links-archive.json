@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T22:46:42.475Z",
+  "fetchedAt": "2026-11-15T12:46:43.324Z",
   "links": [
+    {
+      "id": "cc754vlwvoemkvtvplvmuonh",
+      "url": "https://medium.com/@kate8382/binary-logic-breaks-ai-safety-and-is-analyzing-prompt-injections-pointless-yes-no-probably-9244fd52e359",
+      "title": "Binary Logic Breaks AI Safety — and Is Analyzing Prompt Injections Pointless? “Yes, No, Probably!”",
+      "ts": "2026-11-15T07:22:20-05:00",
+      "description": "Imagine a simple everyday situation. Someone asks you: “Want some coffee?” You reply: “Yes, no, probably” (“Да нет, наверное”)."
+    },
     {
       "id": "cjdogi9cxqlwehz3dc3h428m",
       "url": "https://idk-ide.com/",
