@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T15:40:11.265Z",
+  "fetchedAt": "2026-11-18T11:00:05.571Z",
   "links": [
+    {
+      "id": "fgqsvr3p4idxsukyfesicybs",
+      "url": "https://www.opensourceforu.com/2026/11/open-source-esp32-robot-brings-ai-to-the-desktop/",
+      "title": "Open-Source ESP32 Robot Brings AI To The Desktop - Open Source For You",
+      "ts": "2026-11-17T19:58:36-05:00",
+      "description": "RIG-TARS combines an ESP32-S3, three servo-driven sections and voice interaction in a 3D-printable robot, with firmware and development"
+    },
     {
       "id": "r9rgy79vfdpoxtj0vmzahos2",
       "url": "https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law",

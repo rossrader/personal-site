@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 15:09:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:58:36 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Open-Source ESP32 Robot Brings AI To The Desktop - Open Source For You</title>
+      <link>https://www.opensourceforu.com/2026/11/open-source-esp32-robot-brings-ai-to-the-desktop/</link>
+      <guid isPermaLink="false">fgqsvr3p4idxsukyfesicybs</guid>
+      <pubDate>Wed, 18 Nov 2026 00:58:36 GMT</pubDate>
+      <description>RIG-TARS combines an ESP32-S3, three servo-driven sections and voice interaction in a 3D-printable robot, with firmware and development</description>
+    </item>
     <item>
       <title>On the Brutality of Amdahl&apos;s Law — LessWrong</title>
       <link>https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ql2fgm6km35kwtd7vuwxvwtl</guid>
       <pubDate>Wed, 21 Oct 2026 22:21:05 GMT</pubDate>
       <description>Built from the ground up for speed. Flectar Mail delivers native performance, instant startup, and as little as 80 MB of RAM. - flectar/mail</description>
-    </item>
-    <item>
-      <title>I made Claude Code build a map of my files, and it cut search times by 96%</title>
-      <link>https://www.xda-developers.com/made-claude-code-build-map-of-my-files/</link>
-      <guid isPermaLink="false">npig5x022oognzpxuaz7gx3a</guid>
-      <pubDate>Mon, 19 Oct 2026 03:20:30 GMT</pubDate>
-      <description>My files are still a mess, but at least Claude knows where they are</description>
     </item>
   </channel>
 </rss>

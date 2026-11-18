@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-15T15:40:11.265Z",
+  "fetchedAt": "2026-11-18T11:00:05.571Z",
   "links": [
+    {
+      "id": "fgqsvr3p4idxsukyfesicybs",
+      "url": "https://www.opensourceforu.com/2026/11/open-source-esp32-robot-brings-ai-to-the-desktop/",
+      "title": "Open-Source ESP32 Robot Brings AI To The Desktop - Open Source For You",
+      "ts": "2026-11-17T19:58:36-05:00",
+      "description": "RIG-TARS combines an ESP32-S3, three servo-driven sections and voice interaction in a 3D-printable robot, with firmware and development"
+    },
     {
       "id": "r9rgy79vfdpoxtj0vmzahos2",
       "url": "https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law",
@@ -105,20 +112,6 @@
       "title": "GitHub - emdash-cms/emdash: EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
       "ts": "2026-11-08T09:48:34-05:00",
       "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress - emdash-cms/emdash"
-    },
-    {
-      "id": "kaoqycbmk5urg7rgiehq130t",
-      "url": "https://arxiv.org/abs/2501.09223",
-      "title": "Foundations of Large Language Models",
-      "ts": "2026-11-07T17:09:47-05:00",
-      "description": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models,…"
-    },
-    {
-      "id": "i4q9duwwjlhdyi100qvy7fwr",
-      "url": "https://www.langchain.com/blog/agents-are-going-async",
-      "title": "Agents Are Going Async",
-      "ts": "2026-11-07T15:31:08-05:00",
-      "description": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents."
     }
   ]
 }
