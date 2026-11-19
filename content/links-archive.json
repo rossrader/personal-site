@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-19T00:45:43.443Z",
+  "fetchedAt": "2026-11-19T11:00:04.566Z",
   "links": [
+    {
+      "id": "bujikjorxwzbwjugb4msnouz",
+      "url": "https://pentagi.com/",
+      "title": "PentAGI — Autonomous AI agents for penetration testing",
+      "ts": "2026-11-18T21:38:53-05:00",
+      "description": "PentAGI is a fully autonomous multi-agent system that plans and runs penetration tests in an isolated sandbox — self-hosted, open source, enterprise-ready."
+    },
     {
       "id": "fgqsvr3p4idxsukyfesicybs",
       "url": "https://www.opensourceforu.com/2026/11/open-source-esp32-robot-brings-ai-to-the-desktop/",
