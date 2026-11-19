@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-11-18T13:16:34.682Z",
+  "fetchedAt": "2026-11-19T00:45:43.115Z",
   "albums": [
+    {
+      "id": "3Ph1IWcOJ4N7wsg83Nf2BL",
+      "title": "Simulation Theory",
+      "artist": "Muse",
+      "year": 2018,
+      "plays": 3,
+      "cover": "content/music/al-3Ph1IWcOJ4N7wsg83Nf2BL_bd53012e9e44657c.jpg"
+    },
+    {
+      "id": "4TroDS5EyEbIVxmCz4LqVH",
+      "title": "Undertow",
+      "artist": "Tool",
+      "year": 1993,
+      "plays": 10,
+      "cover": "content/music/al-4TroDS5EyEbIVxmCz4LqVH_1ecd22dd60cde7c5.jpg"
+    },
+    {
+      "id": "08xcLs1s8ACwJnI54G3xYL",
+      "title": "In Through the Out Door",
+      "artist": "Led Zeppelin",
+      "year": 1979,
+      "plays": 7,
+      "cover": "content/music/al-08xcLs1s8ACwJnI54G3xYL_51629ebff92bd286.jpg"
+    },
     {
       "id": "46fjig8sPgSE03vtkW8vAP",
       "title": "Communiqué",
@@ -16,30 +40,6 @@
       "year": 1965,
       "plays": 6,
       "cover": "content/music/al-3lLdNlMtp2M2kgh2owzrPO_2f2501500d694b3a.jpg"
-    },
-    {
-      "id": "7GnLVLYRNYx8ke7kvOe1io",
-      "title": "Perfect Strangers",
-      "artist": "Deep Purple",
-      "year": 1984,
-      "plays": 10,
-      "cover": "content/music/al-7GnLVLYRNYx8ke7kvOe1io_4c863b867e62fbb5.jpg"
-    },
-    {
-      "id": "2Edvd3jEiKXV1AJX2voyPn",
-      "title": "El Camino",
-      "artist": "The Black Keys",
-      "year": 2011,
-      "plays": 6,
-      "cover": "content/music/al-2Edvd3jEiKXV1AJX2voyPn_acdaf5744e8adf04.jpg"
-    },
-    {
-      "id": "3NkYg7dAo5fgxDIUVHVylc",
-      "title": "Gigaton",
-      "artist": "Pearl Jam",
-      "year": 2020,
-      "plays": 13,
-      "cover": "content/music/al-3NkYg7dAo5fgxDIUVHVylc_2be0c5c0f2ceee4c.jpg"
     }
   ]
 }
