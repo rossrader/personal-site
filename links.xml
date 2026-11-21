@@ -5,9 +5,37 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 02:38:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 02:19:16 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Protomaps: Self-hosting map tiles has gotten cheap and easy — Bruce Röttgers</title>
+      <link>https://bruceroettgers.eu/blog/protomaps?via=dailydev</link>
+      <guid isPermaLink="false">v125rsjr64f13k42jav78sok</guid>
+      <pubDate>Sat, 21 Nov 2026 02:19:16 GMT</pubDate>
+      <description>PMTiles is a tile format which works via HTTP Range requests and can be deployed as a single file to a storage bucket.</description>
+    </item>
+    <item>
+      <title>GitHub - openfabriq/openfabriq: Your AI software factory, as code: agents that triage, implement, review and fix your GitHub repository, described in readable files and run with Claude Code on your machine or your team’s server.</title>
+      <link>https://github.com/openfabriq/openfabriq</link>
+      <guid isPermaLink="false">gsmqbxspt8rjuj3t2cld6pno</guid>
+      <pubDate>Sat, 21 Nov 2026 02:17:22 GMT</pubDate>
+      <description>Your AI software factory, as code: agents that triage, implement, review and fix your GitHub repository, described in readable files and run with Claude Code on your machine or your team&amp;#39;s serv…</description>
+    </item>
+    <item>
+      <title>Why Autonomous Agents Need Adaptive Planning, and How to Implement and Test It With Python And Llms | by Nirav Vaghasiya | Nov, 2026 | Towards AI</title>
+      <link>https://pub.towardsai.net/why-autonomous-agents-need-adaptive-planning-and-how-to-implement-and-test-it-with-python-and-llms-abe7ccf3589b</link>
+      <guid isPermaLink="false">rzqnikvl76xv7uy5leuklfum</guid>
+      <pubDate>Fri, 20 Nov 2026 23:01:00 GMT</pubDate>
+      <description>Static plans break. Replanning after every step burns money and makes long tasks worse. The real engineering skill is knowing when to…</description>
+    </item>
+    <item>
+      <title>Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses</title>
+      <link>https://arxiv.org/abs/2611.22299</link>
+      <guid isPermaLink="false">zv35o25auohba8wz4wjlsdrm</guid>
+      <pubDate>Fri, 20 Nov 2026 21:44:23 GMT</pubDate>
+      <description>Whether a foundation model succeeds as an autonomous agent depends as much on its runtime software as on its weights. This runtime, the agent harness, manages context and memory, steers multi-turn control, executes tool actions in sandboxes, and verifies work before stopping. Because models differ…</description>
+    </item>
     <item>
       <title>PentAGI — Autonomous AI agents for penetration testing</title>
       <link>https://pentagi.com/</link>
@@ -329,34 +357,6 @@
       <guid isPermaLink="false">dm8sxrw5ak8wxlrm6dzlcju8</guid>
       <pubDate>Thu, 22 Oct 2026 04:23:08 GMT</pubDate>
       <description>Following our coverage of a 4.3-inch ESP32-S31 display development board, a Facebook reader pointed out the GUITION JC3636F118C-I-YR1 rotary encoder with</description>
-    </item>
-    <item>
-      <title>Your Local AI Is Not as Private as You Think</title>
-      <link>https://youtube.com/watch?v=3mx84MRj8lY</link>
-      <guid isPermaLink="false">vkpfzeyp4308xitafvtw84hn</guid>
-      <pubDate>Thu, 22 Oct 2026 02:41:04 GMT</pubDate>
-      <description>Running local AI is not as private as you think, and the reason isn’t your prompts. A backdoored Qwen 2.5 7B passed 50 of 50 clean tests in OpenAI’s Codex CL…</description>
-    </item>
-    <item>
-      <title>5 Best AI Gateways</title>
-      <link>https://dev.to/hadil/5-best-ai-gateways-1o72?via=dailydev</link>
-      <guid isPermaLink="false">pm6yofpk60tsqth6tru8kjtm</guid>
-      <pubDate>Thu, 22 Oct 2026 01:32:06 GMT</pubDate>
-      <description>Choosing between the best AI gateways is not just about getting a way to call an LLM. In real…</description>
-    </item>
-    <item>
-      <title>Owlity - Test Automation Platform</title>
-      <link>https://owlity.ai/?via=dailydev</link>
-      <guid isPermaLink="false">cg9tr7kp0rzgnhxztbx9ymzk</guid>
-      <pubDate>Thu, 22 Oct 2026 01:23:49 GMT</pubDate>
-      <description>Owlity is the test automation platform that gets your product to 95% coverage without slowing the team down. Record, run in the cloud, ship clean.</description>
-    </item>
-    <item>
-      <title>GitHub - ktreharrison/tkmd: Markdown Task &amp; Project Manager for Developers and AI Agents</title>
-      <link>https://github.com/ktreharrison/tkmd</link>
-      <guid isPermaLink="false">xkzx0u0vgkjwxecekhl5qlwt</guid>
-      <pubDate>Thu, 22 Oct 2026 00:17:52 GMT</pubDate>
-      <description>Markdown Task &amp; Project Manager for Developers and AI Agents - ktreharrison/tkmd</description>
     </item>
   </channel>
 </rss>

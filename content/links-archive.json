@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-19T11:00:04.566Z",
+  "fetchedAt": "2026-11-21T11:00:05.751Z",
   "links": [
+    {
+      "id": "v125rsjr64f13k42jav78sok",
+      "url": "https://bruceroettgers.eu/blog/protomaps?via=dailydev",
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy — Bruce Röttgers",
+      "ts": "2026-11-20T21:19:16-05:00",
+      "description": "PMTiles is a tile format which works via HTTP Range requests and can be deployed as a single file to a storage bucket."
+    },
+    {
+      "id": "gsmqbxspt8rjuj3t2cld6pno",
+      "url": "https://github.com/openfabriq/openfabriq",
+      "title": "GitHub - openfabriq/openfabriq: Your AI software factory, as code: agents that triage, implement, review and fix your GitHub repository, described in readable files and run with Claude Code on your machine or your team’s server.",
+      "ts": "2026-11-20T21:17:22-05:00",
+      "description": "Your AI software factory, as code: agents that triage, implement, review and fix your GitHub repository, described in readable files and run with Claude Code on your machine or your team&#39;s serv…"
+    },
+    {
+      "id": "rzqnikvl76xv7uy5leuklfum",
+      "url": "https://pub.towardsai.net/why-autonomous-agents-need-adaptive-planning-and-how-to-implement-and-test-it-with-python-and-llms-abe7ccf3589b",
+      "title": "Why Autonomous Agents Need Adaptive Planning, and How to Implement and Test It With Python And Llms | by Nirav Vaghasiya | Nov, 2026 | Towards AI",
+      "ts": "2026-11-20T18:01:00-05:00",
+      "description": "Static plans break. Replanning after every step burns money and makes long tasks worse. The real engineering skill is knowing when to…"
+    },
+    {
+      "id": "zv35o25auohba8wz4wjlsdrm",
+      "url": "https://arxiv.org/abs/2611.22299",
+      "title": "Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses",
+      "ts": "2026-11-20T16:44:23-05:00",
+      "description": "Whether a foundation model succeeds as an autonomous agent depends as much on its runtime software as on its weights. This runtime, the agent harness, manages context and memory, steers multi-turn control, executes tool actions in sandboxes, and verifies work before stopping. Because models differ…"
+    },
     {
       "id": "bujikjorxwzbwjugb4msnouz",
       "url": "https://pentagi.com/",
