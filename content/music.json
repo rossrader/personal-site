@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-11-21T11:00:05.473Z",
+  "fetchedAt": "2026-11-22T11:00:05.847Z",
   "albums": [
+    {
+      "id": "6JawXmoIvhyt08OaxGSYyI",
+      "title": "Rust Never Sleeps",
+      "artist": "Neil Young & Crazy Horse",
+      "year": 1979,
+      "plays": 13,
+      "cover": "content/music/al-6JawXmoIvhyt08OaxGSYyI_1b280822d135e89b.jpg"
+    },
+    {
+      "id": "4z1UcnPftCMG5O6yWHIK5l",
+      "title": "Carnaval de Luz",
+      "artist": "U2",
+      "year": 2026,
+      "plays": 12,
+      "cover": "content/music/al-4z1UcnPftCMG5O6yWHIK5l_e9005145977837b9.jpg"
+    },
+    {
+      "id": "4LSHPcvoA5FqD7CElNbgTc",
+      "title": "Lost Together",
+      "artist": "Blue Rodeo",
+      "year": 1992,
+      "plays": 25,
+      "cover": "content/music/al-4LSHPcvoA5FqD7CElNbgTc_e827e17df458e53c.jpg"
+    },
     {
       "id": "3Ph1IWcOJ4N7wsg83Nf2BL",
       "title": "Simulation Theory",
@@ -16,30 +40,6 @@
       "year": 1993,
       "plays": 10,
       "cover": "content/music/al-4TroDS5EyEbIVxmCz4LqVH_1ecd22dd60cde7c5.jpg"
-    },
-    {
-      "id": "08xcLs1s8ACwJnI54G3xYL",
-      "title": "In Through the Out Door",
-      "artist": "Led Zeppelin",
-      "year": 1979,
-      "plays": 7,
-      "cover": "content/music/al-08xcLs1s8ACwJnI54G3xYL_51629ebff92bd286.jpg"
-    },
-    {
-      "id": "46fjig8sPgSE03vtkW8vAP",
-      "title": "Communiqué",
-      "artist": "Dire Straits",
-      "year": 1979,
-      "plays": 9,
-      "cover": "content/music/al-46fjig8sPgSE03vtkW8vAP_86fbc489830399c8.jpg"
-    },
-    {
-      "id": "3lLdNlMtp2M2kgh2owzrPO",
-      "title": "Having a Rave Up",
-      "artist": "The Yardbirds",
-      "year": 1965,
-      "plays": 6,
-      "cover": "content/music/al-3lLdNlMtp2M2kgh2owzrPO_2f2501500d694b3a.jpg"
     }
   ]
 }

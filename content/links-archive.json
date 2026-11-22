@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-11-21T11:00:05.751Z",
+  "fetchedAt": "2026-11-22T11:00:06.139Z",
   "links": [
+    {
+      "id": "eoj3sspeu2sleb6cyxs5fijl",
+      "url": "https://instachime.com/blog/next-gen-agent-protocols-governance-interceptions-designing-human-in-the-loop-architecture-for-enterprise-ai",
+      "title": "Agent Governance Interceptions: Routing A2A, AG-UI | InstaChime",
+      "ts": "2026-11-21T08:15:05-05:00",
+      "description": "Intercept A2A delegation stalls, AG-UI state disconnects, X42/AP2 trust checks, and Pydantic AI guardrail trips in real time."
+    },
+    {
+      "id": "baq8s7h2kmzjqxsehn3g1qu3",
+      "url": "https://dev.to/voelkan/hardening-a-public-mcp-server-two-scanners-a-spec-change-and-a-kill-switch-3fnb",
+      "title": "Hardening a public MCP server: two scanners, a spec change and a kill switch - DEV Community",
+      "ts": "2026-11-21T08:10:57-05:00",
+      "description": "Earlier this month I wrote about shipping HireGPS’s remote MCP server with its own OAuth 2.1 server.…"
+    },
+    {
+      "id": "xnopcei0kjv5ez0o8hqn2jzf",
+      "url": "https://dev.to/zmievsa/the-bitter-lesson-ate-your-ai-factory-50bh",
+      "title": "The Bitter Lesson Ate Your AI Factory - DEV Community",
+      "ts": "2026-11-21T06:44:35-05:00",
+      "description": "For every AI workflow we define, the next model makes it useless. What’s worse: most of us keep…"
+    },
+    {
+      "id": "up2obxy3lv0ham6zhafkcny6",
+      "url": "https://every.to/thesis/two-ways-to-win-in-the-post-software-era",
+      "title": "Two Ways to Win in the Post-software Era",
+      "ts": "2026-11-21T06:39:49-05:00",
+      "description": "If you’re funding or starting an AI company in 2025, Rich Sutton’s ‘bitter lesson’ should terrify and guide you"
+    },
+    {
+      "id": "lxplci2youhhl3ov3ug48r9z",
+      "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "title": "The Bitter Lesson",
+      "ts": "2026-11-21T06:04:18-05:00",
+      "description": null
+    },
     {
       "id": "v125rsjr64f13k42jav78sok",
       "url": "https://bruceroettgers.eu/blog/protomaps?via=dailydev",

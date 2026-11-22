@@ -5,9 +5,44 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 02:19:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 13:15:05 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Agent Governance Interceptions: Routing A2A, AG-UI | InstaChime</title>
+      <link>https://instachime.com/blog/next-gen-agent-protocols-governance-interceptions-designing-human-in-the-loop-architecture-for-enterprise-ai</link>
+      <guid isPermaLink="false">eoj3sspeu2sleb6cyxs5fijl</guid>
+      <pubDate>Sat, 21 Nov 2026 13:15:05 GMT</pubDate>
+      <description>Intercept A2A delegation stalls, AG-UI state disconnects, X42/AP2 trust checks, and Pydantic AI guardrail trips in real time.</description>
+    </item>
+    <item>
+      <title>Hardening a public MCP server: two scanners, a spec change and a kill switch - DEV Community</title>
+      <link>https://dev.to/voelkan/hardening-a-public-mcp-server-two-scanners-a-spec-change-and-a-kill-switch-3fnb</link>
+      <guid isPermaLink="false">baq8s7h2kmzjqxsehn3g1qu3</guid>
+      <pubDate>Sat, 21 Nov 2026 13:10:57 GMT</pubDate>
+      <description>Earlier this month I wrote about shipping HireGPS’s remote MCP server with its own OAuth 2.1 server.…</description>
+    </item>
+    <item>
+      <title>The Bitter Lesson Ate Your AI Factory - DEV Community</title>
+      <link>https://dev.to/zmievsa/the-bitter-lesson-ate-your-ai-factory-50bh</link>
+      <guid isPermaLink="false">xnopcei0kjv5ez0o8hqn2jzf</guid>
+      <pubDate>Sat, 21 Nov 2026 11:44:35 GMT</pubDate>
+      <description>For every AI workflow we define, the next model makes it useless. What’s worse: most of us keep…</description>
+    </item>
+    <item>
+      <title>Two Ways to Win in the Post-software Era</title>
+      <link>https://every.to/thesis/two-ways-to-win-in-the-post-software-era</link>
+      <guid isPermaLink="false">up2obxy3lv0ham6zhafkcny6</guid>
+      <pubDate>Sat, 21 Nov 2026 11:39:49 GMT</pubDate>
+      <description>If you’re funding or starting an AI company in 2025, Rich Sutton’s ‘bitter lesson’ should terrify and guide you</description>
+    </item>
+    <item>
+      <title>The Bitter Lesson</title>
+      <link>http://www.incompleteideas.net/IncIdeas/BitterLesson.html</link>
+      <guid isPermaLink="false">lxplci2youhhl3ov3ug48r9z</guid>
+      <pubDate>Sat, 21 Nov 2026 11:04:18 GMT</pubDate>
+      <description>incompleteideas.net</description>
+    </item>
     <item>
       <title>Protomaps: Self-hosting map tiles has gotten cheap and easy — Bruce Röttgers</title>
       <link>https://bruceroettgers.eu/blog/protomaps?via=dailydev</link>
@@ -322,41 +357,6 @@
       <guid isPermaLink="false">r8sg11m7c67h4hhouldgvi11</guid>
       <pubDate>Sat, 24 Oct 2026 20:26:21 GMT</pubDate>
       <description>Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfa…</description>
-    </item>
-    <item>
-      <title>GitHub - SoMarkAI/OXR: An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training.</title>
-      <link>https://github.com/SoMarkAI/OXR</link>
-      <guid isPermaLink="false">dl67wp48af25s99j0usquhgx</guid>
-      <pubDate>Sat, 24 Oct 2026 15:59:20 GMT</pubDate>
-      <description>An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-training. - SoMarkAI/OXR</description>
-    </item>
-    <item>
-      <title>Securing AI Agents: Prompt Injection, MicroVMs, Zero Trust</title>
-      <link>https://xsypher.com/article/securing-ai-agents-prompt-injection-microvms-zero-trust</link>
-      <guid isPermaLink="false">y0a5nbjs8pbxulcq1bs75sbd</guid>
-      <pubDate>Sat, 24 Oct 2026 01:12:39 GMT</pubDate>
-      <description>How to stop indirect prompt injection and MCP tool poisoning using Firecracker microVMs, gVisor, CaMeL data-flow policies, Ed25519 HITL, and egress proxies.</description>
-    </item>
-    <item>
-      <title>Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift</title>
-      <link>https://thenewstack.io/ramp-laminar-agent-harness/</link>
-      <guid isPermaLink="false">u5vhn01rm7tk6lrfim9n72ni</guid>
-      <pubDate>Fri, 23 Oct 2026 09:16:32 GMT</pubDate>
-      <description>Ramp built its own AI agent harness, Laminar, instead of buying one. LangChain’s Harrison Chase sees a bigger shift in how agents get built.</description>
-    </item>
-    <item>
-      <title>I replaced my ISP router with OPNsense for under $200 and got enterprise features for home prices</title>
-      <link>https://www.xda-developers.com/i-replaced-my-isp-router-with-opnsense-for-under-200-and-got-enterprise-features-for-home-prices/</link>
-      <guid isPermaLink="false">i9xoluqyl17b5xh01i8j7avu</guid>
-      <pubDate>Thu, 22 Oct 2026 13:39:43 GMT</pubDate>
-      <description>Get more for less.</description>
-    </item>
-    <item>
-      <title>Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC - CNX Software</title>
-      <link>https://www.cnx-software.com/2026/10/22/rotary-encoder-with-1-8-inch-touch-display-gets-upgrade-to-esp32-s31-soc/?amp=1</link>
-      <guid isPermaLink="false">dm8sxrw5ak8wxlrm6dzlcju8</guid>
-      <pubDate>Thu, 22 Oct 2026 04:23:08 GMT</pubDate>
-      <description>Following our coverage of a 4.3-inch ESP32-S31 display development board, a Facebook reader pointed out the GUITION JC3636F118C-I-YR1 rotary encoder with</description>
     </item>
   </channel>
 </rss>
