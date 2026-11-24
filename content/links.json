@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-22T11:00:06.139Z",
+  "fetchedAt": "2026-11-24T23:45:48.867Z",
   "links": [
+    {
+      "id": "s1yniplau29rigio78a7t1jy",
+      "url": "https://pub.towardsai.net/5-security-checks-every-app-needs-before-it-launches-c8cc2fd9fc1e",
+      "title": "5 Security Checks Every App Needs Before It Launches | by Sakshi | Nov, 2026 | Towards AI",
+      "ts": "2026-11-24T08:00:58-05:00",
+      "description": "A working engineer’s guide to the checks that stop real attacks, mapped to the OWASP Top 10:2025, with free tools you can run today."
+    },
+    {
+      "id": "l5e0k6mp836q1dzi9q0kv32k",
+      "url": "http://10.0.0.21:8086/unread/entry/262522",
+      "title": "Domain expiry and availability checks with RDAP: curl, Python, and the limits - Miniflux",
+      "ts": "2026-11-24T06:59:45-05:00",
+      "description": null
+    },
+    {
+      "id": "k9gerpr9uvlbr73whzuzbhvo",
+      "url": "https://dev.to/prabhakaranjm/keyless-ai-agents-on-google-cloud-a-practical-guide-to-agent-identity-auth-manager-and-1ebj",
+      "title": "Keyless AI Agents on Google Cloud: A Practical Guide to Agent Identity, Auth Manager and Identity-Based VPC Service Controls - DEV Community",
+      "ts": "2026-11-24T06:54:23-05:00",
+      "description": "How to stop pasting API keys and service account JSON into agents, and give each agent its own…"
+    },
     {
       "id": "eoj3sspeu2sleb6cyxs5fijl",
       "url": "https://instachime.com/blog/next-gen-agent-protocols-governance-interceptions-designing-human-in-the-loop-architecture-for-enterprise-ai",
@@ -112,41 +133,6 @@
       "title": "idk · Keep up with your agent’s code",
       "ts": "2026-11-13T17:19:59-05:00",
       "description": "idk explains the code your AI agent writes, feature by feature, in plain steps, so you can keep up without reading it. Free for macOS, with Windows and Linux coming soon."
-    },
-    {
-      "id": "kova65cc2m1hynva8ptg5pux",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "title": "GitHub - milind-soni/OpenMausBot: Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "ts": "2026-11-11T22:47:09-05:00",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use - milind-soni/OpenMausBot"
-    },
-    {
-      "id": "v45gyphpjngdf61ors8aldnl",
-      "url": "https://x.com/Netlify/status/2120237002885136563",
-      "title": "Netlify (@Netlify) on X",
-      "ts": "2026-11-11T22:42:20-05:00",
-      "description": "Introducing Netlify Server: a long-running server for your app’s backend, in Early Access today. Build AI agents, collaborative apps, multiplayer games, and chat apps, then deploy them like the rest of your Netlify project."
-    },
-    {
-      "id": "c3cnz41hj4jhm3mo7od3oc24",
-      "url": "https://www.liquid.ai/blog/lfm3",
-      "title": "liquid.ai",
-      "ts": "2026-11-11T08:00:20-05:00",
-      "description": null
-    },
-    {
-      "id": "vksdz5nii8el9li7hgnv8t4v",
-      "url": "https://nathan.rs/posts/weight-space-lp/",
-      "title": "Can a Linear Program Do Weight-Space Programming?",
-      "ts": "2026-11-11T07:55:04-05:00",
-      "description": "Last week, MIT CSAIL published Sparks of Weight-Space Programming. Given the raw weights of a small network, GPT-6 Astra could tell which game it had been …"
-    },
-    {
-      "id": "qmunudou2ize2fahl0zabo3h",
-      "url": "https://x.com/DimitrisPapail/status/2120245027804705121",
-      "title": "Dimitris Papailiopoulos on X: “Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents” / X",
-      "ts": "2026-11-11T07:53:01-05:00",
-      "description": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents"
     }
   ]
 }

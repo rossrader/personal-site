@@ -5,9 +5,30 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 13:15:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 13:00:58 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>5 Security Checks Every App Needs Before It Launches | by Sakshi | Nov, 2026 | Towards AI</title>
+      <link>https://pub.towardsai.net/5-security-checks-every-app-needs-before-it-launches-c8cc2fd9fc1e</link>
+      <guid isPermaLink="false">s1yniplau29rigio78a7t1jy</guid>
+      <pubDate>Tue, 24 Nov 2026 13:00:58 GMT</pubDate>
+      <description>A working engineer’s guide to the checks that stop real attacks, mapped to the OWASP Top 10:2025, with free tools you can run today.</description>
+    </item>
+    <item>
+      <title>Domain expiry and availability checks with RDAP: curl, Python, and the limits - Miniflux</title>
+      <link>http://10.0.0.21:8086/unread/entry/262522</link>
+      <guid isPermaLink="false">l5e0k6mp836q1dzi9q0kv32k</guid>
+      <pubDate>Tue, 24 Nov 2026 11:59:45 GMT</pubDate>
+      <description>10.0.0.21</description>
+    </item>
+    <item>
+      <title>Keyless AI Agents on Google Cloud: A Practical Guide to Agent Identity, Auth Manager and Identity-Based VPC Service Controls - DEV Community</title>
+      <link>https://dev.to/prabhakaranjm/keyless-ai-agents-on-google-cloud-a-practical-guide-to-agent-identity-auth-manager-and-1ebj</link>
+      <guid isPermaLink="false">k9gerpr9uvlbr73whzuzbhvo</guid>
+      <pubDate>Tue, 24 Nov 2026 11:54:23 GMT</pubDate>
+      <description>How to stop pasting API keys and service account JSON into agents, and give each agent its own…</description>
+    </item>
     <item>
       <title>Agent Governance Interceptions: Routing A2A, AG-UI | InstaChime</title>
       <link>https://instachime.com/blog/next-gen-agent-protocols-governance-interceptions-designing-human-in-the-loop-architecture-for-enterprise-ai</link>
@@ -336,27 +357,6 @@
       <guid isPermaLink="false">zrva5ndnxu4qswl4557nro1s</guid>
       <pubDate>Thu, 29 Oct 2026 09:56:11 GMT</pubDate>
       <description>Infini-AI-Lab’s Hermit harness adapter framework trains external agent adapters, lifting CL-Bench database accuracy to 0.795</description>
-    </item>
-    <item>
-      <title>GitHub - Agent-Field/SWE-AF: Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship.</title>
-      <link>https://github.com/Agent-Field/SWE-AF</link>
-      <guid isPermaLink="false">x2pyan6ni1lnbjivvaivptqw</guid>
-      <pubDate>Tue, 27 Oct 2026 15:18:41 GMT</pubDate>
-      <description>Autonomous software engineering fleet of AI agents for production-grade PRs on AgentField: plan, code, test, and ship. - Agent-Field/SWE-AF</description>
-    </item>
-    <item>
-      <title>Speech models in Ollama · Ollama Blog</title>
-      <link>https://ollama.com/blog/speech-models</link>
-      <guid isPermaLink="false">dfclcmxuagb5dh2tps4js6y7</guid>
-      <pubDate>Tue, 27 Oct 2026 00:33:23 GMT</pubDate>
-      <description>Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.</description>
-    </item>
-    <item>
-      <title>GitHub - PerryLink/dsh-permission-rules: Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfall, session-log audit, and HMR reload.</title>
-      <link>https://github.com/PerryLink/dsh-permission-rules</link>
-      <guid isPermaLink="false">r8sg11m7c67h4hhouldgvi11</guid>
-      <pubDate>Sat, 24 Oct 2026 20:26:21 GMT</pubDate>
-      <description>Claude Code-style declarative permission rules for DeepSeek Harness: ordered allow/deny/ask rules with tool-name, argument (glob/regex), and workspace-path matching on the tools/pre-execute waterfa…</description>
     </item>
   </channel>
 </rss>
