@@ -5,9 +5,23 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 13:00:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 17:44:23 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineering</title>
+      <link>https://engineering.atspotify.com/2026/09/portal-by-spotify-cut-my-claude-code-token-usage-by-90</link>
+      <guid isPermaLink="false">mnln0umuhw735ayg3imse1f4</guid>
+      <pubDate>Wed, 25 Nov 2026 17:44:23 GMT</pubDate>
+      <description>Most of what an AI coding agent does for me isn’t thinking. It’s I/O.</description>
+    </item>
+    <item>
+      <title>Paradev (formerly Superset) - Run an army of coding agents</title>
+      <link>https://paradev.com/</link>
+      <guid isPermaLink="false">x58jpll6ku5jdvhbwkxxmiki</guid>
+      <pubDate>Wed, 25 Nov 2026 11:05:54 GMT</pubDate>
+      <description>Paradev (formerly Superset): The open-source workspace for Claude Code, Codex, OpenCode, and any agent, locally or in the cloud. Run tasks in parallel on separate branches, and review everything in one place.</description>
+    </item>
     <item>
       <title>5 Security Checks Every App Needs Before It Launches | by Sakshi | Nov, 2026 | Towards AI</title>
       <link>https://pub.towardsai.net/5-security-checks-every-app-needs-before-it-launches-c8cc2fd9fc1e</link>
@@ -343,20 +357,6 @@
       <guid isPermaLink="false">xa8evatfzqxvum71m2157902</guid>
       <pubDate>Thu, 29 Oct 2026 10:32:00 GMT</pubDate>
       <description>The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use. - MiniMax-AI/mcode-stack</description>
-    </item>
-    <item>
-      <title>GitHub - MiniMax-AI/minimax-code: An open-source coding agent for your terminal, powered by MiniMax.</title>
-      <link>https://github.com/MiniMax-AI/minimax-code</link>
-      <guid isPermaLink="false">itrjqgc9q24cwafmgmlwgtwq</guid>
-      <pubDate>Thu, 29 Oct 2026 10:31:29 GMT</pubDate>
-      <description>An open-source coding agent for your terminal, powered by MiniMax. - MiniMax-AI/minimax-code</description>
-    </item>
-    <item>
-      <title>Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents</title>
-      <link>https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/?amp=1</link>
-      <guid isPermaLink="false">zrva5ndnxu4qswl4557nro1s</guid>
-      <pubDate>Thu, 29 Oct 2026 09:56:11 GMT</pubDate>
-      <description>Infini-AI-Lab’s Hermit harness adapter framework trains external agent adapters, lifting CL-Bench database accuracy to 0.795</description>
     </item>
   </channel>
 </rss>

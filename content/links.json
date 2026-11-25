@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-24T23:45:48.867Z",
+  "fetchedAt": "2026-11-25T23:22:18.653Z",
   "links": [
+    {
+      "id": "mnln0umuhw735ayg3imse1f4",
+      "url": "https://engineering.atspotify.com/2026/09/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "title": "Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineering",
+      "ts": "2026-11-25T12:44:23-05:00",
+      "description": "Most of what an AI coding agent does for me isn’t thinking. It’s I/O."
+    },
+    {
+      "id": "x58jpll6ku5jdvhbwkxxmiki",
+      "url": "https://paradev.com/",
+      "title": "Paradev (formerly Superset) - Run an army of coding agents",
+      "ts": "2026-11-25T06:05:54-05:00",
+      "description": "Paradev (formerly Superset): The open-source workspace for Claude Code, Codex, OpenCode, and any agent, locally or in the cloud. Run tasks in parallel on separate branches, and review everything in one place."
+    },
     {
       "id": "s1yniplau29rigio78a7t1jy",
       "url": "https://pub.towardsai.net/5-security-checks-every-app-needs-before-it-launches-c8cc2fd9fc1e",
@@ -126,13 +140,6 @@
       "title": "Binary Logic Breaks AI Safety — and Is Analyzing Prompt Injections Pointless? “Yes, No, Probably!”",
       "ts": "2026-11-15T07:22:20-05:00",
       "description": "Imagine a simple everyday situation. Someone asks you: “Want some coffee?” You reply: “Yes, no, probably” (“Да нет, наверное”)."
-    },
-    {
-      "id": "cjdogi9cxqlwehz3dc3h428m",
-      "url": "https://idk-ide.com/",
-      "title": "idk · Keep up with your agent’s code",
-      "ts": "2026-11-13T17:19:59-05:00",
-      "description": "idk explains the code your AI agent writes, feature by feature, in plain steps, so you can keep up without reading it. Free for macOS, with Windows and Linux coming soon."
     }
   ]
 }
