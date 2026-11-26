@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T11:00:03.706Z",
+  "fetchedAt": "2026-11-26T23:23:57.391Z",
   "links": [
+    {
+      "id": "hrbv6xa17t9i2nb6wjjqld7a",
+      "url": "https://arxiv.org/abs/2605.15156",
+      "title": "MeMo: Memory as a Model",
+      "ts": "2026-11-26T10:29:11-05:00",
+      "description": "Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the need for efficient mechanisms to incorporate new knowledge. In…"
+    },
     {
       "id": "thy134elajzzkqtg4zi558a3",
       "url": "https://github.com/lldap/lldap/blob/main/docs/install.md",

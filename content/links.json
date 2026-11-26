@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T11:00:03.706Z",
+  "fetchedAt": "2026-11-26T23:23:57.391Z",
   "links": [
+    {
+      "id": "hrbv6xa17t9i2nb6wjjqld7a",
+      "url": "https://arxiv.org/abs/2605.15156",
+      "title": "MeMo: Memory as a Model",
+      "ts": "2026-11-26T10:29:11-05:00",
+      "description": "Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the need for efficient mechanisms to incorporate new knowledge. In…"
+    },
     {
       "id": "thy134elajzzkqtg4zi558a3",
       "url": "https://github.com/lldap/lldap/blob/main/docs/install.md",
@@ -119,34 +126,6 @@
       "title": "Open-Source ESP32 Robot Brings AI To The Desktop - Open Source For You",
       "ts": "2026-11-17T19:58:36-05:00",
       "description": "RIG-TARS combines an ESP32-S3, three servo-driven sections and voice interaction in a 3D-printable robot, with firmware and development"
-    },
-    {
-      "id": "r9rgy79vfdpoxtj0vmzahos2",
-      "url": "https://www.lesswrong.com/posts/bMsQ44sKqrFWjuHPb/on-the-brutality-of-amdahl-s-law",
-      "title": "On the Brutality of Amdahl's Law — LessWrong",
-      "ts": "2026-11-15T10:09:55-05:00",
-      "description": "Following my 3-week visit to Berkeley as described here and featured by ACX here, I told various people I would write in detail why I didn’t stick ar…"
-    },
-    {
-      "id": "dqk2do2i72b3f01s7qhhg03v",
-      "url": "https://www.lesswrong.com/posts/DonAoEXiRGNFGKhio/motivations-and-incentives-around-agi",
-      "title": "Motivations and incentives around AGI — LessWrong",
-      "ts": "2026-11-15T09:39:58-05:00",
-      "description": "AI use disclosure: I dictated this text to Claude in a mix of Russian and English, then edited it. …"
-    },
-    {
-      "id": "pcrka3toaxyvorsdqj354h8y",
-      "url": "https://blog.neticslabs.com/post-training-supply-chain-coding-agent-backdoor/",
-      "title": "Poisoned Training Artifacts Hijack Coding Agents",
-      "ts": "2026-11-15T09:36:30-05:00",
-      "description": "Microsoft’s AI Red Team measured two paths that plant hidden behaviour in a coding agent, one through the fine-tuning dataset and one through the checkpoint itself."
-    },
-    {
-      "id": "cc754vlwvoemkvtvplvmuonh",
-      "url": "https://medium.com/@kate8382/binary-logic-breaks-ai-safety-and-is-analyzing-prompt-injections-pointless-yes-no-probably-9244fd52e359",
-      "title": "Binary Logic Breaks AI Safety — and Is Analyzing Prompt Injections Pointless? “Yes, No, Probably!”",
-      "ts": "2026-11-15T07:22:20-05:00",
-      "description": "Imagine a simple everyday situation. Someone asks you: “Want some coffee?” You reply: “Yes, no, probably” (“Да нет, наверное”)."
     }
   ]
 }

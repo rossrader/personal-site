@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 04:13:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 15:29:11 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>MeMo: Memory as a Model</title>
+      <link>https://arxiv.org/abs/2605.15156</link>
+      <guid isPermaLink="false">hrbv6xa17t9i2nb6wjjqld7a</guid>
+      <pubDate>Thu, 26 Nov 2026 15:29:11 GMT</pubDate>
+      <description>Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the need for efficient mechanisms to incorporate new knowledge. In…</description>
+    </item>
     <item>
       <title>lldap/docs/install.md at main · lldap/lldap</title>
       <link>https://github.com/lldap/lldap/blob/main/docs/install.md</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">bk0clrhx7a25zgg1b02xkbgc</guid>
       <pubDate>Sat, 31 Oct 2026 21:53:57 GMT</pubDate>
       <description>Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…</description>
-    </item>
-    <item>
-      <title>Cloudflare services for private origins is now generally available</title>
-      <link>https://blog.cloudflare.com/private-origins-public-to-private/</link>
-      <guid isPermaLink="false">ssvfxqku1n47s7v3axig9y9y</guid>
-      <pubDate>Sat, 31 Oct 2026 01:12:14 GMT</pubDate>
-      <description>Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.</description>
     </item>
   </channel>
 </rss>
