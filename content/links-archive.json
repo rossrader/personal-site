@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T02:44:54.033Z",
+  "fetchedAt": "2026-11-26T11:00:03.706Z",
   "links": [
+    {
+      "id": "thy134elajzzkqtg4zi558a3",
+      "url": "https://github.com/lldap/lldap/blob/main/docs/install.md",
+      "title": "lldap/docs/install.md at main · lldap/lldap",
+      "ts": "2026-11-25T23:13:15-05:00",
+      "description": "Light LDAP implementation. Contribute to lldap/lldap development by creating an account on GitHub."
+    },
     {
       "id": "mnln0umuhw735ayg3imse1f4",
       "url": "https://engineering.atspotify.com/2026/09/portal-by-spotify-cut-my-claude-code-token-usage-by-90",

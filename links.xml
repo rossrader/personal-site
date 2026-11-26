@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 17:44:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 04:13:15 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>lldap/docs/install.md at main · lldap/lldap</title>
+      <link>https://github.com/lldap/lldap/blob/main/docs/install.md</link>
+      <guid isPermaLink="false">thy134elajzzkqtg4zi558a3</guid>
+      <pubDate>Thu, 26 Nov 2026 04:13:15 GMT</pubDate>
+      <description>Light LDAP implementation. Contribute to lldap/lldap development by creating an account on GitHub.</description>
+    </item>
     <item>
       <title>Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineering</title>
       <link>https://engineering.atspotify.com/2026/09/portal-by-spotify-cut-my-claude-code-token-usage-by-90</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">ssvfxqku1n47s7v3axig9y9y</guid>
       <pubDate>Sat, 31 Oct 2026 01:12:14 GMT</pubDate>
       <description>Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.</description>
-    </item>
-    <item>
-      <title>GitHub - MiniMax-AI/mcode-stack: The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.</title>
-      <link>https://github.com/MiniMax-AI/mcode-stack</link>
-      <guid isPermaLink="false">xa8evatfzqxvum71m2157902</guid>
-      <pubDate>Thu, 29 Oct 2026 10:32:00 GMT</pubDate>
-      <description>The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use. - MiniMax-AI/mcode-stack</description>
     </item>
   </channel>
 </rss>
