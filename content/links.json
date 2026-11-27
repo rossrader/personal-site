@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-26T23:23:57.391Z",
+  "fetchedAt": "2026-11-27T02:35:37.854Z",
   "links": [
+    {
+      "id": "fvbc8gzsuuldfxwe8xh4ocox",
+      "url": "https://github.com/viticci/MacRemote",
+      "title": "viticci/MacRemote: A permission-based MCP host app to give your Mac's local tools and MCPs to any cloud agent.",
+      "ts": "2026-11-26T18:34:10-05:00",
+      "description": "A permission-based MCP host app to give your Mac’s local tools and MCPs to any cloud agent. - viticci/MacRemote"
+    },
     {
       "id": "hrbv6xa17t9i2nb6wjjqld7a",
       "url": "https://arxiv.org/abs/2605.15156",

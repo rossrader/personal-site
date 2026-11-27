@@ -7,9 +7,31 @@
     <link>https://rossrader.ca</link>
     <description>Writing on AI, Internet Services, and Customer Experience Design</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 23:23:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 02:35:37 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/feed.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>/SaaS is(n&apos;t)? dead/i</title>
+      <link>https://rossrader.ca/posts/the-ongoing-death-of-saas.html</link>
+      <guid isPermaLink="true">https://rossrader.ca/posts/the-ongoing-death-of-saas.html</guid>
+      <pubDate>Thu, 26 Nov 2026 05:00:00 GMT</pubDate>
+      <description>Both sides of the &quot;SaaS is dead&quot; debate are arguing about whether code can be copied. Christensen&apos;s point was that incumbents lose when the job moves somewhere else, and for DocuSign that&apos;s already happening.</description>
+      <content:encoded><![CDATA[<p>I feel like I read some version of the <em>&quot;SaaS is dead&quot;</em> post about 20 times a week. And each of them carries the inevitable <em>&quot;SaaS isn&#39;t dead&quot;</em> rebuttals. Both sides seem to argue from Geoffrey Moore&#39;s playbook when I think the real lesson comes from Clayton Christensen&#39;s.</p>
+<p>Moore&#39;s <em><a href="https://hardcover.app/books/crossing-the-chasm">Crossing the Chasm</a></em> is about how a new product wins mainstream customers - pragmatic buyers want the whole package (compliance, support, integrations, the works), and they buy it from the market leader they already trust. Christensen&#39;s <em><a href="https://hardcover.app/books/the-innovators-dilemma">The Innovator&#39;s Dilemma</a></em> is about how those same market leaders lose anyway - something cheaper and &quot;good enough&quot; starts doing the job somewhere else, and the leader is too busy taking care of its best customers to notice until it&#39;s too late.</p>
+<p>The &quot;SaaS is dead&quot; argument goes like this - code is now so cheap that anyone can clone a SaaS product. The latest example is <a href="https://x.com/kevinrose/status/2122394902168473975">Kevin Rose&#39;s SignuDoc</a>. His pitch is that DocuSign charges a 15-person team $8,100 a year &quot;just to sign PDFs,&quot; so he built a free, open-source version you can deploy to your own cloud with no per-seat fees. I&#39;m sure it works well, but I don&#39;t think it matters much. People pay DocuSign because their lawyers, bank and HR team already accept it (signing the PDF is the easy part), and none of them are going to move their contracts to a side project, even a good one.</p>
+<p>The rebuttal is that DocuSign has 20 years of trust and distribution behind it, so a cheap clone is no real threat. That&#39;s Moore&#39;s argument, and against Kevin Rose it holds up fine. The problem is who else has trust and distribution. Microsoft and Google are already approved by the same lawyers, banks and HR teams, and they&#39;re already installed on every laptop in the building. Against them, DocuSign&#39;s moat is a lot thinner than it looks. Most of the companies in Christensen&#39;s book had plenty of trust and distribution too, and it couldn&#39;t save them either.</p>
+<p>Christensen&#39;s point is that incumbents risk losing when the job they do moves somewhere they can&#39;t (or won&#39;t) follow. For e-signature, that&#39;s already a checkbox inside Google Workspace and Microsoft 365, and it probably won&#39;t be long before it&#39;s an agent that negotiates the agreement and signs it on your behalf. An agent doesn&#39;t care much about brand - it&#39;ll use whatever both sides accept. DocuSign&#39;s best customers will stay loyal right up until signing stops being something anyone buys on its own. Cheap code just speeds that up.</p>
+<p>If you run a SaaS company, it&#39;s worth asking <em>&quot;What job does our product actually do?&quot;</em> and <em>&quot;Where else is that job starting to get done?&quot;</em></p>
+<p>Whether or not your app can be copied is a much less interesting question (spoiler: it can be).</p>
+<p>The answers tell you whether your trust and distribution are a moat or a head start. If customers still come to you to get the job done, it&#39;s a moat - lean on it and keep taking care of your best customers (that&#39;s Moore, and it works). If the job is starting to get done inside someone else&#39;s product (or could be, but no one&#39;s quite figured it out just yet), it&#39;s a head start, and these days that date comes a lot sooner than you might expect. Decide quickly where to spend that head start before it runs out. Maybe that&#39;s following the job to where it&#39;s going, or becoming the thing the new place runs on. Maybe it&#39;s digging into the part of the job the &quot;good enough&quot; version can&#39;t handle yet. DocuSign seems to know this, which is probably why it talks a lot more about &quot;agreement management&quot; than signatures these days.</p>
+<p>So, is SaaS dead? Call it Schrödinger&#39;s SaaS - a lot of it is dead and alive at the same time, and the only way to find out which is to go look at where the job is getting done.</p>
+]]></content:encoded>
+      <author>rossrader@gmail.com (Ross Rader)</author>
+      <category>ai</category>
+      <category>code</category>
+      <category>saas</category>
+      <category>ideas</category>
+    </item>
     <item>
       <title>Rules, not clicks</title>
       <link>https://rossrader.ca/posts/rules-not-clicks.html</link>

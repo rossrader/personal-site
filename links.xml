@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 15:29:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 23:34:10 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>viticci/MacRemote: A permission-based MCP host app to give your Mac&apos;s local tools and MCPs to any cloud agent.</title>
+      <link>https://github.com/viticci/MacRemote</link>
+      <guid isPermaLink="false">fvbc8gzsuuldfxwe8xh4ocox</guid>
+      <pubDate>Thu, 26 Nov 2026 23:34:10 GMT</pubDate>
+      <description>A permission-based MCP host app to give your Mac’s local tools and MCPs to any cloud agent. - viticci/MacRemote</description>
+    </item>
     <item>
       <title>MeMo: Memory as a Model</title>
       <link>https://arxiv.org/abs/2605.15156</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">sj1qiv5i1bcspmbc8d1v14pc</guid>
       <pubDate>Sun, 01 Nov 2026 17:09:38 GMT</pubDate>
       <description>It can only touch what I expose which is a good safety feature</description>
-    </item>
-    <item>
-      <title>GitHub - yuruotong1/autoMate: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves</title>
-      <link>https://github.com/yuruotong1/autoMate</link>
-      <guid isPermaLink="false">bk0clrhx7a25zgg1b02xkbgc</guid>
-      <pubDate>Sat, 31 Oct 2026 21:53:57 GMT</pubDate>
-      <description>Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves - yuruotong1/au…</description>
     </item>
   </channel>
 </rss>
