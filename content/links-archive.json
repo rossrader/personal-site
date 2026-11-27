@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-27T02:35:37.854Z",
+  "fetchedAt": "2026-11-27T11:00:04.343Z",
   "links": [
+    {
+      "id": "ht7jwn5ob44cmik5m0h4yzkl",
+      "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+      "title": "Feds will now pay 80 percent of costs under AI Compute Access Fund if purchased from a sovereign provider | BetaKit",
+      "ts": "2026-11-26T22:18:25-05:00",
+      "description": "AI minister Evan Solomon announces next phase of $1-billion fund, latest recipients."
+    },
+    {
+      "id": "wpkrw1shrfw8yyfsuf2nzsc2",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "title": "MCP servers can now ship skills, run tasks, and more with Claude | Claude by Anthropic",
+      "ts": "2026-11-26T22:04:44-05:00",
+      "description": "Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon."
+    },
     {
       "id": "fvbc8gzsuuldfxwe8xh4ocox",
       "url": "https://github.com/viticci/MacRemote",
