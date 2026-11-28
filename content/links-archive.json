@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T14:23:36.100Z",
+  "fetchedAt": "2026-11-28T00:18:17.924Z",
   "links": [
+    {
+      "id": "tx9jld4fnd2ot70sxa2m350w",
+      "url": "https://github.com/mitkox/qwen38-27b-baremetal-os",
+      "title": "mitkox/qwen38-27b-baremetal-os: Bare-metal Qwen3.8-27B (Qwen3.5 hybrid, Gated DeltaNet) OS in pure x86-64 assembly, model via ivshmem on KVM",
+      "ts": "2026-11-27T16:04:40-05:00",
+      "description": "Bare-metal Qwen3.8-27B (Qwen3.5 hybrid, Gated DeltaNet) OS in pure x86-64 assembly, model via ivshmem on KVM - mitkox/qwen38-27b-baremetal-os"
+    },
     {
       "id": "ht7jwn5ob44cmik5m0h4yzkl",
       "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",

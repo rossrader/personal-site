@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 03:18:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 21:04:40 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>mitkox/qwen38-27b-baremetal-os: Bare-metal Qwen3.8-27B (Qwen3.5 hybrid, Gated DeltaNet) OS in pure x86-64 assembly, model via ivshmem on KVM</title>
+      <link>https://github.com/mitkox/qwen38-27b-baremetal-os</link>
+      <guid isPermaLink="false">tx9jld4fnd2ot70sxa2m350w</guid>
+      <pubDate>Fri, 27 Nov 2026 21:04:40 GMT</pubDate>
+      <description>Bare-metal Qwen3.8-27B (Qwen3.5 hybrid, Gated DeltaNet) OS in pure x86-64 assembly, model via ivshmem on KVM - mitkox/qwen38-27b-baremetal-os</description>
+    </item>
     <item>
       <title>Feds will now pay 80 percent of costs under AI Compute Access Fund if purchased from a sovereign provider | BetaKit</title>
       <link>https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">z8cfsc64qpzsku4u9ifqmqaa</guid>
       <pubDate>Mon, 02 Nov 2026 03:04:30 GMT</pubDate>
       <description>Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable. - aliasvault/aliasvault</description>
-    </item>
-    <item>
-      <title>GitHub - robonuggets/be-ambitious: A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps.</title>
-      <link>https://github.com/robonuggets/be-ambitious</link>
-      <guid isPermaLink="false">uhfnwlijtbq2biwb4hah4sq1</guid>
-      <pubDate>Mon, 02 Nov 2026 03:02:47 GMT</pubDate>
-      <description>A Claude skill that makes your agent more ambitious: Felix Rieseberg’s altitude, depth and range, as steps. - robonuggets/be-ambitious</description>
     </item>
   </channel>
 </rss>
