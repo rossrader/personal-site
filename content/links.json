@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-28T00:18:17.924Z",
+  "fetchedAt": "2026-11-28T11:00:03.064Z",
   "links": [
+    {
+      "id": "t4nuv48wd8btikipneygfn2q",
+      "url": "https://share.google/vcohNU8Gn82M2reIp",
+      "title": "Dvz | Python Architect (@PythonDvz) on X",
+      "ts": "2026-11-28T04:30:24-05:00",
+      "description": "40 Claude Code commands split into daily essentials and power moves. Which shortcut do you reach for most?"
+    },
     {
       "id": "tx9jld4fnd2ot70sxa2m350w",
       "url": "https://github.com/mitkox/qwen38-27b-baremetal-os",
@@ -140,13 +147,6 @@
       "title": "Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses",
       "ts": "2026-11-20T16:44:23-05:00",
       "description": "Whether a foundation model succeeds as an autonomous agent depends as much on its runtime software as on its weights. This runtime, the agent harness, manages context and memory, steers multi-turn control, executes tool actions in sandboxes, and verifies work before stopping. Because models differ…"
-    },
-    {
-      "id": "bujikjorxwzbwjugb4msnouz",
-      "url": "https://pentagi.com/",
-      "title": "PentAGI — Autonomous AI agents for penetration testing",
-      "ts": "2026-11-18T21:38:53-05:00",
-      "description": "PentAGI is a fully autonomous multi-agent system that plans and runs penetration tests in an isolated sandbox — self-hosted, open source, enterprise-ready."
     }
   ]
 }

@@ -5,9 +5,16 @@
     <link>https://rossrader.ca/links.html</link>
     <description>Links worth keeping, bookmarked as I go</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Nov 2026 21:04:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:30:24 GMT</lastBuildDate>
     <atom:link href="https://rossrader.ca/links.xml" rel="self" type="application/rss+xml" />
 
+    <item>
+      <title>Dvz | Python Architect (@PythonDvz) on X</title>
+      <link>https://share.google/vcohNU8Gn82M2reIp</link>
+      <guid isPermaLink="false">t4nuv48wd8btikipneygfn2q</guid>
+      <pubDate>Sat, 28 Nov 2026 09:30:24 GMT</pubDate>
+      <description>40 Claude Code commands split into daily essentials and power moves. Which shortcut do you reach for most?</description>
+    </item>
     <item>
       <title>mitkox/qwen38-27b-baremetal-os: Bare-metal Qwen3.8-27B (Qwen3.5 hybrid, Gated DeltaNet) OS in pure x86-64 assembly, model via ivshmem on KVM</title>
       <link>https://github.com/mitkox/qwen38-27b-baremetal-os</link>
@@ -350,13 +357,6 @@
       <guid isPermaLink="false">c46xx1dtbkg29c856z9l9msi</guid>
       <pubDate>Mon, 02 Nov 2026 03:11:07 GMT</pubDate>
       <description>Benchmark for tracking model capability after release. - ninjahawk/livenerf</description>
-    </item>
-    <item>
-      <title>GitHub - aliasvault/aliasvault: Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable.</title>
-      <link>https://github.com/aliasvault/aliasvault</link>
-      <guid isPermaLink="false">z8cfsc64qpzsku4u9ifqmqaa</guid>
-      <pubDate>Mon, 02 Nov 2026 03:04:30 GMT</pubDate>
-      <description>Privacy-first password manager with built-in email aliasing. Fully encrypted and self-hostable. - aliasvault/aliasvault</description>
     </item>
   </channel>
 </rss>
